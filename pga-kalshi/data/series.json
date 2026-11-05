@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-11-05T18:56:27+00:00",
+ "fetched_at": "2026-11-05T19:06:04+00:00",
  "series": [
   {
-   "ticker": "KXGOLFCAT",
-   "title": "a",
+   "ticker": "KXPGAR3LEAD",
+   "title": "PGA Round 3 Leader",
    "category": "Sports",
-   "frequency": "one_off"
+   "frequency": "custom"
   },
   {
    "ticker": "KXPGAWINNERREGION",
@@ -14,94 +14,22 @@
    "frequency": "one_off"
   },
   {
-   "ticker": "KXPGATOURCHAMP",
-   "title": "Golfers to Participate in the Tour Championship",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGARYDERCUPD3",
-   "title": "Ryder Cup Day 3 Winner",
+   "ticker": "KXGOLFTOURN",
+   "title": "Golf Tournament Winner",
    "category": "Sports",
    "frequency": "one_off"
   },
   {
-   "ticker": "KXPGAMASTERS",
-   "title": "Golfers to Participate in the Masters",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXPGAWINMARGIN",
-   "title": "PGA Win Margin",
+   "ticker": "KXPGAR1TOP20",
+   "title": "PGA Round 1 Top 20 FInishers",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXPGA5BALL",
-   "title": "PGA 5-Ball",
+   "ticker": "KXPGABOGEYFREE",
+   "title": "Will any Golfer Record a bogey free round",
    "category": "Sports",
    "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAR2LEAD",
-   "title": "PGA Round 2 Leader",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAROUNDBIRDIES",
-   "title": "Golf Round Birdies",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAR3TOP5",
-   "title": "PGA Round 3 Top 5 Finishers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGARYDERTOP",
-   "title": "Ryder Cup Top Points Scorer",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXGOLFH2H",
-   "title": "Golf Head-to-Head",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXPGATIGER",
-   "title": "Tiger Woods PGA",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXPGAGOLFERSCORE",
-   "title": "Golf Round Strokes",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGA1STTIMEWIN",
-   "title": "PGA 1st Time Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGABIRDIES",
-   "title": "PGA Golf Birdies",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGARYDERCUPD2",
-   "title": "Ryder Cup Day 2 Winner",
-   "category": "Sports",
-   "frequency": "one_off"
   },
   {
    "ticker": "KXPGAOCCUR",
@@ -116,146 +44,8 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXPGAAGECUT",
-   "title": "Oldest to make the cut",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXPGAR1TOP5",
-   "title": "PGA Round 1 Top 5 FInishers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAR2TOP5",
-   "title": "PGA Round 2 Top 5 Finishers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGATOP5",
-   "title": "PGA Top 5 Finisher",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAHOLE",
-   "title": "Will the player win the hole matchup",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAROUNDLOW",
-   "title": "lowest round score",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAEAGLE",
-   "title": "Player to Record an Eagle in Round",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAPLAYOFF",
-   "title": "Golf Playoff",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAR1TOP20",
-   "title": "PGA Round 1 Top 20 FInishers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGARYDERTOP3",
-   "title": "Ryder Cup Top 3 Points Scorer",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXPGAWINNINGSCORE",
-   "title": "PGA Winning Score",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGA",
-   "title": "PGA Championship",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXPGASOLHEIM",
-   "title": "Solheim Cup",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXPGARYDER",
-   "title": "Ryder Cup",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAROUNDSCORE",
-   "title": "Golf Round Scores",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAR3TOP10",
-   "title": "PGA Round 3 Top 10 Finishers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXGOLFMAJORS",
-   "title": "Golf Majors Won",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAHOLEINONE",
-   "title": "PGA Hole in One",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXGOLFMAJORFUT",
-   "title": "How many majors will golfer win by 2036?",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAMAJOR",
-   "title": "PGA Major Wins",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGATOP40",
-   "title": "PGA Top 40 Finisher",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXGOLF",
-   "title": "Golf Tournament Winner",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXGOLFNEXTWIN",
-   "title": "Next Tournament Win",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGA3BALL",
-   "title": "PGA 3-Ball",
+   "ticker": "KXPGAWINMARGIN",
+   "title": "PGA Win Margin",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -266,44 +56,14 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXGOLFTENNISMAJORS",
-   "title": "More Major Wins, Tennis vs Golf",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXPGAFUTURE",
-   "title": "Future Major Championship Wins",
+   "ticker": "KXPGABIRDIES",
+   "title": "PGA Golf Birdies",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXPGACURRY",
-   "title": "Steph Curry PGA",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXPGARYDERCUPD1",
-   "title": "Ryder Cup Day 1 Winner",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXPGAALBATROSS",
-   "title": "Golf Albatross",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAR1TOP10",
-   "title": "PGA Round 1 Top 10 FInishers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAHOLESCORE",
-   "title": "PGA Hole Score",
+   "ticker": "KXPGATOP40",
+   "title": "PGA Top 40 Finisher",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -314,98 +74,32 @@
    "frequency": "one_off"
   },
   {
+   "ticker": "KXPGAGOLFERSCORE",
+   "title": "Golf Round Strokes",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
    "ticker": "KXPGAC",
    "title": "Golfers to Participate in the PGA championship",
    "category": "Sports",
    "frequency": "one_off"
   },
   {
-   "ticker": "KXPGAMAJORTOP10",
-   "title": "PGA Top 10 for All 4 Majors",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXPGAPLAYERCAT",
-   "title": "PGA Player Category",
+   "ticker": "KXPGAROUNDSCORE",
+   "title": "Golf Round Scores",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXPGAR1LEAD",
-   "title": "PGA Round 1 Leader",
+   "ticker": "KXPGAR2LEAD",
+   "title": "PGA Round 2 Leader",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXPGARETURN",
-   "title": "PGA Returning Players",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGACUTLINE",
-   "title": "PGA What Will the Cut Line Be",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGATOP10",
-   "title": "PGA Top 10 Finisher",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGABOGEYFREE",
-   "title": "Will any Golfer Record a bogey free round",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGACAT",
-   "title": "PGA Golf Category Leader",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAR2TOP10",
-   "title": "PGA Round 2 Top 10 FInishers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGATOP20",
-   "title": "PGA Top 20 Finisher",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAAWARDS",
-   "title": "PRODUCERS GUILD AWARDS",
-   "category": "Entertainment",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXPGAWINNERWITHOUT",
-   "title": "PGA Winner Without",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGALOWSCORE",
-   "title": "PGA Lowest Round Score",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGAH2H",
-   "title": "PGA Head-to-Head Matchups",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXPGATOUR",
-   "title": "PGA Tour",
+   "ticker": "KXPGAEAGLE",
+   "title": "Player to Record an Eagle in Round",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -416,26 +110,32 @@
    "frequency": "one_off"
   },
   {
-   "ticker": "KXPGAMAJORWIN",
-   "title": "PGA Major Winner",
+   "ticker": "KXPGAR3TOP10",
+   "title": "PGA Round 3 Top 10 Finishers",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXGOLFTOURN",
-   "title": "Golf Tournament Winner",
+   "ticker": "KXGOLFTENNISMAJORS",
+   "title": "More Major Wins, Tennis vs Golf",
    "category": "Sports",
    "frequency": "one_off"
   },
   {
-   "ticker": "KXPGAREGION",
-   "title": "PGA Region Winner",
+   "ticker": "KXPGAMASTERS",
+   "title": "Golfers to Participate in the Masters",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGAWIN",
+   "title": "Golfer to Win",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXPGAR3LEAD",
-   "title": "PGA Round 3 Leader",
+   "ticker": "KXPGA3BALL",
+   "title": "PGA 3-Ball",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -452,8 +152,266 @@
    "frequency": "one_off"
   },
   {
+   "ticker": "KXGOLFH2H",
+   "title": "Golf Head-to-Head",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGAR2TOP10",
+   "title": "PGA Round 2 Top 10 FInishers",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXGOLFCAT",
+   "title": "a",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGACURRY",
+   "title": "Steph Curry PGA",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGACAT",
+   "title": "PGA Golf Category Leader",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGATOURCHAMP",
+   "title": "Golfers to Participate in the Tour Championship",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAMAJOR",
+   "title": "PGA Major Wins",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAAGECUT",
+   "title": "Oldest to make the cut",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGAH2H",
+   "title": "PGA Head-to-Head Matchups",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGATIGER",
+   "title": "Tiger Woods PGA",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXGOLFMAJORFUT",
+   "title": "How many majors will golfer win by 2036?",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGACUTLINE",
+   "title": "PGA What Will the Cut Line Be",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAMAJORTOP10",
+   "title": "PGA Top 10 for All 4 Majors",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXGOLFNEXTWIN",
+   "title": "Next Tournament Win",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAWINNINGSCORE",
+   "title": "PGA Winning Score",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGA",
+   "title": "PGA Championship",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXPGATOP20",
+   "title": "PGA Top 20 Finisher",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGARYDERTOP3",
+   "title": "Ryder Cup Top 3 Points Scorer",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXPGAR2TOP5",
+   "title": "PGA Round 2 Top 5 Finishers",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAR1LEAD",
+   "title": "PGA Round 1 Leader",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAPLAYERCAT",
+   "title": "PGA Player Category",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAR1TOP10",
+   "title": "PGA Round 1 Top 10 FInishers",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGA1STTIMEWIN",
+   "title": "PGA 1st Time Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGARETURN",
+   "title": "PGA Returning Players",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAR1TOP5",
+   "title": "PGA Round 1 Top 5 FInishers",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAALBATROSS",
+   "title": "Golf Albatross",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGATOP10",
+   "title": "PGA Top 10 Finisher",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
    "ticker": "KXGOLFMAJOR",
    "title": "Will golfer win a major by 2030?",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAROUNDBIRDIES",
+   "title": "Golf Round Birdies",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGARYDERCUPD1",
+   "title": "Ryder Cup Day 1 Winner",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGARYDERCUPD2",
+   "title": "Ryder Cup Day 2 Winner",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGA5BALL",
+   "title": "PGA 5-Ball",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXGOLFMAJORS",
+   "title": "Golf Majors Won",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGATOUR",
+   "title": "PGA Tour",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAAWARDS",
+   "title": "PRODUCERS GUILD AWARDS",
+   "category": "Entertainment",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGAFUTURE",
+   "title": "Future Major Championship Wins",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGASOLHEIM",
+   "title": "Solheim Cup",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXGOLF",
+   "title": "Golf Tournament Winner",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGAROUNDLOW",
+   "title": "lowest round score",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGARYDER",
+   "title": "Ryder Cup",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAHOLE",
+   "title": "Will the player win the hole matchup",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAREGION",
+   "title": "PGA Region Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAWINNERWITHOUT",
+   "title": "PGA Winner Without",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAMAJORWIN",
+   "title": "PGA Major Winner",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -464,8 +422,50 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXPGAWIN",
-   "title": "Golfer to Win",
+   "ticker": "KXPGAHOLEINONE",
+   "title": "PGA Hole in One",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGALOWSCORE",
+   "title": "PGA Lowest Round Score",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGARYDERCUPD3",
+   "title": "Ryder Cup Day 3 Winner",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGATOP5",
+   "title": "PGA Top 5 Finisher",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAHOLESCORE",
+   "title": "PGA Hole Score",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGAR3TOP5",
+   "title": "PGA Round 3 Top 5 Finishers",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXPGARYDERTOP",
+   "title": "Ryder Cup Top Points Scorer",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXPGAPLAYOFF",
+   "title": "Golf Playoff",
    "category": "Sports",
    "frequency": "custom"
   }

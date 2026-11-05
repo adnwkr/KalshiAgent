@@ -1,4 +1,17 @@
 78 golf series, pulled ['KXPGATOUR', 'KXPGATOP5', 'KXPGATOP10', 'KXPGATOP20', 'KXPGAMAKECUT', 'KXPGAR1LEAD'], 748 open markets, 2 tournaments
 exit_code=0
-finished=2026-11-05T18:56:28Z
-odds pga: not a scheduled check time (hr=18)
+finished=2026-11-05T19:06:05Z
+Traceback (most recent call last):
+  File "/home/runner/work/KalshiAgent/KalshiAgent/pga-kalshi/fetch_results.py", line 153, in <module>
+    main()
+  File "/home/runner/work/KalshiAgent/KalshiAgent/pga-kalshi/fetch_results.py", line 134, in main
+    rebuild_year(y, events)
+  File "/home/runner/work/KalshiAgent/KalshiAgent/pga-kalshi/fetch_results.py", line 112, in rebuild_year
+    ev, rr = parse_event(e)
+             ^^^^^^^^^^^^^^
+  File "/home/runner/work/KalshiAgent/KalshiAgent/pga-kalshi/fetch_results.py", line 56, in parse_event
+    c = e["competitions"][0]
+        ~^^^^^^^^^^^^^^^^
+KeyError: 'competitions'
+results_exit=1
+odds pga: not a scheduled check time (hr=19)

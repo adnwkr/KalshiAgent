@@ -1,4 +1,32 @@
 279 NBA series, pulled ['KXNBAGAME', 'KXNBASPREAD', 'KXNBATOTAL'], 174 open markets, 25 events
 exit_code=0
-finished=2026-11-05T18:56:27Z
-odds: not a scheduled pull time (mon=11 hr=18)
+finished=2026-11-05T19:06:04Z
+Traceback (most recent call last):
+  File "/home/runner/work/KalshiAgent/KalshiAgent/nba-kalshi/fetch_results.py", line 183, in <module>
+    main()
+  File "/home/runner/work/KalshiAgent/KalshiAgent/nba-kalshi/fetch_results.py", line 177, in main
+    fetched = [r for rows in ex.map(games_on, days) for r in rows]
+                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py", line 619, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py", line 317, in _result_or_cancel
+    return fut.result(timeout)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/concurrent/futures/thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/KalshiAgent/KalshiAgent/nba-kalshi/fetch_results.py", line 88, in games_on
+    h, a = code(teams["home"]), code(teams["away"])
+                                ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/KalshiAgent/KalshiAgent/nba-kalshi/fetch_results.py", line 52, in code
+    a = t["team"]["abbreviation"]
+        ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'abbreviation'
+results_exit=1
+odds: not a scheduled pull time (mon=11 hr=19)
