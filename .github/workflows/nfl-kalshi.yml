@@ -1,14 +1,14 @@
-name: NFL Kalshi relay
+name: Kalshi relay (NFL + NBA)
 
-# Pulls Kalshi's public NFL market data and commits snapshots to nfl-kalshi/data/
-# so the NFL betting agent (which can read GitHub but not Kalshi) has live lines.
+# Pulls Kalshi's public NFL and NBA market data and commits snapshots to nfl-kalshi/data/
+# and nba-kalshi/data/ so the betting agent (which can read GitHub but not Kalshi) has live lines.
 on:
   schedule:
     - cron: "17 */2 * * *"   # every 2 hours (UTC)
   workflow_dispatch:
     inputs:
       force_odds:
-        description: "Also pull sportsbook odds now (costs 3 Odds API credits)"
+        description: "Also pull NFL and NBA sportsbook odds now (costs 3 Odds API credits each)"
         type: boolean
         default: false
 
@@ -28,17 +28,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Fetch Kalshi NFL markets
+      - name: Fetch Kalshi markets
         id: fetch
         run: |
-          mkdir -p nfl-kalshi/data
           set +e
-          python nfl-kalshi/fetch_kalshi.py > nfl-kalshi/data/last_run.log 2>&1
-          code=$?
-          echo "exit_code=$code" >> nfl-kalshi/data/last_run.log
-          date -u +"finished=%Y-%m-%dT%H:%M:%SZ" >> nfl-kalshi/data/last_run.log
-          cat nfl-kalshi/data/last_run.log
-          echo "code=$code" >> "$GITHUB_OUTPUT"
+          worst=0
+          for lg in nfl nba; do
+            log=$lg-kalshi/data/last_run.log
+            mkdir -p $lg-kalshi/data
+            python nfl-kalshi/fetch_kalshi.py $lg > $log 2>&1
+            code=$?
+            echo "exit_code=$code" >> $log
+            date -u +"finished=%Y-%m-%dT%H:%M:%SZ" >> $log
+            cat $log
+            [ $code -ne 0 ] && worst=$code
+          done
+          echo "code=$worst" >> "$GITHUB_OUTPUT"
       - name: Fetch sportsbook odds (The Odds API)
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
@@ -55,18 +60,31 @@ jobs:
           { [ "$dow" = "1" ] || [ "$dow" = "2" ]; } && [ "$hr" = "00" ] && run=yes
           [ "$FORCE_ODDS" = "true" ] && run=yes
           if [ "$run" = "yes" ]; then
-            python nfl-kalshi/fetch_odds.py >> nfl-kalshi/data/last_run.log 2>&1 || echo "odds_exit=$?" >> nfl-kalshi/data/last_run.log
+            python nfl-kalshi/fetch_odds.py nfl >> nfl-kalshi/data/last_run.log 2>&1 || echo "odds_exit=$?" >> nfl-kalshi/data/last_run.log
           else
             echo "odds: not a scheduled pull time (dow=$dow hr=$hr)" >> nfl-kalshi/data/last_run.log
           fi
           tail -2 nfl-kalshi/data/last_run.log
+
+          # NBA: twice a day during the season (Oct through Jun): UTC 16 (late-morning lines)
+          # and UTC 22 (close to the 7pm ET tips). About 60 pulls a month, ~180 credits.
+          mon=$(date -u +%m)
+          nba=no
+          case "$mon" in 07|08|09) ;; *) { [ "$hr" = "16" ] || [ "$hr" = "22" ]; } && nba=yes ;; esac
+          [ "$FORCE_ODDS" = "true" ] && nba=yes
+          if [ "$nba" = "yes" ]; then
+            python nfl-kalshi/fetch_odds.py nba >> nba-kalshi/data/last_run.log 2>&1 || echo "odds_exit=$?" >> nba-kalshi/data/last_run.log
+          else
+            echo "odds: not a scheduled pull time (mon=$mon hr=$hr)" >> nba-kalshi/data/last_run.log
+          fi
+          tail -2 nba-kalshi/data/last_run.log
       - name: Commit snapshot
         run: |
           git config user.name "nfl-kalshi-relay"
           git config user.email "actions@users.noreply.github.com"
-          git add nfl-kalshi/data
+          git add nfl-kalshi/data nba-kalshi/data
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
-          git commit -m "Kalshi NFL snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -m "Kalshi snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
       - name: Fail if fetch failed

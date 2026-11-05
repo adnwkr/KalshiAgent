@@ -1,10 +1,12 @@
 """
-Pull NFL markets from Kalshi's public API (no auth needed for market data) and
-write snapshots the NFL betting agent reads from GitHub.
+Pull NFL or NBA markets from Kalshi's public API (no auth needed for market data) and
+write snapshots the betting agent reads from GitHub.
 
-Outputs (in nfl-kalshi/data/):
-  series.json   every Kalshi series whose ticker starts with KXNFL (for discovery)
-  latest.json   all open markets in the game-level NFL series, full detail
+Usage: python fetch_kalshi.py [nfl|nba]   (default nfl)
+
+Outputs (in nfl-kalshi/data/ or nba-kalshi/data/):
+  series.json   every Kalshi series whose ticker starts with KXNFL / KXNBA (for discovery)
+  latest.json   all open markets in the game-level series, full detail
   lines.json    per-game summary: implied win prob, market-implied spread and total
   history/<season>.csv  compact price history for near-the-money markets (for CLV)
 """
@@ -12,6 +14,7 @@ import csv
 import json
 import os
 import re
+import sys
 import time
 import urllib.parse
 import urllib.request
@@ -19,9 +22,25 @@ from datetime import datetime, timezone
 from statistics import NormalDist
 
 BASE = "https://api.elections.kalshi.com/trade-api/v2"
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
-# Full-game series (quarter/half/prop series are listed in series.json but not pulled).
-TARGETS = {"KXNFLGAME": "win", "KXNFLSPREAD": "spread", "KXNFLTOTAL": "total"}
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Full-game series per league (quarter/half/prop series are listed in series.json but not pulled).
+# sigma: SD of final margin, used only to back a spread out of the win price near pick'em.
+# codes: Kalshi team codes that differ from the codes the agent uses (nflverse for NFL).
+LEAGUES = {
+    "nfl": {"prefix": "KXNFL", "sigma": 13.5,
+            "targets": {"KXNFLGAME": "win", "KXNFLSPREAD": "spread", "KXNFLTOTAL": "total"},
+            "codes": {"JAC": "JAX", "LAR": "LA", "WSH": "WAS"}},
+    "nba": {"prefix": "KXNBA", "sigma": 12.0,
+            "targets": {"KXNBAGAME": "win", "KXNBASPREAD": "spread", "KXNBATOTAL": "total"},
+            "codes": {"BRK": "BKN", "PHO": "PHX", "CHO": "CHA", "GS": "GSW", "NO": "NOP", "NY": "NYK",
+                      "SA": "SAS", "UTAH": "UTA", "WSH": "WAS"}},
+}
+LEAGUE = (sys.argv[1] if len(sys.argv) > 1 else "nfl").lower()
+if LEAGUE not in LEAGUES:
+    sys.exit(f"unknown league {LEAGUE!r}; use one of {sorted(LEAGUES)}")
+CFG = LEAGUES[LEAGUE]
+TARGETS = CFG["targets"]
+OUT = os.path.join(REPO, f"{LEAGUE}-kalshi", "data")
 
 
 def get(path, **params):
@@ -29,7 +48,7 @@ def get(path, **params):
     for attempt in range(4):
         try:
             req = urllib.request.Request(url, headers={"Accept": "application/json",
-                                                       "User-Agent": "nfl-kalshi-relay"})
+                                                       "User-Agent": "kalshi-relay"})
             with urllib.request.urlopen(req, timeout=30) as r:
                 return json.load(r)
         except Exception as e:  # rate limit or transient error
@@ -89,14 +108,12 @@ def implied_line(points):
     return None
 
 
-# Kalshi team codes that differ from nflverse's
-TO_NFLVERSE = {"JAC": "JAX", "LAR": "LA", "WSH": "WAS"}
 MONTHS = {m: i for i, m in enumerate(
     ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"], 1)}
 
 
 def nv(code):
-    return TO_NFLVERSE.get(code, code)
+    return CFG["codes"].get(code, code)
 
 
 def rung(m):
@@ -156,14 +173,17 @@ def summarize(markets):
         spread_source = "spread ladder" if spread_home is not None else None
         if spread_home is None and win_home is not None and 0.02 < win_home < 0.98:
             # near pick'em: no ladder crosses 50%, so back out a spread from the win probability
-            spread_home = round(-13.5 * NormalDist().inv_cdf(win_home), 1)
+            spread_home = round(-CFG["sigma"] * NormalDist().inv_cdf(win_home), 1)
             spread_source = "win prob"
         total = implied_line([(strike(m), (mid(m) or 0) / 100) for m in g["total"]])
 
-        out.append({
+        row = {
             "game_key": key, "date": date, "away": nv(away) if away else None,
             "home": nv(home) if home else None,
-            "nflverse_match": f"{nv(away)}@{nv(home)} on/near {date}" if away else None,
+        }
+        if LEAGUE == "nfl":
+            row["nflverse_match"] = f"{nv(away)}@{nv(home)} on/near {date}" if away else None
+        row.update({
             "kalshi_win_prob_home": win_home,
             "kalshi_spread_home": spread_home, "spread_source": spread_source, "kalshi_total": total,
             "close_time": g["close_time"], "expected_expiration_time": g["expected_expiration_time"],
@@ -172,6 +192,7 @@ def summarize(markets):
                                for c, l in g["spread"].items()},
             "total_ladder": sorted((rung(m) for m in g["total"]), key=lambda r: r["strike"] or 0),
         })
+        out.append(row)
     return sorted(out, key=lambda r: (r["date"], r["game_key"]))
 
 
@@ -179,7 +200,7 @@ def main():
     os.makedirs(os.path.join(OUT, "history"), exist_ok=True)
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     all_series = get("/series").get("series", [])
-    nfl = [s for s in all_series if str(s.get("ticker", "")).upper().startswith("KXNFL")]
+    nfl = [s for s in all_series if str(s.get("ticker", "")).upper().startswith(CFG["prefix"])]
     json.dump({"fetched_at": now, "series": [{k: s.get(k) for k in ("ticker", "title", "category", "frequency")}
                                              for s in nfl]},
               open(os.path.join(OUT, "series.json"), "w"), indent=1)
@@ -218,10 +239,10 @@ def main():
             w.writerow(["fetched_at", "ticker", "event_ticker", "yes_bid", "yes_ask", "last_price", "volume"])
         for m in slim:
             p = mid(m)
-            if (p is not None and 10 <= p <= 90) or m.get("series_ticker") == "KXNFLGAME":
+            if (p is not None and 10 <= p <= 90) or TARGETS.get(m.get("series_ticker")) == "win":
                 w.writerow([now, m["ticker"], m.get("event_ticker"), cents(m, "yes_bid"),
                             cents(m, "yes_ask"), cents(m, "last_price"), m.get("volume")])
-    print(f"{len(nfl)} NFL series, pulled {targets}, {len(slim)} open markets, {len(lines)} events")
+    print(f"{len(nfl)} {LEAGUE.upper()} series, pulled {targets}, {len(slim)} open markets, {len(lines)} events")
 
 
 if __name__ == "__main__":

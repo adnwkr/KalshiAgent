@@ -1,5 +1,5 @@
 """
-Pull NFL sportsbook odds from The Odds API (https://the-odds-api.com) and write a
+Pull NFL or NBA sportsbook odds from The Odds API (https://the-odds-api.com) and write a
 per-game summary the betting agent reads from GitHub.
 
 Needs ODDS_API_KEY in the environment (a GitHub Actions secret). Without it, the
@@ -8,7 +8,9 @@ script logs that and exits cleanly so the Kalshi relay still runs.
 Credits: one call with 3 markets and up to 10 named bookmakers costs 3 credits.
 The workflow only calls this at chosen times (see ODDS_HOURS in the workflow).
 
-Outputs (nfl-kalshi/data/):
+Usage: python fetch_odds.py [nfl|nba]   (default nfl)
+
+Outputs (nfl-kalshi/data/ or nba-kalshi/data/):
   odds_raw.json   the API response, trimmed
   odds.json       one row per game: every book's line and price, consensus line,
                   no-vig probabilities, best available price per side, Pinnacle if listed
@@ -24,15 +26,20 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
-URL = "https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds"
+REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+SPORTS = {"nfl": "americanfootball_nfl", "nba": "basketball_nba"}
+LEAGUE = (sys.argv[1] if len(sys.argv) > 1 else "nfl").lower()
+if LEAGUE not in SPORTS:
+    sys.exit(f"unknown league {LEAGUE!r}; use one of {sorted(SPORTS)}")
+OUT = os.path.join(REPO, f"{LEAGUE}-kalshi", "data")
+URL = f"https://api.the-odds-api.com/v4/sports/{SPORTS[LEAGUE]}/odds"
 # 10 bookmakers count as one region (3 credits for 3 markets). Unknown keys are ignored.
 BOOKS = "draftkings,fanduel,betmgm,williamhill_us,espnbet,fanatics,betrivers,bovada,lowvig,pinnacle"
 # US state-licensed books. Offshore books (bovada, lowvig, pinnacle) are kept for consensus and as
 # sharp price signals, but "best" prices only come from these so the agent never logs an offshore bet.
 LICENSED = {"draftkings", "fanduel", "betmgm", "williamhill_us", "espnbet", "fanatics", "betrivers"}
 
-TEAMS = {
+NFL_TEAMS = {
     "Arizona Cardinals": "ARI", "Atlanta Falcons": "ATL", "Baltimore Ravens": "BAL", "Buffalo Bills": "BUF",
     "Carolina Panthers": "CAR", "Chicago Bears": "CHI", "Cincinnati Bengals": "CIN", "Cleveland Browns": "CLE",
     "Dallas Cowboys": "DAL", "Denver Broncos": "DEN", "Detroit Lions": "DET", "Green Bay Packers": "GB",
@@ -44,6 +51,19 @@ TEAMS = {
     "San Francisco 49ers": "SF", "Seattle Seahawks": "SEA", "Tampa Bay Buccaneers": "TB",
     "Tennessee Titans": "TEN", "Washington Commanders": "WAS",
 }
+NBA_TEAMS = {
+    "Atlanta Hawks": "ATL", "Boston Celtics": "BOS", "Brooklyn Nets": "BKN", "Charlotte Hornets": "CHA",
+    "Chicago Bulls": "CHI", "Cleveland Cavaliers": "CLE", "Dallas Mavericks": "DAL", "Denver Nuggets": "DEN",
+    "Detroit Pistons": "DET", "Golden State Warriors": "GSW", "Houston Rockets": "HOU",
+    "Indiana Pacers": "IND", "Los Angeles Clippers": "LAC", "LA Clippers": "LAC",
+    "Los Angeles Lakers": "LAL", "Memphis Grizzlies": "MEM", "Miami Heat": "MIA",
+    "Milwaukee Bucks": "MIL", "Minnesota Timberwolves": "MIN", "New Orleans Pelicans": "NOP",
+    "New York Knicks": "NYK", "Oklahoma City Thunder": "OKC", "Orlando Magic": "ORL",
+    "Philadelphia 76ers": "PHI", "Phoenix Suns": "PHX", "Portland Trail Blazers": "POR",
+    "Sacramento Kings": "SAC", "San Antonio Spurs": "SAS", "Toronto Raptors": "TOR",
+    "Utah Jazz": "UTA", "Washington Wizards": "WAS",
+}
+TEAMS = NBA_TEAMS if LEAGUE == "nba" else NFL_TEAMS
 
 
 def implied(american):
@@ -143,7 +163,7 @@ def main():
     params = {"apiKey": key, "markets": "h2h,spreads,totals", "oddsFormat": "american",
               "bookmakers": BOOKS, "dateFormat": "iso"}
     req = urllib.request.Request(f"{URL}?{urllib.parse.urlencode(params)}",
-                                 headers={"User-Agent": "nfl-kalshi-relay"})
+                                 headers={"User-Agent": "kalshi-relay"})
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             games = json.load(r)
@@ -176,7 +196,7 @@ def main():
                 w.writerow([now, g["commence_time"], g["away"], g["home"], k, s.get("home_point"),
                             s.get("home_price"), s.get("away_price"), t.get("point"), t.get("over_price"),
                             t.get("under_price"), m.get("home"), m.get("away")])
-    print(f"odds: {len(summary)} games, credits used {used}, remaining {remaining}")
+    print(f"odds {LEAGUE}: {len(summary)} games, credits used {used}, remaining {remaining}")
     return 0
 
 
