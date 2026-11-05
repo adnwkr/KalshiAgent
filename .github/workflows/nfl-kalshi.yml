@@ -11,6 +11,10 @@ on:
         description: "Also pull sportsbook odds now (3 credits each for NFL and NBA, 1 per major for PGA)"
         type: boolean
         default: false
+      backfill_seasons:
+        description: "Rebuild NBA and PGA results history for this many past seasons (0 = no, 5 for first setup)"
+        type: number
+        default: 0
 
 permissions:
   contents: write
@@ -22,7 +26,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -52,6 +56,21 @@ jobs:
           cat $log
           [ $code -ne 0 ] && worst=$code
           echo "code=$worst" >> "$GITHUB_OUTPUT"
+      - name: Fetch NBA and PGA results (ESPN)
+        env:
+          BACKFILL: ${{ inputs.backfill_seasons }}
+        run: |
+          # Game and round results for the NBA and PGA models. Every run refreshes recent NBA games
+          # and this week's golf event; the daily run rebuilds the current golf season.
+          hr=$(date -u +%H)
+          nba_args=""; pga_args=""
+          [ "$hr" = "12" ] && pga_args="--daily"
+          if [ -n "$BACKFILL" ] && [ "$BACKFILL" != "0" ]; then
+            nba_args="--backfill $BACKFILL"; pga_args="--backfill $BACKFILL"
+          fi
+          python nba-kalshi/fetch_results.py $nba_args >> nba-kalshi/data/last_run.log 2>&1 || echo "results_exit=$?" >> nba-kalshi/data/last_run.log
+          python pga-kalshi/fetch_results.py $pga_args >> pga-kalshi/data/last_run.log 2>&1 || echo "results_exit=$?" >> pga-kalshi/data/last_run.log
+          grep -h "results" nba-kalshi/data/last_run.log pga-kalshi/data/last_run.log | tail -12
       - name: Fetch sportsbook odds (The Odds API)
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
