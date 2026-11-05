@@ -1,14 +1,14 @@
-name: Kalshi relay (NFL + NBA)
+name: Kalshi relay (NFL + NBA + PGA)
 
-# Pulls Kalshi's public NFL and NBA market data and commits snapshots to nfl-kalshi/data/
-# and nba-kalshi/data/ so the betting agent (which can read GitHub but not Kalshi) has live lines.
+# Pulls Kalshi's public NFL, NBA and PGA market data and commits snapshots to nfl-kalshi/data/,
+# nba-kalshi/data/ and pga-kalshi/data/ so the betting agent (which can read GitHub but not Kalshi) has live lines.
 on:
   schedule:
     - cron: "17 */2 * * *"   # every 2 hours (UTC)
   workflow_dispatch:
     inputs:
       force_odds:
-        description: "Also pull NFL and NBA sportsbook odds now (costs 3 Odds API credits each)"
+        description: "Also pull sportsbook odds now (3 credits each for NFL and NBA, 1 per major for PGA)"
         type: boolean
         default: false
 
@@ -43,6 +43,14 @@ jobs:
             cat $log
             [ $code -ne 0 ] && worst=$code
           done
+          log=pga-kalshi/data/last_run.log
+          mkdir -p pga-kalshi/data
+          python pga-kalshi/fetch_pga.py > $log 2>&1
+          code=$?
+          echo "exit_code=$code" >> $log
+          date -u +"finished=%Y-%m-%dT%H:%M:%SZ" >> $log
+          cat $log
+          [ $code -ne 0 ] && worst=$code
           echo "code=$worst" >> "$GITHUB_OUTPUT"
       - name: Fetch sportsbook odds (The Odds API)
         env:
@@ -78,11 +86,23 @@ jobs:
             echo "odds: not a scheduled pull time (mon=$mon hr=$hr)" >> nba-kalshi/data/last_run.log
           fi
           tail -2 nba-kalshi/data/last_run.log
+
+          # PGA: The Odds API only has the four majors (winner market). Once a day at UTC 12 the
+          # script looks up each major's start date (free) and pulls winner odds only if one starts
+          # within 7 days or is in progress. About 30 credits a year.
+          if [ "$FORCE_ODDS" = "true" ]; then
+            python pga-kalshi/fetch_pga.py --odds-only --force >> pga-kalshi/data/last_run.log 2>&1 || echo "odds_exit=$?" >> pga-kalshi/data/last_run.log
+          elif [ "$hr" = "12" ]; then
+            python pga-kalshi/fetch_pga.py --odds-only >> pga-kalshi/data/last_run.log 2>&1 || echo "odds_exit=$?" >> pga-kalshi/data/last_run.log
+          else
+            echo "odds pga: not a scheduled check time (hr=$hr)" >> pga-kalshi/data/last_run.log
+          fi
+          tail -2 pga-kalshi/data/last_run.log
       - name: Commit snapshot
         run: |
           git config user.name "nfl-kalshi-relay"
           git config user.email "actions@users.noreply.github.com"
-          git add nfl-kalshi/data nba-kalshi/data
+          git add nfl-kalshi/data nba-kalshi/data pga-kalshi/data
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "Kalshi snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin "${GITHUB_REF_NAME}"

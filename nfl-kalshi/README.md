@@ -1,6 +1,6 @@
 # NFL Kalshi relay
 
-The same workflow also pulls NBA lines into `../nba-kalshi/data/` (see that folder's README).
+The same workflow also pulls NBA and PGA lines into `../nba-kalshi/data/` and `../pga-kalshi/data/` (see those folders' READMEs).
 
 GitHub Action that pulls Kalshi's public NFL market data every 2 hours and commits it here, so the NFL betting agent's scheduled runs (which can reach GitHub but not Kalshi) get live lines.
 
@@ -11,7 +11,7 @@ GitHub Action that pulls Kalshi's public NFL market data every 2 hours and commi
 - `data/odds.json` (needs the `ODDS_API_KEY` secret): sportsbook lines from The Odds API for up to 10 books, with the consensus line, no-vig probabilities, Pinnacle if listed, and the best available price for every side. Pulled about 12 times a week (daily, plus before each kickoff window), roughly 160 of the free plan's 500 monthly credits.
 - `data/odds_history/<season>.csv`: every book's main line at each pull, used for sportsbook closing line value.
 
-Run it by hand from the Actions tab ("Kalshi relay (NFL + NBA)" > Run workflow); tick "Also pull NFL and NBA sportsbook odds now" to force an odds pull for both leagues. Prices are in cents (50 = 50% implied). Kalshi fees are not included.
+Run it by hand from the Actions tab ("Kalshi relay (NFL + NBA + PGA)" > Run workflow); tick "Also pull sportsbook odds now" to force an odds pull for every league. Prices are in cents (50 = 50% implied). Kalshi fees are not included.
 
 ## Model
 
