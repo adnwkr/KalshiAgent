@@ -49,7 +49,7 @@ def get(url):
 
 
 def code(t):
-    a = t["team"]["abbreviation"]
+    a = (t.get("team") or {}).get("abbreviation")  # missing for playoff placeholders (TBD)
     return CODES.get(a, a)
 
 
@@ -78,9 +78,19 @@ def summary_line(game_id):
 
 
 def games_on(day):
+    try:
+        return _games_on(day)
+    except Exception as ex:  # one bad day must not stop the whole run
+        print(f"nba results: skipped {day} ({type(ex).__name__}: {ex})")
+        return []
+
+
+def _games_on(day):
     d = get(SB.format(day.strftime("%Y%m%d")))
     rows = []
     for e in (d or {}).get("events", []):
+        if not e.get("competitions"):
+            continue
         c = e["competitions"][0]
         teams = {t["homeAway"]: t for t in c["competitors"]}
         if "home" not in teams or "away" not in teams:

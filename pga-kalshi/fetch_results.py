@@ -109,7 +109,13 @@ def rebuild_year(year, events):
         return
     rows = []
     for e in d.get("events", []):
-        ev, rr = parse_event(e)
+        if not e.get("competitions"):
+            continue
+        try:
+            ev, rr = parse_event(e)
+        except Exception as ex:
+            print(f"pga results: skipped event {e.get('name')} ({type(ex).__name__}: {ex})")
+            continue
         events[ev["event_id"]] = ev
         if ev["status"] == "final":
             rows += rr
@@ -137,6 +143,8 @@ def main():
     d = get(SB)
     cur = []
     for e in (d or {}).get("events", []):
+        if not e.get("competitions"):
+            continue
         ev, rr = parse_event(e)
         events.setdefault(ev["event_id"], ev).update({k: ev[k] for k in ("status", "rounds_played", "field")})
         cur.append({"event": ev, "players": sorted({r["player"] for r in rr} |
