@@ -90,10 +90,17 @@ def cents(m, name):
 
 
 def mid(m):
+    """Mid of the yes bid and ask. An empty book shows bid 0 / ask 100, which is no price, not 50c,
+    so return None for that and for quotes wider than 30c. A long shot with no bid and an ask of 3c
+    or less is priced at half the ask. Last trade is used only when no quote fields exist at all."""
     b, a, last = cents(m, "yes_bid"), cents(m, "yes_ask"), cents(m, "last_price")
-    if b is not None and a is not None and a > 0 and a >= b:
-        return (b + a) / 2
-    return last
+    if b is None and a is None:
+        return last
+    if b is not None and a is not None and 0 < b <= a < 100:
+        return (b + a) / 2 if a - b <= 30 else None
+    if (b is None or b <= 0) and a is not None and 0 < a <= 3:
+        return a / 2
+    return None
 
 
 def norm_name(s):
