@@ -1,17 +1,10 @@
 78 golf series, pulled ['KXPGATOUR', 'KXPGATOP5', 'KXPGATOP10', 'KXPGATOP20', 'KXPGAMAKECUT', 'KXPGAR1LEAD'], 748 open markets, 2 tournaments
 exit_code=0
-finished=2026-11-05T19:06:05Z
-Traceback (most recent call last):
-  File "/home/runner/work/KalshiAgent/KalshiAgent/pga-kalshi/fetch_results.py", line 153, in <module>
-    main()
-  File "/home/runner/work/KalshiAgent/KalshiAgent/pga-kalshi/fetch_results.py", line 134, in main
-    rebuild_year(y, events)
-  File "/home/runner/work/KalshiAgent/KalshiAgent/pga-kalshi/fetch_results.py", line 112, in rebuild_year
-    ev, rr = parse_event(e)
-             ^^^^^^^^^^^^^^
-  File "/home/runner/work/KalshiAgent/KalshiAgent/pga-kalshi/fetch_results.py", line 56, in parse_event
-    c = e["competitions"][0]
-        ~^^^^^^^^^^^^^^^^
-KeyError: 'competitions'
-results_exit=1
+finished=2026-11-05T19:08:09Z
+pga results 2022: 50 finished events, 18463 player-rounds
+pga results 2023: 48 finished events, 18236 player-rounds
+pga results 2024: 51 finished events, 18325 player-rounds
+pga results 2025: 49 finished events, 18050 player-rounds
+pga results 2026: 43 finished events, 15191 player-rounds
+pga results: 247 events on file; current: ['World Wide Technology Championship']
 odds pga: not a scheduled check time (hr=19)

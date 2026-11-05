@@ -1,13 +1,13 @@
 {
- "fetched_at": "2026-11-05T19:06:03+00:00",
+ "fetched_at": "2026-11-05T19:08:06+00:00",
  "games": [
   {
    "game_key": "26NOV05MIAGSW",
    "date": "2026-11-05",
    "away": "MIA",
    "home": "GSW",
-   "kalshi_win_prob_home": 0.701,
-   "kalshi_spread_home": -7.0,
+   "kalshi_win_prob_home": 0.705,
+   "kalshi_spread_home": -6.9,
    "spread_source": "spread ladder",
    "kalshi_total": 233.3,
    "close_time": "2026-11-08T03:00:00Z",
@@ -16,8 +16,8 @@
     "MIA": {
      "strike": null,
      "yes_bid": 29.0,
-     "yes_ask": 31.0,
-     "last": 31.0,
+     "yes_ask": 30.0,
+     "last": 30.0,
      "ticker": "KXNBAGAME-26NOV05MIAGSW-MIA"
     },
     "GSW": {
@@ -67,23 +67,23 @@
      },
      {
       "strike": 6.5,
-      "yes_bid": 51.0,
+      "yes_bid": 50.0,
       "yes_ask": 52.0,
-      "last": 52.0,
+      "last": 51.0,
       "ticker": "KXNBASPREAD-26NOV05MIAGSW-GSW7"
      },
      {
       "strike": 7.5,
       "yes_bid": 48.0,
       "yes_ask": 49.0,
-      "last": 49.0,
+      "last": 48.0,
       "ticker": "KXNBASPREAD-26NOV05MIAGSW-GSW8"
      },
      {
       "strike": 8.5,
       "yes_bid": 43.0,
       "yes_ask": 44.0,
-      "last": 45.0,
+      "last": 43.0,
       "ticker": "KXNBASPREAD-26NOV05MIAGSW-GSW9"
      },
      {
@@ -333,7 +333,7 @@
      "strike": 228.5,
      "yes_bid": 60.0,
      "yes_ask": 62.0,
-     "last": 62.0,
+     "last": 60.0,
      "ticker": "KXNBATOTAL-26NOV05MIAGSW-229"
     },
     {
@@ -359,9 +359,9 @@
     },
     {
      "strike": 236.5,
-     "yes_bid": 43.0,
+     "yes_bid": 42.0,
      "yes_ask": 44.0,
-     "last": 44.0,
+     "last": 43.0,
      "ticker": "KXNBATOTAL-26NOV05MIAGSW-237"
     },
     {
@@ -530,9 +530,9 @@
      },
      {
       "strike": 5.5,
-      "yes_bid": 34.0,
+      "yes_bid": 35.0,
       "yes_ask": 36.0,
-      "last": 34.0,
+      "last": 36.0,
       "ticker": "KXNBASPREAD-26NOV05ORLPHX-PHX6"
      },
      {
@@ -1024,7 +1024,7 @@
      "strike": null,
      "yes_bid": 36.0,
      "yes_ask": 38.0,
-     "last": 36.0,
+     "last": 38.0,
      "ticker": "KXNBAGAME-26NOV06OKCMEM-MEM"
     }
    },
@@ -1096,8 +1096,8 @@
    "date": "2026-11-06",
    "away": "SAS",
    "home": "SAC",
-   "kalshi_win_prob_home": 0.13,
-   "kalshi_spread_home": 13.5,
+   "kalshi_win_prob_home": 0.129,
+   "kalshi_spread_home": 13.6,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-09T03:00:00Z",
@@ -1105,7 +1105,7 @@
    "win_markets": {
     "SAS": {
      "strike": null,
-     "yes_bid": 86.0,
+     "yes_bid": 87.0,
      "yes_ask": 88.0,
      "last": 88.0,
      "ticker": "KXNBAGAME-26NOV06SASSAC-SAS"
@@ -1186,7 +1186,7 @@
    "date": "2026-11-06",
    "away": "WAS",
    "home": "ATL",
-   "kalshi_win_prob_home": 0.69,
+   "kalshi_win_prob_home": 0.692,
    "kalshi_spread_home": -6.0,
    "spread_source": "win prob",
    "kalshi_total": null,
@@ -1203,8 +1203,8 @@
     "ATL": {
      "strike": null,
      "yes_bid": 68.0,
-     "yes_ask": 70.0,
-     "last": 70.0,
+     "yes_ask": 71.0,
+     "last": 71.0,
      "ticker": "KXNBAGAME-26NOV06WASATL-ATL"
     }
    },
@@ -1366,8 +1366,8 @@
    "date": "2026-11-07",
    "away": "SAS",
    "home": "POR",
-   "kalshi_win_prob_home": 0.395,
-   "kalshi_spread_home": 3.2,
+   "kalshi_win_prob_home": 0.398,
+   "kalshi_spread_home": 3.1,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-10T03:00:00Z",
@@ -1382,7 +1382,7 @@
     },
     "POR": {
      "strike": null,
-     "yes_bid": 38.0,
+     "yes_bid": 39.0,
      "yes_ask": 41.0,
      "last": 39.0,
      "ticker": "KXNBAGAME-26NOV07SASPOR-POR"
@@ -1426,8 +1426,8 @@
    "date": "2026-11-08",
    "away": "BKN",
    "home": "DAL",
-   "kalshi_win_prob_home": 0.688,
-   "kalshi_spread_home": -5.9,
+   "kalshi_win_prob_home": 0.69,
+   "kalshi_spread_home": -6.0,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-11T00:30:00Z",
@@ -1442,7 +1442,7 @@
     },
     "DAL": {
      "strike": null,
-     "yes_bid": 64.0,
+     "yes_bid": 65.0,
      "yes_ask": 73.0,
      "last": 73.0,
      "ticker": "KXNBAGAME-26NOV08BKNDAL-DAL"
@@ -1546,8 +1546,8 @@
    "date": "2026-11-08",
    "away": "NOP",
    "home": "LAC",
-   "kalshi_win_prob_home": 0.532,
-   "kalshi_spread_home": -1.0,
+   "kalshi_win_prob_home": 0.53,
+   "kalshi_spread_home": -0.9,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-11T02:00:00Z",
@@ -1555,7 +1555,7 @@
    "win_markets": {
     "NOP": {
      "strike": null,
-     "yes_bid": 43.0,
+     "yes_bid": 44.0,
      "yes_ask": 51.0,
      "last": 53.0,
      "ticker": "KXNBAGAME-26NOV08NOPLAC-NOP"
@@ -1576,7 +1576,7 @@
    "date": "2026-11-08",
    "away": "PHI",
    "home": "CHI",
-   "kalshi_win_prob_home": 0.245,
+   "kalshi_win_prob_home": 0.244,
    "kalshi_spread_home": 8.3,
    "spread_source": "win prob",
    "kalshi_total": null,
@@ -1585,7 +1585,7 @@
    "win_markets": {
     "PHI": {
      "strike": null,
-     "yes_bid": 74.0,
+     "yes_bid": 75.0,
      "yes_ask": 77.0,
      "last": 76.0,
      "ticker": "KXNBAGAME-26NOV08PHICHI-PHI"

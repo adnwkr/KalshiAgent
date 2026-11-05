@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-05T19:06:03+00:00",
+ "fetched_at": "2026-11-05T19:08:05+00:00",
  "games": [
   {
    "game_key": "26NOV05JACBAL",
@@ -91,7 +91,7 @@
       "strike": 10.5,
       "yes_bid": 3.0,
       "yes_ask": 5.0,
-      "last": 5.0,
+      "last": 3.0,
       "ticker": "KXNFLSPREAD-26NOV05JACBAL-BAL11"
      },
      {
@@ -125,7 +125,7 @@
      {
       "strike": 20.5,
       "yes_bid": 0.0,
-      "yes_ask": 3.0,
+      "yes_ask": 1.0,
       "last": 1.0,
       "ticker": "KXNFLSPREAD-26NOV05JACBAL-BAL21"
      }
@@ -198,7 +198,7 @@
       "strike": 13.5,
       "yes_bid": 40.0,
       "yes_ask": 41.0,
-      "last": 40.0,
+      "last": 41.0,
       "ticker": "KXNFLSPREAD-26NOV05JACBAL-JAC14"
      },
      {
@@ -1404,7 +1404,7 @@
    "kalshi_win_prob_home": 0.305,
    "kalshi_spread_home": 5.3,
    "spread_source": "spread ladder",
-   "kalshi_total": 51.7,
+   "kalshi_total": 51.8,
    "close_time": "2026-11-10T18:00:00Z",
    "expected_expiration_time": "2026-11-08T21:00:00Z",
    "win_markets": {
@@ -1663,9 +1663,9 @@
     },
     {
      "strike": 51.5,
-     "yes_bid": 50.0,
+     "yes_bid": 51.0,
      "yes_ask": 52.0,
-     "last": 51.0,
+     "last": 52.0,
      "ticker": "KXNFLTOTAL-26NOV08DALIND-52"
     },
     {
@@ -1764,7 +1764,7 @@
      "strike": null,
      "yes_bid": 56.0,
      "yes_ask": 57.0,
-     "last": 56.0,
+     "last": 57.0,
      "ticker": "KXNFLGAME-26NOV08DENCAR-DEN"
     }
    },
@@ -2491,7 +2491,7 @@
      {
       "strike": 3.5,
       "yes_bid": 45.0,
-      "yes_ask": 47.0,
+      "yes_ask": 46.0,
       "last": 47.0,
       "ticker": "KXNFLSPREAD-26NOV08GBNE-NE4"
      },
@@ -2646,7 +2646,7 @@
      },
      {
       "strike": 14.5,
-      "yes_bid": 5.0,
+      "yes_bid": 4.0,
       "yes_ask": 7.0,
       "last": 0.0,
       "ticker": "KXNFLSPREAD-26NOV08GBNE-GB15"
@@ -3632,7 +3632,7 @@
     "LV": [
      {
       "strike": 1.5,
-      "yes_bid": 14.0,
+      "yes_bid": 15.0,
       "yes_ask": 16.0,
       "last": 14.0,
       "ticker": "KXNFLSPREAD-26NOV08LVSF-LV2"
@@ -3869,7 +3869,7 @@
      "strike": null,
      "yes_bid": 63.0,
      "yes_ask": 64.0,
-     "last": 63.0,
+     "last": 64.0,
      "ticker": "KXNFLGAME-26NOV08NYGPHI-NYG"
     }
    },
@@ -4672,7 +4672,7 @@
      },
      {
       "strike": 23.5,
-      "yes_bid": 6.0,
+      "yes_bid": 7.0,
       "yes_ask": 8.0,
       "last": 7.0,
       "ticker": "KXNFLSPREAD-26NOV08TBCHI-CHI24"
@@ -5211,7 +5211,7 @@
     },
     {
      "strike": 55.5,
-     "yes_bid": 18.0,
+     "yes_bid": 19.0,
      "yes_ask": 20.0,
      "last": 19.0,
      "ticker": "KXNFLTOTAL-26NOV09BUFMIN-56"
@@ -5376,8 +5376,8 @@
    "away": "JAX",
    "home": "TEN",
    "nflverse_match": "JAX@TEN on/near 2026-11-15",
-   "kalshi_win_prob_home": 0.178,
-   "kalshi_spread_home": 12.5,
+   "kalshi_win_prob_home": 0.179,
+   "kalshi_spread_home": 12.4,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-17T18:00:00Z",
@@ -5393,7 +5393,7 @@
     "JAX": {
      "strike": null,
      "yes_bid": 82.0,
-     "yes_ask": 84.0,
+     "yes_ask": 83.0,
      "last": 83.0,
      "ticker": "KXNFLGAME-26NOV15JACTEN-JAC"
     }
@@ -5407,8 +5407,8 @@
    "away": "KC",
    "home": "ATL",
    "nflverse_match": "KC@ATL on/near 2026-11-15",
-   "kalshi_win_prob_home": 0.368,
-   "kalshi_spread_home": 4.6,
+   "kalshi_win_prob_home": 0.37,
+   "kalshi_spread_home": 4.5,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-17T18:00:00Z",
@@ -5423,7 +5423,7 @@
     },
     "KC": {
      "strike": null,
-     "yes_bid": 62.0,
+     "yes_bid": 61.0,
      "yes_ask": 65.0,
      "last": 64.0,
      "ticker": "KXNFLGAME-26NOV15KCATL-KC"
