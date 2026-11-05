@@ -1,0 +1,30 @@
+name: Data probe (temporary)
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch samples
+        run: |
+          mkdir -p probe
+          UA="Mozilla/5.0 (kalshi-relay probe)"
+          get() { curl -sS -m 30 -A "$UA" -o "probe/$1" -w "$1 %{http_code} %{size_download}\n" "$2" || echo "$1 FAILED"; }
+          {
+          get nba_scoreboard_20251105.json "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20251105"
+          get nba_scoreboard_today.json "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard"
+          get nba_scoreboard_range.json "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20251101-20251107&limit=200"
+          get golf_scoreboard_now.json "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard"
+          get golf_scoreboard_2025.json "https://site.api.espn.com/apis/site/v2/sports/golf/pga/scoreboard?dates=2025"
+          get golf_events_2025.json "https://sports.core.api.espn.com/v2/sports/golf/leagues/pga/seasons/2025/events?limit=100"
+          get golf_leaderboard_masters25.json "https://site.web.api.espn.com/apis/site/v2/sports/golf/leaderboard?league=pga&event=401703504"
+          get nba_statsnba.json "https://stats.nba.com/stats/scoreboardv2?GameDate=2025-11-05&LeagueID=00&DayOffset=0"
+          } | tee probe/status.txt
+      - name: Push to probe branch
+        run: |
+          git config user.name "kalshi-relay"; git config user.email "actions@users.noreply.github.com"
+          git checkout -b probe
+          git add probe; git commit -qm "probe samples"; git push -f origin probe
