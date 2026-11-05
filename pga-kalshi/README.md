@@ -15,4 +15,19 @@ Odds credits: once a day the script looks up each major's start date (free) and 
 
 Run by hand: `python pga-kalshi/fetch_pga.py` (Kalshi) or `python pga-kalshi/fetch_pga.py --odds-only [--force]` (sportsbook odds).
 
-There is no golf model yet.
+## Model
+
+`pga_model.py` rates every golfer from round scores (each round adjusted for how hard the course played that day, recency-weighted, shrunk toward a prior for players with few rounds), then simulates the tournament 20,000 times (4 rounds, top 65 and ties make the 36-hole cut, no cut for small fields) to get each golfer's chance to win, finish top 5/10/20, make the cut and lead after round 1. Round scores come from `data/results/rounds_<year>.csv`, collected from ESPN by `fetch_results.py`.
+
+```
+python3 pga_model.py events                 # open Kalshi tournaments
+python3 pga_model.py predict WOWTC26        # simulate -> preds.json
+python3 pga_model.py kalshi WOWTC26         # model vs every Kalshi golfer market, fees included -> kalshi_edges.json
+python3 pga_model.py books MAST27           # majors only: model vs best book winner price -> books_edges.json
+python3 pga_model.py grade picks.json       # grade Bet Log picks -> graded.json
+python3 pga_model.py backtest               # walk-forward over recent events
+```
+
+Backtest (39 recent events): beats an equal-chance baseline on win, top 10 and make cut; top-10 probabilities are well calibrated (e.g. 7.5% predicted vs 7.1% actual). The model is pre-tournament only: once an event starts it flags nothing. It does not know course history, injuries or withdrawals.
+
+Settings live in the Notion "PGA Lessons & Settings" page and are written to `config.json` at run time.
