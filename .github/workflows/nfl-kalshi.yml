@@ -5,6 +5,7 @@ name: Kalshi relay (NFL + NBA + PGA)
 on:
   schedule:
     - cron: "17 */2 * * *"   # every 2 hours (UTC)
+    - cron: "47 0,12,16,20,22 * * *"   # backup shots at the odds slot hours, in case GitHub skips the :17 run
   workflow_dispatch:
     inputs:
       force_odds:
@@ -62,9 +63,10 @@ jobs:
         run: |
           # Game and round results for the NBA and PGA models. Every run refreshes recent NBA games
           # and this week's golf event; the daily run rebuilds the current golf season.
-          hr=$(date -u +%H)
+          # The golf season rebuild runs once per daily PGA slot (12 UTC, caught up if skipped);
+          # the odds step below marks the slot as handled.
           nba_args=""; pga_args=""
-          [ "$hr" = "12" ] && pga_args="--daily"
+          [ "$(python3 nfl-kalshi/odds_due.py pga)" = "yes" ] && pga_args="--daily"
           if [ -n "$BACKFILL" ] && [ "$BACKFILL" != "0" ]; then
             nba_args="--backfill $BACKFILL"; pga_args="--backfill $BACKFILL"
           fi
@@ -76,63 +78,36 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           FORCE_ODDS: ${{ inputs.force_odds }}
         run: |
-          # Spend credits only at chosen UTC times (runs land at :17 every 2 hours):
-          # daily 12 (morning lines); Thu 22 (TNF close); Sun 16 and 20 (1pm and 4pm ET closes);
+          # Spend credits only at chosen UTC slots (see nfl-kalshi/odds_due.py for the list).
+          # GitHub often skips or delays cron runs, so odds_due.py catches up: a slot that was
+          # missed is pulled by the next run inside that slot's window, and each slot at most once.
+          # NFL: daily 12 (morning lines); Thu 22 (TNF close); Sun 16 and 20 (1pm and 4pm ET closes);
           # Mon 00 (SNF close); Tue 00 (MNF close). About 12 pulls a week, ~160 credits a month.
-          dow=$(date -u +%u); hr=$(date -u +%H)
-          run=no
-          [ "$hr" = "12" ] && run=yes
-          [ "$dow" = "4" ] && [ "$hr" = "22" ] && run=yes
-          [ "$dow" = "7" ] && { [ "$hr" = "16" ] || [ "$hr" = "20" ]; } && run=yes
-          { [ "$dow" = "1" ] || [ "$dow" = "2" ]; } && [ "$hr" = "00" ] && run=yes
-          [ "$FORCE_ODDS" = "true" ] && run=yes
-          if [ "$run" = "yes" ]; then
-            python nfl-kalshi/fetch_odds.py nfl >> nfl-kalshi/data/last_run.log 2>&1 || echo "odds_exit=$?" >> nfl-kalshi/data/last_run.log
-          else
-            echo "odds: not a scheduled pull time (dow=$dow hr=$hr)" >> nfl-kalshi/data/last_run.log
-          fi
-          tail -2 nfl-kalshi/data/last_run.log
+          # NBA (Oct through Jun): 16 (late-morning lines) and 22 (close to 7pm ET tips), ~180 credits a month.
+          # PGA: daily 12 majors check (free lookup; pulls winner odds only near a major), ~30 credits a year.
+          for lg in nfl nba; do
+            log=$lg-kalshi/data/last_run.log
+            due=$(python3 nfl-kalshi/odds_due.py $lg)
+            if [ "$FORCE_ODDS" = "true" ] || [ "$due" = "yes" ]; then
+              python nfl-kalshi/fetch_odds.py $lg >> $log 2>&1 || echo "odds_exit=$?" >> $log
+              python3 nfl-kalshi/odds_due.py $lg --mark
+            else
+              echo "odds: no pull due ($(date -u +%Y-%m-%dT%H:%MZ))" >> $log
+            fi
+            tail -2 $log
+          done
 
-          # NBA: twice a day during the season (Oct through Jun): UTC 16 (late-morning lines)
-          # and UTC 22 (close to the 7pm ET tips). About 60 pulls a month, ~180 credits.
-          # GitHub often skips scheduled runs, so this catches up: pull if the most recent slot
-          # (16 or 22 UTC) passed less than 6h ago and odds.json was fetched before that slot.
-          mon=$(date -u +%m)
-          nba=no
-          case "$mon" in 07|08|09) ;; *)
-            nba=$(python3 - <<'PY'
-          import json, datetime as dt
-          now = dt.datetime.now(dt.timezone.utc)
-          day = now.replace(minute=0, second=0, microsecond=0)
-          slots = [day.replace(hour=h) - dt.timedelta(days=d) for d in (0, 1) for h in (16, 22)]
-          slot = max(s for s in slots if s <= now)
-          try:
-              last = dt.datetime.fromisoformat(json.load(open("nba-kalshi/data/odds.json"))["fetched_at"])
-          except Exception:
-              last = dt.datetime.min.replace(tzinfo=dt.timezone.utc)
-          print("yes" if last < slot and now - slot < dt.timedelta(hours=6) else "no")
-          PY
-            ) ;;
-          esac
-          [ "$FORCE_ODDS" = "true" ] && nba=yes
-          if [ "$nba" = "yes" ]; then
-            python nfl-kalshi/fetch_odds.py nba >> nba-kalshi/data/last_run.log 2>&1 || echo "odds_exit=$?" >> nba-kalshi/data/last_run.log
-          else
-            echo "odds: not a scheduled pull time (mon=$mon hr=$hr)" >> nba-kalshi/data/last_run.log
-          fi
-          tail -2 nba-kalshi/data/last_run.log
-
-          # PGA: The Odds API only has the four majors (winner market). Once a day at UTC 12 the
-          # script looks up each major's start date (free) and pulls winner odds only if one starts
-          # within 7 days or is in progress. About 30 credits a year.
+          log=pga-kalshi/data/last_run.log
           if [ "$FORCE_ODDS" = "true" ]; then
-            python pga-kalshi/fetch_pga.py --odds-only --force >> pga-kalshi/data/last_run.log 2>&1 || echo "odds_exit=$?" >> pga-kalshi/data/last_run.log
-          elif [ "$hr" = "12" ]; then
-            python pga-kalshi/fetch_pga.py --odds-only >> pga-kalshi/data/last_run.log 2>&1 || echo "odds_exit=$?" >> pga-kalshi/data/last_run.log
+            python pga-kalshi/fetch_pga.py --odds-only --force >> $log 2>&1 || echo "odds_exit=$?" >> $log
+            python3 nfl-kalshi/odds_due.py pga --mark
+          elif [ "$(python3 nfl-kalshi/odds_due.py pga)" = "yes" ]; then
+            python pga-kalshi/fetch_pga.py --odds-only >> $log 2>&1 || echo "odds_exit=$?" >> $log
+            python3 nfl-kalshi/odds_due.py pga --mark
           else
-            echo "odds pga: not a scheduled check time (hr=$hr)" >> pga-kalshi/data/last_run.log
+            echo "odds pga: no check due ($(date -u +%Y-%m-%dT%H:%MZ))" >> $log
           fi
-          tail -2 pga-kalshi/data/last_run.log
+          tail -2 $log
       - name: Commit snapshot
         run: |
           git config user.name "nfl-kalshi-relay"
