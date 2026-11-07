@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-07T23:39:05+00:00",
+ "fetched_at": "2026-11-07T23:59:10+00:00",
  "series_pulled": [
   "KXNBAGAME",
   "KXNBASPREAD",
@@ -19,9 +19,9 @@
    "close_time": "2026-11-09T22:00:00Z",
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.9700",
-   "yes_ask_dollars": "0.9800",
-   "last_price_dollars": "0.9800"
+   "yes_bid_dollars": "0.9300",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.9400"
   },
   {
    "ticker": "KXNBAGAME-26NOV07DENIND-IND",
@@ -36,9 +36,9 @@
    "close_time": "2026-11-09T22:00:00Z",
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.0300",
-   "last_price_dollars": "0.0300"
+   "yes_bid_dollars": "0.0600",
+   "yes_ask_dollars": "0.0700",
+   "last_price_dollars": "0.0700"
   },
   {
    "ticker": "KXNBAGAME-26NOV07BKNATL-BKN",
@@ -53,9 +53,9 @@
    "close_time": "2026-11-10T00:30:00Z",
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.2800",
-   "yes_ask_dollars": "0.2900",
-   "last_price_dollars": "0.2900"
+   "yes_bid_dollars": "0.2900",
+   "yes_ask_dollars": "0.3000",
+   "last_price_dollars": "0.3000"
   },
   {
    "ticker": "KXNBAGAME-26NOV07BKNATL-ATL",
@@ -70,9 +70,9 @@
    "close_time": "2026-11-10T00:30:00Z",
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.7100",
-   "yes_ask_dollars": "0.7200",
-   "last_price_dollars": "0.7200"
+   "yes_bid_dollars": "0.7000",
+   "yes_ask_dollars": "0.7100",
+   "last_price_dollars": "0.7100"
   },
   {
    "ticker": "KXNBAGAME-26NOV07NYKCLE-NYK",
@@ -89,7 +89,7 @@
    "strike_type": "structured",
    "yes_bid_dollars": "0.6400",
    "yes_ask_dollars": "0.6500",
-   "last_price_dollars": "0.6500"
+   "last_price_dollars": "0.6400"
   },
   {
    "ticker": "KXNBAGAME-26NOV07NYKCLE-CLE",
@@ -257,9 +257,9 @@
    "close_time": "2026-11-10T20:30:00Z",
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.7600",
+   "yes_bid_dollars": "0.7500",
    "yes_ask_dollars": "0.7700",
-   "last_price_dollars": "0.7700"
+   "last_price_dollars": "0.7500"
   },
   {
    "ticker": "KXNBAGAME-26NOV08PHICHI-CHI",
@@ -275,8 +275,8 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "strike_type": "structured",
    "yes_bid_dollars": "0.2300",
-   "yes_ask_dollars": "0.2400",
-   "last_price_dollars": "0.2400"
+   "yes_ask_dollars": "0.2500",
+   "last_price_dollars": "0.2500"
   },
   {
    "ticker": "KXNBAGAME-26NOV08LALDET-LAL",
@@ -327,7 +327,7 @@
    "strike_type": "structured",
    "yes_bid_dollars": "0.1800",
    "yes_ask_dollars": "0.1900",
-   "last_price_dollars": "0.2000"
+   "last_price_dollars": "0.1900"
   },
   {
    "ticker": "KXNBAGAME-26NOV08UTAMIN-MIN",
@@ -377,8 +377,8 @@
    "expected_expiration_time": "2026-11-09T03:30:00Z",
    "strike_type": "structured",
    "yes_bid_dollars": "0.7400",
-   "yes_ask_dollars": "0.7500",
-   "last_price_dollars": "0.7500"
+   "yes_ask_dollars": "0.7600",
+   "last_price_dollars": "0.7400"
   },
   {
    "ticker": "KXNBAGAME-26NOV08BOSMIL-BOS",
@@ -393,7 +393,7 @@
    "close_time": "2026-11-11T01:00:00Z",
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.8500",
+   "yes_bid_dollars": "0.8400",
    "yes_ask_dollars": "0.8600",
    "last_price_dollars": "0.8500"
   },
@@ -429,7 +429,7 @@
    "strike_type": "structured",
    "yes_bid_dollars": "0.7600",
    "yes_ask_dollars": "0.7700",
-   "last_price_dollars": "0.7600"
+   "last_price_dollars": "0.7700"
   },
   {
    "ticker": "KXNBAGAME-26NOV08MIASAC-SAC",
@@ -444,7 +444,7 @@
    "close_time": "2026-11-11T02:00:00Z",
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.2200",
+   "yes_bid_dollars": "0.2300",
    "yes_ask_dollars": "0.2400",
    "last_price_dollars": "0.2400"
   },
@@ -479,8 +479,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "strike_type": "structured",
    "yes_bid_dollars": "0.4900",
-   "yes_ask_dollars": "0.5100",
-   "last_price_dollars": "0.4900"
+   "yes_ask_dollars": "0.5000",
+   "last_price_dollars": "0.5000"
   },
   {
    "ticker": "KXNBAGAME-26NOV09CLECHA-CLE",
@@ -495,7 +495,7 @@
    "close_time": "2026-11-12T00:00:00Z",
    "expected_expiration_time": "2026-11-10T03:00:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.7000",
+   "yes_bid_dollars": "0.7100",
    "yes_ask_dollars": "0.7300",
    "last_price_dollars": "0.7300"
   },
@@ -513,8 +513,8 @@
    "expected_expiration_time": "2026-11-10T03:00:00Z",
    "strike_type": "structured",
    "yes_bid_dollars": "0.2800",
-   "yes_ask_dollars": "0.3000",
-   "last_price_dollars": "0.3300"
+   "yes_ask_dollars": "0.3100",
+   "last_price_dollars": "0.3000"
   },
   {
    "ticker": "KXNBAGAME-26NOV09LALATL-LAL",
@@ -565,7 +565,7 @@
    "strike_type": "structured",
    "yes_bid_dollars": "0.2000",
    "yes_ask_dollars": "0.2300",
-   "last_price_dollars": "0.2500"
+   "last_price_dollars": "0.2300"
   },
   {
    "ticker": "KXNBAGAME-26NOV09WASDET-DET",
@@ -582,7 +582,7 @@
    "strike_type": "structured",
    "yes_bid_dollars": "0.7700",
    "yes_ask_dollars": "0.8000",
-   "last_price_dollars": "0.7700"
+   "last_price_dollars": "0.8000"
   },
   {
    "ticker": "KXNBAGAME-26NOV09MEMTOR-MEM",
@@ -632,8 +632,8 @@
    "expected_expiration_time": "2026-11-10T04:00:00Z",
    "strike_type": "structured",
    "yes_bid_dollars": "0.4000",
-   "yes_ask_dollars": "0.4300",
-   "last_price_dollars": "0.4100"
+   "yes_ask_dollars": "0.4200",
+   "last_price_dollars": "0.4300"
   },
   {
    "ticker": "KXNBAGAME-26NOV09INDDAL-DAL",
@@ -667,7 +667,7 @@
    "strike_type": "structured",
    "yes_bid_dollars": "0.3400",
    "yes_ask_dollars": "0.3600",
-   "last_price_dollars": "0.3700"
+   "last_price_dollars": "0.3600"
   },
   {
    "ticker": "KXNBAGAME-26NOV09DENHOU-HOU",
@@ -735,7 +735,7 @@
    "strike_type": "structured",
    "yes_bid_dollars": "0.2100",
    "yes_ask_dollars": "0.2400",
-   "last_price_dollars": "0.2400"
+   "last_price_dollars": "0.2500"
   },
   {
    "ticker": "KXNBAGAME-26NOV09NOPGSW-GSW",
@@ -750,8 +750,8 @@
    "close_time": "2026-11-12T03:00:00Z",
    "expected_expiration_time": "2026-11-10T06:00:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.7600",
-   "yes_ask_dollars": "0.7900",
+   "yes_bid_dollars": "0.7700",
+   "yes_ask_dollars": "0.7800",
    "last_price_dollars": "0.7900"
   },
   {
@@ -784,7 +784,7 @@
    "close_time": "2026-11-13T00:30:00Z",
    "expected_expiration_time": "2026-11-11T03:30:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.8300",
+   "yes_bid_dollars": "0.8500",
    "yes_ask_dollars": "0.8600",
    "last_price_dollars": "0.8600"
   },
@@ -802,8 +802,8 @@
    "expected_expiration_time": "2026-11-11T04:00:00Z",
    "strike_type": "structured",
    "yes_bid_dollars": "0.4800",
-   "yes_ask_dollars": "0.5500",
-   "last_price_dollars": "0.5600"
+   "yes_ask_dollars": "0.5400",
+   "last_price_dollars": "0.5500"
   },
   {
    "ticker": "KXNBAGAME-26NOV10BOSPHI-PHI",
@@ -819,7 +819,7 @@
    "expected_expiration_time": "2026-11-11T04:00:00Z",
    "strike_type": "structured",
    "yes_bid_dollars": "0.4400",
-   "yes_ask_dollars": "0.5200",
+   "yes_ask_dollars": "0.5100",
    "last_price_dollars": "0.5200"
   },
   {
@@ -939,7 +939,7 @@
    "strike_type": "structured",
    "yes_bid_dollars": "0.4500",
    "yes_ask_dollars": "0.4700",
-   "last_price_dollars": "0.4500"
+   "last_price_dollars": "0.4700"
   },
   {
    "ticker": "KXNBAGAME-26NOV10OKCPOR-POR",
@@ -954,7 +954,7 @@
    "close_time": "2026-11-13T04:00:00Z",
    "expected_expiration_time": "2026-11-11T07:00:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.5700",
+   "yes_bid_dollars": "0.5600",
    "yes_ask_dollars": "0.5800",
    "last_price_dollars": "0.5700"
   },
@@ -1005,9 +1005,9 @@
    "close_time": "2026-11-14T01:00:00Z",
    "expected_expiration_time": "2026-11-12T04:00:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.7600",
+   "yes_bid_dollars": "0.7400",
    "yes_ask_dollars": "0.8200",
-   "last_price_dollars": "0.8300"
+   "last_price_dollars": "0.7100"
   },
   {
    "ticker": "KXNBAGAME-26NOV11SASCHI-CHI",
@@ -1022,8 +1022,8 @@
    "close_time": "2026-11-14T01:00:00Z",
    "expected_expiration_time": "2026-11-12T04:00:00Z",
    "strike_type": "structured",
-   "yes_bid_dollars": "0.1500",
-   "yes_ask_dollars": "0.2900",
+   "yes_bid_dollars": "0.1600",
+   "yes_ask_dollars": "0.2800",
    "last_price_dollars": "0.1800"
   },
   {
@@ -1040,8 +1040,8 @@
    "expected_expiration_time": "2026-11-13T04:00:00Z",
    "strike_type": "structured",
    "yes_bid_dollars": "0.2600",
-   "yes_ask_dollars": "0.4400",
-   "last_price_dollars": "0.4500"
+   "yes_ask_dollars": "0.4300",
+   "last_price_dollars": "0.4400"
   },
   {
    "ticker": "KXNBAGAME-26NOV12DALMIN-MIN",
@@ -1075,7 +1075,7 @@
    "floor_strike": 21.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.0200",
+   "yes_ask_dollars": "0.0100",
    "last_price_dollars": "0.0100"
   },
   {
@@ -1112,7 +1112,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
    "yes_ask_dollars": "0.0100",
-   "last_price_dollars": "0.0200"
+   "last_price_dollars": "0.0100"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-IND16",
@@ -1129,7 +1129,7 @@
    "floor_strike": 15.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.0200",
+   "yes_ask_dollars": "0.0100",
    "last_price_dollars": "0.0100"
   },
   {
@@ -1147,7 +1147,7 @@
    "floor_strike": 13.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.0100",
+   "yes_ask_dollars": "0.0200",
    "last_price_dollars": "0.0100"
   },
   {
@@ -1202,7 +1202,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
    "yes_ask_dollars": "0.0200",
-   "last_price_dollars": "0.0100"
+   "last_price_dollars": "0.0200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-IND6",
@@ -1218,9 +1218,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 5.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0000",
+   "yes_bid_dollars": "0.0100",
    "yes_ask_dollars": "0.0200",
-   "last_price_dollars": "0.0100"
+   "last_price_dollars": "0.0300"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-IND4",
@@ -1236,9 +1236,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.0200",
-   "last_price_dollars": "0.0200"
+   "yes_bid_dollars": "0.0300",
+   "yes_ask_dollars": "0.0400",
+   "last_price_dollars": "0.0100"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-IND2",
@@ -1254,9 +1254,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.0300",
-   "last_price_dollars": "0.0200"
+   "yes_bid_dollars": "0.0500",
+   "yes_ask_dollars": "0.0600",
+   "last_price_dollars": "0.0600"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN2",
@@ -1272,9 +1272,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9600",
-   "yes_ask_dollars": "0.9800",
-   "last_price_dollars": "0.9800"
+   "yes_bid_dollars": "0.9100",
+   "yes_ask_dollars": "0.9200",
+   "last_price_dollars": "0.9100"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN3",
@@ -1290,9 +1290,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 2.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9600",
-   "yes_ask_dollars": "0.9800",
-   "last_price_dollars": "0.9700"
+   "yes_bid_dollars": "0.8900",
+   "yes_ask_dollars": "0.9100",
+   "last_price_dollars": "0.8900"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN4",
@@ -1308,9 +1308,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9500",
-   "yes_ask_dollars": "0.9600",
-   "last_price_dollars": "0.9400"
+   "yes_bid_dollars": "0.8700",
+   "yes_ask_dollars": "0.8800",
+   "last_price_dollars": "0.8700"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN5",
@@ -1326,9 +1326,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 4.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9300",
-   "yes_ask_dollars": "0.9500",
-   "last_price_dollars": "0.9700"
+   "yes_bid_dollars": "0.8300",
+   "yes_ask_dollars": "0.8500",
+   "last_price_dollars": "0.8400"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN6",
@@ -1344,9 +1344,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 5.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9200",
-   "yes_ask_dollars": "0.9300",
-   "last_price_dollars": "0.9600"
+   "yes_bid_dollars": "0.8000",
+   "yes_ask_dollars": "0.8200",
+   "last_price_dollars": "0.8200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN7",
@@ -1362,9 +1362,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 6.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9000",
-   "yes_ask_dollars": "0.9200",
-   "last_price_dollars": "0.9400"
+   "yes_bid_dollars": "0.7600",
+   "yes_ask_dollars": "0.7700",
+   "last_price_dollars": "0.7800"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN8",
@@ -1380,9 +1380,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 7.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8900",
-   "yes_ask_dollars": "0.9100",
-   "last_price_dollars": "0.9300"
+   "yes_bid_dollars": "0.7200",
+   "yes_ask_dollars": "0.7300",
+   "last_price_dollars": "0.6900"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN9",
@@ -1398,9 +1398,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 8.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8800",
-   "yes_ask_dollars": "0.9000",
-   "last_price_dollars": "0.9200"
+   "yes_bid_dollars": "0.6600",
+   "yes_ask_dollars": "0.6800",
+   "last_price_dollars": "0.6600"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN10",
@@ -1416,9 +1416,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 9.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8700",
-   "yes_ask_dollars": "0.8800",
-   "last_price_dollars": "0.9000"
+   "yes_bid_dollars": "0.6100",
+   "yes_ask_dollars": "0.6300",
+   "last_price_dollars": "0.6400"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN11",
@@ -1434,9 +1434,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 10.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8500",
-   "yes_ask_dollars": "0.8600",
-   "last_price_dollars": "0.9000"
+   "yes_bid_dollars": "0.5500",
+   "yes_ask_dollars": "0.5600",
+   "last_price_dollars": "0.5600"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN12",
@@ -1452,9 +1452,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 11.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8100",
-   "yes_ask_dollars": "0.8200",
-   "last_price_dollars": "0.8500"
+   "yes_bid_dollars": "0.5100",
+   "yes_ask_dollars": "0.5200",
+   "last_price_dollars": "0.5200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN13",
@@ -1470,9 +1470,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 12.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7900",
-   "yes_ask_dollars": "0.8100",
-   "last_price_dollars": "0.8300"
+   "yes_bid_dollars": "0.4700",
+   "yes_ask_dollars": "0.4800",
+   "last_price_dollars": "0.4800"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN15",
@@ -1488,9 +1488,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 14.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7200",
-   "yes_ask_dollars": "0.7400",
-   "last_price_dollars": "0.7900"
+   "yes_bid_dollars": "0.3500",
+   "yes_ask_dollars": "0.3700",
+   "last_price_dollars": "0.3600"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN17",
@@ -1506,9 +1506,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 16.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6500",
-   "yes_ask_dollars": "0.6700",
-   "last_price_dollars": "0.7000"
+   "yes_bid_dollars": "0.2700",
+   "yes_ask_dollars": "0.2900",
+   "last_price_dollars": "0.2900"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN19",
@@ -1524,9 +1524,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 18.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5600",
-   "yes_ask_dollars": "0.5800",
-   "last_price_dollars": "0.6200"
+   "yes_bid_dollars": "0.2000",
+   "yes_ask_dollars": "0.2100",
+   "last_price_dollars": "0.2200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN21",
@@ -1542,9 +1542,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 20.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4700",
-   "yes_ask_dollars": "0.4800",
-   "last_price_dollars": "0.5400"
+   "yes_bid_dollars": "0.1400",
+   "yes_ask_dollars": "0.1500",
+   "last_price_dollars": "0.1400"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN23",
@@ -1560,9 +1560,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 22.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3900",
-   "yes_ask_dollars": "0.4100",
-   "last_price_dollars": "0.4000"
+   "yes_bid_dollars": "0.1000",
+   "yes_ask_dollars": "0.1100",
+   "last_price_dollars": "0.1100"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN25",
@@ -1578,9 +1578,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 24.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3200",
-   "yes_ask_dollars": "0.3500",
-   "last_price_dollars": "0.3900"
+   "yes_bid_dollars": "0.0600",
+   "yes_ask_dollars": "0.0700",
+   "last_price_dollars": "0.0700"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN27",
@@ -1596,9 +1596,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 26.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2500",
-   "yes_ask_dollars": "0.2700",
-   "last_price_dollars": "0.2800"
+   "yes_bid_dollars": "0.0300",
+   "yes_ask_dollars": "0.0400",
+   "last_price_dollars": "0.0800"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN29",
@@ -1614,9 +1614,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 28.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1800",
-   "yes_ask_dollars": "0.2000",
-   "last_price_dollars": "0.2600"
+   "yes_bid_dollars": "0.0200",
+   "yes_ask_dollars": "0.0300",
+   "last_price_dollars": "0.0500"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN31",
@@ -1632,9 +1632,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 30.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1500",
-   "yes_ask_dollars": "0.1700",
-   "last_price_dollars": "0.2200"
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.0300",
+   "last_price_dollars": "0.0200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07DENIND-DEN33",
@@ -1650,9 +1650,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 32.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1100",
-   "yes_ask_dollars": "0.1200",
-   "last_price_dollars": "0.1900"
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.0100",
+   "last_price_dollars": "0.0100"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07BKNATL-ATL33",
@@ -1813,7 +1813,7 @@
    "floor_strike": 16.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.2100",
-   "yes_ask_dollars": "0.2300",
+   "yes_ask_dollars": "0.2200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -1938,8 +1938,8 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 7.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4600",
-   "yes_ask_dollars": "0.4800",
+   "yes_bid_dollars": "0.4500",
+   "yes_ask_dollars": "0.4600",
    "last_price_dollars": "0.4600"
   },
   {
@@ -1975,8 +1975,8 @@
    "floor_strike": 5.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5400",
-   "yes_ask_dollars": "0.5600",
-   "last_price_dollars": "0.5600"
+   "yes_ask_dollars": "0.5500",
+   "last_price_dollars": "0.5500"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07BKNATL-ATL5",
@@ -2028,7 +2028,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 2.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6500",
+   "yes_bid_dollars": "0.6400",
    "yes_ask_dollars": "0.6600",
    "last_price_dollars": "0.6600"
   },
@@ -2046,8 +2046,8 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6800",
-   "yes_ask_dollars": "0.7000",
+   "yes_bid_dollars": "0.6700",
+   "yes_ask_dollars": "0.6900",
    "last_price_dollars": "0.7000"
   },
   {
@@ -2064,9 +2064,9 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2600",
+   "yes_bid_dollars": "0.2700",
    "yes_ask_dollars": "0.2800",
-   "last_price_dollars": "0.2700"
+   "last_price_dollars": "0.2800"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07BKNATL-BKN4",
@@ -2118,8 +2118,8 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 7.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1200",
-   "yes_ask_dollars": "0.1400",
+   "yes_bid_dollars": "0.1300",
+   "yes_ask_dollars": "0.1500",
    "last_price_dollars": "0.1500"
   },
   {
@@ -2154,7 +2154,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 11.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0600",
+   "yes_bid_dollars": "0.0700",
    "yes_ask_dollars": "0.0900",
    "last_price_dollars": "0.0000"
   },
@@ -2372,7 +2372,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.0900",
    "yes_ask_dollars": "0.1200",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.1200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07NYKCLE-CLE10",
@@ -2407,7 +2407,7 @@
    "floor_strike": 7.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.1700",
-   "yes_ask_dollars": "0.1900",
+   "yes_ask_dollars": "0.2000",
    "last_price_dollars": "0.1900"
   },
   {
@@ -2498,7 +2498,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.6100",
    "yes_ask_dollars": "0.6300",
-   "last_price_dollars": "0.6200"
+   "last_price_dollars": "0.6100"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07NYKCLE-NYK3",
@@ -2552,7 +2552,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.5100",
    "yes_ask_dollars": "0.5200",
-   "last_price_dollars": "0.5100"
+   "last_price_dollars": "0.5200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07NYKCLE-NYK6",
@@ -2570,7 +2570,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.4800",
    "yes_ask_dollars": "0.4900",
-   "last_price_dollars": "0.4800"
+   "last_price_dollars": "0.4900"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07NYKCLE-NYK7",
@@ -2640,9 +2640,9 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 9.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3200",
+   "yes_bid_dollars": "0.3300",
    "yes_ask_dollars": "0.3400",
-   "last_price_dollars": "0.3300"
+   "last_price_dollars": "0.3400"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07NYKCLE-NYK11",
@@ -2910,7 +2910,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 31.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0500",
+   "yes_bid_dollars": "0.0600",
    "yes_ask_dollars": "0.0700",
    "last_price_dollars": "0.0700"
   },
@@ -2928,8 +2928,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 29.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0800",
-   "yes_ask_dollars": "0.0900",
+   "yes_bid_dollars": "0.0900",
+   "yes_ask_dollars": "0.1000",
    "last_price_dollars": "0.1000"
   },
   {
@@ -2948,7 +2948,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.1200",
    "yes_ask_dollars": "0.1300",
-   "last_price_dollars": "0.1200"
+   "last_price_dollars": "0.1300"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07WASOKC-OKC26",
@@ -2966,7 +2966,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.1600",
    "yes_ask_dollars": "0.1700",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.1700"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07WASOKC-OKC24",
@@ -3036,8 +3036,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 17.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3300",
-   "yes_ask_dollars": "0.3400",
+   "yes_bid_dollars": "0.3400",
+   "yes_ask_dollars": "0.3500",
    "last_price_dollars": "0.3300"
   },
   {
@@ -3055,7 +3055,7 @@
    "floor_strike": 16.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.3600",
-   "yes_ask_dollars": "0.3700",
+   "yes_ask_dollars": "0.3800",
    "last_price_dollars": "0.3600"
   },
   {
@@ -3072,8 +3072,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 15.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3800",
-   "yes_ask_dollars": "0.4000",
+   "yes_bid_dollars": "0.3900",
+   "yes_ask_dollars": "0.4100",
    "last_price_dollars": "0.3800"
   },
   {
@@ -3090,8 +3090,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 14.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4100",
-   "yes_ask_dollars": "0.4200",
+   "yes_bid_dollars": "0.4200",
+   "yes_ask_dollars": "0.4300",
    "last_price_dollars": "0.4000"
   },
   {
@@ -3127,8 +3127,8 @@
    "floor_strike": 12.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4900",
-   "yes_ask_dollars": "0.5000",
-   "last_price_dollars": "0.4900"
+   "yes_ask_dollars": "0.5100",
+   "last_price_dollars": "0.5100"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07WASOKC-OKC12",
@@ -3146,7 +3146,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.5200",
    "yes_ask_dollars": "0.5300",
-   "last_price_dollars": "0.5200"
+   "last_price_dollars": "0.5300"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07WASOKC-OKC11",
@@ -3162,9 +3162,9 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 10.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5600",
-   "yes_ask_dollars": "0.5700",
-   "last_price_dollars": "0.5600"
+   "yes_bid_dollars": "0.5700",
+   "yes_ask_dollars": "0.5800",
+   "last_price_dollars": "0.5800"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07WASOKC-OKC10",
@@ -3180,8 +3180,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 9.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5900",
-   "yes_ask_dollars": "0.6000",
+   "yes_bid_dollars": "0.6000",
+   "yes_ask_dollars": "0.6100",
    "last_price_dollars": "0.6000"
   },
   {
@@ -3199,8 +3199,8 @@
    "floor_strike": 8.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.6100",
-   "yes_ask_dollars": "0.6200",
-   "last_price_dollars": "0.6100"
+   "yes_ask_dollars": "0.6300",
+   "last_price_dollars": "0.6200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07WASOKC-OKC8",
@@ -3234,7 +3234,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 6.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6800",
+   "yes_bid_dollars": "0.6900",
    "yes_ask_dollars": "0.7000",
    "last_price_dollars": "0.6800"
   },
@@ -3252,9 +3252,9 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 5.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7100",
-   "yes_ask_dollars": "0.7300",
-   "last_price_dollars": "0.7100"
+   "yes_bid_dollars": "0.7200",
+   "yes_ask_dollars": "0.7400",
+   "last_price_dollars": "0.7300"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07WASOKC-OKC4",
@@ -3270,9 +3270,9 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7600",
+   "yes_bid_dollars": "0.7700",
    "yes_ask_dollars": "0.7800",
-   "last_price_dollars": "0.7600"
+   "last_price_dollars": "0.7800"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07WASOKC-OKC2",
@@ -3288,7 +3288,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8100",
+   "yes_bid_dollars": "0.8200",
    "yes_ask_dollars": "0.8300",
    "last_price_dollars": "0.8100"
   },
@@ -3306,8 +3306,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1300",
-   "yes_ask_dollars": "0.1500",
+   "yes_bid_dollars": "0.1200",
+   "yes_ask_dollars": "0.1400",
    "last_price_dollars": "0.1600"
   },
   {
@@ -3342,8 +3342,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 4.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0900",
-   "yes_ask_dollars": "0.1100",
+   "yes_bid_dollars": "0.0800",
+   "yes_ask_dollars": "0.1000",
    "last_price_dollars": "0.1000"
   },
   {
@@ -3360,9 +3360,9 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 6.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0600",
+   "yes_bid_dollars": "0.0400",
    "yes_ask_dollars": "0.0900",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.0500"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07WASOKC-WAS9",
@@ -3432,7 +3432,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 14.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0000",
+   "yes_bid_dollars": "0.0100",
    "yes_ask_dollars": "0.0400",
    "last_price_dollars": "0.0000"
   },
@@ -3631,7 +3631,7 @@
    "floor_strike": 12.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.3200",
-   "yes_ask_dollars": "0.3400",
+   "yes_ask_dollars": "0.3300",
    "last_price_dollars": "0.3400"
   },
   {
@@ -3703,8 +3703,8 @@
    "floor_strike": 8.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4400",
-   "yes_ask_dollars": "0.4600",
-   "last_price_dollars": "0.4600"
+   "yes_ask_dollars": "0.4500",
+   "last_price_dollars": "0.4400"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07ORLGSW-GSW8",
@@ -3740,7 +3740,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.5300",
    "yes_ask_dollars": "0.5400",
-   "last_price_dollars": "0.5300"
+   "last_price_dollars": "0.5400"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07ORLGSW-GSW6",
@@ -3865,8 +3865,8 @@
    "floor_strike": 3.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.2100",
-   "yes_ask_dollars": "0.2200",
-   "last_price_dollars": "0.2100"
+   "yes_ask_dollars": "0.2300",
+   "last_price_dollars": "0.2300"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07ORLGSW-ORL6",
@@ -4206,7 +4206,7 @@
    "expected_expiration_time": "2026-11-08T05:00:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2300",
+   "yes_bid_dollars": "0.2200",
    "yes_ask_dollars": "0.2400",
    "last_price_dollars": "0.2300"
   },
@@ -4242,9 +4242,9 @@
    "expected_expiration_time": "2026-11-08T05:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6700",
-   "yes_ask_dollars": "0.6800",
-   "last_price_dollars": "0.6800"
+   "yes_bid_dollars": "0.6800",
+   "yes_ask_dollars": "0.6900",
+   "last_price_dollars": "0.6900"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07HOUPHX-HOU3",
@@ -4297,7 +4297,7 @@
    "floor_strike": 4.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5700",
-   "yes_ask_dollars": "0.5800",
+   "yes_ask_dollars": "0.5900",
    "last_price_dollars": "0.5800"
   },
   {
@@ -4352,7 +4352,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.4500",
    "yes_ask_dollars": "0.4600",
-   "last_price_dollars": "0.4500"
+   "last_price_dollars": "0.4600"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07HOUPHX-HOU9",
@@ -4386,9 +4386,9 @@
    "expected_expiration_time": "2026-11-08T05:00:00Z",
    "floor_strike": 9.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3800",
-   "yes_ask_dollars": "0.4000",
-   "last_price_dollars": "0.3900"
+   "yes_bid_dollars": "0.3900",
+   "yes_ask_dollars": "0.4100",
+   "last_price_dollars": "0.4000"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07HOUPHX-HOU11",
@@ -4424,7 +4424,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.3200",
    "yes_ask_dollars": "0.3400",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.3200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07HOUPHX-HOU13",
@@ -4440,7 +4440,7 @@
    "expected_expiration_time": "2026-11-08T05:00:00Z",
    "floor_strike": 12.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2900",
+   "yes_bid_dollars": "0.3000",
    "yes_ask_dollars": "0.3100",
    "last_price_dollars": "0.3100"
   },
@@ -4494,7 +4494,7 @@
    "expected_expiration_time": "2026-11-08T05:00:00Z",
    "floor_strike": 18.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1500",
+   "yes_bid_dollars": "0.1600",
    "yes_ask_dollars": "0.1700",
    "last_price_dollars": "0.1700"
   },
@@ -4548,8 +4548,8 @@
    "expected_expiration_time": "2026-11-08T05:00:00Z",
    "floor_strike": 24.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0500",
-   "yes_ask_dollars": "0.0700",
+   "yes_bid_dollars": "0.0600",
+   "yes_ask_dollars": "0.0800",
    "last_price_dollars": "0.0800"
   },
   {
@@ -4890,7 +4890,7 @@
    "expected_expiration_time": "2026-11-08T06:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6200",
+   "yes_bid_dollars": "0.6300",
    "yes_ask_dollars": "0.6400",
    "last_price_dollars": "0.6400"
   },
@@ -4926,9 +4926,9 @@
    "expected_expiration_time": "2026-11-08T06:00:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5600",
-   "yes_ask_dollars": "0.5700",
-   "last_price_dollars": "0.5700"
+   "yes_bid_dollars": "0.5800",
+   "yes_ask_dollars": "0.5900",
+   "last_price_dollars": "0.5900"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07SASPOR-SAS5",
@@ -4964,7 +4964,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.4900",
    "yes_ask_dollars": "0.5000",
-   "last_price_dollars": "0.4900"
+   "last_price_dollars": "0.5000"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07SASPOR-SAS7",
@@ -4981,8 +4981,8 @@
    "floor_strike": 6.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4500",
-   "yes_ask_dollars": "0.4600",
-   "last_price_dollars": "0.4500"
+   "yes_ask_dollars": "0.4700",
+   "last_price_dollars": "0.4700"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07SASPOR-SAS8",
@@ -5036,7 +5036,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.3500",
    "yes_ask_dollars": "0.3600",
-   "last_price_dollars": "0.3600"
+   "last_price_dollars": "0.3500"
   },
   {
    "ticker": "KXNBASPREAD-26NOV07SASPOR-SAS12",
@@ -5196,7 +5196,7 @@
    "expected_expiration_time": "2026-11-08T06:00:00Z",
    "floor_strike": 27.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0200",
+   "yes_bid_dollars": "0.0300",
    "yes_ask_dollars": "0.0600",
    "last_price_dollars": "0.0600"
   },
@@ -5268,7 +5268,7 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 13.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
+   "yes_bid_dollars": "0.0200",
    "yes_ask_dollars": "0.1500",
    "last_price_dollars": "0.0000"
   },
@@ -5323,7 +5323,7 @@
    "floor_strike": 7.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.1700",
+   "yes_ask_dollars": "0.1800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5341,7 +5341,7 @@
    "floor_strike": 5.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0600",
-   "yes_ask_dollars": "0.1900",
+   "yes_ask_dollars": "0.2000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5358,8 +5358,8 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0900",
-   "yes_ask_dollars": "0.2200",
+   "yes_bid_dollars": "0.1000",
+   "yes_ask_dollars": "0.2300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5377,7 +5377,7 @@
    "floor_strike": 1.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.2100",
-   "yes_ask_dollars": "0.2600",
+   "yes_ask_dollars": "0.2500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5413,7 +5413,7 @@
    "floor_strike": 2.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.6800",
-   "yes_ask_dollars": "0.7500",
+   "yes_ask_dollars": "0.7400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5430,9 +5430,9 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6600",
+   "yes_bid_dollars": "0.6700",
    "yes_ask_dollars": "0.7100",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.7100"
   },
   {
    "ticker": "KXNBASPREAD-26NOV08PHICHI-PHI5",
@@ -5448,9 +5448,9 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 4.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6200",
+   "yes_bid_dollars": "0.6300",
    "yes_ask_dollars": "0.6800",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.6800"
   },
   {
    "ticker": "KXNBASPREAD-26NOV08PHICHI-PHI6",
@@ -5468,7 +5468,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.6100",
    "yes_ask_dollars": "0.6300",
-   "last_price_dollars": "0.6000"
+   "last_price_dollars": "0.6300"
   },
   {
    "ticker": "KXNBASPREAD-26NOV08PHICHI-PHI7",
@@ -5486,7 +5486,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.5600",
    "yes_ask_dollars": "0.5900",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.5900"
   },
   {
    "ticker": "KXNBASPREAD-26NOV08PHICHI-PHI8",
@@ -5520,9 +5520,9 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 8.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4800",
+   "yes_bid_dollars": "0.4900",
    "yes_ask_dollars": "0.5000",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.5000"
   },
   {
    "ticker": "KXNBASPREAD-26NOV08PHICHI-PHI10",
@@ -5539,8 +5539,8 @@
    "floor_strike": 9.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4500",
-   "yes_ask_dollars": "0.4700",
-   "last_price_dollars": "0.4800"
+   "yes_ask_dollars": "0.4800",
+   "last_price_dollars": "0.4900"
   },
   {
    "ticker": "KXNBASPREAD-26NOV08PHICHI-PHI11",
@@ -5576,7 +5576,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.3900",
    "yes_ask_dollars": "0.4200",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.4200"
   },
   {
    "ticker": "KXNBASPREAD-26NOV08PHICHI-PHI13",
@@ -5629,7 +5629,7 @@
    "floor_strike": 14.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.2800",
-   "yes_ask_dollars": "0.3400",
+   "yes_ask_dollars": "0.3200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5646,7 +5646,7 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 16.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2300",
+   "yes_bid_dollars": "0.2400",
    "yes_ask_dollars": "0.2900",
    "last_price_dollars": "0.0000"
   },
@@ -5664,7 +5664,7 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 18.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2000",
+   "yes_bid_dollars": "0.2100",
    "yes_ask_dollars": "0.2600",
    "last_price_dollars": "0.0000"
   },
@@ -5683,7 +5683,7 @@
    "floor_strike": 20.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0800",
-   "yes_ask_dollars": "0.2900",
+   "yes_ask_dollars": "0.2800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5701,7 +5701,7 @@
    "floor_strike": 22.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0400",
-   "yes_ask_dollars": "0.2900",
+   "yes_ask_dollars": "0.2400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5719,7 +5719,7 @@
    "floor_strike": 24.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.2600",
+   "yes_ask_dollars": "0.2100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5737,7 +5737,7 @@
    "floor_strike": 26.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.2600",
+   "yes_ask_dollars": "0.2000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5755,7 +5755,7 @@
    "floor_strike": 28.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.2600",
+   "yes_ask_dollars": "0.2000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5773,7 +5773,7 @@
    "floor_strike": 30.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.2600",
+   "yes_ask_dollars": "0.2000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5791,7 +5791,7 @@
    "floor_strike": 32.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.2600",
+   "yes_ask_dollars": "0.2000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5809,7 +5809,7 @@
    "floor_strike": 34.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.2500",
+   "yes_ask_dollars": "0.1900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -5863,7 +5863,7 @@
    "floor_strike": 23.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0500",
-   "yes_ask_dollars": "0.1000",
+   "yes_ask_dollars": "0.1100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6044,7 +6044,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.4400",
    "yes_ask_dollars": "0.5000",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.5000"
   },
   {
    "ticker": "KXNBASPREAD-26NOV08LALDET-DET5",
@@ -6061,8 +6061,8 @@
    "floor_strike": 4.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4800",
-   "yes_ask_dollars": "0.5300",
-   "last_price_dollars": "0.5100"
+   "yes_ask_dollars": "0.5200",
+   "last_price_dollars": "0.4800"
   },
   {
    "ticker": "KXNBASPREAD-26NOV08LALDET-DET4",
@@ -6097,7 +6097,7 @@
    "floor_strike": 2.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5400",
-   "yes_ask_dollars": "0.5600",
+   "yes_ask_dollars": "0.5800",
    "last_price_dollars": "0.5300"
   },
   {
@@ -6115,7 +6115,7 @@
    "floor_strike": 1.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5800",
-   "yes_ask_dollars": "0.6000",
+   "yes_ask_dollars": "0.6100",
    "last_price_dollars": "0.5900"
   },
   {
@@ -6204,7 +6204,7 @@
    "expected_expiration_time": "2026-11-09T02:00:00Z",
    "floor_strike": 5.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1400",
+   "yes_bid_dollars": "0.1300",
    "yes_ask_dollars": "0.3400",
    "last_price_dollars": "0.0000"
   },
@@ -6294,7 +6294,7 @@
    "expected_expiration_time": "2026-11-09T02:00:00Z",
    "floor_strike": 14.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0400",
+   "yes_bid_dollars": "0.0500",
    "yes_ask_dollars": "0.1100",
    "last_price_dollars": "0.0000"
   },
@@ -6385,7 +6385,7 @@
    "floor_strike": 24.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.0900",
+   "yes_ask_dollars": "0.1100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6403,7 +6403,7 @@
    "floor_strike": 26.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.1100",
+   "yes_ask_dollars": "0.0900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6565,7 +6565,7 @@
    "floor_strike": 20.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.1400",
-   "yes_ask_dollars": "0.3100",
+   "yes_ask_dollars": "0.2700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6600,7 +6600,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 16.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2500",
+   "yes_bid_dollars": "0.2600",
    "yes_ask_dollars": "0.3900",
    "last_price_dollars": "0.0000"
   },
@@ -6618,8 +6618,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 15.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2800",
-   "yes_ask_dollars": "0.4300",
+   "yes_bid_dollars": "0.3500",
+   "yes_ask_dollars": "0.4100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6636,8 +6636,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 14.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3100",
-   "yes_ask_dollars": "0.5100",
+   "yes_bid_dollars": "0.3700",
+   "yes_ask_dollars": "0.4400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6673,7 +6673,7 @@
    "floor_strike": 12.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4300",
-   "yes_ask_dollars": "0.4900",
+   "yes_ask_dollars": "0.5000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6690,7 +6690,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 11.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4600",
+   "yes_bid_dollars": "0.4700",
    "yes_ask_dollars": "0.5200",
    "last_price_dollars": "0.0000"
   },
@@ -6709,7 +6709,7 @@
    "floor_strike": 10.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5000",
-   "yes_ask_dollars": "0.5600",
+   "yes_ask_dollars": "0.5500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6744,8 +6744,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 8.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5100",
-   "yes_ask_dollars": "0.6900",
+   "yes_bid_dollars": "0.5600",
+   "yes_ask_dollars": "0.6200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6762,8 +6762,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 7.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5100",
-   "yes_ask_dollars": "0.7000",
+   "yes_bid_dollars": "0.5900",
+   "yes_ask_dollars": "0.6400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6780,8 +6780,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 6.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5400",
-   "yes_ask_dollars": "0.7500",
+   "yes_bid_dollars": "0.6100",
+   "yes_ask_dollars": "0.7100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -6798,7 +6798,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 5.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6000",
+   "yes_bid_dollars": "0.6500",
    "yes_ask_dollars": "0.7500",
    "last_price_dollars": "0.0000"
   },
@@ -6816,8 +6816,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 4.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6400",
-   "yes_ask_dollars": "0.7900",
+   "yes_bid_dollars": "0.6600",
+   "yes_ask_dollars": "0.7700",
    "last_price_dollars": "0.7800"
   },
   {
@@ -6852,7 +6852,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6800",
+   "yes_bid_dollars": "0.7500",
    "yes_ask_dollars": "0.8400",
    "last_price_dollars": "0.0000"
   },
@@ -6961,7 +6961,7 @@
    "floor_strike": 11.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.1600",
+   "yes_ask_dollars": "0.1400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7015,7 +7015,7 @@
    "floor_strike": 13.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.7000",
+   "yes_ask_dollars": "0.1200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7033,7 +7033,7 @@
    "floor_strike": 11.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.6300",
+   "yes_ask_dollars": "0.1200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7051,7 +7051,7 @@
    "floor_strike": 9.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0300",
-   "yes_ask_dollars": "0.0800",
+   "yes_ask_dollars": "0.0700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7068,7 +7068,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 7.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
+   "yes_bid_dollars": "0.0200",
    "yes_ask_dollars": "0.0900",
    "last_price_dollars": "0.0000"
   },
@@ -7104,7 +7104,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
+   "yes_bid_dollars": "0.0200",
    "yes_ask_dollars": "0.1400",
    "last_price_dollars": "0.0000"
   },
@@ -7140,7 +7140,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5600",
+   "yes_bid_dollars": "0.6500",
    "yes_ask_dollars": "0.8700",
    "last_price_dollars": "0.0000"
   },
@@ -7176,7 +7176,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 4.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4700",
+   "yes_bid_dollars": "0.5900",
    "yes_ask_dollars": "0.8200",
    "last_price_dollars": "0.0000"
   },
@@ -7194,7 +7194,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 6.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4800",
+   "yes_bid_dollars": "0.5000",
    "yes_ask_dollars": "0.8100",
    "last_price_dollars": "0.0000"
   },
@@ -7212,8 +7212,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 7.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4500",
-   "yes_ask_dollars": "0.7700",
+   "yes_bid_dollars": "0.4700",
+   "yes_ask_dollars": "0.7900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7230,8 +7230,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 8.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4300",
-   "yes_ask_dollars": "0.7600",
+   "yes_bid_dollars": "0.4500",
+   "yes_ask_dollars": "0.7700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7248,7 +7248,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 9.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4100",
+   "yes_bid_dollars": "0.4300",
    "yes_ask_dollars": "0.7700",
    "last_price_dollars": "0.0000"
   },
@@ -7356,8 +7356,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 15.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0900",
-   "yes_ask_dollars": "0.7900",
+   "yes_bid_dollars": "0.2100",
+   "yes_ask_dollars": "0.4400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7374,8 +7374,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 16.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2700",
-   "yes_ask_dollars": "0.5000",
+   "yes_bid_dollars": "0.1900",
+   "yes_ask_dollars": "0.4700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7392,8 +7392,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 17.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.7500",
+   "yes_bid_dollars": "0.1500",
+   "yes_ask_dollars": "0.4700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7410,8 +7410,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 18.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0800",
-   "yes_ask_dollars": "0.5200",
+   "yes_bid_dollars": "0.1800",
+   "yes_ask_dollars": "0.4000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7428,8 +7428,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 20.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.7000",
+   "yes_bid_dollars": "0.0600",
+   "yes_ask_dollars": "0.4400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7447,7 +7447,7 @@
    "floor_strike": 22.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.4800",
+   "yes_ask_dollars": "0.3900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7465,7 +7465,7 @@
    "floor_strike": 24.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.7000",
+   "yes_ask_dollars": "0.3500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7483,7 +7483,7 @@
    "floor_strike": 26.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0400",
-   "yes_ask_dollars": "0.4900",
+   "yes_ask_dollars": "0.3100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7501,7 +7501,7 @@
    "floor_strike": 28.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.4900",
+   "yes_ask_dollars": "0.3300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7519,7 +7519,7 @@
    "floor_strike": 30.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.4800",
+   "yes_ask_dollars": "0.3600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7537,7 +7537,7 @@
    "floor_strike": 32.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.7200",
+   "yes_ask_dollars": "0.3400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7555,7 +7555,7 @@
    "floor_strike": 34.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.6300",
+   "yes_ask_dollars": "0.5900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7573,7 +7573,7 @@
    "floor_strike": 36.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.6100",
+   "yes_ask_dollars": "0.5700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7591,7 +7591,7 @@
    "floor_strike": 38.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.6000",
+   "yes_ask_dollars": "0.5600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7609,7 +7609,7 @@
    "floor_strike": 16.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.1600",
+   "yes_ask_dollars": "0.2000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7626,7 +7626,7 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 14.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0000",
+   "yes_bid_dollars": "0.0100",
    "yes_ask_dollars": "0.1600",
    "last_price_dollars": "0.0000"
   },
@@ -7645,7 +7645,7 @@
    "floor_strike": 12.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.1600",
+   "yes_ask_dollars": "0.2100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7663,7 +7663,7 @@
    "floor_strike": 10.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.1600",
+   "yes_ask_dollars": "0.2100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7681,7 +7681,7 @@
    "floor_strike": 8.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.1600",
+   "yes_ask_dollars": "0.1700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7699,7 +7699,7 @@
    "floor_strike": 6.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.1800",
+   "yes_ask_dollars": "0.1900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7753,7 +7753,7 @@
    "floor_strike": 1.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.2600",
+   "yes_ask_dollars": "0.2700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7788,7 +7788,7 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2800",
+   "yes_bid_dollars": "0.4700",
    "yes_ask_dollars": "0.7400",
    "last_price_dollars": "0.0000"
   },
@@ -7806,8 +7806,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 4.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4200",
-   "yes_ask_dollars": "0.7200",
+   "yes_bid_dollars": "0.4400",
+   "yes_ask_dollars": "0.7400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7824,8 +7824,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 5.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3500",
-   "yes_ask_dollars": "0.7200",
+   "yes_bid_dollars": "0.4300",
+   "yes_ask_dollars": "0.6600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7842,8 +7842,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 6.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5500",
-   "yes_ask_dollars": "0.6200",
+   "yes_bid_dollars": "0.5300",
+   "yes_ask_dollars": "0.6100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7860,8 +7860,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 7.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5100",
-   "yes_ask_dollars": "0.5900",
+   "yes_bid_dollars": "0.5000",
+   "yes_ask_dollars": "0.5800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7879,7 +7879,7 @@
    "floor_strike": 8.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4900",
-   "yes_ask_dollars": "0.5600",
+   "yes_ask_dollars": "0.5400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7896,8 +7896,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 9.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4800",
-   "yes_ask_dollars": "0.5200",
+   "yes_bid_dollars": "0.4700",
+   "yes_ask_dollars": "0.5100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7914,8 +7914,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 10.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4200",
-   "yes_ask_dollars": "0.4900",
+   "yes_bid_dollars": "0.4100",
+   "yes_ask_dollars": "0.4800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7932,8 +7932,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 11.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.5900",
+   "yes_bid_dollars": "0.3100",
+   "yes_ask_dollars": "0.4500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7950,8 +7950,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 12.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.6100",
+   "yes_bid_dollars": "0.2500",
+   "yes_ask_dollars": "0.4300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7968,8 +7968,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 13.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.7100",
+   "yes_bid_dollars": "0.1500",
+   "yes_ask_dollars": "0.5100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -7986,8 +7986,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 14.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.5800",
+   "yes_bid_dollars": "0.1200",
+   "yes_ask_dollars": "0.4800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8004,8 +8004,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 15.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.7000",
+   "yes_bid_dollars": "0.2000",
+   "yes_ask_dollars": "0.4700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8022,8 +8022,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 17.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.6000",
+   "yes_bid_dollars": "0.0400",
+   "yes_ask_dollars": "0.4200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8041,7 +8041,7 @@
    "floor_strike": 19.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.6000",
+   "yes_ask_dollars": "0.3700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8058,8 +8058,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 21.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.6000",
+   "yes_bid_dollars": "0.0200",
+   "yes_ask_dollars": "0.3300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8077,7 +8077,7 @@
    "floor_strike": 23.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.5800",
+   "yes_ask_dollars": "0.3000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8094,8 +8094,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 25.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.6100",
+   "yes_bid_dollars": "0.0300",
+   "yes_ask_dollars": "0.3600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8113,7 +8113,7 @@
    "floor_strike": 27.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0400",
-   "yes_ask_dollars": "0.6400",
+   "yes_ask_dollars": "0.4800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8131,7 +8131,7 @@
    "floor_strike": 29.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0300",
-   "yes_ask_dollars": "0.6400",
+   "yes_ask_dollars": "0.4800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8149,7 +8149,7 @@
    "floor_strike": 31.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.5800",
+   "yes_ask_dollars": "0.4500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8167,7 +8167,7 @@
    "floor_strike": 33.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0300",
-   "yes_ask_dollars": "0.6300",
+   "yes_ask_dollars": "0.3300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8185,7 +8185,7 @@
    "floor_strike": 35.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.7600",
+   "yes_ask_dollars": "0.6400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8328,8 +8328,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 12.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0400",
-   "yes_ask_dollars": "0.9600",
+   "yes_bid_dollars": "0.0700",
+   "yes_ask_dollars": "0.4300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8346,8 +8346,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 10.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0400",
-   "yes_ask_dollars": "0.9600",
+   "yes_bid_dollars": "0.0800",
+   "yes_ask_dollars": "0.4100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8365,7 +8365,7 @@
    "floor_strike": 8.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.4400",
+   "yes_ask_dollars": "0.4300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8383,7 +8383,7 @@
    "floor_strike": 6.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.4600",
+   "yes_ask_dollars": "0.4500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8401,7 +8401,7 @@
    "floor_strike": 5.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.4600",
+   "yes_ask_dollars": "0.4500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8418,8 +8418,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 4.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0400",
-   "yes_ask_dollars": "0.4800",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.4700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8437,7 +8437,7 @@
    "floor_strike": 3.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.4900",
+   "yes_ask_dollars": "0.4700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8455,7 +8455,7 @@
    "floor_strike": 2.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.5100",
+   "yes_ask_dollars": "0.4900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8472,8 +8472,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0400",
-   "yes_ask_dollars": "0.5300",
+   "yes_bid_dollars": "0.1600",
+   "yes_ask_dollars": "0.5200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8490,8 +8490,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 1.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4500",
-   "yes_ask_dollars": "0.5100",
+   "yes_bid_dollars": "0.4600",
+   "yes_ask_dollars": "0.5000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8508,8 +8508,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 2.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.5000",
+   "yes_bid_dollars": "0.2100",
+   "yes_ask_dollars": "0.4900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8526,8 +8526,8 @@
    "expected_expiration_time": "2026-11-09T05:00:00Z",
    "floor_strike": 3.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.4800",
+   "yes_bid_dollars": "0.0200",
+   "yes_ask_dollars": "0.4700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -8796,9 +8796,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 200.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8900",
-   "yes_ask_dollars": "0.9200",
-   "last_price_dollars": "0.9100"
+   "yes_bid_dollars": "0.9600",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.9800"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-203",
@@ -8814,9 +8814,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 202.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8700",
-   "yes_ask_dollars": "0.8900",
-   "last_price_dollars": "0.8900"
+   "yes_bid_dollars": "0.9500",
+   "yes_ask_dollars": "0.9600",
+   "last_price_dollars": "0.9600"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-205",
@@ -8832,9 +8832,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 204.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8200",
-   "yes_ask_dollars": "0.8400",
-   "last_price_dollars": "0.8400"
+   "yes_bid_dollars": "0.9500",
+   "yes_ask_dollars": "0.9600",
+   "last_price_dollars": "0.9400"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-207",
@@ -8850,9 +8850,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 206.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7800",
-   "yes_ask_dollars": "0.8000",
-   "last_price_dollars": "0.7900"
+   "yes_bid_dollars": "0.9400",
+   "yes_ask_dollars": "0.9500",
+   "last_price_dollars": "0.9500"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-209",
@@ -8868,9 +8868,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 208.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7400",
-   "yes_ask_dollars": "0.7600",
-   "last_price_dollars": "0.7600"
+   "yes_bid_dollars": "0.9100",
+   "yes_ask_dollars": "0.9300",
+   "last_price_dollars": "0.9200"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-211",
@@ -8886,9 +8886,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 210.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6900",
-   "yes_ask_dollars": "0.7300",
-   "last_price_dollars": "0.6700"
+   "yes_bid_dollars": "0.8900",
+   "yes_ask_dollars": "0.9000",
+   "last_price_dollars": "0.8900"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-213",
@@ -8904,9 +8904,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 212.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6300",
-   "yes_ask_dollars": "0.6600",
-   "last_price_dollars": "0.6500"
+   "yes_bid_dollars": "0.8500",
+   "yes_ask_dollars": "0.8700",
+   "last_price_dollars": "0.8700"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-215",
@@ -8922,9 +8922,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 214.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5600",
-   "yes_ask_dollars": "0.5700",
-   "last_price_dollars": "0.5700"
+   "yes_bid_dollars": "0.8000",
+   "yes_ask_dollars": "0.8200",
+   "last_price_dollars": "0.8200"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-217",
@@ -8940,9 +8940,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 216.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5000",
-   "yes_ask_dollars": "0.5400",
-   "last_price_dollars": "0.5200"
+   "yes_bid_dollars": "0.7500",
+   "yes_ask_dollars": "0.7600",
+   "last_price_dollars": "0.8000"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-219",
@@ -8958,9 +8958,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 218.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4900",
-   "yes_ask_dollars": "0.5200",
-   "last_price_dollars": "0.4900"
+   "yes_bid_dollars": "0.6900",
+   "yes_ask_dollars": "0.7100",
+   "last_price_dollars": "0.6800"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-221",
@@ -8976,9 +8976,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 220.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3700",
-   "yes_ask_dollars": "0.4000",
-   "last_price_dollars": "0.3800"
+   "yes_bid_dollars": "0.5700",
+   "yes_ask_dollars": "0.5800",
+   "last_price_dollars": "0.5800"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-223",
@@ -8994,9 +8994,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 222.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3000",
-   "yes_ask_dollars": "0.3100",
-   "last_price_dollars": "0.2800"
+   "yes_bid_dollars": "0.5000",
+   "yes_ask_dollars": "0.5100",
+   "last_price_dollars": "0.5100"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-225",
@@ -9012,9 +9012,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 224.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2500",
-   "yes_ask_dollars": "0.2800",
-   "last_price_dollars": "0.2300"
+   "yes_bid_dollars": "0.4400",
+   "yes_ask_dollars": "0.4500",
+   "last_price_dollars": "0.4200"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-227",
@@ -9030,9 +9030,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 226.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1900",
-   "yes_ask_dollars": "0.2000",
-   "last_price_dollars": "0.1800"
+   "yes_bid_dollars": "0.3300",
+   "yes_ask_dollars": "0.3400",
+   "last_price_dollars": "0.3300"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-229",
@@ -9048,9 +9048,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 228.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1300",
-   "yes_ask_dollars": "0.1400",
-   "last_price_dollars": "0.1300"
+   "yes_bid_dollars": "0.2500",
+   "yes_ask_dollars": "0.2600",
+   "last_price_dollars": "0.2800"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-231",
@@ -9066,9 +9066,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 230.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0900",
-   "yes_ask_dollars": "0.1300",
-   "last_price_dollars": "0.1300"
+   "yes_bid_dollars": "0.1800",
+   "yes_ask_dollars": "0.1900",
+   "last_price_dollars": "0.2000"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-233",
@@ -9084,9 +9084,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 232.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0700",
-   "yes_ask_dollars": "0.1000",
-   "last_price_dollars": "0.0700"
+   "yes_bid_dollars": "0.1100",
+   "yes_ask_dollars": "0.1200",
+   "last_price_dollars": "0.1300"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-235",
@@ -9102,9 +9102,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 234.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0400",
-   "yes_ask_dollars": "0.0500",
-   "last_price_dollars": "0.0300"
+   "yes_bid_dollars": "0.0800",
+   "yes_ask_dollars": "0.0900",
+   "last_price_dollars": "0.0800"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-237",
@@ -9120,9 +9120,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 236.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.0500",
-   "last_price_dollars": "0.0300"
+   "yes_bid_dollars": "0.0600",
+   "yes_ask_dollars": "0.0800",
+   "last_price_dollars": "0.0600"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-239",
@@ -9138,9 +9138,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 238.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.0300",
-   "last_price_dollars": "0.0300"
+   "yes_bid_dollars": "0.0300",
+   "yes_ask_dollars": "0.0400",
+   "last_price_dollars": "0.0900"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-241",
@@ -9156,9 +9156,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 240.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.0200",
-   "last_price_dollars": "0.0100"
+   "yes_bid_dollars": "0.0200",
+   "yes_ask_dollars": "0.0300",
+   "last_price_dollars": "0.0300"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-243",
@@ -9174,9 +9174,9 @@
    "expected_expiration_time": "2026-11-08T01:00:00Z",
    "floor_strike": 242.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.0100",
-   "last_price_dollars": "0.0200"
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.0200",
+   "last_price_dollars": "0.0300"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-245",
@@ -9193,8 +9193,8 @@
    "floor_strike": 244.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
-   "yes_ask_dollars": "0.0100",
-   "last_price_dollars": "0.0100"
+   "yes_ask_dollars": "0.0200",
+   "last_price_dollars": "0.0200"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-247",
@@ -9212,7 +9212,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.0000",
    "yes_ask_dollars": "0.0100",
-   "last_price_dollars": "0.0100"
+   "last_price_dollars": "0.0200"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07DENIND-249",
@@ -9319,7 +9319,7 @@
    "floor_strike": 195.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.9500",
-   "yes_ask_dollars": "0.9800",
+   "yes_ask_dollars": "0.9900",
    "last_price_dollars": "0.9800"
   },
   {
@@ -9336,7 +9336,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 197.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9400",
+   "yes_bid_dollars": "0.9500",
    "yes_ask_dollars": "0.9600",
    "last_price_dollars": "0.9500"
   },
@@ -9354,7 +9354,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 199.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9300",
+   "yes_bid_dollars": "0.9400",
    "yes_ask_dollars": "0.9500",
    "last_price_dollars": "0.9500"
   },
@@ -9408,7 +9408,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 205.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8800",
+   "yes_bid_dollars": "0.8700",
    "yes_ask_dollars": "0.9100",
    "last_price_dollars": "0.0000"
   },
@@ -9444,7 +9444,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 209.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8300",
+   "yes_bid_dollars": "0.8200",
    "yes_ask_dollars": "0.8600",
    "last_price_dollars": "0.0000"
   },
@@ -9480,9 +9480,9 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 213.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7700",
+   "yes_bid_dollars": "0.7600",
    "yes_ask_dollars": "0.7900",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.7900"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07BKNATL-216",
@@ -9498,8 +9498,8 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 215.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7300",
-   "yes_ask_dollars": "0.7600",
+   "yes_bid_dollars": "0.7200",
+   "yes_ask_dollars": "0.7500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -9516,8 +9516,8 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 217.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7000",
-   "yes_ask_dollars": "0.7200",
+   "yes_bid_dollars": "0.6900",
+   "yes_ask_dollars": "0.7100",
    "last_price_dollars": "0.7100"
   },
   {
@@ -9535,7 +9535,7 @@
    "floor_strike": 219.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.6500",
-   "yes_ask_dollars": "0.6700",
+   "yes_ask_dollars": "0.6600",
    "last_price_dollars": "0.6800"
   },
   {
@@ -9552,7 +9552,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 221.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6100",
+   "yes_bid_dollars": "0.6000",
    "yes_ask_dollars": "0.6200",
    "last_price_dollars": "0.6100"
   },
@@ -9608,7 +9608,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.4800",
    "yes_ask_dollars": "0.4900",
-   "last_price_dollars": "0.4800"
+   "last_price_dollars": "0.4900"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07BKNATL-230",
@@ -9626,7 +9626,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.4300",
    "yes_ask_dollars": "0.4400",
-   "last_price_dollars": "0.4300"
+   "last_price_dollars": "0.4400"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07BKNATL-232",
@@ -9644,7 +9644,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.3800",
    "yes_ask_dollars": "0.3900",
-   "last_price_dollars": "0.3900"
+   "last_price_dollars": "0.3800"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07BKNATL-234",
@@ -9660,7 +9660,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 233.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3400",
+   "yes_bid_dollars": "0.3500",
    "yes_ask_dollars": "0.3600",
    "last_price_dollars": "0.3400"
   },
@@ -9714,7 +9714,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 239.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2400",
+   "yes_bid_dollars": "0.2300",
    "yes_ask_dollars": "0.2500",
    "last_price_dollars": "0.0000"
   },
@@ -9734,7 +9734,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.2000",
    "yes_ask_dollars": "0.2200",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.2000"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07BKNATL-244",
@@ -9750,7 +9750,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 243.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1700",
+   "yes_bid_dollars": "0.1600",
    "yes_ask_dollars": "0.1900",
    "last_price_dollars": "0.0000"
   },
@@ -9768,7 +9768,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 245.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1400",
+   "yes_bid_dollars": "0.1300",
    "yes_ask_dollars": "0.1700",
    "last_price_dollars": "0.0000"
   },
@@ -9786,7 +9786,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 247.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1100",
+   "yes_bid_dollars": "0.1000",
    "yes_ask_dollars": "0.1500",
    "last_price_dollars": "0.0000"
   },
@@ -9804,7 +9804,7 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 249.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1000",
+   "yes_bid_dollars": "0.0900",
    "yes_ask_dollars": "0.1100",
    "last_price_dollars": "0.0900"
   },
@@ -9822,9 +9822,9 @@
    "expected_expiration_time": "2026-11-08T03:30:00Z",
    "floor_strike": 251.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0800",
-   "yes_ask_dollars": "0.1100",
-   "last_price_dollars": "0.0000"
+   "yes_bid_dollars": "0.0700",
+   "yes_ask_dollars": "0.1000",
+   "last_price_dollars": "0.0800"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07NYKCLE-197",
@@ -9858,7 +9858,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 198.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9000",
+   "yes_bid_dollars": "0.9100",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -9984,9 +9984,9 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 212.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7100",
-   "yes_ask_dollars": "0.7300",
-   "last_price_dollars": "0.7500"
+   "yes_bid_dollars": "0.7200",
+   "yes_ask_dollars": "0.7400",
+   "last_price_dollars": "0.7300"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07NYKCLE-215",
@@ -10022,7 +10022,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.6300",
    "yes_ask_dollars": "0.6500",
-   "last_price_dollars": "0.6300"
+   "last_price_dollars": "0.6500"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07NYKCLE-219",
@@ -10092,9 +10092,9 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 224.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4700",
+   "yes_bid_dollars": "0.4600",
    "yes_ask_dollars": "0.4800",
-   "last_price_dollars": "0.4800"
+   "last_price_dollars": "0.4600"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07NYKCLE-227",
@@ -10166,7 +10166,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.3000",
    "yes_ask_dollars": "0.3200",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.3000"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07NYKCLE-235",
@@ -10202,7 +10202,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.2300",
    "yes_ask_dollars": "0.2400",
-   "last_price_dollars": "0.2200"
+   "last_price_dollars": "0.2300"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07NYKCLE-239",
@@ -10362,8 +10362,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 192.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9500",
-   "yes_ask_dollars": "0.9700",
+   "yes_bid_dollars": "0.9600",
+   "yes_ask_dollars": "0.9800",
    "last_price_dollars": "0.9700"
   },
   {
@@ -10380,8 +10380,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 194.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9400",
-   "yes_ask_dollars": "0.9500",
+   "yes_bid_dollars": "0.9500",
+   "yes_ask_dollars": "0.9600",
    "last_price_dollars": "0.9500"
   },
   {
@@ -10434,7 +10434,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 200.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.9000",
+   "yes_bid_dollars": "0.9100",
    "yes_ask_dollars": "0.9200",
    "last_price_dollars": "0.9200"
   },
@@ -10452,8 +10452,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 202.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8800",
-   "yes_ask_dollars": "0.9000",
+   "yes_bid_dollars": "0.8900",
+   "yes_ask_dollars": "0.9100",
    "last_price_dollars": "0.8900"
   },
   {
@@ -10488,8 +10488,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 206.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.8200",
-   "yes_ask_dollars": "0.8400",
+   "yes_bid_dollars": "0.8300",
+   "yes_ask_dollars": "0.8500",
    "last_price_dollars": "0.8400"
   },
   {
@@ -10506,7 +10506,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 208.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7800",
+   "yes_bid_dollars": "0.7900",
    "yes_ask_dollars": "0.8100",
    "last_price_dollars": "0.0000"
   },
@@ -10578,7 +10578,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 216.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6400",
+   "yes_bid_dollars": "0.6500",
    "yes_ask_dollars": "0.6600",
    "last_price_dollars": "0.6600"
   },
@@ -10616,7 +10616,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.5600",
    "yes_ask_dollars": "0.5700",
-   "last_price_dollars": "0.5600"
+   "last_price_dollars": "0.5700"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07WASOKC-223",
@@ -10632,8 +10632,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 222.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5200",
-   "yes_ask_dollars": "0.5300",
+   "yes_bid_dollars": "0.5300",
+   "yes_ask_dollars": "0.5500",
    "last_price_dollars": "0.5200"
   },
   {
@@ -10650,9 +10650,9 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 224.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4700",
-   "yes_ask_dollars": "0.4800",
-   "last_price_dollars": "0.4700"
+   "yes_bid_dollars": "0.4800",
+   "yes_ask_dollars": "0.4900",
+   "last_price_dollars": "0.4900"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07WASOKC-227",
@@ -10668,7 +10668,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 226.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4200",
+   "yes_bid_dollars": "0.4300",
    "yes_ask_dollars": "0.4400",
    "last_price_dollars": "0.4200"
   },
@@ -10704,7 +10704,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 230.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3300",
+   "yes_bid_dollars": "0.3400",
    "yes_ask_dollars": "0.3500",
    "last_price_dollars": "0.3400"
   },
@@ -10722,8 +10722,8 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 232.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3000",
-   "yes_ask_dollars": "0.3100",
+   "yes_bid_dollars": "0.3100",
+   "yes_ask_dollars": "0.3300",
    "last_price_dollars": "0.2800"
   },
   {
@@ -10741,7 +10741,7 @@
    "floor_strike": 234.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.2600",
-   "yes_ask_dollars": "0.2700",
+   "yes_ask_dollars": "0.2800",
    "last_price_dollars": "0.2400"
   },
   {
@@ -10758,7 +10758,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 236.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2100",
+   "yes_bid_dollars": "0.2300",
    "yes_ask_dollars": "0.2500",
    "last_price_dollars": "0.0000"
   },
@@ -10776,9 +10776,9 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 238.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1800",
+   "yes_bid_dollars": "0.1900",
    "yes_ask_dollars": "0.2000",
-   "last_price_dollars": "0.1800"
+   "last_price_dollars": "0.1900"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07WASOKC-241",
@@ -10794,7 +10794,7 @@
    "expected_expiration_time": "2026-11-08T04:00:00Z",
    "floor_strike": 240.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1500",
+   "yes_bid_dollars": "0.1600",
    "yes_ask_dollars": "0.1800",
    "last_price_dollars": "0.0000"
   },
@@ -10868,7 +10868,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.0600",
    "yes_ask_dollars": "0.0800",
-   "last_price_dollars": "0.0800"
+   "last_price_dollars": "0.0700"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07ORLGSW-192",
@@ -11012,7 +11012,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.7700",
    "yes_ask_dollars": "0.8100",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.8100"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07ORLGSW-208",
@@ -11083,7 +11083,7 @@
    "floor_strike": 213.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.6200",
-   "yes_ask_dollars": "0.6500",
+   "yes_ask_dollars": "0.6600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -11118,9 +11118,9 @@
    "expected_expiration_time": "2026-11-08T04:30:00Z",
    "floor_strike": 217.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5400",
+   "yes_bid_dollars": "0.5300",
    "yes_ask_dollars": "0.5500",
-   "last_price_dollars": "0.5500"
+   "last_price_dollars": "0.5300"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07ORLGSW-220",
@@ -11388,7 +11388,7 @@
    "expected_expiration_time": "2026-11-08T04:30:00Z",
    "floor_strike": 247.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0600",
+   "yes_bid_dollars": "0.0500",
    "yes_ask_dollars": "0.0700",
    "last_price_dollars": "0.0700"
   },
@@ -11462,7 +11462,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.9200",
    "yes_ask_dollars": "0.9400",
-   "last_price_dollars": "0.9300"
+   "last_price_dollars": "0.9400"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07HOUPHX-201",
@@ -11497,7 +11497,7 @@
    "floor_strike": 202.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.8900",
-   "yes_ask_dollars": "0.9000",
+   "yes_ask_dollars": "0.9100",
    "last_price_dollars": "0.9100"
   },
   {
@@ -11712,8 +11712,8 @@
    "expected_expiration_time": "2026-11-08T05:00:00Z",
    "floor_strike": 226.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.4300",
-   "yes_ask_dollars": "0.4400",
+   "yes_bid_dollars": "0.4400",
+   "yes_ask_dollars": "0.4500",
    "last_price_dollars": "0.4300"
   },
   {
@@ -11912,7 +11912,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.0700",
    "yes_ask_dollars": "0.0900",
-   "last_price_dollars": "0.0900"
+   "last_price_dollars": "0.0700"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07SASPOR-201",
@@ -11948,7 +11948,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.9200",
    "yes_ask_dollars": "0.9400",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.9400"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07SASPOR-205",
@@ -12054,7 +12054,7 @@
    "expected_expiration_time": "2026-11-08T06:00:00Z",
    "floor_strike": 214.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7800",
+   "yes_bid_dollars": "0.7900",
    "yes_ask_dollars": "0.8100",
    "last_price_dollars": "0.7800"
   },
@@ -12091,8 +12091,8 @@
    "floor_strike": 218.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.7200",
-   "yes_ask_dollars": "0.7400",
-   "last_price_dollars": "0.7500"
+   "yes_ask_dollars": "0.7300",
+   "last_price_dollars": "0.7400"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07SASPOR-221",
@@ -12109,8 +12109,8 @@
    "floor_strike": 220.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.6800",
-   "yes_ask_dollars": "0.6900",
-   "last_price_dollars": "0.6800"
+   "yes_ask_dollars": "0.7000",
+   "last_price_dollars": "0.6900"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07SASPOR-223",
@@ -12126,7 +12126,7 @@
    "expected_expiration_time": "2026-11-08T06:00:00Z",
    "floor_strike": 222.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6400",
+   "yes_bid_dollars": "0.6300",
    "yes_ask_dollars": "0.6500",
    "last_price_dollars": "0.6400"
   },
@@ -12182,7 +12182,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.4900",
    "yes_ask_dollars": "0.5000",
-   "last_price_dollars": "0.4900"
+   "last_price_dollars": "0.5000"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07SASPOR-231",
@@ -12236,7 +12236,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.3700",
    "yes_ask_dollars": "0.3900",
-   "last_price_dollars": "0.0000"
+   "last_price_dollars": "0.3700"
   },
   {
    "ticker": "KXNBATOTAL-26NOV07SASPOR-237",
@@ -12434,7 +12434,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.0500",
    "yes_ask_dollars": "0.0700",
-   "last_price_dollars": "0.0200"
+   "last_price_dollars": "0.0500"
   },
   {
    "ticker": "KXNBATOTAL-26NOV08PHICHI-212",
@@ -12576,7 +12576,7 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 225.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6000",
+   "yes_bid_dollars": "0.5700",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -12594,7 +12594,7 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 227.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6000",
+   "yes_bid_dollars": "0.5400",
    "yes_ask_dollars": "0.9200",
    "last_price_dollars": "0.0000"
   },
@@ -12649,7 +12649,7 @@
    "floor_strike": 233.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5700",
-   "yes_ask_dollars": "0.6200",
+   "yes_ask_dollars": "0.6000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -12721,7 +12721,7 @@
    "floor_strike": 241.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4100",
-   "yes_ask_dollars": "0.4600",
+   "yes_ask_dollars": "0.4500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -12739,7 +12739,7 @@
    "floor_strike": 243.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.3700",
-   "yes_ask_dollars": "0.4200",
+   "yes_ask_dollars": "0.4100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -12792,7 +12792,7 @@
    "expected_expiration_time": "2026-11-08T23:30:00Z",
    "floor_strike": 249.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2600",
+   "yes_bid_dollars": "0.2700",
    "yes_ask_dollars": "0.3100",
    "last_price_dollars": "0.0000"
   },
@@ -12811,7 +12811,7 @@
    "floor_strike": 251.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0500",
-   "yes_ask_dollars": "0.3600",
+   "yes_ask_dollars": "0.3400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -12919,7 +12919,7 @@
    "floor_strike": 263.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.3400",
+   "yes_ask_dollars": "0.3600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13098,7 +13098,7 @@
    "expected_expiration_time": "2026-11-09T02:00:00Z",
    "floor_strike": 208.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5900",
+   "yes_bid_dollars": "0.7200",
    "yes_ask_dollars": "0.8200",
    "last_price_dollars": "0.0000"
   },
@@ -13117,7 +13117,7 @@
    "floor_strike": 210.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5800",
-   "yes_ask_dollars": "0.8600",
+   "yes_ask_dollars": "0.8400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13135,7 +13135,7 @@
    "floor_strike": 212.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5800",
-   "yes_ask_dollars": "0.8800",
+   "yes_ask_dollars": "0.8600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13171,7 +13171,7 @@
    "floor_strike": 216.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5700",
-   "yes_ask_dollars": "0.6800",
+   "yes_ask_dollars": "0.6500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13189,7 +13189,7 @@
    "floor_strike": 218.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.5300",
-   "yes_ask_dollars": "0.6300",
+   "yes_ask_dollars": "0.6000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13208,7 +13208,7 @@
    "strike_type": "greater",
    "yes_bid_dollars": "0.5000",
    "yes_ask_dollars": "0.5400",
-   "last_price_dollars": "0.5500"
+   "last_price_dollars": "0.5400"
   },
   {
    "ticker": "KXNBATOTAL-26NOV08LALDET-223",
@@ -13260,8 +13260,8 @@
    "expected_expiration_time": "2026-11-09T02:00:00Z",
    "floor_strike": 226.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3100",
-   "yes_ask_dollars": "0.4400",
+   "yes_bid_dollars": "0.3400",
+   "yes_ask_dollars": "0.4300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13278,8 +13278,8 @@
    "expected_expiration_time": "2026-11-09T02:00:00Z",
    "floor_strike": 228.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1800",
-   "yes_ask_dollars": "0.4500",
+   "yes_bid_dollars": "0.1600",
+   "yes_ask_dollars": "0.3700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13296,8 +13296,8 @@
    "expected_expiration_time": "2026-11-09T02:00:00Z",
    "floor_strike": 230.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1400",
-   "yes_ask_dollars": "0.4500",
+   "yes_bid_dollars": "0.1200",
+   "yes_ask_dollars": "0.3900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13387,7 +13387,7 @@
    "floor_strike": 240.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.3400",
+   "yes_ask_dollars": "0.3200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13441,7 +13441,7 @@
    "floor_strike": 246.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.3800",
+   "yes_ask_dollars": "0.3100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13459,7 +13459,7 @@
    "floor_strike": 248.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.3800",
+   "yes_ask_dollars": "0.3300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13477,7 +13477,7 @@
    "floor_strike": 250.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.3800",
+   "yes_ask_dollars": "0.3400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13494,7 +13494,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 196.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7100",
+   "yes_bid_dollars": "0.8600",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -13512,7 +13512,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 198.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7000",
+   "yes_bid_dollars": "0.8900",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -13530,7 +13530,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 200.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6900",
+   "yes_bid_dollars": "0.8800",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -13548,8 +13548,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 202.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6700",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.8600",
+   "yes_ask_dollars": "0.9200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13566,8 +13566,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 204.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6500",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.7800",
+   "yes_ask_dollars": "0.9200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13584,8 +13584,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 206.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7000",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.7600",
+   "yes_ask_dollars": "0.9000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13602,8 +13602,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 208.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.7300",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.7800",
+   "yes_ask_dollars": "0.8400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13620,8 +13620,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 210.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5900",
-   "yes_ask_dollars": "0.8900",
+   "yes_bid_dollars": "0.7400",
+   "yes_ask_dollars": "0.8100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13638,8 +13638,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 212.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6000",
-   "yes_ask_dollars": "0.8700",
+   "yes_bid_dollars": "0.7000",
+   "yes_ask_dollars": "0.7600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13656,8 +13656,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 214.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.6000",
-   "yes_ask_dollars": "0.9000",
+   "yes_bid_dollars": "0.6600",
+   "yes_ask_dollars": "0.7300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13710,7 +13710,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 220.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5300",
+   "yes_bid_dollars": "0.5400",
    "yes_ask_dollars": "0.6000",
    "last_price_dollars": "0.0000"
   },
@@ -13764,7 +13764,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 226.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3900",
+   "yes_bid_dollars": "0.4000",
    "yes_ask_dollars": "0.4600",
    "last_price_dollars": "0.0000"
   },
@@ -13782,7 +13782,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 228.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3500",
+   "yes_bid_dollars": "0.3600",
    "yes_ask_dollars": "0.4200",
    "last_price_dollars": "0.0000"
   },
@@ -13800,7 +13800,7 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 230.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.3100",
+   "yes_bid_dollars": "0.3200",
    "yes_ask_dollars": "0.3800",
    "last_price_dollars": "0.0000"
   },
@@ -13818,8 +13818,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 232.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1800",
-   "yes_ask_dollars": "0.4000",
+   "yes_bid_dollars": "0.2800",
+   "yes_ask_dollars": "0.3400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13836,8 +13836,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 234.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1400",
-   "yes_ask_dollars": "0.4000",
+   "yes_bid_dollars": "0.2400",
+   "yes_ask_dollars": "0.3000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13854,8 +13854,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 236.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1100",
-   "yes_ask_dollars": "0.4000",
+   "yes_bid_dollars": "0.2000",
+   "yes_ask_dollars": "0.2600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13872,8 +13872,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 238.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0700",
-   "yes_ask_dollars": "0.4000",
+   "yes_bid_dollars": "0.1400",
+   "yes_ask_dollars": "0.2300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13890,8 +13890,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 240.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0800",
-   "yes_ask_dollars": "0.3300",
+   "yes_bid_dollars": "0.1000",
+   "yes_ask_dollars": "0.2000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13908,8 +13908,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 242.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0300",
-   "yes_ask_dollars": "0.3100",
+   "yes_bid_dollars": "0.1100",
+   "yes_ask_dollars": "0.1700",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13926,8 +13926,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 244.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0500",
-   "yes_ask_dollars": "0.2900",
+   "yes_bid_dollars": "0.0900",
+   "yes_ask_dollars": "0.1500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13944,8 +13944,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 246.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.3000",
+   "yes_bid_dollars": "0.0600",
+   "yes_ask_dollars": "0.1300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13962,8 +13962,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 248.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.3000",
+   "yes_bid_dollars": "0.0400",
+   "yes_ask_dollars": "0.1100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13980,8 +13980,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 250.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.3100",
+   "yes_bid_dollars": "0.0300",
+   "yes_ask_dollars": "0.0900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -13998,8 +13998,8 @@
    "expected_expiration_time": "2026-11-09T03:00:00Z",
    "floor_strike": 252.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.3000",
+   "yes_bid_dollars": "0.0200",
+   "yes_ask_dollars": "0.0800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14016,7 +14016,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 196.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
+   "yes_bid_dollars": "0.7300",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -14034,7 +14034,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 198.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0400",
+   "yes_bid_dollars": "0.7300",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -14052,7 +14052,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 200.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0400",
+   "yes_bid_dollars": "0.7300",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -14070,7 +14070,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 202.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
+   "yes_bid_dollars": "0.7300",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -14088,7 +14088,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 204.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
+   "yes_bid_dollars": "0.7300",
    "yes_ask_dollars": "0.9400",
    "last_price_dollars": "0.0000"
   },
@@ -14106,8 +14106,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 206.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.2400",
-   "yes_ask_dollars": "0.8600",
+   "yes_bid_dollars": "0.7900",
+   "yes_ask_dollars": "0.8500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14124,8 +14124,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 208.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0800",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.7600",
+   "yes_ask_dollars": "0.8600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14142,8 +14142,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 210.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.5600",
+   "yes_ask_dollars": "0.8800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14160,8 +14160,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 212.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.5200",
+   "yes_ask_dollars": "0.9000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14178,8 +14178,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 214.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.5600",
+   "yes_ask_dollars": "0.8600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14214,7 +14214,7 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 218.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5600",
+   "yes_bid_dollars": "0.5500",
    "yes_ask_dollars": "0.6300",
    "last_price_dollars": "0.0000"
   },
@@ -14232,8 +14232,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 220.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.5200",
-   "yes_ask_dollars": "0.5900",
+   "yes_bid_dollars": "0.5100",
+   "yes_ask_dollars": "0.5800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14251,7 +14251,7 @@
    "floor_strike": 222.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4700",
-   "yes_ask_dollars": "0.5400",
+   "yes_ask_dollars": "0.5300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14269,7 +14269,7 @@
    "floor_strike": 224.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.4200",
-   "yes_ask_dollars": "0.5000",
+   "yes_ask_dollars": "0.4900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14287,7 +14287,7 @@
    "floor_strike": 226.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.3800",
-   "yes_ask_dollars": "0.4600",
+   "yes_ask_dollars": "0.4500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14322,8 +14322,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 230.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.1800",
-   "yes_ask_dollars": "0.3700",
+   "yes_bid_dollars": "0.1600",
+   "yes_ask_dollars": "0.3600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14340,8 +14340,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 232.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.8400",
+   "yes_bid_dollars": "0.1000",
+   "yes_ask_dollars": "0.3900",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14358,8 +14358,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 234.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.0700",
+   "yes_ask_dollars": "0.4400",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14376,8 +14376,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 236.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.9400",
+   "yes_bid_dollars": "0.0400",
+   "yes_ask_dollars": "0.4100",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14394,8 +14394,8 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 238.5,
    "strike_type": "greater",
-   "yes_bid_dollars": "0.0800",
-   "yes_ask_dollars": "0.7100",
+   "yes_bid_dollars": "0.1500",
+   "yes_ask_dollars": "0.3800",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14413,7 +14413,7 @@
    "floor_strike": 240.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0400",
-   "yes_ask_dollars": "0.8400",
+   "yes_ask_dollars": "0.3500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14431,7 +14431,7 @@
    "floor_strike": 242.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.9400",
+   "yes_ask_dollars": "0.3200",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14449,7 +14449,7 @@
    "floor_strike": 244.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.9400",
+   "yes_ask_dollars": "0.3000",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14467,7 +14467,7 @@
    "floor_strike": 246.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0100",
-   "yes_ask_dollars": "0.7100",
+   "yes_ask_dollars": "0.3300",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14485,7 +14485,7 @@
    "floor_strike": 248.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.5500",
+   "yes_ask_dollars": "0.3500",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14503,7 +14503,7 @@
    "floor_strike": 250.5,
    "strike_type": "greater",
    "yes_bid_dollars": "0.0300",
-   "yes_ask_dollars": "0.5500",
+   "yes_ask_dollars": "0.3600",
    "last_price_dollars": "0.0000"
   },
   {
@@ -14520,8 +14520,1052 @@
    "expected_expiration_time": "2026-11-09T04:00:00Z",
    "floor_strike": 252.5,
    "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.3800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-211",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 210.5 points scored",
+   "yes_sub_title": "Over 210.5 points",
+   "no_sub_title": "Over 210.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 210.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-213",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 212.5 points scored",
+   "yes_sub_title": "Over 212.5 points",
+   "no_sub_title": "Over 212.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 212.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-215",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 214.5 points scored",
+   "yes_sub_title": "Over 214.5 points",
+   "no_sub_title": "Over 214.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 214.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-217",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 216.5 points scored",
+   "yes_sub_title": "Over 216.5 points",
+   "no_sub_title": "Over 216.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 216.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-219",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 218.5 points scored",
+   "yes_sub_title": "Over 218.5 points",
+   "no_sub_title": "Over 218.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 218.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-221",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 220.5 points scored",
+   "yes_sub_title": "Over 220.5 points",
+   "no_sub_title": "Over 220.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 220.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-223",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 222.5 points scored",
+   "yes_sub_title": "Over 222.5 points",
+   "no_sub_title": "Over 222.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 222.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-225",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 224.5 points scored",
+   "yes_sub_title": "Over 224.5 points",
+   "no_sub_title": "Over 224.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 224.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-227",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 226.5 points scored",
+   "yes_sub_title": "Over 226.5 points",
+   "no_sub_title": "Over 226.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 226.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-229",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 228.5 points scored",
+   "yes_sub_title": "Over 228.5 points",
+   "no_sub_title": "Over 228.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 228.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5400",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-231",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 230.5 points scored",
+   "yes_sub_title": "Over 230.5 points",
+   "no_sub_title": "Over 230.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 230.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5200",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-233",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 232.5 points scored",
+   "yes_sub_title": "Over 232.5 points",
+   "no_sub_title": "Over 232.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 232.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5200",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-235",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 234.5 points scored",
+   "yes_sub_title": "Over 234.5 points",
+   "no_sub_title": "Over 234.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 234.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5600",
+   "yes_ask_dollars": "0.8800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-237",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 236.5 points scored",
+   "yes_sub_title": "Over 236.5 points",
+   "no_sub_title": "Over 236.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 236.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.5200",
+   "yes_ask_dollars": "0.9000",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-239",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 238.5 points scored",
+   "yes_sub_title": "Over 238.5 points",
+   "no_sub_title": "Over 238.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 238.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.4900",
+   "yes_ask_dollars": "0.7700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-241",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 240.5 points scored",
+   "yes_sub_title": "Over 240.5 points",
+   "no_sub_title": "Over 240.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 240.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.4600",
+   "yes_ask_dollars": "0.5100",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-243",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 242.5 points scored",
+   "yes_sub_title": "Over 242.5 points",
+   "no_sub_title": "Over 242.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 242.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.1400",
+   "yes_ask_dollars": "0.5100",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-245",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 244.5 points scored",
+   "yes_sub_title": "Over 244.5 points",
+   "no_sub_title": "Over 244.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 244.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.4900",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-247",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 246.5 points scored",
+   "yes_sub_title": "Over 246.5 points",
+   "no_sub_title": "Over 246.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 246.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.4600",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-249",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 248.5 points scored",
+   "yes_sub_title": "Over 248.5 points",
+   "no_sub_title": "Over 248.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 248.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.1500",
+   "yes_ask_dollars": "0.3500",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-251",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 250.5 points scored",
+   "yes_sub_title": "Over 250.5 points",
+   "no_sub_title": "Over 250.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 250.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.3800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-253",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 252.5 points scored",
+   "yes_sub_title": "Over 252.5 points",
+   "no_sub_title": "Over 252.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 252.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.4200",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-255",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 254.5 points scored",
+   "yes_sub_title": "Over 254.5 points",
+   "no_sub_title": "Over 254.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 254.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.4200",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-257",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 256.5 points scored",
+   "yes_sub_title": "Over 256.5 points",
+   "no_sub_title": "Over 256.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 256.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.4200",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-259",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 258.5 points scored",
+   "yes_sub_title": "Over 258.5 points",
+   "no_sub_title": "Over 258.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 258.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.4200",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-261",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 260.5 points scored",
+   "yes_sub_title": "Over 260.5 points",
+   "no_sub_title": "Over 260.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 260.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.4200",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-263",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 262.5 points scored",
+   "yes_sub_title": "Over 262.5 points",
+   "no_sub_title": "Over 262.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 262.5,
+   "strike_type": "greater",
    "yes_bid_dollars": "0.0200",
-   "yes_ask_dollars": "0.5400",
+   "yes_ask_dollars": "0.4200",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-265",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 264.5 points scored",
+   "yes_sub_title": "Over 264.5 points",
+   "no_sub_title": "Over 264.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 264.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0200",
+   "yes_ask_dollars": "0.4200",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08MIASAC-267",
+   "event_ticker": "KXNBATOTAL-26NOV08MIASAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "Miami vs Sacramento: Total Points",
+   "title": "Full Game: Over 266.5 points scored",
+   "yes_sub_title": "Over 266.5 points",
+   "no_sub_title": "Over 266.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:51:35.236567Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 266.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0200",
+   "yes_ask_dollars": "0.4200",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-198",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 197.5 points scored",
+   "yes_sub_title": "Over 197.5 points",
+   "no_sub_title": "Over 197.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 197.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.9900",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-200",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 199.5 points scored",
+   "yes_sub_title": "Over 199.5 points",
+   "no_sub_title": "Over 199.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 199.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9900",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-202",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 201.5 points scored",
+   "yes_sub_title": "Over 201.5 points",
+   "no_sub_title": "Over 201.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 201.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-204",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 203.5 points scored",
+   "yes_sub_title": "Over 203.5 points",
+   "no_sub_title": "Over 203.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 203.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-206",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 205.5 points scored",
+   "yes_sub_title": "Over 205.5 points",
+   "no_sub_title": "Over 205.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 205.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-208",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 207.5 points scored",
+   "yes_sub_title": "Over 207.5 points",
+   "no_sub_title": "Over 207.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 207.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-210",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 209.5 points scored",
+   "yes_sub_title": "Over 209.5 points",
+   "no_sub_title": "Over 209.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 209.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-212",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 211.5 points scored",
+   "yes_sub_title": "Over 211.5 points",
+   "no_sub_title": "Over 211.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 211.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-214",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 213.5 points scored",
+   "yes_sub_title": "Over 213.5 points",
+   "no_sub_title": "Over 213.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 213.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-216",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 215.5 points scored",
+   "yes_sub_title": "Over 215.5 points",
+   "no_sub_title": "Over 215.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 215.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-218",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 217.5 points scored",
+   "yes_sub_title": "Over 217.5 points",
+   "no_sub_title": "Over 217.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 217.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0000",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-220",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 219.5 points scored",
+   "yes_sub_title": "Over 219.5 points",
+   "no_sub_title": "Over 219.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 219.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0300",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-222",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 221.5 points scored",
+   "yes_sub_title": "Over 221.5 points",
+   "no_sub_title": "Over 221.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 221.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0800",
+   "yes_ask_dollars": "0.9200",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-224",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 223.5 points scored",
+   "yes_sub_title": "Over 223.5 points",
+   "no_sub_title": "Over 223.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 223.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0400",
+   "yes_ask_dollars": "0.9800",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-226",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 225.5 points scored",
+   "yes_sub_title": "Over 225.5 points",
+   "no_sub_title": "Over 225.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 225.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0600",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-228",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 227.5 points scored",
+   "yes_sub_title": "Over 227.5 points",
+   "no_sub_title": "Over 227.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 227.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0600",
+   "yes_ask_dollars": "0.9400",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-230",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 229.5 points scored",
+   "yes_sub_title": "Over 229.5 points",
+   "no_sub_title": "Over 229.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 229.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-232",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 231.5 points scored",
+   "yes_sub_title": "Over 231.5 points",
+   "no_sub_title": "Over 231.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 231.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0400",
+   "yes_ask_dollars": "0.9600",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-234",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 233.5 points scored",
+   "yes_sub_title": "Over 233.5 points",
+   "no_sub_title": "Over 233.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 233.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-236",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 235.5 points scored",
+   "yes_sub_title": "Over 235.5 points",
+   "no_sub_title": "Over 235.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 235.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-238",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 237.5 points scored",
+   "yes_sub_title": "Over 237.5 points",
+   "no_sub_title": "Over 237.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 237.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-240",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 239.5 points scored",
+   "yes_sub_title": "Over 239.5 points",
+   "no_sub_title": "Over 239.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 239.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-242",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 241.5 points scored",
+   "yes_sub_title": "Over 241.5 points",
+   "no_sub_title": "Over 241.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 241.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-244",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 243.5 points scored",
+   "yes_sub_title": "Over 243.5 points",
+   "no_sub_title": "Over 243.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 243.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-246",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 245.5 points scored",
+   "yes_sub_title": "Over 245.5 points",
+   "no_sub_title": "Over 245.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 245.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-248",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 247.5 points scored",
+   "yes_sub_title": "Over 247.5 points",
+   "no_sub_title": "Over 247.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 247.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-250",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 249.5 points scored",
+   "yes_sub_title": "Over 249.5 points",
+   "no_sub_title": "Over 249.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 249.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0100",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-252",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 251.5 points scored",
+   "yes_sub_title": "Over 251.5 points",
+   "no_sub_title": "Over 251.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 251.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0200",
+   "yes_ask_dollars": "0.9700",
+   "last_price_dollars": "0.0000"
+  },
+  {
+   "ticker": "KXNBATOTAL-26NOV08NOPLAC-254",
+   "event_ticker": "KXNBATOTAL-26NOV08NOPLAC",
+   "series_ticker": "KXNBATOTAL",
+   "event_title": "New Orleans vs Los Angeles C: Total Points",
+   "title": "Full Game: Over 253.5 points scored",
+   "yes_sub_title": "Over 253.5 points",
+   "no_sub_title": "Over 253.5 points",
+   "status": "active",
+   "open_time": "2026-11-07T23:55:55.335409Z",
+   "close_time": "2026-11-11T02:00:00Z",
+   "expected_expiration_time": "2026-11-09T05:00:00Z",
+   "floor_strike": 253.5,
+   "strike_type": "greater",
+   "yes_bid_dollars": "0.0200",
+   "yes_ask_dollars": "0.9700",
    "last_price_dollars": "0.0000"
   }
  ]
