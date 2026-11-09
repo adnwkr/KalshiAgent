@@ -1,353 +1,111 @@
 {
- "fetched_at": "2026-11-08T23:45:01+00:00",
- "credits_used": "47",
- "credits_remaining": "453",
+ "fetched_at": "2026-11-09T18:50:27+00:00",
+ "credits_used": "56",
+ "credits_remaining": "444",
  "games": [
   {
-   "odds_api_id": "182e2b5349fa0ff4ad3c0e8359c1a9a0",
-   "commence_time": "2026-11-08T23:11:00Z",
+   "odds_api_id": "07361a8381206817e27bd2697fad7479",
+   "commence_time": "2026-11-10T00:10:00Z",
    "away": "LAL",
-   "home": "DET",
-   "n_books": 7,
+   "home": "ATL",
+   "n_books": 8,
    "consensus": {
-    "spread_home": 6.5,
-    "total": 212.5,
-    "novig_home_win": 0.31,
-    "novig_home_cover": 0.5,
+    "spread_home": -1.5,
+    "total": 235.75,
+    "novig_home_win": 0.54,
+    "novig_home_cover": 0.51,
     "novig_over": 0.5
    },
    "pinnacle": {
     "spread": {
-     "home_point": 6.5,
-     "home_price": -111,
-     "away_point": -6.5,
-     "away_price": -113,
-     "novig_home_cover": 0.4979
+     "home_point": -2.0,
+     "home_price": -101,
+     "away_point": 2.0,
+     "away_price": -111,
+     "novig_home_cover": 0.4885
     },
     "total": {
-     "point": 217.0,
-     "over_price": -109,
-     "under_price": -116,
-     "novig_over": 0.4927
+     "point": 236.0,
+     "over_price": -102,
+     "under_price": -113,
+     "novig_over": 0.4877
     },
     "ml": {
-     "home": 207,
-     "away": -243,
-     "novig_home": 0.315
+     "home": -119,
+     "away": 106,
+     "novig_home": 0.5282
     }
    },
    "best": {
     "home_spread": {
-     "point": 8.5,
-     "price": -115,
-     "book": "betmgm"
+     "point": -1.5,
+     "price": -114,
+     "book": "draftkings"
     },
     "away_spread": {
-     "point": -6.5,
+     "point": 2.5,
+     "price": -115,
+     "book": "fanduel"
+    },
+    "over": {
+     "point": 235.5,
+     "price": -114,
+     "book": "fanduel"
+    },
+    "under": {
+     "point": 236.5,
      "price": -110,
      "book": "draftkings"
     },
-    "over": {
-     "point": 210.5,
-     "price": -120,
-     "book": "espnbet"
-    },
-    "under": {
-     "point": 213.5,
-     "price": -118,
-     "book": "betrivers"
-    },
     "home_ml": {
-     "price": 285,
-     "book": "fanduel"
+     "price": -125,
+     "book": "draftkings"
     },
     "away_ml": {
-     "price": -250,
-     "book": "espnbet"
+     "price": 114,
+     "book": "fanduel"
     }
    },
    "books": {
     "fanduel": {
      "title": "FanDuel",
-     "last_update": "2026-11-08T23:44:31Z",
+     "last_update": "2026-11-09T18:50:04Z",
      "ml": {
-      "home": 285,
-      "away": -400,
-      "novig_home": 0.2451
+      "home": -134,
+      "away": 114,
+      "novig_home": 0.5507
      },
      "spread": {
-      "home_point": 8.5,
-      "home_price": -118,
-      "away_point": -8.5,
-      "away_price": -112,
-      "novig_home_cover": 0.5061
+      "home_point": -2.5,
+      "home_price": -105,
+      "away_point": 2.5,
+      "away_price": -115,
+      "novig_home_cover": 0.4892
      },
      "total": {
-      "point": 212.5,
-      "over_price": -112,
-      "under_price": -118,
-      "novig_over": 0.4939
-     }
-    },
-    "draftkings": {
-     "title": "DraftKings",
-     "last_update": "2026-11-08T23:43:38Z",
-     "ml": {
-      "home": 195,
-      "away": -265,
-      "novig_home": 0.3183
-     },
-     "spread": {
-      "home_point": 6.5,
-      "home_price": -120,
-      "away_point": -6.5,
-      "away_price": -110,
-      "novig_home_cover": 0.5101
-     },
-     "total": {
-      "point": 213.5,
-      "over_price": -110,
-      "under_price": -120,
-      "novig_over": 0.4899
-     }
-    },
-    "betrivers": {
-     "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
-     "ml": {
-      "home": 215,
-      "away": -278,
-      "novig_home": 0.3015
-     },
-     "spread": {
-      "home_point": 6.5,
-      "home_price": -112,
-      "away_point": -6.5,
-      "away_price": -121,
-      "novig_home_cover": 0.4911
-     },
-     "total": {
-      "point": 213.5,
+      "point": 235.5,
       "over_price": -114,
-      "under_price": -118,
-      "novig_over": 0.496
-     }
-    },
-    "betmgm": {
-     "title": "BetMGM",
-     "last_update": "2026-11-08T23:43:55Z",
-     "ml": {
-      "home": 260,
-      "away": -350,
-      "novig_home": 0.2632
-     },
-     "spread": {
-      "home_point": 8.5,
-      "home_price": -115,
-      "away_point": -8.5,
-      "away_price": -115,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 211.5,
-      "over_price": -125,
-      "under_price": -105,
-      "novig_over": 0.5203
-     }
-    },
-    "espnbet": {
-     "title": "theScore Bet",
-     "last_update": "2026-11-08T23:44:30Z",
-     "ml": {
-      "home": 190,
-      "away": -250,
-      "novig_home": 0.3256
-     },
-     "spread": {
-      "home_point": 6.5,
-      "home_price": -115,
-      "away_point": -6.5,
-      "away_price": -115,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 210.5,
-      "over_price": -120,
-      "under_price": -110,
-      "novig_over": 0.5101
-     }
-    },
-    "bovada": {
-     "title": "Bovada",
-     "last_update": "2026-11-08T23:44:52Z",
-     "ml": {
-      "home": 200,
-      "away": -275,
-      "novig_home": 0.3125
-     },
-     "spread": {
-      "home_point": 7.0,
-      "home_price": -120,
-      "away_point": -7.0,
-      "away_price": -110,
-      "novig_home_cover": 0.5101
-     },
-     "total": {
-      "point": 210.5,
-      "over_price": -120,
-      "under_price": -110,
-      "novig_over": 0.5101
-     }
-    },
-    "pinnacle": {
-     "title": "Pinnacle",
-     "last_update": "2026-11-08T23:44:46Z",
-     "ml": {
-      "home": 207,
-      "away": -243,
-      "novig_home": 0.315
-     },
-     "spread": {
-      "home_point": 6.5,
-      "home_price": -111,
-      "away_point": -6.5,
-      "away_price": -113,
-      "novig_home_cover": 0.4979
-     },
-     "total": {
-      "point": 217.0,
-      "over_price": -109,
-      "under_price": -116,
-      "novig_over": 0.4927
-     }
-    }
-   }
-  },
-  {
-   "odds_api_id": "758ca94b2abd151c0593b182254dab32",
-   "commence_time": "2026-11-09T00:10:00Z",
-   "away": "UTA",
-   "home": "MIN",
-   "n_books": 8,
-   "consensus": {
-    "spread_home": -12.5,
-    "total": 222.5,
-    "novig_home_win": 0.84,
-    "novig_home_cover": 0.5,
-    "novig_over": 0.5
-   },
-   "pinnacle": {
-    "spread": {
-     "home_point": -12.5,
-     "home_price": -106,
-     "away_point": 12.5,
-     "away_price": -106,
-     "novig_home_cover": 0.5
-    },
-    "total": {
-     "point": 222.5,
-     "over_price": -107,
-     "under_price": -107,
-     "novig_over": 0.5
-    },
-    "ml": {
-     "home": -648,
-     "away": 480,
-     "novig_home": 0.834
-    }
-   },
-   "best": {
-    "home_spread": {
-     "point": -12.5,
-     "price": -105,
-     "book": "espnbet"
-    },
-    "away_spread": {
-     "point": 12.5,
-     "price": -105,
-     "book": "betrivers"
-    },
-    "over": {
-     "point": 221.5,
-     "price": -110,
-     "book": "fanduel"
-    },
-    "under": {
-     "point": 222.5,
-     "price": -107,
-     "book": "betrivers"
-    },
-    "home_ml": {
-     "price": -650,
-     "book": "fanduel"
-    },
-    "away_ml": {
-     "price": 525,
-     "book": "betmgm"
-    }
-   },
-   "books": {
-    "fanduel": {
-     "title": "FanDuel",
-     "last_update": "2026-11-08T23:44:31Z",
-     "ml": {
-      "home": -650,
-      "away": 480,
-      "novig_home": 0.8341
-     },
-     "spread": {
-      "home_point": -12.5,
-      "home_price": -112,
-      "away_point": 12.5,
-      "away_price": -108,
-      "novig_home_cover": 0.5043
-     },
-     "total": {
-      "point": 221.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    },
-    "lowvig": {
-     "title": "LowVig.ag",
-     "last_update": "2026-11-08T23:44:47Z",
-     "ml": {
-      "home": -689,
-      "away": 517,
-      "novig_home": 0.8435
-     },
-     "spread": {
-      "home_point": -12.0,
-      "home_price": -111,
-      "away_point": 12.0,
-      "away_price": -101,
-      "novig_home_cover": 0.5115
-     },
-     "total": {
-      "point": 222.5,
-      "over_price": -107,
-      "under_price": -107,
-      "novig_over": 0.5
+      "under_price": -106,
+      "novig_over": 0.5087
      }
     },
     "draftkings": {
      "title": "DraftKings",
-     "last_update": "2026-11-08T23:43:38Z",
+     "last_update": "2026-11-09T18:48:36Z",
      "ml": {
-      "home": -700,
-      "away": 504,
-      "novig_home": 0.8409
+      "home": -125,
+      "away": 106,
+      "novig_home": 0.5337
      },
      "spread": {
-      "home_point": -12.5,
-      "home_price": -108,
-      "away_point": 12.5,
-      "away_price": -112,
-      "novig_home_cover": 0.4957
+      "home_point": -1.5,
+      "home_price": -114,
+      "away_point": 1.5,
+      "away_price": -106,
+      "novig_home_cover": 0.5087
      },
      "total": {
-      "point": 222.5,
+      "point": 236.5,
       "over_price": -110,
       "under_price": -110,
       "novig_over": 0.5
@@ -355,263 +113,329 @@
     },
     "betrivers": {
      "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
+     "last_update": "2026-11-09T18:49:46Z",
      "ml": {
-      "home": -770,
-      "away": 510,
-      "novig_home": 0.8437
+      "home": -129,
+      "away": 107,
+      "novig_home": 0.5383
      },
      "spread": {
-      "home_point": -12.5,
-      "home_price": -118,
-      "away_point": 12.5,
-      "away_price": -105,
-      "novig_home_cover": 0.5138
+      "home_point": -1.5,
+      "home_price": -114,
+      "away_point": 1.5,
+      "away_price": -109,
+      "novig_home_cover": 0.5053
      },
      "total": {
-      "point": 222.5,
+      "point": 235.5,
       "over_price": -115,
       "under_price": -107,
       "novig_over": 0.5085
      }
     },
-    "betmgm": {
-     "title": "BetMGM",
-     "last_update": "2026-11-08T23:43:55Z",
-     "ml": {
-      "home": -750,
-      "away": 525,
-      "novig_home": 0.8465
-     },
-     "spread": {
-      "home_point": -12.5,
-      "home_price": -110,
-      "away_point": 12.5,
-      "away_price": -110,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 222.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    },
     "espnbet": {
      "title": "theScore Bet",
-     "last_update": "2026-11-08T23:44:30Z",
+     "last_update": "2026-11-09T18:50:03Z",
      "ml": {
-      "home": -800,
-      "away": 500,
-      "novig_home": 0.8421
+      "home": -125,
+      "away": 105,
+      "novig_home": 0.5325
      },
      "spread": {
-      "home_point": -12.5,
-      "home_price": -105,
-      "away_point": 12.5,
-      "away_price": -115,
-      "novig_home_cover": 0.4892
+      "home_point": -1.5,
+      "home_price": -115,
+      "away_point": 1.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5108
      },
      "total": {
-      "point": 222.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
+      "point": 235.5,
+      "over_price": -115,
+      "under_price": -105,
+      "novig_over": 0.5108
      }
     },
-    "bovada": {
-     "title": "Bovada",
-     "last_update": "2026-11-08T23:44:52Z",
+    "betmgm": {
+     "title": "BetMGM",
+     "last_update": "2026-11-09T18:49:46Z",
      "ml": {
-      "home": -675,
-      "away": 460,
-      "novig_home": 0.8299
+      "home": -130,
+      "away": 105,
+      "novig_home": 0.5368
      },
      "spread": {
-      "home_point": -12.5,
-      "home_price": -110,
-      "away_point": 12.5,
-      "away_price": -110,
-      "novig_home_cover": 0.5
+      "home_point": -1.5,
+      "home_price": -115,
+      "away_point": 1.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5108
      },
      "total": {
-      "point": 222.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    },
-    "pinnacle": {
-     "title": "Pinnacle",
-     "last_update": "2026-11-08T23:44:46Z",
-     "ml": {
-      "home": -648,
-      "away": 480,
-      "novig_home": 0.834
-     },
-     "spread": {
-      "home_point": -12.5,
-      "home_price": -106,
-      "away_point": 12.5,
-      "away_price": -106,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 222.5,
-      "over_price": -107,
-      "under_price": -107,
-      "novig_over": 0.5
-     }
-    }
-   }
-  },
-  {
-   "odds_api_id": "c5b6599e8e4949749798dcdadceb68d4",
-   "commence_time": "2026-11-09T00:40:00Z",
-   "away": "BKN",
-   "home": "DAL",
-   "n_books": 8,
-   "consensus": {
-    "spread_home": -7.5,
-    "total": 223.5,
-    "novig_home_win": 0.72,
-    "novig_home_cover": 0.5,
-    "novig_over": 0.5
-   },
-   "pinnacle": {
-    "spread": {
-     "home_point": -7.5,
-     "home_price": -102,
-     "away_point": 7.5,
-     "away_price": -108,
-     "novig_home_cover": 0.493
-    },
-    "total": {
-     "point": 224.0,
-     "over_price": -106,
-     "under_price": -106,
-     "novig_over": 0.5
-    },
-    "ml": {
-     "home": -297,
-     "away": 256,
-     "novig_home": 0.727
-    }
-   },
-   "best": {
-    "home_spread": {
-     "point": -7.5,
-     "price": -105,
-     "book": "espnbet"
-    },
-    "away_spread": {
-     "point": 7.5,
-     "price": -108,
-     "book": "fanduel"
-    },
-    "over": {
-     "point": 223.5,
-     "price": -107,
-     "book": "betrivers"
-    },
-    "under": {
-     "point": 224.5,
-     "price": -115,
-     "book": "espnbet"
-    },
-    "home_ml": {
-     "price": -286,
-     "book": "betrivers"
-    },
-    "away_ml": {
-     "price": 248,
-     "book": "draftkings"
-    }
-   },
-   "books": {
-    "fanduel": {
-     "title": "FanDuel",
-     "last_update": "2026-11-08T23:44:31Z",
-     "ml": {
-      "home": -300,
-      "away": 245,
-      "novig_home": 0.7213
-     },
-     "spread": {
-      "home_point": -7.5,
-      "home_price": -112,
-      "away_point": 7.5,
-      "away_price": -108,
-      "novig_home_cover": 0.5043
-     },
-     "total": {
-      "point": 223.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
+      "point": 236.5,
+      "over_price": -105,
+      "under_price": -115,
+      "novig_over": 0.4892
      }
     },
     "lowvig": {
      "title": "LowVig.ag",
-     "last_update": "2026-11-08T23:44:47Z",
+     "last_update": "2026-11-09T18:50:04Z",
      "ml": {
-      "home": -317,
-      "away": 263,
-      "novig_home": 0.734
+      "home": -125,
+      "away": 109,
+      "novig_home": 0.5373
      },
      "spread": {
-      "home_point": -7.0,
+      "home_point": -1.5,
       "home_price": -111,
-      "away_point": 7.0,
+      "away_point": 1.5,
       "away_price": -101,
       "novig_home_cover": 0.5115
      },
      "total": {
-      "point": 223.5,
+      "point": 236.5,
       "over_price": -109,
       "under_price": -105,
       "novig_over": 0.5045
      }
     },
-    "draftkings": {
-     "title": "DraftKings",
-     "last_update": "2026-11-08T23:43:38Z",
+    "bovada": {
+     "title": "Bovada",
+     "last_update": "2026-11-09T18:49:58Z",
      "ml": {
-      "home": -305,
-      "away": 248,
-      "novig_home": 0.7238
+      "home": -125,
+      "away": 105,
+      "novig_home": 0.5325
      },
      "spread": {
-      "home_point": -7.5,
-      "home_price": -107,
-      "away_point": 7.5,
-      "away_price": -113,
-      "novig_home_cover": 0.4935
+      "home_point": -2.0,
+      "home_price": -105,
+      "away_point": 2.0,
+      "away_price": -115,
+      "novig_home_cover": 0.4892
      },
      "total": {
-      "point": 223.5,
-      "over_price": -108,
-      "under_price": -112,
-      "novig_over": 0.4957
+      "point": 235.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
      }
     },
-    "betmgm": {
-     "title": "BetMGM",
-     "last_update": "2026-11-08T23:43:55Z",
+    "pinnacle": {
+     "title": "Pinnacle",
+     "last_update": "2026-11-09T18:50:22Z",
      "ml": {
-      "home": -300,
-      "away": 240,
-      "novig_home": 0.7183
+      "home": -119,
+      "away": 106,
+      "novig_home": 0.5282
      },
      "spread": {
-      "home_point": -7.5,
+      "home_point": -2.0,
+      "home_price": -101,
+      "away_point": 2.0,
+      "away_price": -111,
+      "novig_home_cover": 0.4885
+     },
+     "total": {
+      "point": 236.0,
+      "over_price": -102,
+      "under_price": -113,
+      "novig_over": 0.4877
+     }
+    }
+   }
+  },
+  {
+   "odds_api_id": "1df5ff8fe9c6d2dbff1d0ae176063b37",
+   "commence_time": "2026-11-10T00:10:00Z",
+   "away": "CLE",
+   "home": "CHA",
+   "n_books": 8,
+   "consensus": {
+    "spread_home": 8.5,
+    "total": 214.5,
+    "novig_home_win": 0.26,
+    "novig_home_cover": 0.5,
+    "novig_over": 0.5
+   },
+   "pinnacle": {
+    "spread": {
+     "home_point": 8.5,
+     "home_price": -107,
+     "away_point": -8.5,
+     "away_price": -103,
+     "novig_home_cover": 0.5046
+    },
+    "total": {
+     "point": 214.5,
+     "over_price": -113,
+     "under_price": -101,
+     "novig_over": 0.5136
+    },
+    "ml": {
+     "home": 286,
+     "away": -336,
+     "novig_home": 0.2516
+    }
+   },
+   "best": {
+    "home_spread": {
+     "point": 8.5,
+     "price": -104,
+     "book": "draftkings"
+    },
+    "away_spread": {
+     "point": -8.5,
+     "price": -110,
+     "book": "betmgm"
+    },
+    "over": {
+     "point": 214.5,
+     "price": -110,
+     "book": "espnbet"
+    },
+    "under": {
+     "point": 215.5,
+     "price": -115,
+     "book": "betrivers"
+    },
+    "home_ml": {
+     "price": 290,
+     "book": "fanduel"
+    },
+    "away_ml": {
+     "price": -335,
+     "book": "betrivers"
+    }
+   },
+   "books": {
+    "fanduel": {
+     "title": "FanDuel",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": 290,
+      "away": -360,
+      "novig_home": 0.2468
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -105,
+      "away_point": -8.5,
+      "away_price": -115,
+      "novig_home_cover": 0.4892
+     },
+     "total": {
+      "point": 214.5,
+      "over_price": -112,
+      "under_price": -108,
+      "novig_over": 0.5043
+     }
+    },
+    "pinnacle": {
+     "title": "Pinnacle",
+     "last_update": "2026-11-09T18:50:22Z",
+     "ml": {
+      "home": 286,
+      "away": -336,
+      "novig_home": 0.2516
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -107,
+      "away_point": -8.5,
+      "away_price": -103,
+      "novig_home_cover": 0.5046
+     },
+     "total": {
+      "point": 214.5,
+      "over_price": -113,
+      "under_price": -101,
+      "novig_over": 0.5136
+     }
+    },
+    "lowvig": {
+     "title": "LowVig.ag",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": 282,
+      "away": -342,
+      "novig_home": 0.2528
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -104,
+      "away_point": -8.5,
+      "away_price": -108,
+      "novig_home_cover": 0.4954
+     },
+     "total": {
+      "point": 214.5,
+      "over_price": -107,
+      "under_price": -107,
+      "novig_over": 0.5
+     }
+    },
+    "bovada": {
+     "title": "Bovada",
+     "last_update": "2026-11-09T18:49:58Z",
+     "ml": {
+      "home": 275,
+      "away": -350,
+      "novig_home": 0.2553
+     },
+     "spread": {
+      "home_point": 8.5,
       "home_price": -110,
-      "away_point": 7.5,
+      "away_point": -8.5,
       "away_price": -110,
       "novig_home_cover": 0.5
      },
      "total": {
-      "point": 223.5,
+      "point": 215.0,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "draftkings": {
+     "title": "DraftKings",
+     "last_update": "2026-11-09T18:48:36Z",
+     "ml": {
+      "home": 270,
+      "away": -337,
+      "novig_home": 0.2595
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -104,
+      "away_point": -8.5,
+      "away_price": -116,
+      "novig_home_cover": 0.487
+     },
+     "total": {
+      "point": 214.5,
+      "over_price": -112,
+      "under_price": -108,
+      "novig_over": 0.5043
+     }
+    },
+    "espnbet": {
+     "title": "theScore Bet",
+     "last_update": "2026-11-09T18:50:03Z",
+     "ml": {
+      "home": 270,
+      "away": -340,
+      "novig_home": 0.2591
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -105,
+      "away_point": -8.5,
+      "away_price": -115,
+      "novig_home_cover": 0.4892
+     },
+     "total": {
+      "point": 214.5,
       "over_price": -110,
       "under_price": -110,
       "novig_over": 0.5
@@ -619,65 +443,241 @@
     },
     "betrivers": {
      "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
+     "last_update": "2026-11-09T18:49:46Z",
      "ml": {
-      "home": -286,
-      "away": 225,
-      "novig_home": 0.7066
+      "home": 255,
+      "away": -335,
+      "novig_home": 0.2678
      },
      "spread": {
-      "home_point": -7.5,
-      "home_price": -110,
-      "away_point": 7.5,
-      "away_price": -112,
-      "novig_home_cover": 0.4979
+      "home_point": 8.5,
+      "home_price": -109,
+      "away_point": -8.5,
+      "away_price": -113,
+      "novig_home_cover": 0.4957
      },
      "total": {
-      "point": 223.5,
+      "point": 215.5,
       "over_price": -107,
-      "under_price": -117,
-      "novig_over": 0.4895
+      "under_price": -115,
+      "novig_over": 0.4915
+     }
+    },
+    "betmgm": {
+     "title": "BetMGM",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": 275,
+      "away": -350,
+      "novig_home": 0.2553
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -110,
+      "away_point": -8.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 214.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    }
+   }
+  },
+  {
+   "odds_api_id": "929b863acedecaf614c6312e28a44837",
+   "commence_time": "2026-11-10T00:10:00Z",
+   "away": "WAS",
+   "home": "DET",
+   "n_books": 8,
+   "consensus": {
+    "spread_home": -10.5,
+    "total": 218.75,
+    "novig_home_win": 0.8,
+    "novig_home_cover": 0.5,
+    "novig_over": 0.5
+   },
+   "pinnacle": {
+    "spread": {
+     "home_point": -10.5,
+     "home_price": -105,
+     "away_point": 10.5,
+     "away_price": -107,
+     "novig_home_cover": 0.4977
+    },
+    "total": {
+     "point": 219.0,
+     "over_price": -106,
+     "under_price": -109,
+     "novig_over": 0.4966
+    },
+    "ml": {
+     "home": -508,
+     "away": 393,
+     "novig_home": 0.8047
+    }
+   },
+   "best": {
+    "home_spread": {
+     "point": -9.5,
+     "price": -120,
+     "book": "espnbet"
+    },
+    "away_spread": {
+     "point": 10.5,
+     "price": -110,
+     "book": "fanduel"
+    },
+    "over": {
+     "point": 218.5,
+     "price": -110,
+     "book": "espnbet"
+    },
+    "under": {
+     "point": 219.5,
+     "price": -115,
+     "book": "betmgm"
+    },
+    "home_ml": {
+     "price": -450,
+     "book": "espnbet"
+    },
+    "away_ml": {
+     "price": 385,
+     "book": "fanduel"
+    }
+   },
+   "books": {
+    "fanduel": {
+     "title": "FanDuel",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": -500,
+      "away": 385,
+      "novig_home": 0.8017
+     },
+     "spread": {
+      "home_point": -10.5,
+      "home_price": -110,
+      "away_point": 10.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 218.5,
+      "over_price": -112,
+      "under_price": -108,
+      "novig_over": 0.5043
+     }
+    },
+    "lowvig": {
+     "title": "LowVig.ag",
+     "last_update": "2026-11-09T18:45:22Z",
+     "ml": {
+      "home": -488,
+      "away": 387,
+      "novig_home": 0.8017
+     },
+     "spread": {
+      "home_point": -10.5,
+      "home_price": -104,
+      "away_point": 10.5,
+      "away_price": -108,
+      "novig_home_cover": 0.4954
+     },
+     "total": {
+      "point": 219.0,
+      "over_price": -107,
+      "under_price": -107,
+      "novig_over": 0.5
+     }
+    },
+    "betrivers": {
+     "title": "BetRivers",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -500,
+      "away": 360,
+      "novig_home": 0.7931
+     },
+     "spread": {
+      "home_point": -10.5,
+      "home_price": -106,
+      "away_point": 10.5,
+      "away_price": -117,
+      "novig_home_cover": 0.4883
+     },
+     "total": {
+      "point": 218.5,
+      "over_price": -115,
+      "under_price": -107,
+      "novig_over": 0.5085
+     }
+    },
+    "draftkings": {
+     "title": "DraftKings",
+     "last_update": "2026-11-09T18:48:36Z",
+     "ml": {
+      "home": -490,
+      "away": 376,
+      "novig_home": 0.7981
+     },
+     "spread": {
+      "home_point": -10.5,
+      "home_price": -108,
+      "away_point": 10.5,
+      "away_price": -112,
+      "novig_home_cover": 0.4957
+     },
+     "total": {
+      "point": 218.5,
+      "over_price": -112,
+      "under_price": -108,
+      "novig_over": 0.5043
      }
     },
     "pinnacle": {
      "title": "Pinnacle",
-     "last_update": "2026-11-08T23:44:46Z",
+     "last_update": "2026-11-09T18:49:11Z",
      "ml": {
-      "home": -297,
-      "away": 256,
-      "novig_home": 0.727
+      "home": -508,
+      "away": 393,
+      "novig_home": 0.8047
      },
      "spread": {
-      "home_point": -7.5,
-      "home_price": -102,
-      "away_point": 7.5,
-      "away_price": -108,
-      "novig_home_cover": 0.493
+      "home_point": -10.5,
+      "home_price": -105,
+      "away_point": 10.5,
+      "away_price": -107,
+      "novig_home_cover": 0.4977
      },
      "total": {
-      "point": 224.0,
+      "point": 219.0,
       "over_price": -106,
-      "under_price": -106,
-      "novig_over": 0.5
+      "under_price": -109,
+      "novig_over": 0.4966
      }
     },
     "bovada": {
      "title": "Bovada",
-     "last_update": "2026-11-08T23:44:52Z",
+     "last_update": "2026-11-09T18:49:58Z",
      "ml": {
-      "home": -300,
-      "away": 250,
-      "novig_home": 0.7241
+      "home": -525,
+      "away": 375,
+      "novig_home": 0.7996
      },
      "spread": {
-      "home_point": -7.5,
-      "home_price": -105,
-      "away_point": 7.5,
-      "away_price": -115,
-      "novig_home_cover": 0.4892
+      "home_point": -10.5,
+      "home_price": -110,
+      "away_point": 10.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
      },
      "total": {
-      "point": 224.0,
+      "point": 219.0,
       "over_price": -110,
       "under_price": -110,
       "novig_over": 0.5
@@ -685,21 +685,43 @@
     },
     "espnbet": {
      "title": "theScore Bet",
-     "last_update": "2026-11-08T23:44:30Z",
+     "last_update": "2026-11-09T18:50:03Z",
      "ml": {
-      "home": -290,
-      "away": 240,
-      "novig_home": 0.7166
+      "home": -450,
+      "away": 340,
+      "novig_home": 0.7826
      },
      "spread": {
-      "home_point": -7.5,
-      "home_price": -105,
-      "away_point": 7.5,
-      "away_price": -115,
-      "novig_home_cover": 0.4892
+      "home_point": -9.5,
+      "home_price": -120,
+      "away_point": 9.5,
+      "away_price": 100,
+      "novig_home_cover": 0.5217
      },
      "total": {
-      "point": 224.5,
+      "point": 218.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "betmgm": {
+     "title": "BetMGM",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -500,
+      "away": 375,
+      "novig_home": 0.7983
+     },
+     "spread": {
+      "home_point": -10.5,
+      "home_price": -110,
+      "away_point": 10.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 219.5,
       "over_price": -105,
       "under_price": -115,
       "novig_over": 0.4892
@@ -708,86 +730,394 @@
    }
   },
   {
-   "odds_api_id": "98eae523edadc7d4d42ab37222eb2c88",
-   "commence_time": "2026-11-09T01:10:00Z",
-   "away": "BOS",
-   "home": "MIL",
+   "odds_api_id": "56efae2815b3a18850f07a3781d652a2",
+   "commence_time": "2026-11-10T00:40:00Z",
+   "away": "MEM",
+   "home": "TOR",
    "n_books": 8,
    "consensus": {
-    "spread_home": 13.5,
-    "total": 221.75,
-    "novig_home_win": 0.15,
+    "spread_home": -2.5,
+    "total": 228.5,
+    "novig_home_win": 0.56,
     "novig_home_cover": 0.5,
     "novig_over": 0.5
    },
    "pinnacle": {
     "spread": {
-     "home_point": 13.5,
-     "home_price": -105,
-     "away_point": -13.5,
-     "away_price": -105,
-     "novig_home_cover": 0.5
+     "home_point": -3.0,
+     "home_price": 101,
+     "away_point": 3.0,
+     "away_price": -114,
+     "novig_home_cover": 0.4829
     },
     "total": {
-     "point": 222.5,
-     "over_price": 102,
-     "under_price": -115,
-     "novig_over": 0.4807
+     "point": 229.0,
+     "over_price": -103,
+     "under_price": -111,
+     "novig_over": 0.491
     },
     "ml": {
-     "home": 569,
-     "away": -752,
-     "novig_home": 0.1448
+     "home": -134,
+     "away": 119,
+     "novig_home": 0.5564
     }
    },
    "best": {
     "home_spread": {
-     "point": 13.5,
-     "price": -110,
-     "book": "espnbet"
+     "point": -2.5,
+     "price": -108,
+     "book": "fanduel"
     },
     "away_spread": {
-     "point": -12.5,
-     "price": -118,
-     "book": "betrivers"
+     "point": 2.5,
+     "price": -110,
+     "book": "betmgm"
     },
     "over": {
-     "point": 221.5,
-     "price": -107,
+     "point": 228.5,
+     "price": -108,
      "book": "draftkings"
     },
     "under": {
-     "point": 222.5,
-     "price": -108,
-     "book": "betrivers"
+     "point": 228.5,
+     "price": -110,
+     "book": "fanduel"
     },
     "home_ml": {
-     "price": 575,
-     "book": "betmgm"
+     "price": -140,
+     "book": "espnbet"
     },
     "away_ml": {
-     "price": -715,
-     "book": "betrivers"
+     "price": 120,
+     "book": "fanduel"
     }
    },
    "books": {
     "fanduel": {
      "title": "FanDuel",
-     "last_update": "2026-11-08T23:44:31Z",
+     "last_update": "2026-11-09T18:50:04Z",
      "ml": {
-      "home": 530,
-      "away": -750,
-      "novig_home": 0.1525
+      "home": -142,
+      "away": 120,
+      "novig_home": 0.5635
      },
      "spread": {
-      "home_point": 13.5,
+      "home_point": -2.5,
+      "home_price": -108,
+      "away_point": 2.5,
+      "away_price": -112,
+      "novig_home_cover": 0.4957
+     },
+     "total": {
+      "point": 228.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "lowvig": {
+     "title": "LowVig.ag",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": -144,
+      "away": 127,
+      "novig_home": 0.5726
+     },
+     "spread": {
+      "home_point": -2.5,
+      "home_price": -106,
+      "away_point": 2.5,
+      "away_price": -106,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 228.5,
+      "over_price": -107,
+      "under_price": -107,
+      "novig_over": 0.5
+     }
+    },
+    "bovada": {
+     "title": "Bovada",
+     "last_update": "2026-11-09T18:49:58Z",
+     "ml": {
+      "home": -140,
+      "away": 120,
+      "novig_home": 0.562
+     },
+     "spread": {
+      "home_point": -2.5,
       "home_price": -115,
-      "away_point": -13.5,
+      "away_point": 2.5,
       "away_price": -105,
       "novig_home_cover": 0.5108
      },
      "total": {
-      "point": 221.5,
+      "point": 228.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "pinnacle": {
+     "title": "Pinnacle",
+     "last_update": "2026-11-09T18:50:22Z",
+     "ml": {
+      "home": -134,
+      "away": 119,
+      "novig_home": 0.5564
+     },
+     "spread": {
+      "home_point": -3.0,
+      "home_price": 101,
+      "away_point": 3.0,
+      "away_price": -114,
+      "novig_home_cover": 0.4829
+     },
+     "total": {
+      "point": 229.0,
+      "over_price": -103,
+      "under_price": -111,
+      "novig_over": 0.491
+     }
+    },
+    "betmgm": {
+     "title": "BetMGM",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -145,
+      "away": 118,
+      "novig_home": 0.5634
+     },
+     "spread": {
+      "home_point": -2.5,
+      "home_price": -110,
+      "away_point": 2.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 228.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "draftkings": {
+     "title": "DraftKings",
+     "last_update": "2026-11-09T18:48:36Z",
+     "ml": {
+      "home": -142,
+      "away": 120,
+      "novig_home": 0.5635
+     },
+     "spread": {
+      "home_point": -2.5,
+      "home_price": -110,
+      "away_point": 2.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 228.5,
+      "over_price": -108,
+      "under_price": -112,
+      "novig_over": 0.4957
+     }
+    },
+    "espnbet": {
+     "title": "theScore Bet",
+     "last_update": "2026-11-09T18:50:03Z",
+     "ml": {
+      "home": -140,
+      "away": 120,
+      "novig_home": 0.562
+     },
+     "spread": {
+      "home_point": -2.5,
+      "home_price": -110,
+      "away_point": 2.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 228.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "betrivers": {
+     "title": "BetRivers",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -143,
+      "away": 118,
+      "novig_home": 0.562
+     },
+     "spread": {
+      "home_point": -2.5,
+      "home_price": -112,
+      "away_point": 2.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5021
+     },
+     "total": {
+      "point": 228.5,
+      "over_price": -110,
+      "under_price": -112,
+      "novig_over": 0.4979
+     }
+    }
+   }
+  },
+  {
+   "odds_api_id": "9866fa22adc8509d487522ef4cf0fc24",
+   "commence_time": "2026-11-10T01:10:00Z",
+   "away": "IND",
+   "home": "DAL",
+   "n_books": 8,
+   "consensus": {
+    "spread_home": -3.5,
+    "total": 225.5,
+    "novig_home_win": 0.59,
+    "novig_home_cover": 0.5,
+    "novig_over": 0.5
+   },
+   "pinnacle": {
+    "spread": {
+     "home_point": -3.5,
+     "home_price": -105,
+     "away_point": 3.5,
+     "away_price": -107,
+     "novig_home_cover": 0.4977
+    },
+    "total": {
+     "point": 226.0,
+     "over_price": -108,
+     "under_price": -106,
+     "novig_over": 0.5023
+    },
+    "ml": {
+     "home": -156,
+     "away": 137,
+     "novig_home": 0.5909
+    }
+   },
+   "best": {
+    "home_spread": {
+     "point": -2.5,
+     "price": -118,
+     "book": "betrivers"
+    },
+    "away_spread": {
+     "point": 3.5,
+     "price": -110,
+     "book": "espnbet"
+    },
+    "over": {
+     "point": 225.5,
+     "price": -110,
+     "book": "espnbet"
+    },
+    "under": {
+     "point": 226.5,
+     "price": -114,
+     "book": "betrivers"
+    },
+    "home_ml": {
+     "price": -150,
+     "book": "espnbet"
+    },
+    "away_ml": {
+     "price": 136,
+     "book": "draftkings"
+    }
+   },
+   "books": {
+    "fanduel": {
+     "title": "FanDuel",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": -154,
+      "away": 130,
+      "novig_home": 0.5824
+     },
+     "spread": {
+      "home_point": -3.5,
+      "home_price": -108,
+      "away_point": 3.5,
+      "away_price": -112,
+      "novig_home_cover": 0.4957
+     },
+     "total": {
+      "point": 225.5,
+      "over_price": -112,
+      "under_price": -108,
+      "novig_over": 0.5043
+     }
+    },
+    "espnbet": {
+     "title": "theScore Bet",
+     "last_update": "2026-11-09T18:50:03Z",
+     "ml": {
+      "home": -150,
+      "away": 130,
+      "novig_home": 0.5798
+     },
+     "spread": {
+      "home_point": -3.5,
+      "home_price": -110,
+      "away_point": 3.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 225.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "betrivers": {
+     "title": "BetRivers",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -152,
+      "away": 125,
+      "novig_home": 0.5758
+     },
+     "spread": {
+      "home_point": -2.5,
+      "home_price": -118,
+      "away_point": 2.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5138
+     },
+     "total": {
+      "point": 226.5,
+      "over_price": -108,
+      "under_price": -114,
+      "novig_over": 0.4936
+     }
+    },
+    "draftkings": {
+     "title": "DraftKings",
+     "last_update": "2026-11-09T18:48:36Z",
+     "ml": {
+      "home": -161,
+      "away": 136,
+      "novig_home": 0.5928
+     },
+     "spread": {
+      "home_point": -3.5,
+      "home_price": -110,
+      "away_point": 3.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 225.5,
       "over_price": -115,
       "under_price": -105,
       "novig_over": 0.5108
@@ -795,153 +1125,571 @@
     },
     "lowvig": {
      "title": "LowVig.ag",
-     "last_update": "2026-11-08T23:44:47Z",
+     "last_update": "2026-11-09T18:50:04Z",
      "ml": {
-      "home": 587,
-      "away": -805,
-      "novig_home": 0.1406
+      "home": -155,
+      "away": 136,
+      "novig_home": 0.5892
      },
      "spread": {
-      "home_point": 13.5,
-      "home_price": -106,
-      "away_point": -13.5,
-      "away_price": -106,
-      "novig_home_cover": 0.5
+      "home_point": -3.5,
+      "home_price": -111,
+      "away_point": 3.5,
+      "away_price": -101,
+      "novig_home_cover": 0.5115
      },
      "total": {
-      "point": 222.0,
-      "over_price": -105,
-      "under_price": -109,
-      "novig_over": 0.4955
+      "point": 225.5,
+      "over_price": -113,
+      "under_price": -102,
+      "novig_over": 0.5123
      }
     },
-    "draftkings": {
-     "title": "DraftKings",
-     "last_update": "2026-11-08T23:43:38Z",
+    "betmgm": {
+     "title": "BetMGM",
+     "last_update": "2026-11-09T18:49:46Z",
      "ml": {
-      "home": 551,
-      "away": -790,
-      "novig_home": 0.1475
+      "home": -160,
+      "away": 135,
+      "novig_home": 0.5912
      },
      "spread": {
-      "home_point": 13.5,
-      "home_price": -112,
-      "away_point": -13.5,
-      "away_price": -108,
-      "novig_home_cover": 0.5043
-     },
-     "total": {
-      "point": 221.5,
-      "over_price": -107,
-      "under_price": -113,
-      "novig_over": 0.4935
-     }
-    },
-    "betrivers": {
-     "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
-     "ml": {
-      "home": 480,
-      "away": -715,
-      "novig_home": 0.1642
-     },
-     "spread": {
-      "home_point": 12.5,
-      "home_price": -105,
-      "away_point": -12.5,
-      "away_price": -118,
-      "novig_home_cover": 0.4862
-     },
-     "total": {
-      "point": 222.5,
-      "over_price": -115,
-      "under_price": -108,
-      "novig_over": 0.5074
-     }
-    },
-    "espnbet": {
-     "title": "theScore Bet",
-     "last_update": "2026-11-08T23:44:30Z",
-     "ml": {
-      "home": 550,
-      "away": -900,
-      "novig_home": 0.146
-     },
-     "spread": {
-      "home_point": 13.5,
+      "home_point": -3.5,
       "home_price": -110,
-      "away_point": -13.5,
+      "away_point": 3.5,
       "away_price": -110,
       "novig_home_cover": 0.5
      },
      "total": {
-      "point": 222.5,
-      "over_price": -105,
-      "under_price": -115,
-      "novig_over": 0.4892
-     }
-    },
-    "bovada": {
-     "title": "Bovada",
-     "last_update": "2026-11-08T23:44:52Z",
-     "ml": {
-      "home": 525,
-      "away": -800,
-      "novig_home": 0.1525
-     },
-     "spread": {
-      "home_point": 13.5,
-      "home_price": -110,
-      "away_point": -13.5,
-      "away_price": -110,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 221.5,
+      "point": 225.5,
       "over_price": -115,
       "under_price": -105,
       "novig_over": 0.5108
      }
     },
-    "pinnacle": {
-     "title": "Pinnacle",
-     "last_update": "2026-11-08T23:44:46Z",
+    "bovada": {
+     "title": "Bovada",
+     "last_update": "2026-11-09T18:49:58Z",
      "ml": {
-      "home": 569,
-      "away": -752,
-      "novig_home": 0.1448
+      "home": -160,
+      "away": 135,
+      "novig_home": 0.5912
      },
      "spread": {
-      "home_point": 13.5,
-      "home_price": -105,
-      "away_point": -13.5,
-      "away_price": -105,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 222.5,
-      "over_price": 102,
-      "under_price": -115,
-      "novig_over": 0.4807
-     }
-    },
-    "betmgm": {
-     "title": "BetMGM",
-     "last_update": "2026-11-08T23:43:55Z",
-     "ml": {
-      "home": 575,
-      "away": -900,
-      "novig_home": 0.1413
-     },
-     "spread": {
-      "home_point": 13.5,
+      "home_point": -3.5,
       "home_price": -110,
-      "away_point": -13.5,
+      "away_point": 3.5,
       "away_price": -110,
       "novig_home_cover": 0.5
      },
      "total": {
-      "point": 221.5,
+      "point": 226.0,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "pinnacle": {
+     "title": "Pinnacle",
+     "last_update": "2026-11-09T18:50:22Z",
+     "ml": {
+      "home": -156,
+      "away": 137,
+      "novig_home": 0.5909
+     },
+     "spread": {
+      "home_point": -3.5,
+      "home_price": -105,
+      "away_point": 3.5,
+      "away_price": -107,
+      "novig_home_cover": 0.4977
+     },
+     "total": {
+      "point": 226.0,
+      "over_price": -108,
+      "under_price": -106,
+      "novig_over": 0.5023
+     }
+    }
+   }
+  },
+  {
+   "odds_api_id": "dc61de43b5db9de357f48f44c8022494",
+   "commence_time": "2026-11-10T01:40:00Z",
+   "away": "DEN",
+   "home": "HOU",
+   "n_books": 8,
+   "consensus": {
+    "spread_home": -8.5,
+    "total": 219.75,
+    "novig_home_win": 0.74,
+    "novig_home_cover": 0.51,
+    "novig_over": 0.5
+   },
+   "pinnacle": {
+    "spread": {
+     "home_point": -9.0,
+     "home_price": -103,
+     "away_point": 9.0,
+     "away_price": -109,
+     "novig_home_cover": 0.4931
+    },
+    "total": {
+     "point": 220.0,
+     "over_price": -107,
+     "under_price": -107,
+     "novig_over": 0.5
+    },
+    "ml": {
+     "home": -324,
+     "away": 268,
+     "novig_home": 0.7377
+    }
+   },
+   "best": {
+    "home_spread": {
+     "point": -8.5,
+     "price": -115,
+     "book": "fanduel"
+    },
+    "away_spread": {
+     "point": 8.5,
+     "price": -105,
+     "book": "fanduel"
+    },
+    "over": {
+     "point": 218.5,
+     "price": -113,
+     "book": "betrivers"
+    },
+    "under": {
+     "point": 220.5,
+     "price": -115,
+     "book": "fanduel"
+    },
+    "home_ml": {
+     "price": -325,
+     "book": "betmgm"
+    },
+    "away_ml": {
+     "price": 276,
+     "book": "draftkings"
+    }
+   },
+   "books": {
+    "fanduel": {
+     "title": "FanDuel",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": -330,
+      "away": 265,
+      "novig_home": 0.7369
+     },
+     "spread": {
+      "home_point": -8.5,
+      "home_price": -115,
+      "away_point": 8.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5108
+     },
+     "total": {
+      "point": 220.5,
+      "over_price": -105,
+      "under_price": -115,
+      "novig_over": 0.4892
+     }
+    },
+    "lowvig": {
+     "title": "LowVig.ag",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": -327,
+      "away": 271,
+      "novig_home": 0.7397
+     },
+     "spread": {
+      "home_point": -9.0,
+      "home_price": -106,
+      "away_point": 9.0,
+      "away_price": -106,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 220.0,
+      "over_price": -107,
+      "under_price": -107,
+      "novig_over": 0.5
+     }
+    },
+    "draftkings": {
+     "title": "DraftKings",
+     "last_update": "2026-11-09T18:48:36Z",
+     "ml": {
+      "home": -344,
+      "away": 276,
+      "novig_home": 0.7445
+     },
+     "spread": {
+      "home_point": -8.5,
+      "home_price": -115,
+      "away_point": 8.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5108
+     },
+     "total": {
+      "point": 219.5,
+      "over_price": -112,
+      "under_price": -108,
+      "novig_over": 0.5043
+     }
+    },
+    "betrivers": {
+     "title": "BetRivers",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -345,
+      "away": 270,
+      "novig_home": 0.7415
+     },
+     "spread": {
+      "home_point": -8.5,
+      "home_price": -117,
+      "away_point": 8.5,
+      "away_price": -106,
+      "novig_home_cover": 0.5117
+     },
+     "total": {
+      "point": 218.5,
+      "over_price": -113,
+      "under_price": -109,
+      "novig_over": 0.5043
+     }
+    },
+    "espnbet": {
+     "title": "theScore Bet",
+     "last_update": "2026-11-09T18:50:03Z",
+     "ml": {
+      "home": -340,
+      "away": 270,
+      "novig_home": 0.7409
+     },
+     "spread": {
+      "home_point": -8.5,
+      "home_price": -115,
+      "away_point": 8.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5108
+     },
+     "total": {
+      "point": 219.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "pinnacle": {
+     "title": "Pinnacle",
+     "last_update": "2026-11-09T18:50:22Z",
+     "ml": {
+      "home": -324,
+      "away": 268,
+      "novig_home": 0.7377
+     },
+     "spread": {
+      "home_point": -9.0,
+      "home_price": -103,
+      "away_point": 9.0,
+      "away_price": -109,
+      "novig_home_cover": 0.4931
+     },
+     "total": {
+      "point": 220.0,
+      "over_price": -107,
+      "under_price": -107,
+      "novig_over": 0.5
+     }
+    },
+    "bovada": {
+     "title": "Bovada",
+     "last_update": "2026-11-09T18:49:58Z",
+     "ml": {
+      "home": -330,
+      "away": 265,
+      "novig_home": 0.7369
+     },
+     "spread": {
+      "home_point": -9.0,
+      "home_price": -105,
+      "away_point": 9.0,
+      "away_price": -115,
+      "novig_home_cover": 0.4892
+     },
+     "total": {
+      "point": 220.0,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "betmgm": {
+     "title": "BetMGM",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -325,
+      "away": 260,
+      "novig_home": 0.7335
+     },
+     "spread": {
+      "home_point": -8.5,
+      "home_price": -115,
+      "away_point": 8.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5108
+     },
+     "total": {
+      "point": 219.5,
+      "over_price": -115,
+      "under_price": -105,
+      "novig_over": 0.5108
+     }
+    }
+   }
+  },
+  {
+   "odds_api_id": "dc4eb6ae9979b3d3418c35b4210f0c72",
+   "commence_time": "2026-11-10T02:10:00Z",
+   "away": "SAS",
+   "home": "PHX",
+   "n_books": 8,
+   "consensus": {
+    "spread_home": 8.5,
+    "total": 226.25,
+    "novig_home_win": 0.24,
+    "novig_home_cover": 0.5,
+    "novig_over": 0.5
+   },
+   "pinnacle": {
+    "spread": {
+     "home_point": 8.5,
+     "home_price": -105,
+     "away_point": -8.5,
+     "away_price": -107,
+     "novig_home_cover": 0.4977
+    },
+    "total": {
+     "point": 225.5,
+     "over_price": -112,
+     "under_price": -102,
+     "novig_over": 0.5113
+    },
+    "ml": {
+     "home": 303,
+     "away": -373,
+     "novig_home": 0.2393
+    }
+   },
+   "best": {
+    "home_spread": {
+     "point": 9.5,
+     "price": -118,
+     "book": "betrivers"
+    },
+    "away_spread": {
+     "point": -8.5,
+     "price": -105,
+     "book": "espnbet"
+    },
+    "over": {
+     "point": 225.5,
+     "price": -105,
+     "book": "espnbet"
+    },
+    "under": {
+     "point": 226.5,
+     "price": -110,
+     "book": "fanduel"
+    },
+    "home_ml": {
+     "price": 300,
+     "book": "betmgm"
+    },
+    "away_ml": {
+     "price": -345,
+     "book": "betrivers"
+    }
+   },
+   "books": {
+    "draftkings": {
+     "title": "DraftKings",
+     "last_update": "2026-11-09T18:48:36Z",
+     "ml": {
+      "home": 296,
+      "away": -372,
+      "novig_home": 0.2427
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -110,
+      "away_point": -8.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 226.5,
+      "over_price": -106,
+      "under_price": -114,
+      "novig_over": 0.4913
+     }
+    },
+    "lowvig": {
+     "title": "LowVig.ag",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": 297,
+      "away": -361,
+      "novig_home": 0.2434
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -101,
+      "away_point": -8.5,
+      "away_price": -111,
+      "novig_home_cover": 0.4885
+     },
+     "total": {
+      "point": 226.5,
+      "over_price": -102,
+      "under_price": -113,
+      "novig_over": 0.4877
+     }
+    },
+    "espnbet": {
+     "title": "theScore Bet",
+     "last_update": "2026-11-09T18:50:03Z",
+     "ml": {
+      "home": 290,
+      "away": -380,
+      "novig_home": 0.2446
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -115,
+      "away_point": -8.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5108
+     },
+     "total": {
+      "point": 225.5,
+      "over_price": -105,
+      "under_price": -115,
+      "novig_over": 0.4892
+     }
+    },
+    "fanduel": {
+     "title": "FanDuel",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": 295,
+      "away": -370,
+      "novig_home": 0.2433
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -112,
+      "away_point": -8.5,
+      "away_price": -108,
+      "novig_home_cover": 0.5043
+     },
+     "total": {
+      "point": 226.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "betrivers": {
+     "title": "BetRivers",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": 270,
+      "away": -345,
+      "novig_home": 0.2585
+     },
+     "spread": {
+      "home_point": 9.5,
+      "home_price": -118,
+      "away_point": -9.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5138
+     },
+     "total": {
+      "point": 225.5,
+      "over_price": -109,
+      "under_price": -113,
+      "novig_over": 0.4957
+     }
+    },
+    "bovada": {
+     "title": "Bovada",
+     "last_update": "2026-11-09T18:49:58Z",
+     "ml": {
+      "home": 295,
+      "away": -390,
+      "novig_home": 0.2413
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -110,
+      "away_point": -8.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 226.0,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "pinnacle": {
+     "title": "Pinnacle",
+     "last_update": "2026-11-09T18:50:22Z",
+     "ml": {
+      "home": 303,
+      "away": -373,
+      "novig_home": 0.2393
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -105,
+      "away_point": -8.5,
+      "away_price": -107,
+      "novig_home_cover": 0.4977
+     },
+     "total": {
+      "point": 225.5,
+      "over_price": -112,
+      "under_price": -102,
+      "novig_over": 0.5113
+     }
+    },
+    "betmgm": {
+     "title": "BetMGM",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": 300,
+      "away": -375,
+      "novig_home": 0.2405
+     },
+     "spread": {
+      "home_point": 8.5,
+      "home_price": -110,
+      "away_point": -8.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 226.5,
       "over_price": -110,
       "under_price": -110,
       "novig_over": 0.5
@@ -950,38 +1698,261 @@
    }
   },
   {
-   "odds_api_id": "c205d8d8102fbb0e72929fff3c1fd089",
-   "commence_time": "2026-11-09T02:10:00Z",
+   "odds_api_id": "3619e1cf4b0a325c3e0ba5b1fb7f3d91",
+   "commence_time": "2026-11-10T03:10:00Z",
    "away": "NOP",
-   "home": "LAC",
+   "home": "GSW",
    "n_books": 8,
    "consensus": {
-    "spread_home": 1.5,
-    "total": 226.5,
-    "novig_home_win": 0.47,
-    "novig_home_cover": 0.5,
+    "spread_home": -9.5,
+    "total": 232.5,
+    "novig_home_win": 0.76,
+    "novig_home_cover": 0.49,
     "novig_over": 0.5
    },
    "pinnacle": {
     "spread": {
-     "home_point": 1.5,
-     "home_price": -101,
-     "away_point": -1.5,
-     "away_price": -109,
-     "novig_home_cover": 0.4907
+     "home_point": -9.5,
+     "home_price": 100,
+     "away_point": 9.5,
+     "away_price": -112,
+     "novig_home_cover": 0.4862
     },
     "total": {
-     "point": 226.5,
-     "over_price": -105,
-     "under_price": -107,
+     "point": 232.5,
+     "over_price": -106,
+     "under_price": -108,
      "novig_over": 0.4977
     },
     "ml": {
-     "home": 108,
-     "away": -119,
-     "novig_home": 0.4694
+     "home": -381,
+     "away": 308,
+     "novig_home": 0.7637
     }
    },
+   "best": {
+    "home_spread": {
+     "point": -8.5,
+     "price": -120,
+     "book": "espnbet"
+    },
+    "away_spread": {
+     "point": 9.5,
+     "price": -114,
+     "book": "fanduel"
+    },
+    "over": {
+     "point": 231.5,
+     "price": -114,
+     "book": "betrivers"
+    },
+    "under": {
+     "point": 232.5,
+     "price": -108,
+     "book": "draftkings"
+    },
+    "home_ml": {
+     "price": -345,
+     "book": "betrivers"
+    },
+    "away_ml": {
+     "price": 303,
+     "book": "draftkings"
+    }
+   },
+   "books": {
+    "fanduel": {
+     "title": "FanDuel",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": -370,
+      "away": 295,
+      "novig_home": 0.7567
+     },
+     "spread": {
+      "home_point": -9.5,
+      "home_price": -106,
+      "away_point": 9.5,
+      "away_price": -114,
+      "novig_home_cover": 0.4913
+     },
+     "total": {
+      "point": 232.5,
+      "over_price": -108,
+      "under_price": -112,
+      "novig_over": 0.4957
+     }
+    },
+    "lowvig": {
+     "title": "LowVig.ag",
+     "last_update": "2026-11-09T18:50:04Z",
+     "ml": {
+      "home": -376,
+      "away": 308,
+      "novig_home": 0.7632
+     },
+     "spread": {
+      "home_point": -9.0,
+      "home_price": -106,
+      "away_point": 9.0,
+      "away_price": -106,
+      "novig_home_cover": 0.5
+     },
+     "total": {
+      "point": 232.0,
+      "over_price": -113,
+      "under_price": -102,
+      "novig_over": 0.5123
+     }
+    },
+    "draftkings": {
+     "title": "DraftKings",
+     "last_update": "2026-11-09T18:48:36Z",
+     "ml": {
+      "home": -382,
+      "away": 303,
+      "novig_home": 0.7616
+     },
+     "spread": {
+      "home_point": -9.5,
+      "home_price": -102,
+      "away_point": 9.5,
+      "away_price": -118,
+      "novig_home_cover": 0.4826
+     },
+     "total": {
+      "point": 232.5,
+      "over_price": -112,
+      "under_price": -108,
+      "novig_over": 0.5043
+     }
+    },
+    "betmgm": {
+     "title": "BetMGM",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -375,
+      "away": 300,
+      "novig_home": 0.7595
+     },
+     "spread": {
+      "home_point": -9.5,
+      "home_price": -105,
+      "away_point": 9.5,
+      "away_price": -115,
+      "novig_home_cover": 0.4892
+     },
+     "total": {
+      "point": 232.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "betrivers": {
+     "title": "BetRivers",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -345,
+      "away": 270,
+      "novig_home": 0.7415
+     },
+     "spread": {
+      "home_point": -9.5,
+      "home_price": -105,
+      "away_point": 9.5,
+      "away_price": -118,
+      "novig_home_cover": 0.4862
+     },
+     "total": {
+      "point": 231.5,
+      "over_price": -114,
+      "under_price": -108,
+      "novig_over": 0.5064
+     }
+    },
+    "espnbet": {
+     "title": "theScore Bet",
+     "last_update": "2026-11-09T18:50:03Z",
+     "ml": {
+      "home": -380,
+      "away": 290,
+      "novig_home": 0.7554
+     },
+     "spread": {
+      "home_point": -8.5,
+      "home_price": -120,
+      "away_point": 8.5,
+      "away_price": 100,
+      "novig_home_cover": 0.5217
+     },
+     "total": {
+      "point": 232.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "bovada": {
+     "title": "Bovada",
+     "last_update": "2026-11-09T18:49:58Z",
+     "ml": {
+      "home": -400,
+      "away": 300,
+      "novig_home": 0.7619
+     },
+     "spread": {
+      "home_point": -9.0,
+      "home_price": -115,
+      "away_point": 9.0,
+      "away_price": -105,
+      "novig_home_cover": 0.5108
+     },
+     "total": {
+      "point": 232.5,
+      "over_price": -110,
+      "under_price": -110,
+      "novig_over": 0.5
+     }
+    },
+    "pinnacle": {
+     "title": "Pinnacle",
+     "last_update": "2026-11-09T18:50:22Z",
+     "ml": {
+      "home": -381,
+      "away": 308,
+      "novig_home": 0.7637
+     },
+     "spread": {
+      "home_point": -9.5,
+      "home_price": 100,
+      "away_point": 9.5,
+      "away_price": -112,
+      "novig_home_cover": 0.4862
+     },
+     "total": {
+      "point": 232.5,
+      "over_price": -106,
+      "under_price": -108,
+      "novig_over": 0.4977
+     }
+    }
+   }
+  },
+  {
+   "odds_api_id": "cfa503c66cd505776a910921875ef7dd",
+   "commence_time": "2026-11-11T01:10:00Z",
+   "away": "BOS",
+   "home": "PHI",
+   "n_books": 6,
+   "consensus": {
+    "spread_home": 1.5,
+    "total": 215.5,
+    "novig_home_win": 0.5,
+    "novig_home_cover": 0.51,
+    "novig_over": 0.49
+   },
+   "pinnacle": null,
    "best": {
     "home_spread": {
      "point": 1.5,
@@ -989,33 +1960,33 @@
      "book": "fanduel"
     },
     "away_spread": {
-     "point": -0.5,
-     "price": -117,
+     "point": 0.5,
+     "price": -105,
      "book": "betrivers"
     },
     "over": {
-     "point": 226.5,
-     "price": -108,
+     "point": 215.5,
+     "price": -106,
      "book": "draftkings"
     },
     "under": {
-     "point": 227.5,
+     "point": 217.5,
      "price": -115,
      "book": "fanduel"
     },
     "home_ml": {
-     "price": 105,
-     "book": "espnbet"
+     "price": 102,
+     "book": "fanduel"
     },
     "away_ml": {
-     "price": -115,
+     "price": -105,
      "book": "betrivers"
     }
    },
    "books": {
     "fanduel": {
      "title": "FanDuel",
-     "last_update": "2026-11-08T23:44:31Z",
+     "last_update": "2026-11-09T18:50:04Z",
      "ml": {
       "home": 102,
       "away": -120,
@@ -1029,671 +2000,120 @@
       "novig_home_cover": 0.5
      },
      "total": {
-      "point": 227.5,
+      "point": 217.5,
       "over_price": -105,
       "under_price": -115,
       "novig_over": 0.4892
      }
     },
-    "lowvig": {
-     "title": "LowVig.ag",
-     "last_update": "2026-11-08T23:44:47Z",
-     "ml": {
-      "home": 107,
-      "away": -123,
-      "novig_home": 0.4669
-     },
-     "spread": {
-      "home_point": 1.5,
-      "home_price": -103,
-      "away_point": -1.5,
-      "away_price": -109,
-      "novig_home_cover": 0.4931
-     },
-     "total": {
-      "point": 226.5,
-      "over_price": -105,
-      "under_price": -109,
-      "novig_over": 0.4955
-     }
-    },
     "draftkings": {
      "title": "DraftKings",
-     "last_update": "2026-11-08T23:43:38Z",
+     "last_update": "2026-11-09T18:48:36Z",
      "ml": {
-      "home": 103,
-      "away": -121,
-      "novig_home": 0.4736
+      "home": -109,
+      "away": -109,
+      "novig_home": 0.5
      },
      "spread": {
       "home_point": 1.5,
-      "home_price": -110,
+      "home_price": -120,
       "away_point": -1.5,
-      "away_price": -110,
-      "novig_home_cover": 0.5
+      "away_price": -101,
+      "novig_home_cover": 0.5205
      },
      "total": {
-      "point": 226.5,
-      "over_price": -108,
-      "under_price": -112,
+      "point": 215.5,
+      "over_price": -106,
+      "under_price": -114,
+      "novig_over": 0.4913
+     }
+    },
+    "betrivers": {
+     "title": "BetRivers",
+     "last_update": "2026-11-09T18:49:46Z",
+     "ml": {
+      "home": -118,
+      "away": -105,
+      "novig_home": 0.5138
+     },
+     "spread": {
+      "home_point": -0.5,
+      "home_price": -118,
+      "away_point": 0.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5138
+     },
+     "total": {
+      "point": 215.5,
+      "over_price": -109,
+      "under_price": -113,
       "novig_over": 0.4957
      }
     },
     "espnbet": {
      "title": "theScore Bet",
-     "last_update": "2026-11-08T23:44:30Z",
+     "last_update": "2026-11-09T18:50:03Z",
      "ml": {
-      "home": 105,
-      "away": -125,
-      "novig_home": 0.4675
+      "home": -110,
+      "away": -110,
+      "novig_home": 0.5
      },
      "spread": {
       "home_point": 1.5,
-      "home_price": -110,
-      "away_point": -1.5,
-      "away_price": -110,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 226.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    },
-    "betrivers": {
-     "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
-     "ml": {
-      "home": -106,
-      "away": -115,
-      "novig_home": 0.4903
-     },
-     "spread": {
-      "home_point": 0.5,
-      "home_price": -107,
-      "away_point": -0.5,
-      "away_price": -117,
-      "novig_home_cover": 0.4895
-     },
-     "total": {
-      "point": 226.5,
-      "over_price": -113,
-      "under_price": -109,
-      "novig_over": 0.5043
-     }
-    },
-    "bovada": {
-     "title": "Bovada",
-     "last_update": "2026-11-08T23:44:52Z",
-     "ml": {
-      "home": 105,
-      "away": -125,
-      "novig_home": 0.4675
-     },
-     "spread": {
-      "home_point": 1.5,
-      "home_price": -105,
-      "away_point": -1.5,
-      "away_price": -115,
-      "novig_home_cover": 0.4892
-     },
-     "total": {
-      "point": 226.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    },
-    "pinnacle": {
-     "title": "Pinnacle",
-     "last_update": "2026-11-08T23:44:46Z",
-     "ml": {
-      "home": 108,
-      "away": -119,
-      "novig_home": 0.4694
-     },
-     "spread": {
-      "home_point": 1.5,
-      "home_price": -101,
-      "away_point": -1.5,
-      "away_price": -109,
-      "novig_home_cover": 0.4907
-     },
-     "total": {
-      "point": 226.5,
-      "over_price": -105,
-      "under_price": -107,
-      "novig_over": 0.4977
-     }
-    },
-    "betmgm": {
-     "title": "BetMGM",
-     "last_update": "2026-11-08T23:43:55Z",
-     "ml": {
-      "home": 105,
-      "away": -130,
-      "novig_home": 0.4632
-     },
-     "spread": {
-      "home_point": 1.5,
-      "home_price": -110,
-      "away_point": -1.5,
-      "away_price": -110,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 226.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    }
-   }
-  },
-  {
-   "odds_api_id": "7ea5547b35ef782963e4f384d3414dfa",
-   "commence_time": "2026-11-09T02:10:00Z",
-   "away": "MIA",
-   "home": "SAC",
-   "n_books": 8,
-   "consensus": {
-    "spread_home": 11.25,
-    "total": 236.5,
-    "novig_home_win": 0.2,
-    "novig_home_cover": 0.5,
-    "novig_over": 0.5
-   },
-   "pinnacle": {
-    "spread": {
-     "home_point": 11.0,
-     "home_price": -105,
-     "away_point": -11.0,
-     "away_price": -105,
-     "novig_home_cover": 0.5
-    },
-    "total": {
-     "point": 236.5,
-     "over_price": -104,
-     "under_price": -108,
-     "novig_over": 0.4954
-    },
-    "ml": {
-     "home": 379,
-     "away": -464,
-     "novig_home": 0.2024
-    }
-   },
-   "best": {
-    "home_spread": {
-     "point": 11.5,
-     "price": -110,
-     "book": "betrivers"
-    },
-    "away_spread": {
-     "point": -10.5,
-     "price": -115,
-     "book": "espnbet"
-    },
-    "over": {
-     "point": 236.5,
-     "price": -105,
-     "book": "espnbet"
-    },
-    "under": {
-     "point": 237.5,
-     "price": -115,
-     "book": "betrivers"
-    },
-    "home_ml": {
-     "price": 400,
-     "book": "fanduel"
-    },
-    "away_ml": {
-     "price": -480,
-     "book": "betrivers"
-    }
-   },
-   "books": {
-    "fanduel": {
-     "title": "FanDuel",
-     "last_update": "2026-11-08T23:44:31Z",
-     "ml": {
-      "home": 400,
-      "away": -520,
-      "novig_home": 0.1925
-     },
-     "spread": {
-      "home_point": 11.5,
-      "home_price": -115,
-      "away_point": -11.5,
-      "away_price": -105,
-      "novig_home_cover": 0.5108
-     },
-     "total": {
-      "point": 236.5,
-      "over_price": -115,
-      "under_price": -105,
-      "novig_over": 0.5108
-     }
-    },
-    "lowvig": {
-     "title": "LowVig.ag",
-     "last_update": "2026-11-08T23:44:47Z",
-     "ml": {
-      "home": 408,
-      "away": -518,
-      "novig_home": 0.1902
-     },
-     "spread": {
-      "home_point": 11.0,
-      "home_price": -103,
-      "away_point": -11.0,
-      "away_price": -109,
-      "novig_home_cover": 0.4931
-     },
-     "total": {
-      "point": 236.0,
-      "over_price": -107,
-      "under_price": -107,
-      "novig_over": 0.5
-     }
-    },
-    "draftkings": {
-     "title": "DraftKings",
-     "last_update": "2026-11-08T23:43:38Z",
-     "ml": {
-      "home": 394,
-      "away": -518,
-      "novig_home": 0.1945
-     },
-     "spread": {
-      "home_point": 11.5,
-      "home_price": -115,
-      "away_point": -11.5,
-      "away_price": -105,
-      "novig_home_cover": 0.5108
-     },
-     "total": {
-      "point": 236.5,
-      "over_price": -106,
-      "under_price": -115,
-      "novig_over": 0.4903
-     }
-    },
-    "espnbet": {
-     "title": "theScore Bet",
-     "last_update": "2026-11-08T23:44:30Z",
-     "ml": {
-      "home": 380,
-      "away": -550,
-      "novig_home": 0.1976
-     },
-     "spread": {
-      "home_point": 10.5,
-      "home_price": -105,
-      "away_point": -10.5,
-      "away_price": -115,
-      "novig_home_cover": 0.4892
-     },
-     "total": {
-      "point": 236.5,
-      "over_price": -105,
-      "under_price": -115,
-      "novig_over": 0.4892
-     }
-    },
-    "betrivers": {
-     "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
-     "ml": {
-      "home": 360,
-      "away": -480,
-      "novig_home": 0.208
-     },
-     "spread": {
-      "home_point": 11.5,
-      "home_price": -110,
-      "away_point": -11.5,
-      "away_price": -113,
-      "novig_home_cover": 0.4968
-     },
-     "total": {
-      "point": 237.5,
-      "over_price": -107,
-      "under_price": -115,
-      "novig_over": 0.4915
-     }
-    },
-    "bovada": {
-     "title": "Bovada",
-     "last_update": "2026-11-08T23:44:52Z",
-     "ml": {
-      "home": 360,
-      "away": -500,
-      "novig_home": 0.2069
-     },
-     "spread": {
-      "home_point": 11.0,
-      "home_price": -110,
-      "away_point": -11.0,
-      "away_price": -110,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 236.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    },
-    "pinnacle": {
-     "title": "Pinnacle",
-     "last_update": "2026-11-08T23:44:46Z",
-     "ml": {
-      "home": 379,
-      "away": -464,
-      "novig_home": 0.2024
-     },
-     "spread": {
-      "home_point": 11.0,
-      "home_price": -105,
-      "away_point": -11.0,
-      "away_price": -105,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 236.5,
-      "over_price": -104,
-      "under_price": -108,
-      "novig_over": 0.4954
-     }
-    },
-    "betmgm": {
-     "title": "BetMGM",
-     "last_update": "2026-11-08T23:43:55Z",
-     "ml": {
-      "home": 375,
-      "away": -500,
-      "novig_home": 0.2017
-     },
-     "spread": {
-      "home_point": 11.5,
-      "home_price": -115,
-      "away_point": -11.5,
-      "away_price": -105,
-      "novig_home_cover": 0.5108
-     },
-     "total": {
-      "point": 236.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    }
-   }
-  },
-  {
-   "odds_api_id": "dc61de43b5db9de357f48f44c8022494",
-   "commence_time": "2026-11-10T01:40:00Z",
-   "away": "DEN",
-   "home": "HOU",
-   "n_books": 3,
-   "consensus": {
-    "spread_home": -8.5,
-    "total": 216.5,
-    "novig_home_win": 0.73,
-    "novig_home_cover": 0.51,
-    "novig_over": 0.5
-   },
-   "pinnacle": null,
-   "best": {
-    "home_spread": {
-     "point": -8.5,
-     "price": -105,
-     "book": "draftkings"
-    },
-    "away_spread": {
-     "point": 8.5,
-     "price": -102,
-     "book": "fanduel"
-    },
-    "over": {
-     "point": 216.5,
-     "price": -110,
-     "book": "fanduel"
-    },
-    "under": {
-     "point": 217.5,
-     "price": -110,
-     "book": "draftkings"
-    },
-    "home_ml": {
-     "price": -291,
-     "book": "draftkings"
-    },
-    "away_ml": {
-     "price": 260,
-     "book": "fanduel"
-    }
-   },
-   "books": {
-    "fanduel": {
-     "title": "FanDuel",
-     "last_update": "2026-11-08T23:44:31Z",
-     "ml": {
-      "home": -320,
-      "away": 260,
-      "novig_home": 0.7328
-     },
-     "spread": {
-      "home_point": -8.5,
       "home_price": -120,
-      "away_point": 8.5,
-      "away_price": -102,
-      "novig_home_cover": 0.5193
-     },
-     "total": {
-      "point": 216.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    },
-    "draftkings": {
-     "title": "DraftKings",
-     "last_update": "2026-11-08T23:43:38Z",
-     "ml": {
-      "home": -291,
-      "away": 237,
-      "novig_home": 0.7149
-     },
-     "spread": {
-      "home_point": -8.5,
-      "home_price": -105,
-      "away_point": 8.5,
-      "away_price": -115,
-      "novig_home_cover": 0.4892
-     },
-     "total": {
-      "point": 217.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    },
-    "betrivers": {
-     "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
-     "ml": {
-      "home": -345,
-      "away": 260,
-      "novig_home": 0.7362
-     },
-     "spread": {
-      "home_point": -8.5,
-      "home_price": -114,
-      "away_point": 8.5,
-      "away_price": -109,
-      "novig_home_cover": 0.5053
-     },
-     "total": {
-      "point": 216.5,
-      "over_price": -113,
-      "under_price": -109,
-      "novig_over": 0.5043
-     }
-    }
-   }
-  },
-  {
-   "odds_api_id": "dc4eb6ae9979b3d3418c35b4210f0c72",
-   "commence_time": "2026-11-10T02:10:00Z",
-   "away": "SAS",
-   "home": "PHX",
-   "n_books": 5,
-   "consensus": {
-    "spread_home": 8.5,
-    "total": 226.5,
-    "novig_home_win": 0.28,
-    "novig_home_cover": 0.51,
-    "novig_over": 0.5
-   },
-   "pinnacle": null,
-   "best": {
-    "home_spread": {
-     "point": 9.5,
-     "price": -120,
-     "book": "espnbet"
-    },
-    "away_spread": {
-     "point": -8.5,
-     "price": -102,
-     "book": "fanduel"
-    },
-    "over": {
-     "point": 226.5,
-     "price": -110,
-     "book": "draftkings"
-    },
-    "under": {
-     "point": 227.5,
-     "price": -114,
-     "book": "betrivers"
-    },
-    "home_ml": {
-     "price": 250,
-     "book": "espnbet"
-    },
-    "away_ml": {
-     "price": -281,
-     "book": "draftkings"
-    }
-   },
-   "books": {
-    "draftkings": {
-     "title": "DraftKings",
-     "last_update": "2026-11-08T23:43:38Z",
-     "ml": {
-      "home": 230,
-      "away": -281,
-      "novig_home": 0.2912
-     },
-     "spread": {
-      "home_point": 8.5,
-      "home_price": -110,
-      "away_point": -8.5,
-      "away_price": -110,
-      "novig_home_cover": 0.5
-     },
-     "total": {
-      "point": 226.5,
-      "over_price": -110,
-      "under_price": -110,
-      "novig_over": 0.5
-     }
-    },
-    "lowvig": {
-     "title": "LowVig.ag",
-     "last_update": "2026-11-08T23:44:47Z",
-     "spread": {
-      "home_point": 8.0,
-      "home_price": -101,
-      "away_point": -8.0,
-      "away_price": -111,
-      "novig_home_cover": 0.4885
-     },
-     "total": {
-      "point": 226.5,
-      "over_price": -107,
-      "under_price": -107,
-      "novig_over": 0.5
-     }
-    },
-    "espnbet": {
-     "title": "theScore Bet",
-     "last_update": "2026-11-08T23:44:30Z",
-     "ml": {
-      "home": 250,
-      "away": -300,
-      "novig_home": 0.2759
-     },
-     "spread": {
-      "home_point": 9.5,
-      "home_price": -120,
-      "away_point": -9.5,
+      "away_point": -1.5,
       "away_price": 100,
       "novig_home_cover": 0.5217
      },
      "total": {
-      "point": 226.5,
+      "point": 215.5,
       "over_price": -110,
       "under_price": -110,
       "novig_over": 0.5
      }
     },
-    "fanduel": {
-     "title": "FanDuel",
-     "last_update": "2026-11-08T23:44:31Z",
+    "bovada": {
+     "title": "Bovada",
+     "last_update": "2026-11-09T18:49:58Z",
      "ml": {
-      "home": 250,
-      "away": -310,
-      "novig_home": 0.2742
+      "home": -115,
+      "away": -105,
+      "novig_home": 0.5108
      },
      "spread": {
-      "home_point": 8.5,
-      "home_price": -120,
-      "away_point": -8.5,
-      "away_price": -102,
-      "novig_home_cover": 0.5193
+      "home_point": -1.5,
+      "home_price": -110,
+      "away_point": 1.5,
+      "away_price": -110,
+      "novig_home_cover": 0.5
      },
      "total": {
-      "point": 227.5,
+      "point": 215.5,
       "over_price": -105,
       "under_price": -115,
       "novig_over": 0.4892
      }
     },
-    "betrivers": {
-     "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
+    "betmgm": {
+     "title": "BetMGM",
+     "last_update": "2026-11-09T18:49:46Z",
      "ml": {
-      "home": 240,
-      "away": -315,
-      "novig_home": 0.2793
+      "home": -105,
+      "away": -115,
+      "novig_home": 0.4892
      },
      "spread": {
-      "home_point": 8.5,
+      "home_point": 1.5,
       "home_price": -115,
-      "away_point": -8.5,
-      "away_price": -107,
-      "novig_home_cover": 0.5085
+      "away_point": -1.5,
+      "away_price": -105,
+      "novig_home_cover": 0.5108
      },
      "total": {
-      "point": 227.5,
-      "over_price": -108,
-      "under_price": -114,
-      "novig_over": 0.4936
+      "point": 215.5,
+      "over_price": -115,
+      "under_price": -105,
+      "novig_over": 0.5108
      }
     }
    }
@@ -1745,7 +2165,7 @@
    "books": {
     "betrivers": {
      "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
+     "last_update": "2026-11-09T18:49:46Z",
      "ml": {
       "home": -110,
       "away": -110,
@@ -1774,22 +2194,22 @@
    "home": "BOS",
    "n_books": 1,
    "consensus": {
-    "spread_home": -5.0,
+    "spread_home": -5.5,
     "total": 230.5,
     "novig_home_win": 0.63,
-    "novig_home_cover": 0.51,
+    "novig_home_cover": 0.49,
     "novig_over": 0.5
    },
    "pinnacle": null,
    "best": {
     "home_spread": {
-     "point": -5.0,
-     "price": -114,
+     "point": -5.5,
+     "price": -107,
      "book": "betrivers"
     },
     "away_spread": {
-     "point": 5.0,
-     "price": -107,
+     "point": 5.5,
+     "price": -114,
      "book": "betrivers"
     },
     "over": {
@@ -1814,18 +2234,18 @@
    "books": {
     "betrivers": {
      "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
+     "last_update": "2026-11-09T18:49:46Z",
      "ml": {
       "home": -190,
       "away": 155,
       "novig_home": 0.6256
      },
      "spread": {
-      "home_point": -5.0,
-      "home_price": -114,
-      "away_point": 5.0,
-      "away_price": -107,
-      "novig_home_cover": 0.5075
+      "home_point": -5.5,
+      "home_price": -107,
+      "away_point": 5.5,
+      "away_price": -114,
+      "novig_home_cover": 0.4925
      },
      "total": {
       "point": 230.5,
@@ -1883,7 +2303,7 @@
    "books": {
     "betrivers": {
      "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
+     "last_update": "2026-11-09T18:49:46Z",
      "ml": {
       "home": -115,
       "away": -105,
@@ -1952,7 +2372,7 @@
    "books": {
     "betrivers": {
      "title": "BetRivers",
-     "last_update": "2026-11-08T23:44:30Z",
+     "last_update": "2026-11-09T18:49:46Z",
      "ml": {
       "home": 105,
       "away": -127,

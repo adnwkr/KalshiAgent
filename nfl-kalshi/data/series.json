@@ -1,105 +1,129 @@
 {
- "fetched_at": "2026-11-09T07:14:09+00:00",
+ "fetched_at": "2026-11-09T18:50:22+00:00",
  "series": [
   {
-   "ticker": "KXNFLWEEKTIE",
-   "title": "NFL Weekly Tie",
+   "ticker": "KXNFL60YARDFGS",
+   "title": "Pro Football 60+ Yard Field Goals",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLFG",
-   "title": "Pro Football Field Goals",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL1HWINNER",
-   "title": "NFL 1st Half Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLHIRECOACH",
-   "title": "NFL hire coach",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLFFSEASONTOTAL",
-   "title": "Pro Football Player's Fantasy Season Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCOTY",
-   "title": "AP Pro Football Coach Of The Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSNYG",
-   "title": "Pro football exact wins New York G",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFFPTSLADDER",
-   "title": "Fantasy Ladder",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-DAL",
-   "title": "Pro football wins Dallas",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLLONGREC",
-   "title": "Longest Reception",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-CIN",
-   "title": "Pro football wins Cincinnati",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLLEADCHANGE",
-   "title": "Pro Football Lead Changes",
+   "ticker": "KXNFLRECYDSRECORD",
+   "title": "NFL Regular Season Receiving Yards Record",
    "category": "Sports",
    "frequency": "one_off"
   },
   {
-   "ticker": "KXNFLSZNRECORD",
-   "title": "Will single season record be broken?",
+   "ticker": "KXNFLEXACTWINSNE",
+   "title": "Pro football exact wins New England",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLMENTION",
+   "title": "NFL Mention",
+   "category": "Mentions",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLDRAFTCOMPARE",
+   "title": "NFL Draft Comparison",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLDEPTHPOSITIONCLEQB2",
-   "title": "QB2 CLE",
+   "ticker": "KXNFLDRAFTOL",
+   "title": "Pro Football Offensive Line Drafted ",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFL1SEED",
+   "title": "Will team win conference in regular season",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLPROBOWLWIN",
-   "title": "Pro Football Pro Bowl Game",
+   "ticker": "KXNFLTEAMDPTS",
+   "title": "Who will allow the least/most points this season",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLSEASONPASSYDS",
-   "title": "Passing Yards",
+   "ticker": "KXNFLDRAFTEAMPOS",
+   "title": "Will team draft a position across round",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLWEEKHIGHSCORE",
+   "title": "NFL Highest Scoring Team of the Week",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLSFPRACFIELD",
-   "title": "Practice Field Relocation",
+   "ticker": "KXNFL4DCONV",
+   "title": "Pro Football 4th Down Conversions",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLFIRSTTD",
+   "title": "Pro Football First Touchdown",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSARI",
+   "title": "Pro football exact wins Arizona",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINNINGSTREAK",
+   "title": "NFL Team Winning Streak",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLROLE",
+   "title": "Pro Football Role at Event",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDIVMOSTWINS",
+   "title": "Pro Football Division with the Least Wins",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTKL",
+   "title": "Pro Football Tackles",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINMARGIN",
+   "title": "Pro Football Win Margin",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLGAME",
+   "title": "NFL Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLESCALATORREC",
+   "title": "Receptions Escalator",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL1HFT",
+   "title": "1st Half Fulltime Result",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -110,20 +134,206 @@
    "frequency": "annual"
   },
   {
-   "ticker": "KXNFLHIGHSCOREQ",
-   "title": "Pro Football Highest Scoring Quarter",
+   "ticker": "KXNFLCELEBRITYGAME",
+   "title": "Pro Football Celebrity Flag Football Game",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLSAFETY",
-   "title": "Pro Football Safeties",
+   "ticker": "KXNFLFFLEADERTOP",
+   "title": "Top Fantasy",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPASSCOMP",
+   "title": "Pro Football Passing Completions",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFTLB",
+   "title": "Pro Football Linebacker Drafted",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINSWEEK",
+   "title": "NFL wins by week",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCOACH",
+   "title": "NFL Coach of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLENDSTREAK",
+   "title": "When will team end streak",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLMATCHUP",
+   "title": "Pro Football Matchups",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPREPACK2ML",
+   "title": "MVE NFL Pre Pack",
    "category": "Sports",
    "frequency": "one_off"
   },
   {
-   "ticker": "KXNFLRECPROT",
-   "title": "Receptions Protected",
+   "ticker": "KXNFLSEASONRUSHYDS",
+   "title": "Rushing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPREPACK1HFT",
+   "title": "MVE NFL Pre Pack",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTOTALTD",
+   "title": "Pro Football Total Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDSTTD",
+   "title": "Pro Football D/ST Touchdown",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLMVPSPECIALS",
+   "title": "NFL MVP Award Specials",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL1YDPASS",
+   "title": "Seattle 1 Yard Pass",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLSACKRECORD",
+   "title": "NFL Regular Season Sack Record",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLOROTY",
+   "title": "AP Pro Football Offensive Rookie of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLGAMELOCATION",
+   "title": "NFL Game Location",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLINT",
+   "title": "Pro Football Interceptions",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFFLEADER",
+   "title": "Best in Fantasy By Position",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLMOSTRECYDS",
+   "title": "Pro Football Most Receiving Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFFWEEKTOP",
+   "title": "Weekly Fantasy Football Top Players",
+   "category": "Sports",
+   "frequency": "weekly"
+  },
+  {
+   "ticker": "KXNFLDIVISIONWINS",
+   "title": "Pro Football Division Total Wins",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSDRAFTTOP",
+   "title": "Will player be drafted Top X in Supplemental Draft",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLNFCNORTH",
+   "title": "National Football Conference North Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWEEKTIE",
+   "title": "NFL Weekly Tie",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFT1ST",
+   "title": "Make the 1st pick in NFL Draft",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLTOTALPRECISE",
+   "title": "Total Precise",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLRSHATT",
+   "title": "Pro Football Rushing Attempts",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFFPLAYOFFLEADER",
+   "title": "Fantasy Football Playoffs Leader",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSTB",
+   "title": "Pro football exact wins Tampa Bay",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-DET",
+   "title": "Pro football wins Detroit",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLSEED",
+   "title": "NFL Playoff Seed",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTOTAL",
+   "title": "Pro Football Total Points",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -134,40 +344,436 @@
    "frequency": "custom"
   },
   {
+   "ticker": "KXNFLDPOYSPECIALS",
+   "title": "NFL Defensive Player of the Year Specials",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLNONQBPASS",
+   "title": "Pro Football Non-QB Passes",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTEAMYDS",
+   "title": "Pro Football Team Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLNEXTCOACHOUT",
+   "title": "Next NFL Coach Out",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLONGESTFG",
+   "title": "Pro Football Longest Field Goal",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCAREERPASSTDS",
+   "title": "NFL Career Passing Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-NYG",
+   "title": "Pro football wins New York G",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLFFHIGHSCORE",
+   "title": "Fantasy Football Highest Scoring Performance",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSEASONRECYDS",
+   "title": "Receiving Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLMVP",
+   "title": "AP Pro Football Regular Season MVP",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFL1QSPREAD",
+   "title": "Pro Football 1st Quarter Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSWAS",
+   "title": "Pro football exact wins Washington",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDRAFTMATCHUP",
+   "title": "Pro Football Draft Matchup",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDPOY",
+   "title": "NFL Defensive Player of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLCOMPETE",
+   "title": "Will an NFL Player Compete in game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL1HTD",
+   "title": "1st Half Touchdown",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTRADE",
+   "title": "Pro Football Players Traded",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL4QBTTS",
+   "title": "Pro Football Both Teams to Score in 4th Quarter",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLADDERRECYDS",
+   "title": "Receiving Yards Ladder",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEVERYWEEKCOMPETE",
+   "title": "Pro Football Players to Play in Every Week of the Season",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLASTTOLOSE",
+   "title": "Pro Football Last Undefeated Team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL1HWINNER",
+   "title": "NFL 1st Half Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLREC",
+   "title": "Pro Football Player Receptions",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLT100TOP",
+   "title": "Will player be ranked Top X on NFL 100",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFTPICK",
+   "title": "NFL Draft Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFL53MAN",
+   "title": "Pro Football 53 Man Roster",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL2Q",
+   "title": "Pro Football 2nd Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLALLPRO",
+   "title": "Pro Football All-Pro Teams",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-PHI",
+   "title": "Pro football wins Philadelphia",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLFF50PTS",
+   "title": "Fantasy Football 50 Point Performances",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSPHI",
+   "title": "Pro football exact wins Philadephia",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSJAC",
+   "title": "Pro football exact wins Jacksonville",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLPASSATT",
+   "title": "Pro Football Passing Attempts",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLGPICKENSCONTRACT",
+   "title": "Pro Football George Picken's Next Contract Size",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINSTREAK",
+   "title": "Pro Football Win Streak",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL2TD",
+   "title": "Pro Football Multiple Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-MIN",
+   "title": "Pro football wins Minnesota",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLTD",
+   "title": "Pro Football Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLEADCHANGE",
+   "title": "Pro Football Lead Changes",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSMIA",
+   "title": "Pro football exact wins Miami",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLXA",
+   "title": "Netflix KPI",
+   "category": "Financials",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLWINS-JAC",
+   "title": "Pro football wins Jacksonville",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSNYJ",
+   "title": "Pro football exact wins New York J",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLSPREAD",
+   "title": "Pro Football Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSLAC",
+   "title": "Pro football exact wins Los Angeles C",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDRAFTTEAMPOS",
+   "title": "Which team will draft a quarterback in specific round?",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFT1",
+   "title": "NFL Draft First Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLSBOUTCOME",
+   "title": "NFL Championship Outcome",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCOMEBACK",
+   "title": "Pro Football Comeback",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLREDZONEBRANDADS",
+   "title": "Redzone week 1 brand ads",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLREDZONEADS",
+   "title": "NFL Redzone ads",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLLONGRSH",
+   "title": "Longest Rush",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFF40PTS",
+   "title": "Fantasy Football 40 Point Performances",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFTTEAM",
+   "title": "Pro Football Team Draft",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLNEXTTEAM",
+   "title": "Player Next Team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTEAMFG",
+   "title": "Pro Football Field Goals",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-IND",
+   "title": "Pro football wins Indianapolis",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLSEASONPASSTDS",
+   "title": "Passing Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
    "ticker": "KXNFLLASTPICKPOS",
    "title": "NFL Last Pick of the Draft Position",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNFLDROTY",
-   "title": "AP Pro Football Defensive Rookie of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFFPLAYOFFLEADER",
-   "title": "Fantasy Football Playoffs Leader",
+   "ticker": "KXNFLOWNERSTAKE",
+   "title": "Next Pro Football Team to Sell Ownership Stake",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLALLROOK",
-   "title": "NFL All Rookie Team",
+   "ticker": "KXNFL4Q",
+   "title": "Pro Football 4th Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPLAYOFF",
+   "title": "Pro Football Playoff Qualifiers",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNFL4DCONV",
-   "title": "Pro Football 4th Down Conversions",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLFFPTSSEASON",
-   "title": "Pro Football Player Fantasy Points",
+   "ticker": "KXNFLNEXTINT",
+   "title": "Pro Football Next Interception",
    "category": "Sports",
    "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLT100",
+   "title": "Will player be ranked on Pro Football T100 List",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCOMBINE",
+   "title": "NFL Combine",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSEASONREC",
+   "title": "Receptions",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFFPLAYERHIGH",
+   "title": "Pro Football Player's Highest Scoring Fantasy Performance",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLADDERREC",
+   "title": "Receptions Ladder",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLAFCCHAMP",
+   "title": "American Football Conference Champion",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLLONGESTTD",
+   "title": "Pro Football Longest Touchdown",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-CIN",
+   "title": "Pro football wins Cincinnati",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-GB",
+   "title": "Pro football wins Green Bay",
+   "category": "Sports",
+   "frequency": "annual"
   },
   {
    "ticker": "KXNFLDEBUT",
@@ -176,8 +782,362 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLWINS-NE",
-   "title": "Pro football wins New England",
+   "ticker": "KXNFLTEAMSACK",
+   "title": "Pro Football Team Sacks",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSTADIUM",
+   "title": "Will NFL Stadium Project be complete by date",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLXAPP",
+   "title": "Netflix app downloads",
+   "category": "Financials",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFL4DOWNCONV",
+   "title": "Pro Football 4th Down Conversions",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLHALLOFFAME",
+   "title": "Pro Football Hall of Fame",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLH2HWINS",
+   "title": "Pro Football Head-to-Head Win Totals",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSEASONPASSYDS",
+   "title": "Passing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTIE",
+   "title": "NFL Game to Tie",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL1HTEAMTOTAL",
+   "title": "Pro Football 1st Half Team Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTEAM1POS",
+   "title": "What position will Team select with first pick",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL4QTOTAL",
+   "title": "Pro Football 4th Quarter Total",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLWEEKCOMPETE",
+   "title": "NFL Player to Play in Week",
+   "category": "Sports",
+   "frequency": "weekly"
+  },
+  {
+   "ticker": "KXNFLWINS-LA",
+   "title": "Pro football wins Los Angeles R",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFL1QWINNER",
+   "title": "Pro Football 1st Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLVIEW",
+   "title": "NFL ratings",
+   "category": "Entertainment",
+   "frequency": "weekly"
+  },
+  {
+   "ticker": "KXNFLWINS-MIA",
+   "title": "Pro football wins Miami",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSCAR",
+   "title": "Pro football exact wins Carolina",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLLARGELEAD",
+   "title": "Pro Football Largest Lead",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLAFCEAST",
+   "title": "American Football Conference East Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFL3Q",
+   "title": "Pro Football 3rd Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPASSTDSPROT",
+   "title": "Passing Touchdowns Protected",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLOPOY",
+   "title": "NFL Offensive Player of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLPASSYDS",
+   "title": "Pro Football Passing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSACK",
+   "title": "Pro Football Sacks",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSUPDRAFTPICK",
+   "title": "Will Player declare for supplemental draft",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLOPOTY",
+   "title": "AP Pro Football Offensive Player Of The Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLFFTOP",
+   "title": "Top Fantasy Rank",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-SEA",
+   "title": "Pro football wins Seattle",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLCOACHOUTFIRST",
+   "title": "First NFL coach out",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCAREERPASSYDS",
+   "title": "NFL Career Passing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPROBOWLWIN",
+   "title": "Pro Football Pro Bowl Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSCHI",
+   "title": "Pro football exact wins Chicago",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFL2QWINNER",
+   "title": "Pro Football 2nd Quarter Winner",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLSAFETY",
+   "title": "Pro Football Safeties",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLNFCCHAMP",
+   "title": "National Football Conference Champion",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLAFCWEST",
+   "title": "American Football Conference West Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLLARGESTLEAD",
+   "title": "Pro Football Largest Lead",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLPASSTDS",
+   "title": "Pro Football player Passing Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFTRB",
+   "title": "Pro Football Running Back Drafted",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLTIES",
+   "title": "Pro Football Ties",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFTCAT",
+   "title": "Pro Football Draft Category",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL4QSPREAD",
+   "title": "Pro Football 4th Quarter Spread",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLSFTY",
+   "title": "Pro Football Safety",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSTAGEOFELIM",
+   "title": "Pro Football Stage of Elimination",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLGAMETD",
+   "title": "Pro Football Touchdowns",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLPLAYOFFHOST",
+   "title": "Team to host a playoff game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSELLOUT",
+   "title": "Pro Football Sellouts",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFTSELECT",
+   "title": "NFL Draft Exact Selection",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL1H",
+   "title": "Pro Football 1st Half Winner",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLNFCSOUTH",
+   "title": "National Football Conference South Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDELAY",
+   "title": "NFL Weather Delay",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLGAMEFG",
+   "title": "Pro Football Field Goals",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLCOACHOUT",
+   "title": "NFL Coaches Fired",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSEASONRSHYDS",
+   "title": "Rushing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXECOTY",
+   "title": "Pro Football Executive of the Year",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCONTRACTSIZE",
+   "title": "Pro Football Next Contract Size",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL3QBTTS",
+   "title": "Pro Football Both Teams to Score in 3rd Quarter",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSMIN",
+   "title": "Pro football exact wins Minnesota",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSBAL",
+   "title": "Pro football exact wins Baltimore",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-PIT",
+   "title": "Pro football wins Pittsburgh",
    "category": "Sports",
    "frequency": "annual"
   },
@@ -188,50 +1148,80 @@
    "frequency": "one_off"
   },
   {
-   "ticker": "KXNFLGAMESACK",
-   "title": "Pro Football Sacks",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL2PTCONV",
-   "title": "Pro Football 2-Point Conversions",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFL2QWINNER",
-   "title": "Pro Football 2nd Quarter Winner",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSNO",
-   "title": "Pro football exact wins New Orleans",
+   "ticker": "KXNFLDRAFTWR",
+   "title": "Pro Football Wide Receiver Drafted ",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNFLPREPACK",
-   "title": "MVE NFL Pre Pack",
+   "ticker": "KXNFLEXACTWINSBUF",
+   "title": "Pro football exact wins Buffalo",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLESCALATORRSHYDS",
+   "title": "Rushing Yards Escalator",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-TB",
+   "title": "Pro football wins Tampa Bay",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLSZNRECORD",
+   "title": "Will single season record be broken?",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSIND",
+   "title": "Pro football exact wins Indianapolis",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLPOTM",
+   "title": "NFL Player of the Month",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL4QWINNER",
+   "title": "Pro Football 4th Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDIVISIONORDER",
+   "title": "Pro Football Division Exact Order",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSEASONRECTD",
+   "title": "Receiving Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLAWARDFIN",
+   "title": "Pro Football Award Finalists",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLEADERPINT",
+   "title": "Pro Football P INT Leader",
    "category": "Sports",
    "frequency": "one_off"
   },
   {
-   "ticker": "KXNFLBLOWOUT",
-   "title": "Pro Football Biggest Blowout",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDROY",
-   "title": "NFL Defensive Rookie of the Year",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLFFH2HSEASON",
-   "title": "Season Fantasy Football Head-to-Head",
+   "ticker": "KXNFLEXACTWINSPIT",
+   "title": "Pro football exact wins Pittsburgh",
    "category": "Sports",
    "frequency": "annual"
   },
@@ -242,16 +1232,988 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLFF50PTS",
-   "title": "Fantasy Football 50 Point Performances",
+   "ticker": "KXNFLHKANE",
+   "title": "Harry Kane Pro Football signing",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLWINS-IND",
-   "title": "Pro football wins Indianapolis",
+   "ticker": "KXNFLDRAFTDB",
+   "title": "Pro Football Defensive Back Drafted",
    "category": "Sports",
    "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLRECPROT",
+   "title": "Receptions Protected",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPREPACK",
+   "title": "MVE NFL Pre Pack",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLREBOOT",
+   "title": "Reboot Rules",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLFG",
+   "title": "Pro Football Field Goals",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-NYJ",
+   "title": "Pro football wins New York J",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-BAL",
+   "title": "Pro football wins Baltimore",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLLONGREC",
+   "title": "Longest Reception",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFFPTSSEASON",
+   "title": "Pro Football Player Fantasy Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSNO",
+   "title": "Pro football exact wins New Orleans",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-WAS",
+   "title": "Pro football wins Washington",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDRAFTQB",
+   "title": "Pro Football Quarterback Drafted",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLROTM",
+   "title": "NFL Rookie of the Month",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLNEXTTD",
+   "title": "Pro Football Next TD scorer",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLFFPTS",
+   "title": "Pro Football Player Fantasy Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTDPROT",
+   "title": "Pro Football Touchdowns Protected",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLHIRECOACH",
+   "title": "NFL hire coach",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL1Q",
+   "title": "Pro Football 1st Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTEAM1STDOWNS",
+   "title": "Pro Football Team 1st Downs",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFFWEEKLEAD",
+   "title": "Weekly Fantasy Football Leader",
+   "category": "Sports",
+   "frequency": "weekly"
+  },
+  {
+   "ticker": "KXNFLAFCSOUTH",
+   "title": "American Football Conference South Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLGAMETO",
+   "title": "Pro Football Turnovers",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFL1QBTTS",
+   "title": "Pro Football Both Teams to Score in 1st Quarter",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCOMBINE40",
+   "title": "Pro Football Combine Fastest 40 Time",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSBMVPDEF",
+   "title": "Defensive Player Championship MVP",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFL2PTCONV",
+   "title": "Pro Football 2-Point Conversions",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLSBMVP",
+   "title": "Pro Football Championship MVP",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDPOTY",
+   "title": "AP Pro Football Defensive Player Of The Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLNBA",
+   "title": "NFL and NBA Champion Combo",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPROOTY",
+   "title": "Pro Football Protector of the Year",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWEEKMOSTRSHYDS",
+   "title": "Weekly Most Rushing Yards",
+   "category": "Sports",
+   "frequency": "weekly"
+  },
+  {
+   "ticker": "KXNFLWINS-SF",
+   "title": "Pro football wins San Francisco",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLTEAMTOTAL",
+   "title": "Pro Football Team Total Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPREPACK3ML",
+   "title": "MVE NFL Pre Pack",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLFFPTSLADDER",
+   "title": "Fantasy Ladder",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL2QBTTS",
+   "title": "Pro Football Both Teams to Score in 2nd Quarter",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL1QTOTAL",
+   "title": "Pro Football 1st Quarter Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-LAC",
+   "title": "Pro football wins Los Angeles C",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLRRYDS",
+   "title": "Pro Football Rush and Receiving Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTEAMTO",
+   "title": "Pro Football Forced Turnovers",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDROTY",
+   "title": "AP Pro Football Defensive Rookie of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLSEEDOU",
+   "title": "NFL Playoffs Seed Over/Unders",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWEEKSTART",
+   "title": "NFL Week Starter",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLESCALATORRECYDS",
+   "title": "Receiving Yards Escalator",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPLAYOFFC",
+   "title": "Will both teams make the NFL Playoffs",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL2QSPREAD",
+   "title": "Pro Football 2nd Quarter Spread",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLRSHYDSH2H",
+   "title": "Pro Football Head-to-Head Rushing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSBMVPPOS",
+   "title": "Pro Football Championship MVP Position",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLANYTD",
+   "title": "Pro Football Anytime Touchdown",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLNFCEAST",
+   "title": "National Football Conference East Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSLV",
+   "title": "Pro football exact wins Las Vegas",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLPASSYDSH2H",
+   "title": "Pro Football Head-to-Head Passing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL3QSPREAD",
+   "title": "Pro Football 3rd Quarter Spread",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLRETIRE",
+   "title": "NFL Retirement",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCPOTY",
+   "title": "AP Pro Football Comeback Player of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDRAFTTOP",
+   "title": "Pro Football Top Draft",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLPASSYDSPRECISE",
+   "title": "Pass Yards Precise",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL3QWINNER",
+   "title": "Pro Football 3rd Quarter Winner",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLWINS-DAL",
+   "title": "Pro football wins Dallas",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLFFH2H",
+   "title": "Weekly Fantasy Football Head-to-Head",
+   "category": "Sports",
+   "frequency": "weekly"
+  },
+  {
+   "ticker": "KXNFLFANTASYMOST",
+   "title": "Pro Football Most Fantasy Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLAFCNORTH",
+   "title": "American Football Conference North Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSKC",
+   "title": "Pro football exact wins Kansas City",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLPROBOWL",
+   "title": "Pro Football Pro Bowl",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCAREERRSHTDS",
+   "title": "NFL Career Rushing Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDEPTHPOSITIONCLEQB2",
+   "title": "QB2 CLE",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-ARI",
+   "title": "Pro football wins Arizona",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLFFH2HSEASON",
+   "title": "Season Fantasy Football Head-to-Head",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-LV",
+   "title": "Pro football wins Las Vegas",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-NE",
+   "title": "Pro football wins New England",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDRAFTOU",
+   "title": "Will Player be drafted before or after pick?",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLASTTOWIN",
+   "title": "Pro Football last team to win a game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-ANY",
+   "title": "Pro football wins any team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWPMOTY",
+   "title": "Walter Payton Man of the Year",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWEEKMOSTRECYDS",
+   "title": "Weekly Most Receiving Yards",
+   "category": "Sports",
+   "frequency": "weekly"
+  },
+  {
+   "ticker": "KXNFLPASSYDSPROT",
+   "title": "Passing Yards Protected",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL2HSPREAD",
+   "title": "Pro Football 2nd Half Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTEAMFIRSTTD",
+   "title": "Pro Football First Touchdown",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLOPOYSPECIALS",
+   "title": "NFL Offensive Player of the Year Specials",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLVIEWERSHIP",
+   "title": "Pro Football Game Viewership",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL2HWINNER",
+   "title": "NFL 2nd Half Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-CLE",
+   "title": "Pro football wins Cleveland",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWORSTTOFIRST",
+   "title": "Pro Football Worst in Division to First",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSGB",
+   "title": "Pro football exact wins Green Bay",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDRAFTDT",
+   "title": "Pro Football Defensive Tackle Drafted",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-KC",
+   "title": "Pro football wins Kansas City",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLOT",
+   "title": "Pro Football Overtime",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLTEAMPTS",
+   "title": "Who will most/least points in Regular Season",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-CHI",
+   "title": "Pro football wins Chicago",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLBLOWOUT",
+   "title": "Pro Football Biggest Blowout",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-BUF",
+   "title": "Pro football wins Buffalo",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-CAR",
+   "title": "Pro football wins Carolina",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLHIGHSCORE",
+   "title": "Pro Football Highest Scoring Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFFSEASONTOTAL",
+   "title": "Pro Football Player's Fantasy Season Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-ATL",
+   "title": "Pro football wins Atlanta",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLCOTY",
+   "title": "AP Pro Football Coach Of The Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLPRIMETIME",
+   "title": "Pro Football Primetime Games",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL1HSPREAD",
+   "title": "Pro Football 1st Half Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLASSCOACH",
+   "title": "NFL Assistant Coach of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-NO",
+   "title": "Pro football wins New Orleans",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLRSHYDS",
+   "title": "Pro Football Rushing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLGAMESPECIALS",
+   "title": "Pro Football Game Specials",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLNOSCOREQ",
+   "title": "Pro Football Scoreless Quarter",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLRECYDSPROT",
+   "title": "Receiving Yards Protected",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLCAREERRSHYDS",
+   "title": "NFL Career Rushing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLOROY",
+   "title": "NFL Offensive Rookie of the Y ear",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLRETURN",
+   "title": "Pro Football Player to Compete",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSCIN",
+   "title": "Pro football exact wins Cincinnati",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLSBMVPQB",
+   "title": "Non QB Championship MVP",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSDAL",
+   "title": "Pro football exact wins Dallas",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWINS-HOU",
+   "title": "Pro football wins Houston",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFL3QTOTAL",
+   "title": "Pro Football 3rd Quarter Total",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLHIGHSCOREQ",
+   "title": "Pro Football Highest Scoring Quarter",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLONGESTPLAY",
+   "title": "NFL Longest Touchdown",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFTTE",
+   "title": "Pro Football Tight End Drafted",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLTEAMTD",
+   "title": "Pro Football Team Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSFPRACFIELD",
+   "title": "Practice Field Relocation",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWEEKMOSTPASSYDS",
+   "title": "Weekly Most Passing Yards",
+   "category": "Sports",
+   "frequency": "weekly"
+  },
+  {
+   "ticker": "KXNFLLONGFG",
+   "title": "Pro Football Team Longest Field Goal",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLGAMESACK",
+   "title": "Pro Football Sacks",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLONGESTREC",
+   "title": "Longest Reception",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFIRSTTDTEAM",
+   "title": "Pro Football First Team to Score a Touchdown",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDROY",
+   "title": "NFL Defensive Rookie of the Year",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLMOSTRSHYDS",
+   "title": "Pro Football Most Rushing Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPASSINT",
+   "title": "Pro Football Passing Interceptions",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLROUNDQUAL",
+   "title": "Pro Football Round Qualifier",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLPREPACKSGP",
+   "title": "MVE NFL Pre Pack",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFL2H",
+   "title": "Pro Football 2nd Half",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLRECYDSH2H",
+   "title": "Pro Football Head-to-Head Receiving Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSDEN",
+   "title": "Pro football exact wins Denver",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLPREPACK1Q1H",
+   "title": "MVE NFL Pre Pack",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL2HTD",
+   "title": "2nd Half Touchdowns",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLOTWIN",
+   "title": "Pro Football Overtime Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSSF",
+   "title": "Pro football exact wins San Francisco",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDIVUNDEFEATED",
+   "title": "Team to go undefeated in division",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLTSPEC",
+   "title": "NFL Team Specials",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLRECYDS",
+   "title": "Pro Football Receiving Yards",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSDET",
+   "title": "Pro football exact wins Detroit",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLLADDERRSHYDS",
+   "title": "Rushing Yards Ladder",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFL2QTOTAL",
+   "title": "Pro Football 2nd Quarter Total",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSLA",
+   "title": "Pro football exact wins Los Angeles R",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSSEA",
+   "title": "Pro football exact wins Seattle",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLNFCWEST",
+   "title": "National Football Conference West Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLRSHYDSPROT",
+   "title": "Rushing Yards Protected",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLFIRSTSTART",
+   "title": "Pro Football First Start",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLDRAFTEDGE",
+   "title": "Pro Football Edge Drafted",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFL2HTOTAL",
+   "title": "Pro Football 2nd Half Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS",
+   "title": "Pro Football Wins",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLSHORTESTTD",
+   "title": "Pro Football Shortest Touchdown",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLALLROOK",
+   "title": "NFL All Rookie Team",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLWEEKGAMEHIGH",
+   "title": "NFL Week Highest Scoring Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLWINS-DEN",
+   "title": "Pro football wins Denver",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLFIRSTPICK",
+   "title": "First Pick in NFL Draft",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLDIVLEASTWINS",
+   "title": "Pro Football Division with the Most Wins",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSHOU",
+   "title": "Pro football exact wins Houston",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLFIRSTTDTIME",
+   "title": "Pro Football First Touchdown Time",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLHOFINDUCTEES",
+   "title": "Pro Football Hall of Fame Inductees",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLBOTH",
+   "title": "Pro Football Both Teams to Score Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSCLE",
+   "title": "Pro football exact wins Cleveland",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLEQBTTS",
+   "title": "Pro Football Both Teams to Score in Every Quarter",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLLEASTPENALIZED",
+   "title": "Pro Football Least Penalized Team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNFLEXACTWINSTEN",
+   "title": "Pro football exact wins Tennessee",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNFLCOMBO",
+   "title": "NFL COMBO",
+   "category": "Sports",
+   "frequency": "one_off"
   },
   {
    "ticker": "KXNFLWEEKHIGH",
@@ -266,340 +2228,10 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFL1HTD",
-   "title": "1st Half Touchdown",
+   "ticker": "KXNFLSEASONRSHTD",
+   "title": "Rushing Touchdowns",
    "category": "Sports",
    "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSTADIUM",
-   "title": "Will NFL Stadium Project be complete by date",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTOL",
-   "title": "Pro Football Offensive Line Drafted ",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLGAMESPECIALS",
-   "title": "Pro Football Game Specials",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLNEXTTD",
-   "title": "Pro Football Next TD scorer",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLDRAFTDT",
-   "title": "Pro Football Defensive Tackle Drafted",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINS-NO",
-   "title": "Pro football wins New Orleans",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINS-TB",
-   "title": "Pro football wins Tampa Bay",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLLASTTOWIN",
-   "title": "Pro Football last team to win a game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDIVLEASTWINS",
-   "title": "Pro Football Division with the Most Wins",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-BUF",
-   "title": "Pro football wins Buffalo",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL60YARDFGS",
-   "title": "Pro Football 60+ Yard Field Goals",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSEASONRECYDS",
-   "title": "Receiving Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLVIEWERSHIP",
-   "title": "Pro Football Game Viewership",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-ATL",
-   "title": "Pro football wins Atlanta",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSSEA",
-   "title": "Pro football exact wins Seattle",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLNEXTTEAM",
-   "title": "Player Next Team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDELAY",
-   "title": "NFL Weather Delay",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL3QSPREAD",
-   "title": "Pro Football 3rd Quarter Spread",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLSACK",
-   "title": "Pro Football Sacks",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLOWNERSTAKE",
-   "title": "Next Pro Football Team to Sell Ownership Stake",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLESCALATORRSHYDS",
-   "title": "Rushing Yards Escalator",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSPIT",
-   "title": "Pro football exact wins Pittsburgh",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFFPTS",
-   "title": "Pro Football Player Fantasy Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSEASONPASSTDS",
-   "title": "Passing Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL3QWINNER",
-   "title": "Pro Football 3rd Quarter Winner",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFL2H",
-   "title": "Pro Football 2nd Half",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPASSINT",
-   "title": "Pro Football Passing Interceptions",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSLV",
-   "title": "Pro football exact wins Las Vegas",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLMENTION",
-   "title": "NFL Mention",
-   "category": "Mentions",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLDRAFTDB",
-   "title": "Pro Football Defensive Back Drafted",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSBAL",
-   "title": "Pro football exact wins Baltimore",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLSEASONRUSHYDS",
-   "title": "Rushing Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTRADE",
-   "title": "Pro Football Players Traded",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFT1ST",
-   "title": "Make the 1st pick in NFL Draft",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINS-NYG",
-   "title": "Pro football wins New York G",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLPLAYOFFHOST",
-   "title": "Team to host a playoff game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPASSYDSPRECISE",
-   "title": "Pass Yards Precise",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLAFCCHAMP",
-   "title": "American Football Conference Champion",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL3QBTTS",
-   "title": "Pro Football Both Teams to Score in 3rd Quarter",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSKC",
-   "title": "Pro football exact wins Kansas City",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINS-NYJ",
-   "title": "Pro football wins New York J",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLDRAFTEAMPOS",
-   "title": "Will team draft a position across round",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFL2HTOTAL",
-   "title": "Pro Football 2nd Half Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWEEKGAMEHIGH",
-   "title": "NFL Week Highest Scoring Game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-PIT",
-   "title": "Pro football wins Pittsburgh",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLOPOYSPECIALS",
-   "title": "NFL Offensive Player of the Year Specials",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCOMBINE40",
-   "title": "Pro Football Combine Fastest 40 Time",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLAFCEAST",
-   "title": "American Football Conference East Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLGPICKENSCONTRACT",
-   "title": "Pro Football George Picken's Next Contract Size",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSHOU",
-   "title": "Pro football exact wins Houston",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLCOACHOUTFIRST",
-   "title": "First NFL coach out",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLHOFINDUCTEES",
-   "title": "Pro Football Hall of Fame Inductees",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-MIN",
-   "title": "Pro football wins Minnesota",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLRRYDS",
-   "title": "Pro Football Rush and Receiving Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLEADERPINT",
-   "title": "Pro Football P INT Leader",
-   "category": "Sports",
-   "frequency": "one_off"
   },
   {
    "ticker": "KXNFL1HTOTAL",
@@ -608,902 +2240,8 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFL4QSPREAD",
-   "title": "Pro Football 4th Quarter Spread",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLTEAMFG",
-   "title": "Pro Football Field Goals",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSHORTESTTD",
-   "title": "Pro Football Shortest Touchdown",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLFFH2H",
-   "title": "Weekly Fantasy Football Head-to-Head",
-   "category": "Sports",
-   "frequency": "weekly"
-  },
-  {
-   "ticker": "KXNFLROUNDQUAL",
-   "title": "Pro Football Round Qualifier",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLGAME",
-   "title": "NFL Game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWPMOTY",
-   "title": "Walter Payton Man of the Year",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLGAMELOCATION",
-   "title": "NFL Game Location",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLREBOOT",
-   "title": "Reboot Rules",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLGAMEFG",
-   "title": "Pro Football Field Goals",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLSEASONRSHTD",
-   "title": "Rushing Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSELLOUT",
-   "title": "Pro Football Sellouts",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSMIA",
-   "title": "Pro football exact wins Miami",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL2QBTTS",
-   "title": "Pro Football Both Teams to Score in 2nd Quarter",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTOU",
-   "title": "Will Player be drafted before or after pick?",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL4QBTTS",
-   "title": "Pro Football Both Teams to Score in 4th Quarter",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLADDERRSHYDS",
-   "title": "Rushing Yards Ladder",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINNINGSTREAK",
-   "title": "NFL Team Winning Streak",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSBMVPDEF",
-   "title": "Defensive Player Championship MVP",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLNOSCOREQ",
-   "title": "Pro Football Scoreless Quarter",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDPOY",
-   "title": "NFL Defensive Player of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLDRAFT1",
-   "title": "NFL Draft First Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINS-KC",
-   "title": "Pro football wins Kansas City",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLCAREERPASSTDS",
-   "title": "NFL Career Passing Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL1QSPREAD",
-   "title": "Pro Football 1st Quarter Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTMATCHUP",
-   "title": "Pro Football Draft Matchup",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLOROY",
-   "title": "NFL Offensive Rookie of the Y ear",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL4DOWNCONV",
-   "title": "Pro Football 4th Down Conversions",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDIVUNDEFEATED",
-   "title": "Team to go undefeated in division",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLDSTTD",
-   "title": "Pro Football D/ST Touchdown",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLRSHYDSPROT",
-   "title": "Rushing Yards Protected",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWEEKMOSTRSHYDS",
-   "title": "Weekly Most Rushing Yards",
-   "category": "Sports",
-   "frequency": "weekly"
-  },
-  {
-   "ticker": "KXNFLLARGELEAD",
-   "title": "Pro Football Largest Lead",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLVIEW",
-   "title": "NFL ratings",
-   "category": "Entertainment",
-   "frequency": "weekly"
-  },
-  {
-   "ticker": "KXNFLWINS-LV",
-   "title": "Pro football wins Las Vegas",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLMOSTRECYDS",
-   "title": "Pro Football Most Receiving Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLADDERREC",
-   "title": "Receptions Ladder",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSDRAFTTOP",
-   "title": "Will player be drafted Top X in Supplemental Draft",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTIES",
-   "title": "Pro Football Ties",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-DEN",
-   "title": "Pro football wins Denver",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINMARGIN",
-   "title": "Pro Football Win Margin",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-LA",
-   "title": "Pro football wins Los Angeles R",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLNFCSOUTH",
-   "title": "National Football Conference South Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLROTM",
-   "title": "NFL Rookie of the Month",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSGB",
-   "title": "Pro football exact wins Green Bay",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLCOMPETE",
-   "title": "Will an NFL Player Compete in game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLNEXTINT",
-   "title": "Pro Football Next Interception",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTTEAMPOS",
-   "title": "Which team will draft a quarterback in specific round?",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPASSTDSPROT",
-   "title": "Passing Touchdowns Protected",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWEEKMOSTPASSYDS",
-   "title": "Weekly Most Passing Yards",
-   "category": "Sports",
-   "frequency": "weekly"
-  },
-  {
-   "ticker": "KXNFLWINS-ARI",
-   "title": "Pro football wins Arizona",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLDRAFTTE",
-   "title": "Pro Football Tight End Drafted",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLCAREERRSHYDS",
-   "title": "NFL Career Rushing Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLONGESTFG",
-   "title": "Pro Football Longest Field Goal",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDIVISIONORDER",
-   "title": "Pro Football Division Exact Order",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLMVPSPECIALS",
-   "title": "NFL MVP Award Specials",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLASSCOACH",
-   "title": "NFL Assistant Coach of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL4QTOTAL",
-   "title": "Pro Football 4th Quarter Total",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLHALLOFFAME",
-   "title": "Pro Football Hall of Fame",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLROLE",
-   "title": "Pro Football Role at Event",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCOMEBACK",
-   "title": "Pro Football Comeback",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSMIN",
-   "title": "Pro football exact wins Minnesota",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL1Q",
-   "title": "Pro Football 1st Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTPICK",
-   "title": "NFL Draft Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLSBMVP",
-   "title": "Pro Football Championship MVP",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLSEASONRSHYDS",
-   "title": "Rushing Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLOPOTY",
-   "title": "AP Pro Football Offensive Player Of The Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEQBTTS",
-   "title": "Pro Football Both Teams to Score in Every Quarter",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPASSATT",
-   "title": "Pro Football Passing Attempts",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLFIRSTTDTIME",
-   "title": "Pro Football First Touchdown Time",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLEASTPENALIZED",
-   "title": "Pro Football Least Penalized Team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLAFCWEST",
-   "title": "American Football Conference West Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLTSPEC",
-   "title": "NFL Team Specials",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL4QWINNER",
-   "title": "Pro Football 4th Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL2QTOTAL",
-   "title": "Pro Football 2nd Quarter Total",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSJAC",
-   "title": "Pro football exact wins Jacksonville",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSTEN",
-   "title": "Pro football exact wins Tennessee",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFFLEADERTOP",
-   "title": "Top Fantasy",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCELEBRITYGAME",
-   "title": "Pro Football Celebrity Flag Football Game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCAREERRSHTDS",
-   "title": "NFL Career Rushing Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL4Q",
-   "title": "Pro Football 4th Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLT100",
-   "title": "Will player be ranked on Pro Football T100 List",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSLA",
-   "title": "Pro football exact wins Los Angeles R",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLTOTALPRECISE",
-   "title": "Total Precise",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSTAGEOFELIM",
-   "title": "Pro Football Stage of Elimination",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLFFTOP",
-   "title": "Top Fantasy Rank",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL2Q",
-   "title": "Pro Football 2nd Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWORSTTOFIRST",
-   "title": "Pro Football Worst in Division to First",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLNEXTCOACHOUT",
-   "title": "Next NFL Coach Out",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-HOU",
-   "title": "Pro football wins Houston",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINS-SF",
-   "title": "Pro football wins San Francisco",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLTEAM1STDOWNS",
-   "title": "Pro Football Team 1st Downs",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSNYJ",
-   "title": "Pro football exact wins New York J",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLTIE",
-   "title": "NFL Game to Tie",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL1YDPASS",
-   "title": "Seattle 1 Yard Pass",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSSF",
-   "title": "Pro football exact wins San Francisco",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLDRAFTEDGE",
-   "title": "Pro Football Edge Drafted",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLNFCEAST",
-   "title": "National Football Conference East Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFF40PTS",
-   "title": "Fantasy Football 40 Point Performances",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL2HTD",
-   "title": "2nd Half Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDPOTY",
-   "title": "AP Pro Football Defensive Player Of The Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLSBMVPQB",
-   "title": "Non QB Championship MVP",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFIRSTTD",
-   "title": "Pro Football First Touchdown",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL1QBTTS",
-   "title": "Pro Football Both Teams to Score in 1st Quarter",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLONGESTPLAY",
-   "title": "NFL Longest Touchdown",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTSELECT",
-   "title": "NFL Draft Exact Selection",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSCLE",
-   "title": "Pro football exact wins Cleveland",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL1H",
-   "title": "Pro Football 1st Half Winner",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLDIVISIONWINS",
-   "title": "Pro Football Division Total Wins",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTEAMYDS",
-   "title": "Pro Football Team Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLASTTOLOSE",
-   "title": "Pro Football Last Undefeated Team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL53MAN",
-   "title": "Pro Football 53 Man Roster",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSDET",
-   "title": "Pro football exact wins Detroit",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINS-GB",
-   "title": "Pro football wins Green Bay",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSLAC",
-   "title": "Pro football exact wins Los Angeles C",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINSTREAK",
-   "title": "Pro Football Win Streak",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTEAMDPTS",
-   "title": "Who will allow the least/most points this season",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLMOSTRSHYDS",
-   "title": "Pro Football Most Rushing Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPREPACK1Q1H",
-   "title": "MVE NFL Pre Pack",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-BAL",
-   "title": "Pro football wins Baltimore",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLDRAFTCAT",
-   "title": "Pro Football Draft Category",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLBOTH",
-   "title": "Pro Football Both Teams to Score Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSBMVPPOS",
-   "title": "Pro Football Championship MVP Position",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTEAMTD",
-   "title": "Pro Football Team Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSEASONREC",
-   "title": "Receptions",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLGAMETD",
-   "title": "Pro Football Touchdowns",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLPLAYOFF",
-   "title": "Pro Football Playoff Qualifiers",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINSWEEK",
-   "title": "NFL wins by week",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLONGESTTD",
-   "title": "Pro Football Longest Touchdown",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLNONQBPASS",
-   "title": "Pro Football Non-QB Passes",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL2TD",
-   "title": "Pro Football Multiple Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLFIRSTSTART",
-   "title": "Pro Football First Start",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPASSYDS",
-   "title": "Pro Football Passing Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLH2HWINS",
-   "title": "Pro Football Head-to-Head Win Totals",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL3Q",
-   "title": "Pro Football 3rd Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCPOTY",
-   "title": "AP Pro Football Comeback Player of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLPOTM",
-   "title": "NFL Player of the Month",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL1QTOTAL",
-   "title": "Pro Football 1st Quarter Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSPREAD",
-   "title": "Pro Football Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPREPACK3ML",
-   "title": "MVE NFL Pre Pack",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLESCALATORREC",
-   "title": "Receptions Escalator",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-DET",
-   "title": "Pro football wins Detroit",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLPASSYDSH2H",
-   "title": "Pro Football Head-to-Head Passing Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTD",
-   "title": "Pro Football Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSFTY",
-   "title": "Pro Football Safety",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLFIRSTTDTEAM",
-   "title": "Pro Football First Team to Score a Touchdown",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPLAYOFFC",
-   "title": "Will both teams make the NFL Playoffs",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTLB",
-   "title": "Pro Football Linebacker Drafted",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLSEEDOU",
-   "title": "NFL Playoffs Seed Over/Unders",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-LAC",
-   "title": "Pro football wins Los Angeles C",
+   "ticker": "KXNFLEXACTWINSATL",
+   "title": "Pro football exact wins Atlanta",
    "category": "Sports",
    "frequency": "annual"
   },
@@ -1514,748 +2252,10 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNFLMATCHUP",
-   "title": "Pro Football Matchups",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCOMBINE",
-   "title": "NFL Combine",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSWAS",
-   "title": "Pro football exact wins Washington",
+   "ticker": "KXNFLEXACTWINSNYG",
+   "title": "Pro football exact wins New York G",
    "category": "Sports",
    "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFFLEADER",
-   "title": "Best in Fantasy By Position",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWEEKMOSTRECYDS",
-   "title": "Weekly Most Receiving Yards",
-   "category": "Sports",
-   "frequency": "weekly"
-  },
-  {
-   "ticker": "KXNFLWEEKSTART",
-   "title": "NFL Week Starter",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLFIRSTPICK",
-   "title": "First Pick in NFL Draft",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLLONGRSH",
-   "title": "Longest Rush",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTDPROT",
-   "title": "Pro Football Touchdowns Protected",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDPOYSPECIALS",
-   "title": "NFL Defensive Player of the Year Specials",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTKL",
-   "title": "Pro Football Tackles",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-PHI",
-   "title": "Pro football wins Philadelphia",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSCAR",
-   "title": "Pro football exact wins Carolina",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINS-CLE",
-   "title": "Pro football wins Cleveland",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLTEAMTO",
-   "title": "Pro Football Forced Turnovers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTTEAM",
-   "title": "Pro Football Team Draft",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLOROTY",
-   "title": "AP Pro Football Offensive Rookie of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLTEAMFIRSTTD",
-   "title": "Pro Football First Touchdown",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLENDSTREAK",
-   "title": "When will team end streak",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLOTWIN",
-   "title": "Pro Football Overtime Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSPHI",
-   "title": "Pro football exact wins Philadephia",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWEEKHIGHSCORE",
-   "title": "NFL Highest Scoring Team of the Week",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPREPACK2ML",
-   "title": "MVE NFL Pre Pack",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLWINS-CHI",
-   "title": "Pro football wins Chicago",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLWINS",
-   "title": "Pro Football Wins",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLGAMETO",
-   "title": "Pro Football Turnovers",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSATL",
-   "title": "Pro football exact wins Atlanta",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLPREPACKSGP",
-   "title": "MVE NFL Pre Pack",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLT100TOP",
-   "title": "Will player be ranked Top X on NFL 100",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLFFWEEKLEAD",
-   "title": "Weekly Fantasy Football Leader",
-   "category": "Sports",
-   "frequency": "weekly"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSCIN",
-   "title": "Pro football exact wins Cincinnati",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLALLPRO",
-   "title": "Pro Football All-Pro Teams",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-ANY",
-   "title": "Pro football wins any team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPASSCOMP",
-   "title": "Pro Football Passing Completions",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEVERYWEEKCOMPETE",
-   "title": "Pro Football Players to Play in Every Week of the Season",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLNFCNORTH",
-   "title": "National Football Conference North Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL3QTOTAL",
-   "title": "Pro Football 3rd Quarter Total",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLFFWEEKTOP",
-   "title": "Weekly Fantasy Football Top Players",
-   "category": "Sports",
-   "frequency": "weekly"
-  },
-  {
-   "ticker": "KXNFLDRAFTTOP",
-   "title": "Pro Football Top Draft",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLXA",
-   "title": "Netflix KPI",
-   "category": "Financials",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLTOTAL",
-   "title": "Pro Football Total Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-JAC",
-   "title": "Pro football wins Jacksonville",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLNFCCHAMP",
-   "title": "National Football Conference Champion",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLAFCNORTH",
-   "title": "American Football Conference North Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLPROBOWL",
-   "title": "Pro Football Pro Bowl",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLRSHYDSH2H",
-   "title": "Pro Football Head-to-Head Rushing Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-MIA",
-   "title": "Pro football wins Miami",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLPREPACK1HFT",
-   "title": "MVE NFL Pre Pack",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLRETIRE",
-   "title": "NFL Retirement",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL2QSPREAD",
-   "title": "Pro Football 2nd Quarter Spread",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSIND",
-   "title": "Pro football exact wins Indianapolis",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLCOMBO",
-   "title": "NFL COMBO",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLDRAFTRB",
-   "title": "Pro Football Running Back Drafted",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLXAPP",
-   "title": "Netflix app downloads",
-   "category": "Financials",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLINT",
-   "title": "Pro Football Interceptions",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSNE",
-   "title": "Pro football exact wins New England",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFANTASYMOST",
-   "title": "Pro Football Most Fantasy Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTEAMTOTAL",
-   "title": "Pro Football Team Total Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLHKANE",
-   "title": "Harry Kane Pro Football signing",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPASSYDSPROT",
-   "title": "Passing Yards Protected",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSDEN",
-   "title": "Pro football exact wins Denver",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSARI",
-   "title": "Pro football exact wins Arizona",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLTOTALTD",
-   "title": "Pro Football Total Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSUPDRAFTPICK",
-   "title": "Will Player declare for supplemental draft",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLARGESTLEAD",
-   "title": "Pro Football Largest Lead",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLAWARDFIN",
-   "title": "Pro Football Award Finalists",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTQB",
-   "title": "Pro Football Quarterback Drafted",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLLONGFG",
-   "title": "Pro Football Team Longest Field Goal",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDIVMOSTWINS",
-   "title": "Pro Football Division with the Least Wins",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLOT",
-   "title": "Pro Football Overtime",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLRECYDSRECORD",
-   "title": "NFL Regular Season Receiving Yards Record",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLTEAM1POS",
-   "title": "What position will Team select with first pick",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSTB",
-   "title": "Pro football exact wins Tampa Bay",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSBUF",
-   "title": "Pro football exact wins Buffalo",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL2HWINNER",
-   "title": "NFL 2nd Half Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLOPOY",
-   "title": "NFL Offensive Player of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL1HTEAMTOTAL",
-   "title": "Pro Football 1st Half Team Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLONGESTREC",
-   "title": "Longest Reception",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXECOTY",
-   "title": "Pro Football Executive of the Year",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLRECYDSH2H",
-   "title": "Pro Football Head-to-Head Receiving Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLNBA",
-   "title": "NFL and NBA Champion Combo",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLLADDERRECYDS",
-   "title": "Receiving Yards Ladder",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSEED",
-   "title": "NFL Playoff Seed",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLHIGHSCORE",
-   "title": "Pro Football Highest Scoring Game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSCHI",
-   "title": "Pro football exact wins Chicago",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFL1QWINNER",
-   "title": "Pro Football 1st Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-CAR",
-   "title": "Pro football wins Carolina",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLSEASONRECTD",
-   "title": "Receiving Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWEEKCOMPETE",
-   "title": "NFL Player to Play in Week",
-   "category": "Sports",
-   "frequency": "weekly"
-  },
-  {
-   "ticker": "KXNFLWINS-SEA",
-   "title": "Pro football wins Seattle",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLRECYDS",
-   "title": "Pro Football Receiving Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLWINS-WAS",
-   "title": "Pro football wins Washington",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLCOACHOUT",
-   "title": "NFL Coaches Fired",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLNFCWEST",
-   "title": "National Football Conference West Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLPRIMETIME",
-   "title": "Pro Football Primetime Games",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTWR",
-   "title": "Pro Football Wide Receiver Drafted ",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLMVP",
-   "title": "AP Pro Football Regular Season MVP",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFFHIGHSCORE",
-   "title": "Fantasy Football Highest Scoring Performance",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLAFCSOUTH",
-   "title": "American Football Conference South Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLFFPLAYERHIGH",
-   "title": "Pro Football Player's Highest Scoring Fantasy Performance",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPROOTY",
-   "title": "Pro Football Protector of the Year",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLREDZONEBRANDADS",
-   "title": "Redzone week 1 brand ads",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLRECYDSPROT",
-   "title": "Receiving Yards Protected",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLDRAFTCOMPARE",
-   "title": "NFL Draft Comparison",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL2HSPREAD",
-   "title": "Pro Football 2nd Half Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTEAMSACK",
-   "title": "Pro Football Team Sacks",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCAREERPASSYDS",
-   "title": "NFL Career Passing Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLRSHYDS",
-   "title": "Pro Football Rushing Yards",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCOACH",
-   "title": "NFL Coach of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLEXACTWINSDAL",
-   "title": "Pro football exact wins Dallas",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNFLRSHATT",
-   "title": "Pro Football Rushing Attempts",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLCONTRACTSIZE",
-   "title": "Pro Football Next Contract Size",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLPASSTDS",
-   "title": "Pro Football player Passing Touchdowns",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLTEAMPTS",
-   "title": "Who will most/least points in Regular Season",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLANYTD",
-   "title": "Pro Football Anytime Touchdown",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLREC",
-   "title": "Pro Football Player Receptions",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL1HSPREAD",
-   "title": "Pro Football 1st Half Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSBOUTCOME",
-   "title": "NFL Championship Outcome",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLRETURN",
-   "title": "Pro Football Player to Compete",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL1HFT",
-   "title": "1st Half Fulltime Result",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLSACKRECORD",
-   "title": "NFL Regular Season Sack Record",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFL1SEED",
-   "title": "Will team win conference in regular season",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNFLREDZONEADS",
-   "title": "NFL Redzone ads",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNFLESCALATORRECYDS",
-   "title": "Receiving Yards Escalator",
-   "category": "Sports",
-   "frequency": "custom"
   }
  ]
 }
