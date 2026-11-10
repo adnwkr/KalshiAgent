@@ -342,6 +342,7 @@ def grade(picks_path, out_path="graded.json"):
     ev = load_events()
     out = []
     for p in json.load(open(picks_path)):
+        r1_tie = False
         start = pd.Timestamp(p["start"])
         cand = ev[(ev.start - start).abs() <= pd.Timedelta(days=3)] if len(ev) else ev
         name_tokens = set(norm_name(re.sub(r"\(.*?\)", "", p["tournament"])).split())
@@ -353,16 +354,21 @@ def grade(picks_path, out_path="graded.json"):
         e = cand.iloc[0]
         rr = rounds[rounds.event_id == e.event_id]
         me = rr[rr.key == norm_name(p["golfer"])]
-        if me.empty:
-            out.append({**p, "result": "void", "note": "golfer not in final results (did not start?)"}); continue
+        if me.empty:  # Kalshi settles a golfer who never tees off at its "last fair price"; we log it as Void
+            out.append({**p, "result": "void", "note": "golfer not in final results (did not start); "
+                                                        "Kalshi settles these at the last fair price"}); continue
         pos = str(me.pos.iloc[0])
         n = finish_pos(pos)
         m = p["market"]
         if m == "make_cut":
-            yes = pos not in ("MC", "WD", "DQ")
+            # Kalshi GOLFCUT rules: a withdrawal or DQ before the cut is No; a golfer who made the cut
+            # and withdrew later still counts as Yes. fetch_results.py marks anyone with fewer than the
+            # full set of rounds "MC", so a third-round score on the card is the sign the cut was made.
+            yes = pos not in ("MC", "WD", "DQ") or me["round"].nunique() >= 3
         elif m == "r1_lead":
             r1 = rr[rr["round"] == 1]
             yes = me[me["round"] == 1].strokes.min() == r1.strokes.min()
+            r1_tie = yes and int((r1.strokes == r1.strokes.min()).sum()) > 1
         else:
             N = {"win": 1, "top5": 5, "top10": 10, "top20": 20}[m]
             yes = n is not None and n <= N
@@ -370,8 +376,9 @@ def grade(picks_path, out_path="graded.json"):
         odds = float(p.get("odds", 100))
         units = (100 / -odds if odds < 0 else odds / 100) if hit else -1
         out.append({**p, "result": "win" if hit else "loss", "units": round(units, 3), "finish": pos,
-                    "event": e["name"], "tie_at_cutoff": bool(pos.startswith("T") and m.startswith("top")
-                                                              and n == {"top5": 5, "top10": 10, "top20": 20}.get(m))})
+                    "event": e["name"], "tie_at_cutoff": bool((pos.startswith("T") and m.startswith("top")
+                                                               and n == {"top5": 5, "top10": 10, "top20": 20}.get(m))
+                                                              or (m == "r1_lead" and r1_tie))})
     json.dump(out, open(out_path, "w"), indent=1, default=str)
     for o in out:
         print(o.get("id"), o["golfer"], o["market"], o["side"], "->", o["result"], o.get("finish"), o.get("units"))
