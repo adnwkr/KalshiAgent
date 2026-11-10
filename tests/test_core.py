@@ -138,3 +138,29 @@ def test_close_picks_last_quote_before_start(monkeypatch, tmp_path):
     k.main(f"KXNFLSPREAD-26NOV08CINATL-CIN10@{start}")
     c = json.load(open(tmp_path / "closes.json"))["KXNFLSPREAD-26NOV08CINATL-CIN10"]
     assert c["yes_bid"] == 43 and c["yes_ask"] == 45 and c["mid"] == 44 and c["minutes_before_start"] == 1
+
+
+def test_same_player_and_nordic_letters():
+    from kalshi_common import same_player
+    assert norm_name("Rasmus Højgaard") == "rasmus hojgaard"
+    assert same_player("Zach Bauchou", "Zachary Bauchou")
+    assert same_player("Kris Ventura", "Kristoffer Ventura")
+    assert not same_player("Nicolai Hojgaard", "Rasmus Hojgaard")
+    assert same_player("Chan Kim", "Chris Kim")  # ambiguous on its own, so field_for only uses it when unique
+
+
+def test_pga_espn_field_replaces_withdrawn_kalshi_golfers(tmp_path, monkeypatch):
+    m = load("pga-kalshi", "pga_model")
+    base = [f"Golfer {a}{b}son" for a in "abcdefg" for b in "hijklm"][:38]  # distinct letter-only names
+    espn = base + ["Zachary Bauchou", "Alternate One"]
+    (tmp_path / "results").mkdir()
+    (tmp_path / "results" / "current.json").write_text(json.dumps({"events": [{
+        "event": {"name": "Test Open", "status": "scheduled"}, "players": espn, "rounds": []}]}))
+    monkeypatch.setattr(m, "DATA", str(tmp_path))
+    golfers = [{"name": n} for n in base] + [{"name": "Zach Bauchou"}, {"name": "Withdrawn Guy"}]
+    t = {"event_key": "TEST26", "title": "Test Open", "golfers": golfers, "markets": ["make_cut", "win"]}
+    names, n_pad, _ = m.field_for(t, {"skill": {}, "n_eff": {}})
+    assert len(names) == 40 and n_pad == 0
+    assert "Zach Bauchou" in names and "Zachary Bauchou" not in names  # Kalshi spelling kept
+    assert "Alternate One" in names and "Withdrawn Guy" not in names
+    assert m.field_for.dropped == ["Withdrawn Guy"]

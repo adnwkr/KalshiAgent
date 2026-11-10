@@ -27,7 +27,7 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "common"))
-from kalshi_common import fee as kalshi_fee, norm_name, price_to_american  # noqa: E402
+from kalshi_common import fee as kalshi_fee, norm_name, price_to_american, same_player  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -192,11 +192,15 @@ def pick_event(kl, key=None):
 
 
 def field_for(t, skills=None):
-    """Field: Kalshi's golfer list, plus ESPN's published field for the same event when there is one.
-    If the field is still short (future events list only the golfers with markets), pad it with the
-    best-rated players not already listed, up to a normal field size, so probabilities are not
-    spread over too few golfers. Returns (names, n_padded, in_progress)."""
-    names = [g["name"] for g in t["golfers"]]
+    """Field for the simulation. Once ESPN publishes the official field (current.json), that list is
+    the field: Kalshi golfers who aren't in it have withdrawn and are left out, and ESPN entrants
+    with no Kalshi market are added. Kalshi's spelling is kept for golfers on both lists so prices
+    and probabilities join. Before ESPN posts the field, Kalshi's list is used as is once make-cut
+    markets are open; only futures with a partial list are padded with the best-rated players.
+    Returns (names, n_padded, in_progress); the golfers dropped as withdrawn are in field_for.dropped."""
+    kalshi_names = [g["name"] for g in t["golfers"]]
+    names = list(kalshi_names)
+    field_for.dropped = []
     in_progress = False
     cur = os.path.join(DATA, "results", "current.json")
     espn_field = False
@@ -205,10 +209,20 @@ def field_for(t, skills=None):
         for ev in c.get("events", []):
             tokens = set(norm_name(ev["event"]["name"]).split()) - {"the", "championship", "open", "classic", "tournament"}
             if tokens & set(norm_name(t["title"] or "").split()):
-                have = {norm_name(n) for n in names}
-                names += [p for p in ev["players"] if norm_name(p) not in have]
-                espn_field = len(ev["players"]) >= 30
                 in_progress = bool(ev.get("rounds")) or ev["event"].get("status") not in ("scheduled", "pre", "")
+                players = ev.get("players") or []
+                if len(players) >= 30:
+                    espn_field = True
+                    names = []
+                    used = set()
+                    for p in players:  # exact spelling first; nickname match only when it is unambiguous
+                        k = [n for n in kalshi_names if n not in used and norm_name(n) == norm_name(p)]
+                        if not k:
+                            k = [n for n in kalshi_names if n not in used and same_player(n, p)]
+                            k = k if len(k) == 1 else []
+                        names.append(k[0] if k else p)
+                        used.update(k[:1])
+                    field_for.dropped = [n for n in kalshi_names if n not in names]
     # Kalshi lists every entrant once it opens make-cut markets, so its list is the real field.
     # Only futures-style events (winner market for a partial list) still need padding.
     kalshi_field = "make_cut" in (t.get("markets") or []) and len(t["golfers"]) >= 60
@@ -244,13 +258,15 @@ def predict(key=None, out_path="preds.json"):
     sim = simulate(field, skills)
     unmatched = sim[~sim.matched].golfer.tolist()
     res = {"event_key": t["event_key"], "title": t["title"], "close_time": t["close_time"], "config": CONFIG,
-           "in_progress": in_progress, "padded_golfers": n_pad,
+           "in_progress": in_progress, "padded_golfers": n_pad, "not_in_field": field_for.dropped,
            "field_size": len(field), "cut": len(field) > CONFIG["no_cut_field"],
            "round_sd_observed": round(sd, 2), "unmatched_golfers": unmatched,
            "golfers": json.loads(sim.round(4).to_json(orient="records"))}
     json.dump(res, open(out_path, "w"), indent=1)
     print(f"{t['title']} ({t['event_key']}): field {len(field)} ({n_pad} added as likely entrants), "
           f"{'cut' if res['cut'] else 'no cut'}, {len(unmatched)} golfers with no history (priced at the prior) -> {out_path}")
+    if field_for.dropped:
+        print(f"  On Kalshi but not in ESPN's field (withdrawn?), not priced: {', '.join(field_for.dropped)}")
     if in_progress:
         print("  WARNING: this event has started. The model is pre-tournament only and ignores live scores; "
               "do not use it for picks until the next event.")
