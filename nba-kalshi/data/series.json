@@ -1,15 +1,261 @@
 {
- "fetched_at": "2026-11-10T02:45:15+00:00",
+ "fetched_at": "2026-11-10T04:21:35+00:00",
  "series": [
   {
-   "ticker": "KXNBADRAFTTOP15",
-   "title": "NBA Draft Top 15 Pick",
+   "ticker": "KXNBAUNBEATEN",
+   "title": "NBA Playoffs Team to go Undefeated",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASHOOTINGSTARS",
+   "title": "Pro Basketball Shooting Stars Contest",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBA1QTEAMTOTAL",
+   "title": "NBA 1st Quarter Team Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFINALSVIEWERGAME7",
+   "title": "NBA finals viewership",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASTOCKS",
+   "title": "NBA Player Steals and Blocks",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA3Q",
+   "title": "NBA 3rd Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPTSALLGAMES",
+   "title": "Pro Basketball Points in Every Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAAST",
+   "title": "NBA Player Assists",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASPREAD",
+   "title": "NBA Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAMVP",
+   "title": "NBA MVP",
    "category": "Sports",
    "frequency": "annual"
   },
   {
+   "ticker": "KXNBAPLAYOFFPTS",
+   "title": "NBA Playoffs Player Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFINALSVIEWER",
+   "title": "NBA finals viewership",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASTOCK",
+   "title": "NBA Player Steals + Blocks",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASERIESROADWINS",
+   "title": "Pro Basketball Series Total Road Wins",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASTL",
+   "title": "NBA Player Steals",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASERIES",
+   "title": "NBA Series Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA1HWINNER",
+   "title": "Pro Baskeball 1st Half Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAHIGHESTSCORING",
+   "title": "NBA Player with the Highest Scoring Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPLAYOFFHOMEGAMES",
+   "title": "NBA Team Home Playoff Games",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBAGAME",
+   "title": "NBA Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAGAME7",
+   "title": "NBA Series that Go to a Game 7",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBASERIES3PMLEADER",
+   "title": "Pro Basketball Series 3-Pointers Made Leader",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAOVERTIME",
+   "title": "NBA Overtime",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBARELOCATION",
+   "title": "Pro Basketball Team Relocation",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPICKTRADE",
+   "title": "Pro Basketball Pick Trade",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAALLSTARGAME",
+   "title": "NBA All-Star Game Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAFIRSTTIMECHAMP",
+   "title": "NBA First Time Champion",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA3QSPREAD",
+   "title": "NBA 3rd Quarter Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA1HTOTAL",
+   "title": "NBA 1st Half Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPLAYERHIGHSCORE",
+   "title": "NBA Highest Scoring Performance in Regular Season",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFTTOP20",
+   "title": "NBA Draft Top 20 Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBA2HTEAMTOTAL",
+   "title": "NBA 2nd Half Team Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA",
+   "title": "Pro Basketball Champion",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAFTM",
+   "title": "NBA Player Free Throws Made",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
    "ticker": "KXNBA3QWINNER",
    "title": "NBA 3rd Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAGAMES",
+   "title": "NBA games",
+   "category": "Sports",
+   "frequency": "daily"
+  },
+  {
+   "ticker": "KXNBA2QTEAMTOTAL",
+   "title": "NBA 2nd Quarter Team Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA2KCOVER",
+   "title": "Who will be on the cover of NBA 2k?",
+   "category": "Entertainment",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBASERIESPTS",
+   "title": "Pro Basketball Series Player Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFINALSOUTCOME",
+   "title": "NBA Finals Outcome",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA1HTEAMTOTAL",
+   "title": "NBA 1st Half Team Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASERIESOT",
+   "title": "Pro Basketball Series Overtime",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAH2HWINS",
+   "title": "NBA Head to Head Win Total",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -20,8 +266,872 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBANEXTTEAMCONF",
-   "title": "Pro Basketball Next Team Conference",
+   "ticker": "KXNBASOUTHWEST",
+   "title": "Pro Basketball Southwest Division Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBALADDER3PT",
+   "title": "NBA Player Threes Ladder",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFINALSMVP",
+   "title": "Finals MVP",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBANHL",
+   "title": "NBA + NHL Champion Combo",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBATOTAL",
+   "title": "NBA Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBARULE",
+   "title": "Pro Basketball Rule",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASERIESSCORE",
+   "title": "NBA Series Exact Score",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAHOMECLINCH",
+   "title": "Pro Basketball Series Winner to Clinch at Home",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAWFINMVP",
+   "title": "NBA Western Conference Finals MVP",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAPLAYOFFHOST",
+   "title": "NBA Team Home Playoff Games",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAASSTARTERS",
+   "title": "NBA All-Star Starters",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAEXTENSION",
+   "title": "NBA Player Contract Extension",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAALLSTARMVP",
+   "title": "NBA All-Star Game MVP",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAWHATTEND",
+   "title": "Pro Basketball White House Attend",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFINALSPRICE",
+   "title": "NBA Finals Ticket Price",
+   "category": "Financials",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBADRAFTPICK",
+   "title": "Pro Basketball Draft Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAPLAYERSPECIALS",
+   "title": "Pro Basketball Player Specials",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAUPSET",
+   "title": "NBA Number of Upsets per Round",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA4QTEAMTOTAL",
+   "title": "NBA 4th Quarter Team Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBATEAM",
+   "title": "NBA team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFTMATCHUP",
+   "title": "Pro Basketball Draft Matchup",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBALADDERPTS",
+   "title": "NBA Player Points Ladder",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPOSTASREC",
+   "title": "NBA Best Record Post-All-Star Break",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBATOPPICK",
+   "title": "Pro Basketball Draft Lottery Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBACOMPETE",
+   "title": "Pro Basketball Player to Compete",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA3PTCONTEST",
+   "title": "NBA 3-Point Contest Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBASUMMER1HTOTAL",
+   "title": "Pro Basketball Summer League 1st Half Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBANEXTTEAM",
+   "title": "Pro Basketball Next Team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAATTEND",
+   "title": "Who will attend the NBA game?",
+   "category": "Entertainment",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBACUP1STTEAM",
+   "title": "NBA Cup All-Tournament Team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAWCFQUAL",
+   "title": "NBA Western Conference Finals Qualifiers",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBARISINGSTARS",
+   "title": "Pro Basketball Rising Stars Tournament",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBA1Q",
+   "title": "NBA 1st Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAH2HPTS",
+   "title": "NBA Head-to-Head Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA1QWINNER",
+   "title": "NBA 1st Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAESCALATORPTS",
+   "title": "NBA Player Points Escalator",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAWINSTREAK",
+   "title": "NBA Longest Win Streak",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAROOKIE1STTEAM",
+   "title": "NBA All-Rookie 1st Team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASWEEP",
+   "title": "NBA Teams to Have a Series Sweep",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASERIESGCOMEBACK",
+   "title": "Pro Basketball Series Game Comeback",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFIRST50PTS",
+   "title": "First NBA Player to Score 50 Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASTATLEADER",
+   "title": "NBA Regular Season League Leader",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBATOP5ROTY",
+   "title": "Top 5 NBA draft ROTY",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPRA",
+   "title": "NBA Player Points + Rebounds + Assists",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAH2H3PT",
+   "title": "NBA Head-to-Head Three Pointers",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBACOTM",
+   "title": "NBA Coach of the Month",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASTADIUM",
+   "title": "NBA Stadium Completion",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBACUPQUAL",
+   "title": "Pro Basketball Cup Qualifiers",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAMATCHUP",
+   "title": "NBA Matchup",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFTCAT",
+   "title": "Pro Basketball Draft Category",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA3PEAT",
+   "title": "Pro Basketball Three-Peat Champion",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPARTNERSHIP",
+   "title": "NBA Player Partnership Deal",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA3QTEAMTOTAL",
+   "title": "NBA 3rd Quarter Team Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA4QWINNER",
+   "title": "NBA 4th Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASEATTLE",
+   "title": "Seattle NBA team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFT4",
+   "title": "NBA Draft Fourth Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBARETURN",
+   "title": "Pro Basketball Player to Return",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBALASTTOLOSE",
+   "title": "NBA Last Undefeated Team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBATEAMTOTAL",
+   "title": "NBA Team Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFT5",
+   "title": "NBA Draft Fifth Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBA1H",
+   "title": "NBA 1st Half Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBACONF",
+   "title": "NBA Conference to Win the Championship",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASUMMER1HSPREAD",
+   "title": "Pro Basketball Summer League 1st Half Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBACUPGROUPWIN",
+   "title": "NBA Cup Group to Win",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBACLUTCH",
+   "title": "NBA Clutch Player of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAMIMP",
+   "title": "NBA Most Improved Player",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBACELEBRITYGAME",
+   "title": "Pro Basketball All-Star Celebrity Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBACUP",
+   "title": "Pro Basketball Cup Champion",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAROOKIE2NDTEAM",
+   "title": "NBA All-Rookie 2nd Team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFTTOP30",
+   "title": "NBA Draft Top 30 Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBATEAMANNOUNCE",
+   "title": "Pro Basketball New Team Announce",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASJC",
+   "title": "NBA Social Justice Champion",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPREPACK3ML",
+   "title": "3ML Basketball Combo",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBAREB",
+   "title": "NBA Player Rebounds",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAWEST",
+   "title": "Pro Basketball Western Conference Champion",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBATOJOINCBA",
+   "title": "NBA Players to Join the CBA",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASUMMERSPREAD",
+   "title": "Pro Basketball Summer League Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAMVPCHAMP",
+   "title": "MVP to Win the NBA Finals",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBANEWCHAMPION",
+   "title": "Pro Basketball New Champion",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAALLSTAR",
+   "title": "NBA All-Star game",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBANEXTGOVERNOR",
+   "title": "Pro Basketball Next Governor",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBANEXTCONTRACT",
+   "title": "Pro Basketball Next Contract Size",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAJOINCONF",
+   "title": "Pro Basketball Join Conference",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASUMMERPTS",
+   "title": "Pro Basketball Summer Player Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFINBLOWOUT",
+   "title": "Pro Basketball Finals Blowout",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBAH2HPTSMARGIN",
+   "title": "NBA H2H Player Points Bracketed",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASIXTH",
+   "title": "NBA Sixth Man of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAROTM",
+   "title": "NBA Rookie of the Month",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAECFQUAL",
+   "title": "NBA Eastern Conference Finals Qualifiers",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBADRAFTTOP5",
+   "title": "NBA Draft Top 5 Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAFINALSMENTION",
+   "title": "NBA Finals",
+   "category": "Mentions",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBA2QSPREAD",
+   "title": "NBA 2nd Quarter Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA2NDTEAM",
+   "title": "All-NBA 2nd Team",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBARETIRE",
+   "title": "NBA Retirement",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBALOTTERYODDS",
+   "title": "NBA Lottery Winner Odds",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPTSLEADER",
+   "title": "NBA Game Points Leader",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASERIESASTLEADER",
+   "title": "Pro Basketball Series Assists Leader",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA1QSPREAD",
+   "title": "NBA 1st Quarter Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA3PTALLGAMES",
+   "title": "Pro Basketball 3-Pointers in Every Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFINALSEXACT",
+   "title": "Pro Basketball Championship Series Score",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBADRAFT7",
+   "title": "NBA Draft Seventh Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBASERIESPTSSPREAD",
+   "title": "Pro Basketball Series Points Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAXMASOPPONENT",
+   "title": "Pro Basketball Christmas Day Opponent",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASERIESCOMEBACK",
+   "title": "Pro Basketball Series Comeback",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBATEAMWINSTREAK",
+   "title": "NBA Team with the Longest Winning Streak",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBA2H",
+   "title": "NBA 2nd Half Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA3PTPROT",
+   "title": "NBA Player Threes Protected",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAEAST",
+   "title": "Pro Basketball Eastern Conference Champion",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBASUMMERMVP",
+   "title": "Pro Basketball Summer League MVP",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAESCALATOR3PT",
+   "title": "NBA Player Threes Escalator",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFTTOP",
+   "title": "Pro Basketball Top Draft",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAFINMVP",
+   "title": "NBA Finals MVP",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBA1STTEAMDEF",
+   "title": "NBA All-Defensive 1st Team",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBA2QTOTAL",
+   "title": "NBA 2nd Quarter Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASLAMDUNK",
+   "title": "NBA Slam Dunk Contest Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAGAMEHIGHSCORE",
+   "title": "NBA Highest Scoring Game of the Season",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAOT",
+   "title": "NBA Overtime",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA1QTOTAL",
+   "title": "NBA 1st Quarter Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBARECORD",
+   "title": "Pro Basketball Best/Worst Regular Season Record",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAH2HTEAM3PT",
+   "title": "NBA H2H Team Three Pointers",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPOLOSE",
+   "title": "Pro Basketball Playoff Losses",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPTSPROT",
+   "title": "NBA Player Points Protected",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBACUPMVP",
+   "title": "NBA Cup Tournament MVP",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBASUMMER1HWINNER",
+   "title": "Pro Basketball Summer League 1st Half Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAH2HPRA",
+   "title": "NBA Head-to-Head Points, Rebounds and Assists",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBATEAMSALE",
+   "title": "Pro Basketball Team to be Sold",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASERIESGAMES",
+   "title": "NBA Series Total Games",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAATLANTIC",
+   "title": "Pro Basketball Atlantic Division Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBATRADE",
+   "title": "Pro Basketball Trade",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAWEST1SEED",
+   "title": "NBA Western Conference 1 Seed",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAWINRECORD",
+   "title": "OKC NBA Win Record",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA1STTEAM",
+   "title": "All-NBA 1st Team",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBA2QWINNER",
+   "title": "NBA 2nd Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA2NDTEAMDEF",
+   "title": "NBA All-Defensive 2nd Team",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBARA",
+   "title": "Pro Basketball Player Rebounds + Assists",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASEEDOU",
+   "title": "NBA Playoff Seed Over/Unders",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAHALLOFFAME",
+   "title": "Pro Basketball Hall of Fame",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPIADVANCE",
+   "title": "NBA Play-In Team to Advance",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA2HSPREAD",
+   "title": "NBA 2nd Half Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBABLK",
+   "title": "NBA Player Blocks",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAAWARDFIN",
+   "title": "NBA Award Finalists",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAWINMARGIN",
+   "title": "NBA Win Margin",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA3RDTEAM",
+   "title": "All-NBA 3rd Team",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBACELEBRITY3PT",
+   "title": "NBA Celebrity 3PT Contest",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBAPLAYTOGETHER",
+   "title": "Pro Basketball Players to Play Together",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -38,146 +1148,26 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBAALLSTARMVP",
-   "title": "NBA All-Star Game MVP",
+   "ticker": "KXNBADPOTM",
+   "title": "NBA Defensive Player of the Month",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFTTOP15",
+   "title": "NBA Draft Top 15 Pick",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBASERIESOT",
-   "title": "Pro Basketball Series Overtime",
+   "ticker": "KXNBAWINS",
+   "title": "Pro Basketball Win Totals",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBASTL",
-   "title": "NBA Player Steals",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1QTOTAL",
-   "title": "NBA 1st Quarter Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA",
-   "title": "Pro Basketball Champion",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBASUMMERTOTAL",
-   "title": "Pro Basketball Summer League Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAESCALATOR3PT",
-   "title": "NBA Player Threes Escalator",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPTSPROT",
-   "title": "NBA Player Points Protected",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBANORTHWEST",
-   "title": "Pro Basketball Northwest Division Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBADRAFT1",
-   "title": "NBA Draft First Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAWINSTREAK",
-   "title": "NBA Longest Win Streak",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFT10",
-   "title": "NBA Draft Tenth Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAHOMECLINCH",
-   "title": "Pro Basketball Series Winner to Clinch at Home",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASUMMERSPREAD",
-   "title": "Pro Basketball Summer League Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBARULE",
-   "title": "Pro Basketball Rule",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAFIRSTBASKET",
-   "title": "Pro Basketball First Basket",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASUMMERMVP",
-   "title": "Pro Basketball Summer League MVP",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAREB",
-   "title": "NBA Player Rebounds",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBATEAMANNOUNCE",
-   "title": "Pro Basketball New Team Announce",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAROY",
-   "title": "NBA Rookie of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBA4QSPREAD",
-   "title": "NBA 4th Quarter Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2D",
-   "title": "NBA Player Double Double",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBATOP5ROTY",
-   "title": "Top 5 NBA draft ROTY",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAH2HTEAM3PT",
-   "title": "NBA H2H Team Three Pointers",
+   "ticker": "KXNBAEXEC",
+   "title": "NBA Executive of the Year",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -188,74 +1178,230 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBACLUTCH",
-   "title": "NBA Clutch Player of the Year",
+   "ticker": "KXNBACENTRAL",
+   "title": "Pro Basketball Central Division Winner",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBACELEBRITY3PT",
-   "title": "NBA Celebrity 3PT Contest",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBAFIRSTOPPONENT",
-   "title": "Pro Basketball First Opponent of the Season",
+   "ticker": "KXNBANEXTTEAMCONF",
+   "title": "Pro Basketball Next Team Conference",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBAPACIFIC",
-   "title": "Pro Basketball Pacific Division Winner",
+   "ticker": "KXNBABENCHPTS",
+   "title": "NBA Bench Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBATEAMMATE",
+   "title": "NBA Teammate of the Year",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASEED",
+   "title": "NBA Playoff Seed",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASERIESTOTALPTS",
+   "title": "Pro Basketball Series Total Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAEAST1SEED",
+   "title": "NBA Eastern Conference 1 Seed",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBADRAFTCONF",
-   "title": "Pro Basketball Players Drafted by Conference",
+   "ticker": "KXNBA1HSPREAD",
+   "title": "NBA 1st Half Spread",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA2HWINNER",
+   "title": "Pro Basketball 2nd Half Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFT10",
+   "title": "NBA Draft Tenth Pick",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBASTAKESALE",
-   "title": "NBA Team Ownership Stake Sale Agreement",
+   "ticker": "KXNBA2Q",
+   "title": "NBA 2nd Quarter Winner",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBAFINALSPRICE",
-   "title": "NBA Finals Ticket Price",
-   "category": "Financials",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBATEAMWINSTREAK",
-   "title": "NBA Team with the Longest Winning Streak",
+   "ticker": "KXNBADRAFT3",
+   "title": "NBA Draft Third Pick",
    "category": "Sports",
-   "frequency": "one_off"
+   "frequency": "annual"
   },
   {
-   "ticker": "KXNBACUP1STTEAM",
-   "title": "NBA Cup All-Tournament Team",
+   "ticker": "KXNBA3D",
+   "title": "NBA Player Triple Double",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBAPIADVANCE",
-   "title": "NBA Play-In Team to Advance",
+   "ticker": "KXNBAEFINMVP",
+   "title": "NBA Eastern Conference Finals MVP",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBA2HTOTAL",
+   "title": "NBA 2nd Half Total",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBACITYEXPAND",
-   "title": "NBA City Franchise Expansion",
+   "ticker": "KXNBAPRAPROT",
+   "title": "Pts + Reb + Ast Protected",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBAWINMARGIN",
-   "title": "NBA Win Margin",
+   "ticker": "KXNBASERIESREBLEADER",
+   "title": "Pro Basketball Series Rebounds Leader",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAONE3PT",
+   "title": "NBA Players to Make One Three",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA4QTOTAL",
+   "title": "NBA 4th Quarter Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA30COMEBACK",
+   "title": "NBA 3-0 Series Comeback",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASTARTERS",
+   "title": "Pro Basketball Starting Lineup",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBANORTHWEST",
+   "title": "Pro Basketball Northwest Division Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAPTS",
+   "title": "NBA Player Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAROY",
+   "title": "NBA Rookie of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBADRAFTTEAM",
+   "title": "Pro Basketball Team to Draft",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFT2",
+   "title": "NBA Draft Second Pick",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBA3QTOTAL",
+   "title": "NBA 3rd Quarter Total",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBADRAFTOU",
+   "title": "Pro Basketball Players Draft Position",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPLAYIN",
+   "title": "Which Team Will Make the Play-In Tournament",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBALOTTERY",
+   "title": "NBA Draft Lottery Picks",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBALASVEGAS",
+   "title": "Las Vegas NBA team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA2D",
+   "title": "NBA Player Double Double",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFIRSTBASKET",
+   "title": "Pro Basketball First Basket",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBANEWCHAMP",
+   "title": "NBA First-Time Champion",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBARACE",
+   "title": "NBA Race to Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPLAYOFFWINS",
+   "title": "NBA Playoff Wins by Team",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAREBPROT",
+   "title": "NBA Player Rebounds Protected",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPR",
+   "title": "Pro Basketball Player Points + Rebounds",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -272,908 +1418,8 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBACUPQUAL",
-   "title": "Pro Basketball Cup Qualifiers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAH2HPTSMARGIN",
-   "title": "NBA H2H Player Points Bracketed",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESPTSLEADER",
-   "title": "Pro Basketball Series Points Leader",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAEAST",
-   "title": "Pro Basketball Eastern Conference Champion",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBA2QTEAMTOTAL",
-   "title": "NBA 2nd Quarter Team Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAROOKIE2NDTEAM",
-   "title": "NBA All-Rookie 2nd Team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPREPACK3ML",
-   "title": "3ML Basketball Combo",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBA1QTEAMTOTAL",
-   "title": "NBA 1st Quarter Team Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFTTRADE",
-   "title": "Pro Basketball Draft Trade",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESPTS",
-   "title": "Pro Basketball Series Player Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2QSPREAD",
-   "title": "NBA 2nd Quarter Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBATOP3",
-   "title": "Pro Basketball Draft Lottery Top 3",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBA30COMEBACK",
-   "title": "NBA 3-0 Series Comeback",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAWHATTEND",
-   "title": "Pro Basketball White House Attend",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBARELOCATION",
-   "title": "Pro Basketball Team Relocation",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPTS",
-   "title": "NBA Player Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPLAYOFFHOST",
-   "title": "NBA Team Home Playoff Games",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBATEAMTOTAL",
-   "title": "NBA Team Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPLAYOFFWINS",
-   "title": "NBA Playoff Wins by Team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAXMASOPPONENT",
-   "title": "Pro Basketball Christmas Day Opponent",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAOVERTIME",
-   "title": "NBA Overtime",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1STTEAM",
-   "title": "All-NBA 1st Team",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAPLAYTOGETHER",
-   "title": "Pro Basketball Players to Play Together",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFTTOP30",
-   "title": "NBA Draft Top 30 Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAPLAYIN",
-   "title": "Which Team Will Make the Play-In Tournament",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAPLAYERDEAL",
-   "title": "Next Pro Basketball Brand Deal",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAFINALSMENTION",
-   "title": "NBA Finals",
-   "category": "Mentions",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBASTARTERS",
-   "title": "Pro Basketball Starting Lineup",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA4QTEAMTOTAL",
-   "title": "NBA 4th Quarter Team Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBANEWCHAMP",
-   "title": "NBA First-Time Champion",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2KCOVER",
-   "title": "Who will be on the cover of NBA 2k?",
-   "category": "Entertainment",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAH2HWINS",
-   "title": "NBA Head to Head Win Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFT4",
-   "title": "NBA Draft Fourth Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAWFINMVP",
-   "title": "NBA Western Conference Finals MVP",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBARECORD",
-   "title": "Pro Basketball Best/Worst Regular Season Record",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASUMMERGAME",
-   "title": "Pro Basketball Summer League Game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAATLANTIC",
-   "title": "Pro Basketball Atlantic Division Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBACELEBRITYGAME",
-   "title": "Pro Basketball All-Star Celebrity Game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBACUPMVP",
-   "title": "NBA Cup Tournament MVP",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBACUPGROUP",
-   "title": "NBA Cup Group Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAAPOLOGY",
-   "title": "Pro Basketball Apology",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAFIRSTTIMECHAMP",
-   "title": "NBA First Time Champion",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAWINRECORD",
-   "title": "OKC NBA Win Record",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBACUPGROUPWIN",
-   "title": "NBA Cup Group to Win",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFT5",
-   "title": "NBA Draft Fifth Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAWEST1SEED",
-   "title": "NBA Western Conference 1 Seed",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAJOINCONF",
-   "title": "Pro Basketball Join Conference",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAMENTION",
-   "title": "NBA Mention",
-   "category": "Mentions",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBAH2HPRA",
-   "title": "NBA Head-to-Head Points, Rebounds and Assists",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESPTSSPREAD",
-   "title": "Pro Basketball Series Points Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESREBLEADER",
-   "title": "Pro Basketball Series Rebounds Leader",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASEED",
-   "title": "NBA Playoff Seed",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAMOSTWINS",
-   "title": "Pro Basketball Highest Win Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPRA",
-   "title": "NBA Player Points + Rebounds + Assists",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAFTM",
-   "title": "NBA Player Free Throws Made",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBACONF",
-   "title": "NBA Conference to Win the Championship",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASPREAD",
-   "title": "NBA Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAHUSTLE",
-   "title": "NBA Hustle Award",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFT2",
-   "title": "NBA Draft Second Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBASTATAVG",
-   "title": "NBA Player Stat Average",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAFINMVP",
-   "title": "NBA Finals MVP",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBA4QWINNER",
-   "title": "NBA 4th Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESGAMES",
-   "title": "NBA Series Total Games",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAFINALSMVP",
-   "title": "Finals MVP",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIES3PMLEADER",
-   "title": "Pro Basketball Series 3-Pointers Made Leader",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESROADWINS",
-   "title": "Pro Basketball Series Total Road Wins",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAH2HPTS",
-   "title": "NBA Head-to-Head Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAMVPCHAMP",
-   "title": "MVP to Win the NBA Finals",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAAWARDFIN",
-   "title": "NBA Award Finalists",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPREPACK2ML",
-   "title": "2 ML Basketball Combo",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBASTOCK",
-   "title": "NBA Player Steals + Blocks",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA3QTEAMTOTAL",
-   "title": "NBA 3rd Quarter Team Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAALLSTAR",
-   "title": "NBA All-Star game",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAPLAYERSPECIALS",
-   "title": "Pro Basketball Player Specials",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESCOMEBACK",
-   "title": "Pro Basketball Series Comeback",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA3RDTEAM",
-   "title": "All-NBA 3rd Team",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBASERIESSCORE",
-   "title": "NBA Series Exact Score",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAROOKIE1STTEAM",
-   "title": "NBA All-Rookie 1st Team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFTOU",
-   "title": "Pro Basketball Players Draft Position",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFTTOP5",
-   "title": "NBA Draft Top 5 Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAPLAYERHIGHSCORE",
-   "title": "NBA Highest Scoring Performance in Regular Season",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASTADIUM",
-   "title": "NBA Stadium Completion",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAH2H3PT",
-   "title": "NBA Head-to-Head Three Pointers",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASOUTHWEST",
-   "title": "Pro Basketball Southwest Division Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAMATCHUP",
-   "title": "NBA Matchup",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAWCFQUAL",
-   "title": "NBA Western Conference Finals Qualifiers",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBASUMMER1HTOTAL",
-   "title": "Pro Basketball Summer League 1st Half Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFT3",
-   "title": "NBA Draft Third Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAPICKTRADE",
-   "title": "Pro Basketball Pick Trade",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAALLSTARGAME",
-   "title": "NBA All-Star Game Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBALOTTERYODDS",
-   "title": "NBA Lottery Winner Odds",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASWEEP",
-   "title": "NBA Teams to Have a Series Sweep",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASEEDOU",
-   "title": "NBA Playoff Seed Over/Unders",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAH2HBENCHPTS",
-   "title": "NBA Head-to-Head Bench Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAMVP",
-   "title": "NBA MVP",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBA2HTEAMTOTAL",
-   "title": "NBA 2nd Half Team Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2QTOTAL",
-   "title": "NBA 2nd Quarter Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPRAPROT",
-   "title": "Pts + Reb + Ast Protected",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPOSTASREC",
-   "title": "NBA Best Record Post-All-Star Break",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2HSPREAD",
-   "title": "NBA 2nd Half Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1QSPREAD",
-   "title": "NBA 1st Quarter Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPARTNERSHIP",
-   "title": "NBA Player Partnership Deal",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAHIGHESTSCORING",
-   "title": "NBA Player with the Highest Scoring Game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1HSPREAD",
-   "title": "NBA 1st Half Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAOT",
-   "title": "NBA Overtime",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBARACE",
-   "title": "NBA Race to Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1H",
-   "title": "NBA 1st Half Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFTCAT",
-   "title": "Pro Basketball Draft Category",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1HTEAMTOTAL",
-   "title": "NBA 1st Half Team Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBACOY",
-   "title": "NBA Coach of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAFINBLOWOUT",
-   "title": "Pro Basketball Finals Blowout",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBASIXTH",
-   "title": "NBA Sixth Man of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAASSTARTERS",
-   "title": "NBA All-Star Starters",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBATEAM",
-   "title": "NBA team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAATTEND",
-   "title": "Who will attend the NBA game?",
-   "category": "Entertainment",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA3PEAT",
-   "title": "Pro Basketball Three-Peat Champion",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPTSLEADER",
-   "title": "NBA Game Points Leader",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPR",
-   "title": "Pro Basketball Player Points + Rebounds",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2Q",
-   "title": "NBA 2nd Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASTATLEADER",
-   "title": "NBA Regular Season League Leader",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA3Q",
-   "title": "NBA 3rd Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAECFQUAL",
-   "title": "NBA Eastern Conference Finals Qualifiers",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBATOTALPRECISE",
-   "title": "NBA Total Points Range",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASUMMER1HWINNER",
-   "title": "Pro Basketball Summer League 1st Half Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPOTM",
-   "title": "NBA Player of the Month",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAROTM",
-   "title": "NBA Rookie of the Month",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAEFINMVP",
-   "title": "NBA Eastern Conference Finals MVP",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAPOLOSE",
-   "title": "Pro Basketball Playoff Losses",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFT6",
-   "title": "NBA Draft Sixth Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBASHOOTINGSTARS",
-   "title": "Pro Basketball Shooting Stars Contest",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBASUMMERPTS",
-   "title": "Pro Basketball Summer Player Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBATEAMSALE",
-   "title": "Pro Basketball Team to be Sold",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBALOTTERY",
-   "title": "NBA Draft Lottery Picks",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
    "ticker": "KXNBASPORTSMANSHIP",
    "title": "NBA Sportsmanship Award",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBA4Q",
-   "title": "NBA 4th Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFTTEAM",
-   "title": "Pro Basketball Team to Draft",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAEAST1SEED",
-   "title": "NBA Eastern Conference 1 Seed",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAUNBEATEN",
-   "title": "NBA Playoffs Team to go Undefeated",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA3PTPROT",
-   "title": "NBA Player Threes Protected",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADPOTM",
-   "title": "NBA Defensive Player of the Month",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1QWINNER",
-   "title": "NBA 1st Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFT7",
-   "title": "NBA Draft Seventh Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBARISINGSTARS",
-   "title": "Pro Basketball Rising Stars Tournament",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBA2HWINNER",
-   "title": "Pro Basketball 2nd Half Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESASTLEADER",
-   "title": "Pro Basketball Series Assists Leader",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFTPICK",
-   "title": "Pro Basketball Draft Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBANEXTCONTRACT",
-   "title": "Pro Basketball Next Contract Size",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBACENTRAL",
-   "title": "Pro Basketball Central Division Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBASTOCKS",
-   "title": "NBA Player Steals and Blocks",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPLAYOFF3D",
-   "title": "NBA Playoff Triple-Double",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAFINALSEXACT",
-   "title": "Pro Basketball Championship Series Score",
    "category": "Sports",
    "frequency": "annual"
   },
@@ -1184,34 +1430,52 @@
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBAMIMP",
-   "title": "NBA Most Improved Player",
+   "ticker": "KXNBAMENTION",
+   "title": "NBA Mention",
+   "category": "Mentions",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBATOP3",
+   "title": "Pro Basketball Draft Lottery Top 3",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBA1Q",
-   "title": "NBA 1st Quarter Winner",
+   "ticker": "KXNBADRAFTTRADE",
+   "title": "Pro Basketball Draft Trade",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBALADDERPTS",
-   "title": "NBA Player Points Ladder",
+   "ticker": "KXNBAFIRSTOPPONENT",
+   "title": "Pro Basketball First Opponent of the Season",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBARA",
-   "title": "Pro Basketball Player Rebounds + Assists",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA3PTCONTEST",
-   "title": "NBA 3-Point Contest Winner",
+   "ticker": "KXNBADRAFT1",
+   "title": "NBA Draft First Pick",
    "category": "Sports",
    "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBASERIESPTSLEADER",
+   "title": "Pro Basketball Series Points Leader",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAHUSTLE",
+   "title": "NBA Hustle Award",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBA4Q",
+   "title": "NBA 4th Quarter Winner",
+   "category": "Sports",
+   "frequency": "custom"
   },
   {
    "ticker": "KXNBAPTSPRECISE",
@@ -1220,146 +1484,38 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBATOPPICK",
-   "title": "Pro Basketball Draft Lottery Winner",
+   "ticker": "KXNBADRAFTCONF",
+   "title": "Pro Basketball Players Drafted by Conference",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBANEXTGOVERNOR",
-   "title": "Pro Basketball Next Governor",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA3QTOTAL",
-   "title": "NBA 3rd Quarter Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAONE3PT",
-   "title": "NBA Players to Make One Three",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESGCOMEBACK",
-   "title": "Pro Basketball Series Game Comeback",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPLAYOFF",
-   "title": "Pro Basketball Playoff Qualifier",
+   "ticker": "KXNBADRAFT6",
+   "title": "NBA Draft Sixth Pick",
    "category": "Sports",
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBASERIESTOTALPTS",
-   "title": "Pro Basketball Series Total Points",
+   "ticker": "KXNBADPOY",
+   "title": "NBA Defensive Player of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAGAMESPECIALS",
+   "title": "Pro Basketball Game Specials",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBAFIRST50PTS",
-   "title": "First NBA Player to Score 50 Points",
+   "ticker": "KXNBA4QSPREAD",
+   "title": "NBA 4th Quarter Spread",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBABENCHPTS",
-   "title": "NBA Bench Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAWINS",
-   "title": "Pro Basketball Win Totals",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2HTOTAL",
-   "title": "NBA 2nd Half Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAFINALSVIEWERGAME7",
-   "title": "NBA finals viewership",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAEXEC",
-   "title": "NBA Executive of the Year",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBANEWCHAMPION",
-   "title": "Pro Basketball New Champion",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1HTOTAL",
-   "title": "NBA 1st Half Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBARETURN",
-   "title": "Pro Basketball Player to Return",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBANEXTTEAM",
-   "title": "Pro Basketball Next Team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAESCALATORPTS",
-   "title": "NBA Player Points Escalator",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBATEAMMATE",
-   "title": "NBA Teammate of the Year",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBALADDER3PT",
-   "title": "NBA Player Threes Ladder",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBABLK",
-   "title": "NBA Player Blocks",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2H",
-   "title": "NBA 2nd Half Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIESROADWIN",
-   "title": "NBA Series 1st Road Win",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBALASTTOLOSE",
-   "title": "NBA Last Undefeated Team",
+   "ticker": "KXNBAAPOLOGY",
+   "title": "Pro Basketball Apology",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -1370,32 +1526,50 @@
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBALASVEGAS",
-   "title": "Las Vegas NBA team",
+   "ticker": "KXNBACOY",
+   "title": "NBA Coach of the Year",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAMOSTWINS",
+   "title": "Pro Basketball Highest Win Total",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBA3D",
-   "title": "NBA Player Triple Double",
+   "ticker": "KXNBAPACIFIC",
+   "title": "Pro Basketball Pacific Division Winner",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAPA",
+   "title": "Pro Basketball Player Points + Assists",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBAREBPROT",
-   "title": "NBA Player Rebounds Protected",
+   "ticker": "KXNBAPREPACK2ML",
+   "title": "2 ML Basketball Combo",
+   "category": "Sports",
+   "frequency": "one_off"
+  },
+  {
+   "ticker": "KXNBAPLAYOFF3D",
+   "title": "NBA Playoff Triple-Double",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBACOACHOUT",
-   "title": "Pro Basketball Coaches Out",
+   "ticker": "KXNBADRAFT8",
+   "title": "NBA Draft Eighth Pick",
    "category": "Sports",
-   "frequency": "custom"
+   "frequency": "annual"
   },
   {
-   "ticker": "KXNBAGAME",
-   "title": "NBA Game",
+   "ticker": "KXNBAPOTM",
+   "title": "NBA Player of the Month",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -1412,8 +1586,50 @@
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBASJC",
-   "title": "NBA Social Justice Champion",
+   "ticker": "KXNBACITYEXPAND",
+   "title": "NBA City Franchise Expansion",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPLAYERDEAL",
+   "title": "Next Pro Basketball Brand Deal",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASUMMERGAME",
+   "title": "Pro Basketball Summer League Game",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBACOACHOUT",
+   "title": "Pro Basketball Coaches Out",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAFRANCHISECOST",
+   "title": "NBA Franchise Cost",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAH2HBENCHPTS",
+   "title": "NBA Head-to-Head Bench Points",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBAPLAYOFF",
+   "title": "Pro Basketball Playoff Qualifier",
+   "category": "Sports",
+   "frequency": "annual"
+  },
+  {
+   "ticker": "KXNBAMVPDPOY",
+   "title": "Pro Basketball Player to Win MVP and DPOY",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -1424,94 +1640,16 @@
    "frequency": "annual"
   },
   {
-   "ticker": "KXNBAFRANCHISECOST",
-   "title": "NBA Franchise Cost",
+   "ticker": "KXNBASERIESROADWIN",
+   "title": "NBA Series 1st Road Win",
    "category": "Sports",
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBAPTSALLGAMES",
-   "title": "Pro Basketball Points in Every Game",
+   "ticker": "KXNBASTATAVG",
+   "title": "NBA Player Stat Average",
    "category": "Sports",
    "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPA",
-   "title": "Pro Basketball Player Points + Assists",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFTTOP",
-   "title": "Pro Basketball Top Draft",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBADRAFTMATCHUP",
-   "title": "Pro Basketball Draft Matchup",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBACUP",
-   "title": "Pro Basketball Cup Champion",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBADPOY",
-   "title": "NBA Defensive Player of the Year",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBA4QTOTAL",
-   "title": "NBA 4th Quarter Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASERIES",
-   "title": "NBA Series Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBACOTM",
-   "title": "NBA Coach of the Month",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAEXTENSION",
-   "title": "NBA Player Contract Extension",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPLAYOFFPTS",
-   "title": "NBA Playoffs Player Points",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASLAMDUNK",
-   "title": "NBA Slam Dunk Contest Winner",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBA3PTALLGAMES",
-   "title": "Pro Basketball 3-Pointers in Every Game",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1STTEAMDEF",
-   "title": "NBA All-Defensive 1st Team",
-   "category": "Sports",
-   "frequency": "annual"
   },
   {
    "ticker": "KXNBAFRANCHISEOWNER",
@@ -1520,20 +1658,8 @@
    "frequency": "custom"
   },
   {
-   "ticker": "KXNBA3QSPREAD",
-   "title": "NBA 3rd Quarter Spread",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAWEST",
-   "title": "Pro Basketball Western Conference Champion",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBASUMMER1HSPREAD",
-   "title": "Pro Basketball Summer League 1st Half Spread",
+   "ticker": "KXNBASUMMERTOTAL",
+   "title": "Pro Basketball Summer League Total",
    "category": "Sports",
    "frequency": "custom"
   },
@@ -1544,152 +1670,26 @@
    "frequency": "custom"
   },
   {
+   "ticker": "KXNBACUPGROUP",
+   "title": "NBA Cup Group Winner",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBATOTALPRECISE",
+   "title": "NBA Total Points Range",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
+   "ticker": "KXNBASTAKESALE",
+   "title": "NBA Team Ownership Stake Sale Agreement",
+   "category": "Sports",
+   "frequency": "custom"
+  },
+  {
    "ticker": "KXNBANEXTTEAMOUTLET",
    "title": "Pro Basketball Outlet to Announce Next Team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBANHL",
-   "title": "NBA + NHL Champion Combo",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA1HWINNER",
-   "title": "Pro Baskeball 1st Half Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBACOMPETE",
-   "title": "Pro Basketball Player to Compete",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAGAMESPECIALS",
-   "title": "Pro Basketball Game Specials",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2NDTEAMDEF",
-   "title": "NBA All-Defensive 2nd Team",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAGAMES",
-   "title": "NBA games",
-   "category": "Sports",
-   "frequency": "daily"
-  },
-  {
-   "ticker": "KXNBAFINALSOUTCOME",
-   "title": "NBA Finals Outcome",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAGAME7",
-   "title": "NBA Series that Go to a Game 7",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBA2NDTEAM",
-   "title": "All-NBA 2nd Team",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBATRADE",
-   "title": "Pro Basketball Trade",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAPLAYOFFHOMEGAMES",
-   "title": "NBA Team Home Playoff Games",
-   "category": "Sports",
-   "frequency": "one_off"
-  },
-  {
-   "ticker": "KXNBATOJOINCBA",
-   "title": "NBA Players to Join the CBA",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAHALLOFFAME",
-   "title": "Pro Basketball Hall of Fame",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBA2QWINNER",
-   "title": "NBA 2nd Quarter Winner",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAGAMEHIGHSCORE",
-   "title": "NBA Highest Scoring Game of the Season",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBARETIRE",
-   "title": "NBA Retirement",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBASEATTLE",
-   "title": "Seattle NBA team",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAFINALSVIEWER",
-   "title": "NBA finals viewership",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAAST",
-   "title": "NBA Player Assists",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFT8",
-   "title": "NBA Draft Eighth Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBATOTAL",
-   "title": "NBA Total",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBAMVPDPOY",
-   "title": "Pro Basketball Player to Win MVP and DPOY",
-   "category": "Sports",
-   "frequency": "custom"
-  },
-  {
-   "ticker": "KXNBADRAFTTOP20",
-   "title": "NBA Draft Top 20 Pick",
-   "category": "Sports",
-   "frequency": "annual"
-  },
-  {
-   "ticker": "KXNBAUPSET",
-   "title": "NBA Number of Upsets per Round",
    "category": "Sports",
    "frequency": "custom"
   }
