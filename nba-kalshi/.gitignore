@@ -6,3 +6,7 @@ graded.json
 picks.json
 config.json
 __pycache__/
+
+# full API dumps: written every run for debugging but not committed (the models read lines.json and the history files)
+data/latest.json
+data/odds_raw.json

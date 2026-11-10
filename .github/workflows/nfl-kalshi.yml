@@ -12,6 +12,10 @@ on:
         description: "Also pull sportsbook odds now (3 credits each for NFL and NBA, 1 per major for PGA)"
         type: boolean
         default: false
+      closes:
+        description: "Closing prices to look up: comma-separated TICKER@ISO-start-time (used by the grading runs for CLV)"
+        type: string
+        default: ""
       backfill_seasons:
         description: "Rebuild NBA and PGA results history for this many past seasons (0 = no, 5 for first setup)"
         type: number
@@ -57,6 +61,11 @@ jobs:
           cat $log
           [ $code -ne 0 ] && worst=$code
           echo "code=$worst" >> "$GITHUB_OUTPUT"
+      - name: Look up closing prices (Kalshi candlesticks)
+        if: ${{ inputs.closes != '' && inputs.closes != null }}
+        env:
+          CLOSES: ${{ inputs.closes }}
+        run: python common/kalshi_close.py "$CLOSES"
       - name: Fetch NBA and PGA results (ESPN)
         env:
           BACKFILL: ${{ inputs.backfill_seasons }}
@@ -112,7 +121,8 @@ jobs:
         run: |
           git config user.name "nfl-kalshi-relay"
           git config user.email "actions@users.noreply.github.com"
-          git add nfl-kalshi/data nba-kalshi/data pga-kalshi/data
+          mkdir -p closes
+          git add nfl-kalshi/data nba-kalshi/data pga-kalshi/data closes
           if git diff --cached --quiet; then echo "no changes"; exit 0; fi
           git commit -m "Kalshi snapshot $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin "${GITHUB_REF_NAME}"

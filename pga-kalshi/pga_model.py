@@ -21,11 +21,13 @@ import json
 import os
 import re
 import sys
-import unicodedata
 from datetime import datetime, timezone
 
 import numpy as np
 import pandas as pd
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "common"))
+from kalshi_common import fee as kalshi_fee, norm_name, price_to_american  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -45,7 +47,9 @@ CONFIG = {
     "kalshi_fee_coef": 0.07,     # taker fee ~ coef * P * (1-P) per $1 contract; verify on Kalshi's fee page
     "min_edge_cents": 3.0,       # model prob minus all-in cost, in cents
     "min_roi": 0.20,             # and model prob / cost - 1 at least this (long shots need a real margin)
-    "min_cost": 2, "max_cost": 90,
+    "min_cost": 2, "max_cost": 90,  # golf long shots trade at 2-10c, so the band is wider than NFL/NBA's 15-85c
+    "min_rounds_eff": 20,        # golfers with fewer effective rounds are priced but never flagged (model is mostly prior)
+    "order_dollars": 10,         # order size used for Kalshi fee rounding
 }
 cfg_path = os.path.join(HERE, "config.json")
 if os.path.exists(cfg_path):
@@ -56,13 +60,6 @@ MARKETS = {"win": "Winner", "top5": "Top 5", "top10": "Top 10", "top20": "Top 20
 
 
 # ----------------------------------------------------------------------------- data
-def norm_name(s):
-    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
-    s = re.sub(r"[^a-z ]", " ", s.lower())
-    s = re.sub(r"\b(jr|sr|ii|iii|iv)\b", " ", s)
-    return re.sub(r"\s+", " ", s).strip()
-
-
 def load_rounds():
     files = sorted(glob.glob(os.path.join(DATA, "results", "rounds_*.csv")))
     if not files:
@@ -228,14 +225,8 @@ def field_for(t, skills=None):
     return names, n_pad, in_progress
 
 
-def price_to_american(c):
-    c = min(max(c, 0.5), 99.5)
-    return round(-100 * c / (100 - c)) if c >= 50 else round(100 * (100 - c) / c)
-
-
 def fee(c):
-    p = c / 100
-    return float(np.ceil(CONFIG["kalshi_fee_coef"] * p * (1 - p) * 100))
+    return kalshi_fee(c, CONFIG["kalshi_fee_coef"], CONFIG.get("order_dollars", 10))
 
 
 # ----------------------------------------------------------------------------- commands
@@ -290,12 +281,14 @@ def kalshi(key=None, out_path="kalshi_edges.json"):
                              "ticker": q["ticker"], "model_p": round(prob, 4), "cost": cost,
                              "kalshi_mid": q.get("mid"), "edge_cents": round(prob * 100 - cost, 2),
                              "roi": round(prob * 100 / cost - 1, 3), "american_odds": price_to_american(cost),
-                             "golfer_has_history": bool(p.matched)})
+                             "golfer_has_history": bool(p.matched),
+                             "rounds_eff": round(float(getattr(p, "rounds_eff", 0) or 0), 1)})
     rows.sort(key=lambda x: -x["edge_cents"])
     best = {}
     for x in rows:  # one market per golfer (top-N markets on one player are the same bet)
         if (x["edge_cents"] >= CONFIG["min_edge_cents"] and x["roi"] >= CONFIG["min_roi"]
-                and CONFIG["min_cost"] <= x["cost"] <= CONFIG["max_cost"] and x["golfer_has_history"]):
+                and CONFIG["min_cost"] <= x["cost"] <= CONFIG["max_cost"] and x["golfer_has_history"]
+                and x["rounds_eff"] >= CONFIG["min_rounds_eff"]):
             best.setdefault(x["golfer"], x)
     flagged = sorted(best.values(), key=lambda x: -x["edge_cents"])
     in_prog = json.load(open("preds.json")).get("in_progress")
@@ -349,6 +342,7 @@ def grade(picks_path, out_path="graded.json"):
     ev = load_events()
     out = []
     for p in json.load(open(picks_path)):
+        r1_tie = False
         start = pd.Timestamp(p["start"])
         cand = ev[(ev.start - start).abs() <= pd.Timedelta(days=3)] if len(ev) else ev
         name_tokens = set(norm_name(re.sub(r"\(.*?\)", "", p["tournament"])).split())
@@ -360,16 +354,21 @@ def grade(picks_path, out_path="graded.json"):
         e = cand.iloc[0]
         rr = rounds[rounds.event_id == e.event_id]
         me = rr[rr.key == norm_name(p["golfer"])]
-        if me.empty:
-            out.append({**p, "result": "void", "note": "golfer not in final results (did not start?)"}); continue
+        if me.empty:  # Kalshi settles a golfer who never tees off at its "last fair price"; we log it as Void
+            out.append({**p, "result": "void", "note": "golfer not in final results (did not start); "
+                                                        "Kalshi settles these at the last fair price"}); continue
         pos = str(me.pos.iloc[0])
         n = finish_pos(pos)
         m = p["market"]
         if m == "make_cut":
-            yes = pos not in ("MC", "WD", "DQ")
+            # Kalshi GOLFCUT rules: a withdrawal or DQ before the cut is No; a golfer who made the cut
+            # and withdrew later still counts as Yes. fetch_results.py marks anyone with fewer than the
+            # full set of rounds "MC", so a third-round score on the card is the sign the cut was made.
+            yes = pos not in ("MC", "WD", "DQ") or me["round"].nunique() >= 3
         elif m == "r1_lead":
             r1 = rr[rr["round"] == 1]
             yes = me[me["round"] == 1].strokes.min() == r1.strokes.min()
+            r1_tie = yes and int((r1.strokes == r1.strokes.min()).sum()) > 1
         else:
             N = {"win": 1, "top5": 5, "top10": 10, "top20": 20}[m]
             yes = n is not None and n <= N
@@ -377,8 +376,9 @@ def grade(picks_path, out_path="graded.json"):
         odds = float(p.get("odds", 100))
         units = (100 / -odds if odds < 0 else odds / 100) if hit else -1
         out.append({**p, "result": "win" if hit else "loss", "units": round(units, 3), "finish": pos,
-                    "event": e["name"], "tie_at_cutoff": bool(pos.startswith("T") and m.startswith("top")
-                                                              and n == {"top5": 5, "top10": 10, "top20": 20}.get(m))})
+                    "event": e["name"], "tie_at_cutoff": bool((pos.startswith("T") and m.startswith("top")
+                                                               and n == {"top5": 5, "top10": 10, "top20": 20}.get(m))
+                                                              or (m == "r1_lead" and r1_tie))})
     json.dump(out, open(out_path, "w"), indent=1, default=str)
     for o in out:
         print(o.get("id"), o["golfer"], o["market"], o["side"], "->", o["result"], o.get("finish"), o.get("units"))
