@@ -5,7 +5,7 @@ The same workflow also pulls NBA and PGA lines into `../nba-kalshi/data/` and `.
 GitHub Action that pulls Kalshi's public NFL market data every 2 hours and commits it here, so the NFL betting agent's scheduled runs (which can reach GitHub but not Kalshi) get live lines.
 
 - `data/lines.json`: one row per game in nflverse team codes. Kalshi win probability, the spread and total implied by where each ladder crosses 50 cents, and every tradeable rung with bid and ask.
-- `data/latest.json`: every open market in the game, spread and total series, with bid, ask, last price and volume.
+- `data/latest.json`: every open market in the game, spread and total series, with bid, ask, last price and volume (written each run for debugging, not committed).
 - `data/series.json`: every Kalshi series starting with `KXNFL`, for discovering new market types.
 - `data/history/<season>.csv`: price history for near-the-money markets, used for closing line value.
 - `data/odds.json` (needs the `ODDS_API_KEY` secret): sportsbook lines from The Odds API for up to 10 books, with the consensus line, no-vig probabilities, Pinnacle if listed, and the best available price for every side. Pulled about 12 times a week (daily, plus before each kickoff window), roughly 160 of the free plan's 500 monthly credits.

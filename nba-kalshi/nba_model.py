@@ -23,6 +23,9 @@ import numpy as np
 import pandas as pd
 from scipy.stats import norm
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "common"))
+from kalshi_common import fee as kalshi_fee, price_to_american  # noqa: E402
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 ET = ZoneInfo("America/New_York")
@@ -235,14 +238,8 @@ def predict(day, out_path="preds.json"):
 KALSHI_LINES = os.path.join(DATA, "lines.json")
 
 
-def price_to_american(c):
-    c = min(max(c, 0.5), 99.5)
-    return round(-100 * c / (100 - c)) if c >= 50 else round(100 * (100 - c) / c)
-
-
 def fee(c):
-    p = c / 100
-    return float(np.ceil(CONFIG["kalshi_fee_coef"] * p * (1 - p) * 100))
+    return kalshi_fee(c, CONFIG["kalshi_fee_coef"], CONFIG.get("order_dollars", 10))
 
 
 def trade_sides(p_yes, r):

@@ -27,11 +27,9 @@ Usage:
 import csv
 import json
 import os
-import re
 import statistics
 import sys
 import time
-import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -40,6 +38,8 @@ from datetime import datetime, timedelta, timezone
 BASE = "https://api.elections.kalshi.com/trade-api/v2"
 ODDS = "https://api.the-odds-api.com/v4/sports"
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "common"))
+from kalshi_common import norm_name  # noqa: E402
 UA = {"Accept": "application/json", "User-Agent": "kalshi-relay"}
 
 # Kalshi series -> market type. Other golf series are listed in series.json but not pulled.
@@ -103,11 +103,6 @@ def mid(m):
     return None
 
 
-def norm_name(s):
-    """'Ludvig Åberg' and 'Ludvig Aberg' -> 'ludvig aberg', so Kalshi and sportsbook names join."""
-    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
-    s = re.sub(r"[^a-z ]", " ", s.lower())
-    return re.sub(r"\s+", " ", s).strip()
 
 
 def golfer(m):

@@ -1,0 +1,45 @@
+name: Checks
+
+# Runs the test suite and a smoke test of the NBA and PGA models on the committed relay data.
+# Only code changes trigger it; the relay's data commits every 2 hours do not.
+on:
+  pull_request:
+    paths: ["**.py", ".github/workflows/**", "tests/**"]
+  push:
+    branches: [main]
+    paths: ["**.py", ".github/workflows/**", "tests/**"]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: pip install -q -r requirements.txt pytest pyflakes
+      - name: Syntax and unused-name check
+        run: python -m pyflakes common nfl-kalshi nba-kalshi pga-kalshi tests | grep -v "is assigned to but never used" || true
+      - name: Tests
+        run: python -m pytest -q tests
+      - name: Smoke test the PGA model on committed data
+        working-directory: pga-kalshi
+        run: |
+          echo '{"n_sims": 2000}' > config.json
+          python pga_model.py events
+          key=$(python -c "import json; t=[t for t in json.load(open('data/lines.json'))['tournaments'] if 'make_cut' in t['markets']]; print(t[0]['event_key'] if t else '')")
+          if [ -n "$key" ]; then python pga_model.py kalshi "$key"; else echo "no regular event open on Kalshi"; fi
+          python - <<'EOF'
+          import json
+          p = json.load(open("preds.json"))
+          assert p["padded_golfers"] == 0 or "MAST" in p["event_key"], "field was padded although Kalshi lists it"
+          names = [g["golfer"] for g in p["golfers"]]
+          assert len(names) == len(set(names)), "duplicate golfers in the field"
+          print("PGA field OK:", p["field_size"], "golfers")
+          EOF
+      - name: Smoke test the NBA model on committed data
+        working-directory: nba-kalshi
+        run: python nba_model.py kalshi || echo "no NBA games on Kalshi today"

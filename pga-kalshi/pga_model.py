@@ -21,11 +21,13 @@ import json
 import os
 import re
 import sys
-import unicodedata
 from datetime import datetime, timezone
 
 import numpy as np
 import pandas as pd
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "common"))
+from kalshi_common import fee as kalshi_fee, norm_name, price_to_american  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
@@ -45,7 +47,9 @@ CONFIG = {
     "kalshi_fee_coef": 0.07,     # taker fee ~ coef * P * (1-P) per $1 contract; verify on Kalshi's fee page
     "min_edge_cents": 3.0,       # model prob minus all-in cost, in cents
     "min_roi": 0.20,             # and model prob / cost - 1 at least this (long shots need a real margin)
-    "min_cost": 2, "max_cost": 90,
+    "min_cost": 2, "max_cost": 90,  # golf long shots trade at 2-10c, so the band is wider than NFL/NBA's 15-85c
+    "min_rounds_eff": 20,        # golfers with fewer effective rounds are priced but never flagged (model is mostly prior)
+    "order_dollars": 10,         # order size used for Kalshi fee rounding
 }
 cfg_path = os.path.join(HERE, "config.json")
 if os.path.exists(cfg_path):
@@ -56,13 +60,6 @@ MARKETS = {"win": "Winner", "top5": "Top 5", "top10": "Top 10", "top20": "Top 20
 
 
 # ----------------------------------------------------------------------------- data
-def norm_name(s):
-    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
-    s = re.sub(r"[^a-z ]", " ", s.lower())
-    s = re.sub(r"\b(jr|sr|ii|iii|iv)\b", " ", s)
-    return re.sub(r"\s+", " ", s).strip()
-
-
 def load_rounds():
     files = sorted(glob.glob(os.path.join(DATA, "results", "rounds_*.csv")))
     if not files:
@@ -228,14 +225,8 @@ def field_for(t, skills=None):
     return names, n_pad, in_progress
 
 
-def price_to_american(c):
-    c = min(max(c, 0.5), 99.5)
-    return round(-100 * c / (100 - c)) if c >= 50 else round(100 * (100 - c) / c)
-
-
 def fee(c):
-    p = c / 100
-    return float(np.ceil(CONFIG["kalshi_fee_coef"] * p * (1 - p) * 100))
+    return kalshi_fee(c, CONFIG["kalshi_fee_coef"], CONFIG.get("order_dollars", 10))
 
 
 # ----------------------------------------------------------------------------- commands
@@ -290,12 +281,14 @@ def kalshi(key=None, out_path="kalshi_edges.json"):
                              "ticker": q["ticker"], "model_p": round(prob, 4), "cost": cost,
                              "kalshi_mid": q.get("mid"), "edge_cents": round(prob * 100 - cost, 2),
                              "roi": round(prob * 100 / cost - 1, 3), "american_odds": price_to_american(cost),
-                             "golfer_has_history": bool(p.matched)})
+                             "golfer_has_history": bool(p.matched),
+                             "rounds_eff": round(float(getattr(p, "rounds_eff", 0) or 0), 1)})
     rows.sort(key=lambda x: -x["edge_cents"])
     best = {}
     for x in rows:  # one market per golfer (top-N markets on one player are the same bet)
         if (x["edge_cents"] >= CONFIG["min_edge_cents"] and x["roi"] >= CONFIG["min_roi"]
-                and CONFIG["min_cost"] <= x["cost"] <= CONFIG["max_cost"] and x["golfer_has_history"]):
+                and CONFIG["min_cost"] <= x["cost"] <= CONFIG["max_cost"] and x["golfer_has_history"]
+                and x["rounds_eff"] >= CONFIG["min_rounds_eff"]):
             best.setdefault(x["golfer"], x)
     flagged = sorted(best.values(), key=lambda x: -x["edge_cents"])
     in_prog = json.load(open("preds.json")).get("in_progress")

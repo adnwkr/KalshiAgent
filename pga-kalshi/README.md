@@ -5,7 +5,7 @@ Kalshi PGA Tour markets for every weekly event, plus sportsbook winner odds duri
 Golf is a field, not a matchup: each Kalshi event is one tournament and each market is one golfer.
 
 - `data/lines.json`: one row per open tournament (keyed on Kalshi's event suffix, e.g. `MAST27`), with every golfer's mid price, bid, ask and volume for each market type: `win` (KXPGATOUR), `top5`, `top10`, `top20`, `make_cut` and `r1_lead`. `win_prob_norm` rescales the winner prices so the field sums to 100%, and `win_overround` shows how far over 100 the raw prices sum.
-- `data/latest.json`: every open market in those series.
+- `data/latest.json`: every open market in those series (written each run for debugging, not committed).
 - `data/series.json`: every Kalshi series starting with `KXPGA` or `KXGOLF`, for discovering new market types.
 - `data/history/<year>.csv`: prices for golfers at 3 cents or more in the win and top 5/10/20 markets, for closing line value.
 - `data/odds.json` (majors only, needs the `ODDS_API_KEY` secret): each book's winner price per golfer, the no-vig probability, the median across books, the best US-licensed price, Pinnacle, and the matching Kalshi winner price. The Odds API only covers the Masters, PGA Championship, US Open and Open Championship, winner market only.
