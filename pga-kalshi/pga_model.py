@@ -212,8 +212,11 @@ def field_for(t, skills=None):
                 names += [p for p in ev["players"] if norm_name(p) not in have]
                 espn_field = len(ev["players"]) >= 30
                 in_progress = bool(ev.get("rounds")) or ev["event"].get("status") not in ("scheduled", "pre", "")
+    # Kalshi lists every entrant once it opens make-cut markets, so its list is the real field.
+    # Only futures-style events (winner market for a partial list) still need padding.
+    kalshi_field = "make_cut" in (t.get("markets") or []) and len(t["golfers"]) >= 60
     n_pad = 0
-    if not espn_field and skills:
+    if not espn_field and not kalshi_field and skills:
         target = CONFIG["major_field"] if "MAST" in t["event_key"].upper() else CONFIG["default_field"]
         have = {match_player(n, skills["skill"]) for n in names}
         # rank by skill among players with real recent data

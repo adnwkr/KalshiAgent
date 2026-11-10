@@ -129,7 +129,12 @@ def summarize(markets):
         if kind == "win":
             ev["close_time"] = m.get("close_time")
         name = golfer(m)
-        g = ev["golfers"].setdefault(norm_name(name), {"name": name})
+        # Key on the ticker's golfer code (e.g. JSMI): Kalshi sometimes spells a name differently
+        # across series ("Jordan L. Smith" vs "Jordan Smith"), which used to split one golfer in two.
+        code = m["ticker"].rsplit("-", 1)[-1]
+        g = ev["golfers"].setdefault(code, {"name": name})
+        if kind == "win":
+            g["name"] = name
         g[kind] = {"mid": mid(m), "yes_bid": cents(m, "yes_bid"), "yes_ask": cents(m, "yes_ask"),
                    "last": cents(m, "last_price"), "volume": m.get("volume"), "ticker": m["ticker"]}
 
