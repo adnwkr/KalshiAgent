@@ -33,6 +33,7 @@ ESPN results       ─┘   (committed)   PGA picks Wed, grade Mon              
 | `nfl-kalshi/` | Relay scripts for NFL and NBA (`fetch_kalshi.py`, `fetch_odds.py`, `odds_due.py`), the NFL model, NFL data |
 | `nba-kalshi/` | NBA model, ESPN results collector, NBA data |
 | `pga-kalshi/` | Golf relay, model, ESPN round collector, PGA data |
+| `prompts/` | The scheduled agent prompts and a setup guide for running them on any AI platform |
 | `tests/` | Fast offline tests, run on every pull request by `.github/workflows/checks.yml` |
 
 Each sport folder has its own README with data file formats and model commands.
@@ -48,6 +49,23 @@ python -m pytest -q tests
 ```
 
 Model settings are normally written to each folder's `config.json` from the Notion settings page at run time. Without one, the defaults in each model file are used.
+
+## Recreate the agent yourself (any AI platform)
+
+The code in this repo has no Claude-specific parts: the relay is a GitHub Action, the models are plain Python, and the agent's memory lives in Notion. The "agent" is a set of prompts that tell an AI what to read, run, research and log. They're in [`prompts/`](prompts/), one per scheduled run, written so they work on any platform that has:
+
+- web search,
+- a Python sandbox that can clone from GitHub,
+- read and write access to Notion,
+- scheduled runs (or you paste the prompt into a chat when it's due).
+
+To set it up:
+
+1. **Data.** Either read this repo's data as is (no setup), or fork it, enable Actions and add an `ODDS_API_KEY` secret to run your own relay.
+2. **Notion.** Make your own copy of the hub page, three Bet Logs and three Lessons & Settings pages. Don't point your agent at someone else's pages, or it will write into their Bet Log and record.
+3. **Prompts.** Fill in the `{{...}}` placeholders (your repo and your Notion page IDs) and schedule them.
+
+[`prompts/README.md`](prompts/README.md) has the full walkthrough: the Notion database properties, starting model settings and betting rules, and what to skip if your platform can't do something.
 
 ## Honest results so far
 
