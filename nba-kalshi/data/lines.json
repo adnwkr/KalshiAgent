@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T18:10:40+00:00",
+ "fetched_at": "2026-11-12T18:21:23+00:00",
  "games": [
   {
    "game_key": "26NOV12CHAPHX",
@@ -17,7 +17,7 @@
      "strike": null,
      "yes_bid": 32.0,
      "yes_ask": 33.0,
-     "last": 33.0,
+     "last": 32.0,
      "ticker": "KXNBAGAME-26NOV12CHAPHX-CHA"
     },
     "PHX": {
@@ -32,7 +32,7 @@
     "PHX": [
      {
       "strike": 1.5,
-      "yes_bid": 65.0,
+      "yes_bid": 66.0,
       "yes_ask": 67.0,
       "last": 67.0,
       "ticker": "KXNBASPREAD-26NOV12CHAPHX-PHX2"
@@ -60,9 +60,9 @@
      },
      {
       "strike": 5.5,
-      "yes_bid": 53.0,
+      "yes_bid": 52.0,
       "yes_ask": 54.0,
-      "last": 54.0,
+      "last": 52.0,
       "ticker": "KXNBASPREAD-26NOV12CHAPHX-PHX6"
      },
      {
@@ -167,7 +167,7 @@
       "strike": 28.5,
       "yes_bid": 4.0,
       "yes_ask": 6.0,
-      "last": 0.0,
+      "last": 6.0,
       "ticker": "KXNBASPREAD-26NOV12CHAPHX-PHX29"
      },
      {
@@ -290,8 +290,8 @@
     {
      "strike": 190.5,
      "yes_bid": 91.0,
-     "yes_ask": 93.0,
-     "last": 0.0,
+     "yes_ask": 94.0,
+     "last": 94.0,
      "ticker": "KXNBATOTAL-26NOV12CHAPHX-191"
     },
     {
@@ -388,7 +388,7 @@
     {
      "strike": 218.5,
      "yes_bid": 40.0,
-     "yes_ask": 43.0,
+     "yes_ask": 42.0,
      "last": 40.0,
      "ticker": "KXNBATOTAL-26NOV12CHAPHX-219"
     },
@@ -477,7 +477,7 @@
    "away": "DAL",
    "home": "MIN",
    "kalshi_win_prob_home": 0.665,
-   "kalshi_spread_home": -6.0,
+   "kalshi_spread_home": -6.1,
    "spread_source": "spread ladder",
    "kalshi_total": 225.7,
    "close_time": "2026-11-15T01:00:00Z",
@@ -511,12 +511,12 @@
       "strike": 2.5,
       "yes_bid": 61.0,
       "yes_ask": 62.0,
-      "last": 61.0,
+      "last": 62.0,
       "ticker": "KXNBASPREAD-26NOV12DALMIN-MIN3"
      },
      {
       "strike": 3.5,
-      "yes_bid": 59.0,
+      "yes_bid": 58.0,
       "yes_ask": 60.0,
       "last": 60.0,
       "ticker": "KXNBASPREAD-26NOV12DALMIN-MIN4"
@@ -531,15 +531,15 @@
      {
       "strike": 5.5,
       "yes_bid": 51.0,
-      "yes_ask": 52.0,
-      "last": 52.0,
+      "yes_ask": 53.0,
+      "last": 51.0,
       "ticker": "KXNBASPREAD-26NOV12DALMIN-MIN6"
      },
      {
       "strike": 6.5,
       "yes_bid": 48.0,
       "yes_ask": 49.0,
-      "last": 49.0,
+      "last": 48.0,
       "ticker": "KXNBASPREAD-26NOV12DALMIN-MIN7"
      },
      {
@@ -630,7 +630,7 @@
       "strike": 28.5,
       "yes_bid": 3.0,
       "yes_ask": 5.0,
-      "last": 4.0,
+      "last": 3.0,
       "ticker": "KXNBASPREAD-26NOV12DALMIN-MIN29"
      },
      {
@@ -760,14 +760,14 @@
     {
      "strike": 203.5,
      "yes_bid": 90.0,
-     "yes_ask": 92.0,
-     "last": 0.0,
+     "yes_ask": 93.0,
+     "last": 93.0,
      "ticker": "KXNBATOTAL-26NOV12DALMIN-204"
     },
     {
      "strike": 205.5,
      "yes_bid": 87.0,
-     "yes_ask": 90.0,
+     "yes_ask": 89.0,
      "last": 90.0,
      "ticker": "KXNBATOTAL-26NOV12DALMIN-206"
     },
@@ -801,8 +801,8 @@
     },
     {
      "strike": 215.5,
-     "yes_bid": 71.0,
-     "yes_ask": 73.0,
+     "yes_bid": 72.0,
+     "yes_ask": 74.0,
      "last": 73.0,
      "ticker": "KXNBATOTAL-26NOV12DALMIN-216"
     },
@@ -817,7 +817,7 @@
      "strike": 219.5,
      "yes_bid": 63.0,
      "yes_ask": 65.0,
-     "last": 66.0,
+     "last": 65.0,
      "ticker": "KXNBATOTAL-26NOV12DALMIN-220"
     },
     {
@@ -838,7 +838,7 @@
      "strike": 225.5,
      "yes_bid": 50.0,
      "yes_ask": 51.0,
-     "last": 51.0,
+     "last": 50.0,
      "ticker": "KXNBATOTAL-26NOV12DALMIN-226"
     },
     {
@@ -949,7 +949,7 @@
    "kalshi_win_prob_home": 0.195,
    "kalshi_spread_home": 10.8,
    "spread_source": "spread ladder",
-   "kalshi_total": 220.9,
+   "kalshi_total": 220.7,
    "close_time": "2026-11-15T00:00:00Z",
    "expected_expiration_time": "2026-11-13T03:00:00Z",
    "win_markets": {
@@ -986,7 +986,7 @@
      },
      {
       "strike": 4.5,
-      "yes_bid": 12.0,
+      "yes_bid": 13.0,
       "yes_ask": 14.0,
       "last": 15.0,
       "ticker": "KXNBASPREAD-26NOV12DETWAS-WAS5"
@@ -1028,7 +1028,7 @@
      },
      {
       "strike": 16.5,
-      "yes_bid": 0.0,
+      "yes_bid": 1.0,
       "yes_ask": 3.0,
       "last": 1.0,
       "ticker": "KXNBASPREAD-26NOV12DETWAS-WAS17"
@@ -1045,7 +1045,7 @@
      {
       "strike": 3.5,
       "yes_bid": 73.0,
-      "yes_ask": 74.0,
+      "yes_ask": 75.0,
       "last": 74.0,
       "ticker": "KXNBASPREAD-26NOV12DETWAS-DET4"
      },
@@ -1067,7 +1067,7 @@
       "strike": 6.5,
       "yes_bid": 64.0,
       "yes_ask": 66.0,
-      "last": 65.0,
+      "last": 66.0,
       "ticker": "KXNBASPREAD-26NOV12DETWAS-DET7"
      },
      {
@@ -1095,7 +1095,7 @@
       "strike": 10.5,
       "yes_bid": 50.0,
       "yes_ask": 52.0,
-      "last": 50.0,
+      "last": 52.0,
       "ticker": "KXNBASPREAD-26NOV12DETWAS-DET11"
      },
      {
@@ -1108,8 +1108,8 @@
      {
       "strike": 12.5,
       "yes_bid": 42.0,
-      "yes_ask": 44.0,
-      "last": 44.0,
+      "yes_ask": 43.0,
+      "last": 42.0,
       "ticker": "KXNBASPREAD-26NOV12DETWAS-DET13"
      },
      {
@@ -1121,7 +1121,7 @@
      },
      {
       "strike": 14.5,
-      "yes_bid": 36.0,
+      "yes_bid": 37.0,
       "yes_ask": 38.0,
       "last": 36.0,
       "ticker": "KXNBASPREAD-26NOV12DETWAS-DET15"
@@ -1307,15 +1307,15 @@
     {
      "strike": 220.5,
      "yes_bid": 50.0,
-     "yes_ask": 52.0,
-     "last": 50.0,
+     "yes_ask": 51.0,
+     "last": 51.0,
      "ticker": "KXNBATOTAL-26NOV12DETWAS-221"
     },
     {
      "strike": 222.5,
      "yes_bid": 45.0,
      "yes_ask": 47.0,
-     "last": 46.0,
+     "last": 45.0,
      "ticker": "KXNBATOTAL-26NOV12DETWAS-223"
     },
     {
@@ -1341,7 +1341,7 @@
     },
     {
      "strike": 230.5,
-     "yes_bid": 28.0,
+     "yes_bid": 29.0,
      "yes_ask": 30.0,
      "last": 29.0,
      "ticker": "KXNBATOTAL-26NOV12DETWAS-231"
@@ -1416,7 +1416,7 @@
    "date": "2026-11-12",
    "away": "TOR",
    "home": "PHI",
-   "kalshi_win_prob_home": 0.722,
+   "kalshi_win_prob_home": 0.712,
    "kalshi_spread_home": -7.6,
    "spread_source": "spread ladder",
    "kalshi_total": 224.0,
@@ -1425,16 +1425,16 @@
    "win_markets": {
     "TOR": {
      "strike": null,
-     "yes_bid": 27.0,
-     "yes_ask": 28.0,
-     "last": 28.0,
+     "yes_bid": 28.0,
+     "yes_ask": 29.0,
+     "last": 29.0,
      "ticker": "KXNBAGAME-26NOV12TORPHI-TOR"
     },
     "PHI": {
      "strike": null,
-     "yes_bid": 71.0,
-     "yes_ask": 72.0,
-     "last": 72.0,
+     "yes_bid": 70.0,
+     "yes_ask": 71.0,
+     "last": 71.0,
      "ticker": "KXNBAGAME-26NOV12TORPHI-PHI"
     }
    },
@@ -1442,36 +1442,36 @@
     "PHI": [
      {
       "strike": 1.5,
-      "yes_bid": 71.0,
-      "yes_ask": 72.0,
-      "last": 74.0,
+      "yes_bid": 70.0,
+      "yes_ask": 71.0,
+      "last": 71.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI2"
      },
      {
       "strike": 3.5,
-      "yes_bid": 65.0,
-      "yes_ask": 66.0,
+      "yes_bid": 64.0,
+      "yes_ask": 65.0,
       "last": 67.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI4"
      },
      {
       "strike": 4.5,
       "yes_bid": 61.0,
-      "yes_ask": 63.0,
-      "last": 63.0,
+      "yes_ask": 62.0,
+      "last": 62.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI5"
      },
      {
       "strike": 5.5,
-      "yes_bid": 58.0,
+      "yes_bid": 57.0,
       "yes_ask": 59.0,
-      "last": 60.0,
+      "last": 59.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI6"
      },
      {
       "strike": 6.5,
-      "yes_bid": 54.0,
-      "yes_ask": 56.0,
+      "yes_bid": 53.0,
+      "yes_ask": 55.0,
       "last": 56.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI7"
      },
@@ -1479,28 +1479,28 @@
       "strike": 7.5,
       "yes_bid": 50.0,
       "yes_ask": 51.0,
-      "last": 50.0,
+      "last": 51.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI8"
      },
      {
       "strike": 8.5,
       "yes_bid": 46.0,
       "yes_ask": 47.0,
-      "last": 47.0,
+      "last": 46.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI9"
      },
      {
       "strike": 9.5,
-      "yes_bid": 43.0,
+      "yes_bid": 42.0,
       "yes_ask": 44.0,
       "last": 44.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI10"
      },
      {
       "strike": 10.5,
-      "yes_bid": 40.0,
+      "yes_bid": 39.0,
       "yes_ask": 41.0,
-      "last": 40.0,
+      "last": 39.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI11"
      },
      {
@@ -1512,36 +1512,36 @@
      },
      {
       "strike": 12.5,
-      "yes_bid": 34.0,
-      "yes_ask": 35.0,
+      "yes_bid": 32.0,
+      "yes_ask": 34.0,
       "last": 36.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI13"
      },
      {
       "strike": 13.5,
-      "yes_bid": 31.0,
-      "yes_ask": 33.0,
+      "yes_bid": 30.0,
+      "yes_ask": 32.0,
       "last": 37.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI14"
      },
      {
       "strike": 14.5,
-      "yes_bid": 29.0,
+      "yes_bid": 28.0,
       "yes_ask": 30.0,
       "last": 30.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI15"
      },
      {
       "strike": 15.5,
-      "yes_bid": 27.0,
+      "yes_bid": 25.0,
       "yes_ask": 28.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI16"
      },
      {
       "strike": 17.5,
-      "yes_bid": 22.0,
-      "yes_ask": 24.0,
+      "yes_bid": 21.0,
+      "yes_ask": 23.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI18"
      },
@@ -1554,15 +1554,15 @@
      },
      {
       "strike": 21.5,
-      "yes_bid": 15.0,
-      "yes_ask": 16.0,
-      "last": 0.0,
+      "yes_bid": 13.0,
+      "yes_ask": 15.0,
+      "last": 15.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI22"
      },
      {
       "strike": 23.5,
-      "yes_bid": 11.0,
-      "yes_ask": 13.0,
+      "yes_bid": 10.0,
+      "yes_ask": 12.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-PHI24"
      },
@@ -1612,7 +1612,7 @@
     "TOR": [
      {
       "strike": 1.5,
-      "yes_bid": 24.0,
+      "yes_bid": 25.0,
       "yes_ask": 26.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-TOR2"
@@ -1628,19 +1628,19 @@
       "strike": 4.5,
       "yes_bid": 18.0,
       "yes_ask": 19.0,
-      "last": 17.0,
+      "last": 18.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-TOR5"
      },
      {
       "strike": 6.5,
       "yes_bid": 13.0,
-      "yes_ask": 14.0,
+      "yes_ask": 15.0,
       "last": 13.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-TOR7"
      },
      {
       "strike": 8.5,
-      "yes_bid": 10.0,
+      "yes_bid": 11.0,
       "yes_ask": 12.0,
       "last": 11.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-TOR9"
@@ -1668,7 +1668,7 @@
      },
      {
       "strike": 16.5,
-      "yes_bid": 1.0,
+      "yes_bid": 3.0,
       "yes_ask": 5.0,
       "last": 3.0,
       "ticker": "KXNBASPREAD-26NOV12TORPHI-TOR17"
@@ -1685,7 +1685,7 @@
     },
     {
      "strike": 194.5,
-     "yes_bid": 94.0,
+     "yes_bid": 95.0,
      "yes_ask": 97.0,
      "last": 96.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-195"
@@ -1700,13 +1700,13 @@
     {
      "strike": 198.5,
      "yes_bid": 91.0,
-     "yes_ask": 94.0,
+     "yes_ask": 95.0,
      "last": 95.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-199"
     },
     {
      "strike": 200.5,
-     "yes_bid": 90.0,
+     "yes_bid": 91.0,
      "yes_ask": 92.0,
      "last": 90.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-201"
@@ -1715,13 +1715,13 @@
      "strike": 202.5,
      "yes_bid": 87.0,
      "yes_ask": 91.0,
-     "last": 0.0,
+     "last": 91.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-203"
     },
     {
      "strike": 204.5,
      "yes_bid": 87.0,
-     "yes_ask": 89.0,
+     "yes_ask": 88.0,
      "last": 87.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-205"
     },
@@ -1734,15 +1734,15 @@
     },
     {
      "strike": 208.5,
-     "yes_bid": 80.0,
-     "yes_ask": 81.0,
+     "yes_bid": 82.0,
+     "yes_ask": 84.0,
      "last": 82.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-209"
     },
     {
      "strike": 210.5,
-     "yes_bid": 77.0,
-     "yes_ask": 78.0,
+     "yes_bid": 78.0,
+     "yes_ask": 80.0,
      "last": 79.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-211"
     },
@@ -1755,44 +1755,44 @@
     },
     {
      "strike": 214.5,
-     "yes_bid": 69.0,
-     "yes_ask": 70.0,
+     "yes_bid": 70.0,
+     "yes_ask": 71.0,
      "last": 70.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-215"
     },
     {
      "strike": 216.5,
-     "yes_bid": 65.0,
-     "yes_ask": 66.0,
+     "yes_bid": 66.0,
+     "yes_ask": 67.0,
      "last": 67.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-217"
     },
     {
      "strike": 218.5,
-     "yes_bid": 61.0,
-     "yes_ask": 62.0,
+     "yes_bid": 62.0,
+     "yes_ask": 64.0,
      "last": 62.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-219"
     },
     {
      "strike": 220.5,
-     "yes_bid": 57.0,
-     "yes_ask": 58.0,
+     "yes_bid": 58.0,
+     "yes_ask": 60.0,
      "last": 59.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-221"
     },
     {
      "strike": 222.5,
-     "yes_bid": 53.0,
+     "yes_bid": 54.0,
      "yes_ask": 55.0,
-     "last": 53.0,
+     "last": 55.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-223"
     },
     {
      "strike": 224.5,
      "yes_bid": 48.0,
      "yes_ask": 49.0,
-     "last": 49.0,
+     "last": 48.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-225"
     },
     {
@@ -1811,7 +1811,7 @@
     },
     {
      "strike": 230.5,
-     "yes_bid": 34.0,
+     "yes_bid": 35.0,
      "yes_ask": 36.0,
      "last": 34.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-231"
@@ -1846,8 +1846,8 @@
     },
     {
      "strike": 240.5,
-     "yes_bid": 16.0,
-     "yes_ask": 18.0,
+     "yes_bid": 17.0,
+     "yes_ask": 19.0,
      "last": 15.0,
      "ticker": "KXNBATOTAL-26NOV12TORPHI-241"
     },
@@ -1886,7 +1886,7 @@
    "date": "2026-11-13",
    "away": "ATL",
    "home": "CHI",
-   "kalshi_win_prob_home": 0.281,
+   "kalshi_win_prob_home": 0.279,
    "kalshi_spread_home": 7.0,
    "spread_source": "win prob",
    "kalshi_total": null,
@@ -1896,15 +1896,15 @@
     "ATL": {
      "strike": null,
      "yes_bid": 70.0,
-     "yes_ask": 71.0,
-     "last": 71.0,
+     "yes_ask": 72.0,
+     "last": 72.0,
      "ticker": "KXNBAGAME-26NOV13ATLCHI-ATL"
     },
     "CHI": {
      "strike": null,
      "yes_bid": 27.0,
      "yes_ask": 28.0,
-     "last": 28.0,
+     "last": 27.0,
      "ticker": "KXNBAGAME-26NOV13ATLCHI-CHI"
     }
    },
@@ -1916,8 +1916,8 @@
    "date": "2026-11-13",
    "away": "CLE",
    "home": "MIA",
-   "kalshi_win_prob_home": 0.513,
-   "kalshi_spread_home": -0.4,
+   "kalshi_win_prob_home": 0.505,
+   "kalshi_spread_home": -0.2,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-16T01:00:00Z",
@@ -1925,9 +1925,9 @@
    "win_markets": {
     "CLE": {
      "strike": null,
-     "yes_bid": 48.0,
-     "yes_ask": 49.0,
-     "last": 49.0,
+     "yes_bid": 49.0,
+     "yes_ask": 51.0,
+     "last": 51.0,
      "ticker": "KXNBAGAME-26NOV13CLEMIA-CLE"
     },
     "MIA": {
@@ -2114,7 +2114,7 @@
      "strike": null,
      "yes_bid": 19.0,
      "yes_ask": 20.0,
-     "last": 19.0,
+     "last": 20.0,
      "ticker": "KXNBAGAME-26NOV13PORSAC-SAC"
     }
    },
@@ -2516,8 +2516,8 @@
    "date": "2026-11-15",
    "away": "OKC",
    "home": "SAC",
-   "kalshi_win_prob_home": 0.185,
-   "kalshi_spread_home": 10.8,
+   "kalshi_win_prob_home": 0.193,
+   "kalshi_spread_home": 10.4,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-18T02:00:00Z",
@@ -2533,8 +2533,8 @@
     "SAC": {
      "strike": null,
      "yes_bid": 17.0,
-     "yes_ask": 20.0,
-     "last": 21.0,
+     "yes_ask": 22.0,
+     "last": 22.0,
      "ticker": "KXNBAGAME-26NOV15OKCSAC-SAC"
     }
    },
@@ -2557,7 +2557,7 @@
      "strike": null,
      "yes_bid": 90.0,
      "yes_ask": 91.0,
-     "last": 90.0,
+     "last": 91.0,
      "ticker": "KXNBAGAME-26NOV15SASUTA-SAS"
     },
     "UTA": {
@@ -2576,8 +2576,8 @@
    "date": "2026-11-16",
    "away": "GSW",
    "home": "NOP",
-   "kalshi_win_prob_home": 0.54,
-   "kalshi_spread_home": -1.2,
+   "kalshi_win_prob_home": 0.549,
+   "kalshi_spread_home": -1.5,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-19T01:00:00Z",
@@ -2585,8 +2585,8 @@
    "win_markets": {
     "GSW": {
      "strike": null,
-     "yes_bid": 45.0,
-     "yes_ask": 46.0,
+     "yes_bid": 43.0,
+     "yes_ask": 45.0,
      "last": 46.0,
      "ticker": "KXNBAGAME-26NOV16GSWNOP-GSW"
     },
@@ -2606,8 +2606,8 @@
    "date": "2026-11-16",
    "away": "ORL",
    "home": "BOS",
-   "kalshi_win_prob_home": 0.688,
-   "kalshi_spread_home": -5.9,
+   "kalshi_win_prob_home": 0.687,
+   "kalshi_spread_home": -5.8,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-19T00:00:00Z",
@@ -2622,7 +2622,7 @@
     },
     "BOS": {
      "strike": null,
-     "yes_bid": 66.0,
+     "yes_bid": 65.0,
      "yes_ask": 73.0,
      "last": 72.0,
      "ticker": "KXNBAGAME-26NOV16ORLBOS-BOS"
@@ -2636,8 +2636,8 @@
    "date": "2026-11-16",
    "away": "POR",
    "home": "MIN",
-   "kalshi_win_prob_home": 0.505,
-   "kalshi_spread_home": -0.2,
+   "kalshi_win_prob_home": 0.503,
+   "kalshi_spread_home": -0.1,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-19T01:00:00Z",
@@ -2653,7 +2653,7 @@
     "MIN": {
      "strike": null,
      "yes_bid": 48.0,
-     "yes_ask": 52.0,
+     "yes_ask": 51.0,
      "last": 48.0,
      "ticker": "KXNBAGAME-26NOV16PORMIN-MIN"
     }
