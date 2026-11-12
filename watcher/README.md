@@ -22,6 +22,23 @@ Watches every **Pending** pick logged at **Kalshi** in the NFL, NBA and PGA Bet 
 
 State (peak gains, alerts already sent, and a log of every "would have sold" alert) is carried between runs in the Actions cache as `watcher/state.json`. Each run's table of picks, bids and gains shows on the run's summary page in the Actions tab.
 
+## New-pick alerts (shareable)
+
+The same run also announces picks that weren't pending on the previous run, from all three Bet Logs and any venue, to a **separate** ntfy topic, so a class or group can follow the picks without getting the exit alerts. One push per sport per run, for example:
+
+```
+New NFL pick
+NO -7.5 vs CLE (Kalshi: YES on 'NO wins by over 7.5')
+Kalshi YES at 32c | 0.5u | Low confidence | Sun Nov 8, 1:00 PM ET
+Why: Model has NO by 4.2 against a market of 3 and prices an 8+ point NO win at 40% versus a 32c cost (+8.3c).
+
+Paper pick from a class research project. Not betting advice.
+```
+
+To turn it on, add the repo secret `NTFY_PICKS_TOPIC` with a new topic name and share that name. The first run after that records what's already pending without announcing it, so only picks logged afterward go out. To make tapping a push open a page (like the public Notion hub), put its link in `picks_click_url` in `config.json`.
+
+ntfy topics are public: anyone who knows the name can read it and can also post to it. Fine for sharing paper picks, but don't reuse your private exit-alert topic.
+
 ## Setup
 
 1. **ntfy:** subscribe to your topic in the ntfy app, then add it as the repo secret `NTFY_TOPIC` (Settings > Secrets and variables > Actions).

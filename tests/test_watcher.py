@@ -85,3 +85,31 @@ def test_parse_pick_from_notion_row():
     assert p["cost"] == 54.8 and p["pick_id"] == "NBA-5"
     assert p["start"] == datetime(2026, 11, 12, 1, 0, tzinfo=timezone.utc)
     assert w.parse_start("2026-11-13").hour == 11
+
+
+def _p(pid, sport="NFL", venue="Kalshi"):
+    return {"id": pid, "sport": sport, "pick_id": f"{sport}-{pid}", "pick": f"Pick {pid}", "venue": venue,
+            "side": "yes", "cost": 30.0, "odds": 233, "stake": 0.5, "confidence": "Low",
+            "reasoning": "Model likes it. More detail here.", "start": NOW + timedelta(days=2)}
+
+
+def test_new_picks_first_run_is_silent():
+    new, seen = w.find_new_picks([_p("a"), _p("b")], {}, ["NFL"])
+    assert new == [] and sorted(seen["NFL"]) == ["a", "b"]
+
+
+def test_new_picks_detects_only_new_ones():
+    new, seen = w.find_new_picks([_p("a"), _p("c", venue="Sportsbook")], {"NFL": ["a", "b"]}, ["NFL"])
+    assert [p["id"] for p in new] == ["c"] and sorted(seen["NFL"]) == ["a", "c"]
+
+
+def test_new_picks_keeps_list_when_a_bet_log_fails():
+    new, seen = w.find_new_picks([], {"NFL": ["a"], "NBA": ["x"]}, ["NBA"])
+    assert new == [] and seen["NFL"] == ["a"] and seen["NBA"] == []
+
+
+def test_format_new_picks():
+    title, body = w.format_new_picks("NFL", [_p("a"), _p("b", venue="Sportsbook")])
+    assert title == "New NFL picks (2)" and title.isascii()
+    assert "Kalshi YES at 30c" in body and "Sportsbook +233" in body
+    assert "Why: Model likes it." in body and "Not betting advice" in body

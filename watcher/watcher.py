@@ -6,6 +6,8 @@ Every run:
      as bought at its logged all-in Cost (c), with a flat $10 order like the Notion hub record.
   3. Looks up each contract's current bid on Kalshi's public API (no account or keys needed).
   4. Applies the exit rules in watcher/config.json and pushes an ntfy alert when one trips.
+  5. Announces picks that weren't pending on the last run (any venue) to a separate, shareable
+     ntfy topic (NTFY_PICKS_TOPIC), one push per sport per run. Off if that secret isn't set.
 
 It never places orders and never writes to Notion or Kalshi. Its state (peak prices, alerts
 already sent, and the "would have sold" log) lives in watcher/state.json, which the workflow
@@ -16,7 +18,8 @@ Usage:
   python watcher/watcher.py --dry-run       print what would be sent; send nothing, save nothing
   python watcher/watcher.py --test-notify   send one test push and exit
 
-Environment: NOTION_TOKEN (Notion integration secret), NTFY_TOPIC, optional NTFY_SERVER.
+Environment: NOTION_TOKEN (Notion integration secret), NTFY_TOPIC (exit alerts),
+optional NTFY_PICKS_TOPIC (new-pick alerts) and NTFY_SERVER.
 """
 import json
 import math
@@ -64,13 +67,10 @@ def http_json(url, data=None, headers=None, tries=3):
 # ---------------------------------------------------------------- Notion (read-only)
 
 def notion_pending(token, database_id):
-    """All Pending rows logged at Kalshi in one Bet Log."""
+    """All Pending rows in one Bet Log (Kalshi and sportsbook)."""
     url = f"{NOTION}/databases/{database_id}/query"
     headers = {"Authorization": f"Bearer {token}", "Notion-Version": NOTION_VERSION}
-    query = {"filter": {"and": [
-        {"property": "Status", "select": {"equals": "Pending"}},
-        {"property": "Venue", "select": {"equals": "Kalshi"}},
-    ]}, "page_size": 100}
+    query = {"filter": {"property": "Status", "select": {"equals": "Pending"}}, "page_size": 100}
     rows, cursor = [], None
     while True:
         if cursor:
@@ -117,9 +117,14 @@ def parse_pick(sport, page, start_property):
         "sport": sport,
         "pick_id": f"{uid.get('prefix') or sport}-{uid.get('number')}" if uid.get("number") else sport,
         "pick": _text(props.get("Pick")),
+        "venue": ((props.get("Venue") or {}).get("select") or {}).get("name", ""),
         "ticker": ticker,
         "side": side,
         "cost": cost,
+        "odds": (props.get("Odds") or {}).get("number"),
+        "stake": (props.get("Stake (u)") or {}).get("number"),
+        "confidence": ((props.get("Confidence") or {}).get("select") or {}).get("name", ""),
+        "reasoning": _text(props.get("Reasoning")),
         "start": parse_start(date.get("start")),
         "url": page.get("url", ""),
     }
@@ -211,7 +216,70 @@ def evaluate(pick, bid, entry, now, cfg):
     return alerts, entry
 
 
+def find_new_picks(picks, seen, queried_sports):
+    """Split pending picks into ones not alerted before. Returns (new picks, updated seen map).
+
+    `seen` maps sport -> list of page ids already announced. A sport whose Bet Log has never been
+    read before (first run, or the Actions cache expired) is recorded silently, so turning this on
+    doesn't blast every pick already pending. Sports whose Bet Log failed to load keep their old
+    list, so a Notion hiccup can't cause repeat alerts on the next run.
+    """
+    new, out = [], {}
+    for sport in queried_sports:
+        current = [p for p in picks if p["sport"] == sport]
+        if sport not in seen:
+            out[sport] = [p["id"] for p in current]
+            continue
+        known = set(seen[sport])
+        new += [p for p in current if p["id"] not in known]
+        out[sport] = [p["id"] for p in current]
+    for sport, ids in seen.items():
+        out.setdefault(sport, ids)
+    return new, out
+
+
+def first_sentence(text, limit=220):
+    text = " ".join((text or "").split())
+    end = text.find(". ")
+    s = text[:end + 1] if 0 < end < limit else text[:limit]
+    return s if len(s) == len(text) or s.endswith(".") else s.rstrip() + "..."
+
+
+def format_new_picks(sport, picks, tz_name="America/New_York"):
+    """One push per sport per run: title plus a short block per pick. Plain ASCII-safe title."""
+    try:
+        from zoneinfo import ZoneInfo
+        tz = ZoneInfo(tz_name)
+    except Exception:
+        tz = timezone.utc
+    n = len(picks)
+    title = f"New {sport} pick" + ("s" if n > 1 else "") + (f" ({n})" if n > 1 else "")
+    blocks = []
+    for p in sorted(picks, key=lambda p: (p.get("start") or datetime.max.replace(tzinfo=timezone.utc))):
+        bits = []
+        if p.get("venue") == "Kalshi" and p.get("cost"):
+            bits.append(f"Kalshi {p['side'].upper() if p.get('side') else ''} at {p['cost']:g}c".replace("  ", " "))
+        elif p.get("odds") is not None:
+            bits.append(f"{p.get('venue') or 'Book'} {p['odds']:+g}")
+        if p.get("stake"):
+            bits.append(f"{p['stake']:g}u")
+        if p.get("confidence"):
+            bits.append(f"{p['confidence']} confidence")
+        if p.get("start"):
+            local = p["start"].astimezone(tz)
+            when = local.strftime("%a %b %d") if (p["sport"] == "PGA") else \
+                local.strftime("%a %b %d, %I:%M %p").replace(" 0", " ") + " ET"
+            bits.append(when)
+        line = f"{p['pick']}\n" + " | ".join(bits)
+        why = first_sentence(p.get("reasoning"))
+        blocks.append(line + (f"\nWhy: {why}" if why else ""))
+    body = "\n\n".join(blocks) + "\n\nPaper pick from a class research project. Not betting advice."
+    return title, body
+
+
 def should_watch(pick, now, cfg):
+    if pick.get("venue", "Kalshi") != "Kalshi":
+        return False, "sportsbook pick"
     if not pick["ticker"] or not pick["side"] or not pick["cost"]:
         return False, "no Kalshi ticker, side or cost"
     start = pick.get("start")
@@ -237,11 +305,11 @@ def notify(alert, dry_run=False):
          dry_run=dry_run)
 
 
-def send(title, body, click=None, priority="default", tags="", dry_run=False):
+def send(title, body, click=None, priority="default", tags="", dry_run=False, topic=None):
     if dry_run:
-        print(f"[dry run] {title}\n{body}\n")
+        print(f"[dry run -> {'picks' if topic else 'exit'} topic] {title}\n{body}\n")
         return
-    topic = os.environ["NTFY_TOPIC"]
+    topic = topic or os.environ["NTFY_TOPIC"]
     server = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
     headers = {"Title": title.encode("ascii", "replace").decode(), "Priority": priority}
     if tags:
@@ -274,9 +342,13 @@ def summary(lines):
 
 def main(argv):
     dry_run = "--dry-run" in argv
+    picks_topic = os.environ.get("NTFY_PICKS_TOPIC") or None
     if "--test-notify" in argv:
         send("Kalshi watcher test", "If you can read this, exit alerts will reach this device.",
              tags="white_check_mark", dry_run=dry_run)
+        if picks_topic:
+            send("Kalshi picks test", "If you can read this, new-pick alerts will reach this device.",
+                 tags="white_check_mark", dry_run=dry_run, topic=picks_topic)
         print("test notification sent" if not dry_run else "test notification printed")
         return 0
 
@@ -287,17 +359,37 @@ def main(argv):
         sys.exit("NOTION_TOKEN is not set")
     now = datetime.now(timezone.utc)
 
-    picks, errors = [], []
+    picks, errors, queried = [], [], []
     for sport, log in cfg["bet_logs"].items():
         try:
             rows = notion_pending(token, log["database_id"])
             picks += [parse_pick(sport, r, log["start_property"]) for r in rows]
+            queried.append(sport)
         except Exception as e:
             errors.append(f"{sport} Bet Log: {e}")
 
+    # New-pick alerts go to their own topic (shareable), one push per sport per run.
+    new_picks, seen = find_new_picks(picks, state.get("seen", {}), queried)
+    announced = 0
+    if picks_topic:
+        for sport in queried:
+            batch = [p for p in new_picks if p["sport"] == sport]
+            if not batch:
+                continue
+            title, body = format_new_picks(sport, batch)
+            try:
+                send(title, body, click=cfg.get("picks_click_url") or None, priority="default",
+                     tags="football" if sport == "NFL" else "basketball" if sport == "NBA" else "golf",
+                     dry_run=dry_run, topic=picks_topic)
+                announced += len(batch)
+            except Exception as e:
+                errors.append(f"ntfy picks: {e}")
+                seen[sport] = [i for i in seen[sport] if i not in {p["id"] for p in batch}]
+
     table = ["| Pick | Side | Paid | Bid | Net/contract | Peak | Note |", "|---|---|---|---|---|---|---|"]
     watched, alerts = set(), []
-    for p in picks:
+    kalshi_picks = [p for p in picks if p.get("venue") == "Kalshi"]
+    for p in kalshi_picks:
         ok, why = should_watch(p, now, cfg)
         if not ok:
             table.append(f"| {p['pick_id']} {p['pick'][:40]} | {p['side'] or ''} | {p['cost'] or ''} | | | | {why} |")
@@ -328,13 +420,17 @@ def main(argv):
     if not dry_run:
         state["positions"] = {k: v for k, v in state["positions"].items() if k in watched}
         state["log"] = (state.get("log", []) + alerts)[-LOG_LIMIT:]
+        if picks_topic:
+            state["seen"] = seen
         state["last_run"] = now.isoformat(timespec="seconds")
         with open(STATE_PATH, "w") as f:
             json.dump(state, f, indent=1)
 
     lines = [f"## Exit watcher {now:%Y-%m-%d %H:%M} UTC",
-             f"{len(picks)} pending Kalshi picks, {len(watched)} priced, {len(alerts)} alerts sent."]
-    if picks:
+             f"{len(kalshi_picks)} pending Kalshi picks, {len(watched)} priced, {len(alerts)} exit alerts sent.",
+             f"New-pick alerts: {announced} announced" if picks_topic else
+             "New-pick alerts: off (no NTFY_PICKS_TOPIC secret)"]
+    if kalshi_picks:
         lines += [""] + table
     if errors:
         lines += ["", "**Problems:**"] + [f"- {e}" for e in errors]
