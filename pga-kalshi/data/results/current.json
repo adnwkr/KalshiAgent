@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-12T09:52:50+00:00",
+ "fetched_at": "2026-11-12T18:10:44+00:00",
  "events": [
   {
    "event": {
@@ -8,9 +8,9 @@
     "start": "2026-11-12",
     "end": "2026-11-15",
     "season": 2026,
-    "status": "scheduled",
-    "field": 120,
-    "rounds_played": 0
+    "status": "in_progress",
+    "field": 121,
+    "rounds_played": 1
    },
    "players": [
     "A.J. Ewart",
@@ -128,13 +128,135 @@
     "Trace Crowe",
     "Tyler Duncan",
     "Vince Whaley",
+    "Will Gordon",
     "William Mouw",
     "William Sides",
     "Zac Blair",
     "Zach Bauchou",
     "Zecheng Dou"
    ],
-   "rounds": []
+   "rounds": [
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "9364",
+     "player": "Erik van Rooyen",
+     "round": 1,
+     "strokes": 64,
+     "pos": "1",
+     "total_to_par": -8
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "3683",
+     "player": "Rafael Campos",
+     "round": 1,
+     "strokes": 66,
+     "pos": "2",
+     "total_to_par": -6
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "4587989",
+     "player": "Chandler Phillips",
+     "round": 1,
+     "strokes": 67,
+     "pos": "3",
+     "total_to_par": -5
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "4791222",
+     "player": "Mac Meissner",
+     "round": 1,
+     "strokes": 68,
+     "pos": "4",
+     "total_to_par": -4
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "10048",
+     "player": "Nick Hardy",
+     "round": 1,
+     "strokes": 69,
+     "pos": "5",
+     "total_to_par": -3
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "6017",
+     "player": "C.T. Pan",
+     "round": 1,
+     "strokes": 70,
+     "pos": "T6",
+     "total_to_par": -2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "9040",
+     "player": "Zac Blair",
+     "round": 1,
+     "strokes": 70,
+     "pos": "T6",
+     "total_to_par": -2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "4671",
+     "player": "John Parry",
+     "round": 1,
+     "strokes": 71,
+     "pos": "T8",
+     "total_to_par": -1
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "5502",
+     "player": "Andrew Putnam",
+     "round": 1,
+     "strokes": 71,
+     "pos": "T8",
+     "total_to_par": -1
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "4408315",
+     "player": "Vince Whaley",
+     "round": 1,
+     "strokes": 71,
+     "pos": "T8",
+     "total_to_par": -1
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "3454",
+     "player": "Brendon Todd",
+     "round": 1,
+     "strokes": 72,
+     "pos": "11",
+     "total_to_par": 0
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "4410612",
+     "player": "Takumi Kanaya",
+     "round": 1,
+     "strokes": 74,
+     "pos": "12",
+     "total_to_par": 2
+    }
+   ]
   }
  ]
 }
