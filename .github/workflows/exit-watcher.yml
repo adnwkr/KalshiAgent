@@ -1,0 +1,62 @@
+name: Exit watcher (paper alerts)
+
+# Every 10 minutes: reads Pending Kalshi picks from the Notion Bet Logs, prices them on Kalshi's
+# public API and sends an ntfy push when an exit rule in watcher/config.json trips.
+# Alerts only. It never places orders and never writes to Notion, Kalshi or this repo.
+# Needs two repo secrets: NOTION_TOKEN and NTFY_TOPIC. Until both exist it skips quietly.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+    inputs:
+      test_notify:
+        description: "Only send a test push to check the ntfy setup"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: exit-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: watcher
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Restore watcher state
+        uses: actions/cache/restore@v4
+        with:
+          path: watcher/state.json
+          key: watcher-state-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: watcher-state-
+      - name: Check prices and send alerts
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          TEST_NOTIFY: ${{ inputs.test_notify }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo "::notice::NTFY_TOPIC secret not set yet, skipping."; exit 0
+          fi
+          if [ "$TEST_NOTIFY" = "true" ]; then
+            python watcher/watcher.py --test-notify; exit $?
+          fi
+          if [ -z "$NOTION_TOKEN" ]; then
+            echo "::notice::NOTION_TOKEN secret not set yet, skipping."; exit 0
+          fi
+          python watcher/watcher.py
+      - name: Save watcher state
+        if: always() && hashFiles('watcher/state.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: watcher/state.json
+          key: watcher-state-${{ github.run_id }}-${{ github.run_attempt }}

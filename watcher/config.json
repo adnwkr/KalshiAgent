@@ -1,0 +1,15 @@
+{
+  "order_dollars": 10,
+  "kalshi_fee_coef": 0.07,
+  "take_profit_cents": 15,
+  "trail_arm_cents": 10,
+  "trail_drop_cents": 8,
+  "pregame_minutes": 30,
+  "pregame_min_gain_cents": 5,
+  "watch_after_start": {"NFL": false, "NBA": false, "PGA": true},
+  "bet_logs": {
+    "NFL": {"database_id": "6cbe9ef8b61040c59e6a70a5ee3450b7", "start_property": "Kickoff"},
+    "NBA": {"database_id": "c6628f35b68847ccab53f0c05d07f656", "start_property": "Tip-off"},
+    "PGA": {"database_id": "8e6571a50cc04ba797bda8a29b675d96", "start_property": "Start"}
+  }
+}
