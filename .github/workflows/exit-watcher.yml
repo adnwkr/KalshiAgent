@@ -1,7 +1,8 @@
 name: Exit watcher (paper alerts)
 
 # Every 10 minutes: reads Pending Kalshi picks from the Notion Bet Logs, prices them on Kalshi's
-# public API and sends an ntfy push when an exit rule in watcher/config.json trips.
+# public API and sends an ntfy push when an exit rule in watcher/config.json trips. If the
+# NTFY_PICKS_TOPIC secret is set, it also announces newly logged picks to that (shareable) topic.
 # Alerts only. It never places orders and never writes to Notion, Kalshi or this repo.
 # Needs two repo secrets: NOTION_TOKEN and NTFY_TOPIC. Until both exist it skips quietly.
 on:
@@ -42,6 +43,7 @@ jobs:
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_PICKS_TOPIC: ${{ secrets.NTFY_PICKS_TOPIC }}
           TEST_NOTIFY: ${{ inputs.test_notify }}
         run: |
           if [ -z "$NTFY_TOPIC" ]; then
