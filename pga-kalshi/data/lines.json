@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-11-13T01:29:02+00:00",
+ "fetched_at": "2026-11-13T09:34:10+00:00",
  "tournaments": [
   {
    "event_key": "AUCPBCS26",
    "title": "Austin Championship presented by Compliance Solutions Winner",
    "close_time": "2026-11-29T00:00:00Z",
-   "win_overround": 101.5,
+   "win_overround": 102.5,
    "markets": [
     "make_cut",
     "r1_lead",
@@ -19,10 +19,10 @@
     {
      "name": "Trace Crowe",
      "win": {
-      "mid": 15.5,
-      "yes_bid": 15.0,
-      "yes_ask": 16.0,
-      "last": 15.0,
+      "mid": 16.5,
+      "yes_bid": 16.0,
+      "yes_ask": 17.0,
+      "last": 17.0,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-TCRO"
      },
@@ -30,14 +30,14 @@
       "mid": 51.0,
       "yes_bid": 49.0,
       "yes_ask": 53.0,
-      "last": 31.0,
+      "last": 53.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-TCRO"
      },
      "top10": {
-      "mid": 66.5,
+      "mid": 67.0,
       "yes_bid": 65.0,
-      "yes_ask": 68.0,
+      "yes_ask": 69.0,
       "last": 65.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-TCRO"
@@ -51,22 +51,22 @@
       "ticker": "KXPGATOP20-AUCPBCS26-TCRO"
      },
      "make_cut": {
-      "mid": 98.0,
-      "yes_bid": 97.0,
+      "mid": 97.5,
+      "yes_bid": 96.0,
       "yes_ask": 99.0,
       "last": 99.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-TCRO"
      },
      "r1_lead": {
-      "mid": 99.45,
-      "yes_bid": 99.0,
-      "yes_ask": 99.9,
-      "last": 99.0,
+      "mid": null,
+      "yes_bid": 99.8,
+      "yes_ask": 100.0,
+      "last": 99.8,
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-TCRO"
      },
-     "win_prob_norm": 0.1528
+     "win_prob_norm": 0.161
     },
     {
      "name": "Blades Brown",
@@ -74,7 +74,7 @@
       "mid": 12.0,
       "yes_bid": 11.0,
       "yes_ask": 13.0,
-      "last": 11.0,
+      "last": 13.0,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-BBRO"
      },
@@ -82,7 +82,7 @@
       "mid": 41.0,
       "yes_bid": 39.0,
       "yes_ask": 43.0,
-      "last": 50.0,
+      "last": 43.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-BBRO"
      },
@@ -95,10 +95,10 @@
       "ticker": "KXPGATOP10-AUCPBCS26-BBRO"
      },
      "top20": {
-      "mid": 73.5,
-      "yes_bid": 72.0,
-      "yes_ask": 75.0,
-      "last": 75.0,
+      "mid": 75.5,
+      "yes_bid": 74.0,
+      "yes_ask": 77.0,
+      "last": 74.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-BBRO"
      },
@@ -118,31 +118,31 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-BBRO"
      },
-     "win_prob_norm": 0.1183
+     "win_prob_norm": 0.1171
     },
     {
      "name": "Max Greyserman",
      "win": {
-      "mid": 7.65,
-      "yes_bid": 7.6,
-      "yes_ask": 7.7,
-      "last": 7.7,
+      "mid": 7.35,
+      "yes_bid": 7.1,
+      "yes_ask": 7.6,
+      "last": 7.6,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-MGRE"
      },
      "top5": {
-      "mid": 29.5,
-      "yes_bid": 29.0,
-      "yes_ask": 30.0,
-      "last": 0.0,
+      "mid": 32.0,
+      "yes_bid": 30.0,
+      "yes_ask": 34.0,
+      "last": 30.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-MGRE"
      },
      "top10": {
-      "mid": 47.5,
+      "mid": 48.0,
       "yes_bid": 46.0,
-      "yes_ask": 49.0,
-      "last": 15.0,
+      "yes_ask": 50.0,
+      "last": 51.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-MGRE"
      },
@@ -155,8 +155,8 @@
       "ticker": "KXPGATOP20-AUCPBCS26-MGRE"
      },
      "make_cut": {
-      "mid": 97.5,
-      "yes_bid": 96.0,
+      "mid": 97.0,
+      "yes_bid": 95.0,
       "yes_ask": 99.0,
       "last": 69.0,
       "volume": null,
@@ -170,15 +170,15 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-MGRE"
      },
-     "win_prob_norm": 0.0754
+     "win_prob_norm": 0.0717
     },
     {
      "name": "Erik van Rooyen",
      "win": {
-      "mid": 5.4,
-      "yes_bid": 5.2,
-      "yes_ask": 5.6,
-      "last": 5.2,
+      "mid": 5.9,
+      "yes_bid": 5.5,
+      "yes_ask": 6.3,
+      "last": 6.3,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-EVAN"
      },
@@ -199,17 +199,17 @@
       "ticker": "KXPGATOP10-AUCPBCS26-EVAN"
      },
      "top20": {
-      "mid": 63.5,
+      "mid": 63.0,
       "yes_bid": 61.0,
-      "yes_ask": 66.0,
-      "last": 67.0,
+      "yes_ask": 65.0,
+      "last": 65.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-EVAN"
      },
      "make_cut": {
-      "mid": 96.5,
+      "mid": 97.0,
       "yes_bid": 95.0,
-      "yes_ask": 98.0,
+      "yes_ask": 99.0,
       "last": 98.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-EVAN"
@@ -222,30 +222,30 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-EVAN"
      },
-     "win_prob_norm": 0.0532
+     "win_prob_norm": 0.0576
     },
     {
      "name": "Kris Ventura",
      "win": {
-      "mid": 4.449999999999999,
+      "mid": 4.4,
       "yes_bid": 4.3,
-      "yes_ask": 4.6,
-      "last": 4.6,
+      "yes_ask": 4.5,
+      "last": 4.4,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-KVEN"
      },
      "top5": {
-      "mid": 25.0,
-      "yes_bid": 23.0,
+      "mid": 24.5,
+      "yes_bid": 22.0,
       "yes_ask": 27.0,
       "last": 50.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-KVEN"
      },
      "top10": {
-      "mid": 40.0,
+      "mid": 40.5,
       "yes_bid": 38.0,
-      "yes_ask": 42.0,
+      "yes_ask": 43.0,
       "last": 20.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-KVEN"
@@ -254,14 +254,14 @@
       "mid": 61.0,
       "yes_bid": 59.0,
       "yes_ask": 63.0,
-      "last": 36.0,
+      "last": 63.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-KVEN"
      },
      "make_cut": {
-      "mid": 95.0,
+      "mid": 95.5,
       "yes_bid": 93.0,
-      "yes_ask": 97.0,
+      "yes_ask": 98.0,
       "last": 75.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-KVEN"
@@ -274,15 +274,15 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-KVEN"
      },
-     "win_prob_norm": 0.0439
+     "win_prob_norm": 0.0429
     },
     {
      "name": "Ben Kohles",
      "win": {
-      "mid": 4.3,
-      "yes_bid": 4.0,
-      "yes_ask": 4.6,
-      "last": 4.6,
+      "mid": 4.05,
+      "yes_bid": 3.8,
+      "yes_ask": 4.3,
+      "last": 4.3,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-BKOH"
      },
@@ -290,23 +290,23 @@
       "mid": 22.5,
       "yes_bid": 21.0,
       "yes_ask": 24.0,
-      "last": 15.0,
+      "last": 25.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-BKOH"
      },
      "top10": {
       "mid": 37.5,
-      "yes_bid": 36.0,
-      "yes_ask": 39.0,
-      "last": 17.0,
+      "yes_bid": 35.0,
+      "yes_ask": 40.0,
+      "last": 40.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-BKOH"
      },
      "top20": {
-      "mid": 60.5,
-      "yes_bid": 59.0,
-      "yes_ask": 62.0,
-      "last": 63.0,
+      "mid": 59.5,
+      "yes_bid": 58.0,
+      "yes_ask": 61.0,
+      "last": 62.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-BKOH"
      },
@@ -326,46 +326,46 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-BKOH"
      },
-     "win_prob_norm": 0.0424
+     "win_prob_norm": 0.0395
     },
     {
      "name": "Jordan Smith",
      "win": {
-      "mid": 3.9000000000000004,
+      "mid": 3.7,
       "yes_bid": 3.6,
-      "yes_ask": 4.2,
-      "last": 4.1,
+      "yes_ask": 3.8,
+      "last": 3.8,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-JSMI"
      },
      "top5": {
-      "mid": 12.0,
-      "yes_bid": 1.0,
-      "yes_ask": 23.0,
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 28.0,
       "last": 18.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-JSMI"
      },
      "top10": {
-      "mid": 37.0,
+      "mid": 38.5,
       "yes_bid": 35.0,
-      "yes_ask": 39.0,
+      "yes_ask": 42.0,
       "last": 35.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-JSMI"
      },
      "top20": {
-      "mid": 47.5,
-      "yes_bid": 38.0,
-      "yes_ask": 57.0,
-      "last": 72.0,
+      "mid": 56.0,
+      "yes_bid": 52.0,
+      "yes_ask": 60.0,
+      "last": 60.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-JSMI"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 8.0,
-      "yes_ask": 98.0,
+      "mid": 92.5,
+      "yes_bid": 90.0,
+      "yes_ask": 95.0,
       "last": 80.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-JSMI"
@@ -378,15 +378,67 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-JSMI"
      },
-     "win_prob_norm": 0.0384
+     "win_prob_norm": 0.0361
+    },
+    {
+     "name": "Brian Harman",
+     "win": {
+      "mid": 3.55,
+      "yes_bid": 3.5,
+      "yes_ask": 3.6,
+      "last": 3.6,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-BHAR"
+     },
+     "top5": {
+      "mid": 19.5,
+      "yes_bid": 18.0,
+      "yes_ask": 21.0,
+      "last": 35.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-BHAR"
+     },
+     "top10": {
+      "mid": 34.5,
+      "yes_bid": 33.0,
+      "yes_ask": 36.0,
+      "last": 36.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-BHAR"
+     },
+     "top20": {
+      "mid": 55.0,
+      "yes_bid": 53.0,
+      "yes_ask": 57.0,
+      "last": 57.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-BHAR"
+     },
+     "make_cut": {
+      "mid": 95.5,
+      "yes_bid": 95.0,
+      "yes_ask": 96.0,
+      "last": 77.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-BHAR"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 9.3,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-BHAR"
+     },
+     "win_prob_norm": 0.0346
     },
     {
      "name": "Kevin Yu",
      "win": {
-      "mid": 3.5,
+      "mid": 3.45,
       "yes_bid": 3.4,
-      "yes_ask": 3.6,
-      "last": 3.6,
+      "yes_ask": 3.5,
+      "last": 3.5,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-KYU"
      },
@@ -394,22 +446,22 @@
       "mid": 19.0,
       "yes_bid": 17.0,
       "yes_ask": 21.0,
-      "last": 28.0,
+      "last": 17.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-KYU"
      },
      "top10": {
-      "mid": 33.5,
+      "mid": 33.0,
       "yes_bid": 31.0,
-      "yes_ask": 36.0,
+      "yes_ask": 35.0,
       "last": 35.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-KYU"
      },
      "top20": {
-      "mid": 53.5,
+      "mid": 53.0,
       "yes_bid": 51.0,
-      "yes_ask": 56.0,
+      "yes_ask": 55.0,
       "last": 55.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-KYU"
@@ -430,59 +482,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-KYU"
      },
-     "win_prob_norm": 0.0345
-    },
-    {
-     "name": "Brian Harman",
-     "win": {
-      "mid": 3.45,
-      "yes_bid": 3.2,
-      "yes_ask": 3.7,
-      "last": 3.8,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-BHAR"
-     },
-     "top5": {
-      "mid": 20.0,
-      "yes_bid": 18.0,
-      "yes_ask": 22.0,
-      "last": 35.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-BHAR"
-     },
-     "top10": {
-      "mid": 34.0,
-      "yes_bid": 33.0,
-      "yes_ask": 35.0,
-      "last": 49.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-BHAR"
-     },
-     "top20": {
-      "mid": 55.0,
-      "yes_bid": 53.0,
-      "yes_ask": 57.0,
-      "last": 57.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-BHAR"
-     },
-     "make_cut": {
-      "mid": 96.0,
-      "yes_bid": 95.0,
-      "yes_ask": 97.0,
-      "last": 77.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-BHAR"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 9.3,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-BHAR"
-     },
-     "win_prob_norm": 0.034
+     "win_prob_norm": 0.0337
     },
     {
      "name": "Austin Smotherman",
@@ -490,7 +490,7 @@
       "mid": 3.05,
       "yes_bid": 3.0,
       "yes_ask": 3.1,
-      "last": 3.0,
+      "last": 3.2,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-ASMO"
      },
@@ -511,10 +511,10 @@
       "ticker": "KXPGATOP10-AUCPBCS26-ASMO"
      },
      "top20": {
-      "mid": 53.0,
+      "mid": 52.5,
       "yes_bid": 52.0,
-      "yes_ask": 54.0,
-      "last": 56.0,
+      "yes_ask": 53.0,
+      "last": 54.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-ASMO"
      },
@@ -534,21 +534,21 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-ASMO"
      },
-     "win_prob_norm": 0.0301
+     "win_prob_norm": 0.0298
     },
     {
      "name": "Marco Penge",
      "win": {
-      "mid": 1.8,
-      "yes_bid": 1.6,
+      "mid": 1.95,
+      "yes_bid": 1.9,
       "yes_ask": 2.0,
-      "last": 1.6,
+      "last": 2.0,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-MPEN"
      },
      "top5": {
-      "mid": 7.0,
-      "yes_bid": 1.0,
+      "mid": null,
+      "yes_bid": 0.0,
       "yes_ask": 13.0,
       "last": 14.0,
       "volume": null,
@@ -563,17 +563,17 @@
       "ticker": "KXPGATOP10-AUCPBCS26-MPEN"
      },
      "top20": {
-      "mid": 31.5,
+      "mid": 33.5,
       "yes_bid": 22.0,
-      "yes_ask": 41.0,
+      "yes_ask": 45.0,
       "last": 30.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-MPEN"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 0.0,
-      "yes_ask": 98.0,
+      "mid": 87.5,
+      "yes_bid": 85.0,
+      "yes_ask": 90.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-MPEN"
@@ -586,13 +586,13 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-MPEN"
      },
-     "win_prob_norm": 0.0177
+     "win_prob_norm": 0.019
     },
     {
      "name": "Max McGreevy",
      "win": {
-      "mid": 1.7,
-      "yes_bid": 1.5,
+      "mid": 1.65,
+      "yes_bid": 1.4,
       "yes_ask": 1.9,
       "last": 1.9,
       "volume": null,
@@ -610,7 +610,7 @@
       "mid": 25.0,
       "yes_bid": 23.0,
       "yes_ask": 27.0,
-      "last": 0.0,
+      "last": 27.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-MMCG"
      },
@@ -623,9 +623,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-MMCG"
      },
      "make_cut": {
-      "mid": 92.0,
+      "mid": 92.5,
       "yes_bid": 90.0,
-      "yes_ask": 94.0,
+      "yes_ask": 95.0,
       "last": 65.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-MMCG"
@@ -638,15 +638,15 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-MMCG"
      },
-     "win_prob_norm": 0.0168
+     "win_prob_norm": 0.0161
     },
     {
      "name": "David Ford",
      "win": {
-      "mid": 1.65,
-      "yes_bid": 1.4,
-      "yes_ask": 1.9,
-      "last": 1.4,
+      "mid": 1.5,
+      "yes_bid": 1.3,
+      "yes_ask": 1.7,
+      "last": 1.7,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-DFOR"
      },
@@ -659,25 +659,25 @@
       "ticker": "KXPGATOP5-AUCPBCS26-DFOR"
      },
      "top10": {
-      "mid": 20.5,
-      "yes_bid": 18.0,
+      "mid": 21.0,
+      "yes_bid": 19.0,
       "yes_ask": 23.0,
       "last": 36.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-DFOR"
      },
      "top20": {
-      "mid": 38.0,
+      "mid": 37.5,
       "yes_bid": 36.0,
-      "yes_ask": 40.0,
+      "yes_ask": 39.0,
       "last": 36.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-DFOR"
      },
      "make_cut": {
-      "mid": 85.0,
+      "mid": 84.5,
       "yes_bid": 84.0,
-      "yes_ask": 86.0,
+      "yes_ask": 85.0,
       "last": 93.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-DFOR"
@@ -690,67 +690,15 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-DFOR"
      },
-     "win_prob_norm": 0.0163
-    },
-    {
-     "name": "Neal Shipley",
-     "win": {
-      "mid": 1.6,
-      "yes_bid": 1.3,
-      "yes_ask": 1.9,
-      "last": 1.4,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-NSHI"
-     },
-     "top5": {
-      "mid": 11.5,
-      "yes_bid": 10.0,
-      "yes_ask": 13.0,
-      "last": 9.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-NSHI"
-     },
-     "top10": {
-      "mid": 20.5,
-      "yes_bid": 19.0,
-      "yes_ask": 22.0,
-      "last": 32.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-NSHI"
-     },
-     "top20": {
-      "mid": 37.5,
-      "yes_bid": 35.0,
-      "yes_ask": 40.0,
-      "last": 41.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-NSHI"
-     },
-     "make_cut": {
-      "mid": 89.0,
-      "yes_bid": 88.0,
-      "yes_ask": 90.0,
-      "last": 89.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-NSHI"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-NSHI"
-     },
-     "win_prob_norm": 0.0158
+     "win_prob_norm": 0.0146
     },
     {
      "name": "Jackson Koivun",
      "win": {
-      "mid": 1.4,
-      "yes_bid": 1.3,
-      "yes_ask": 1.5,
-      "last": 1.3,
+      "mid": 1.5,
+      "yes_bid": 1.4,
+      "yes_ask": 1.6,
+      "last": 1.4,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-JKOI"
      },
@@ -758,15 +706,15 @@
       "mid": 11.5,
       "yes_bid": 10.0,
       "yes_ask": 13.0,
-      "last": 11.0,
+      "last": 13.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-JKOI"
      },
      "top10": {
       "mid": 20.5,
-      "yes_bid": 19.0,
-      "yes_ask": 22.0,
-      "last": 28.0,
+      "yes_bid": 17.0,
+      "yes_ask": 24.0,
+      "last": 17.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-JKOI"
      },
@@ -774,14 +722,14 @@
       "mid": 38.0,
       "yes_bid": 36.0,
       "yes_ask": 40.0,
-      "last": 36.0,
+      "last": 40.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-JKOI"
      },
      "make_cut": {
-      "mid": 81.0,
+      "mid": 80.5,
       "yes_bid": 80.0,
-      "yes_ask": 82.0,
+      "yes_ask": 81.0,
       "last": 84.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-JKOI"
@@ -794,13 +742,13 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-JKOI"
      },
-     "win_prob_norm": 0.0138
+     "win_prob_norm": 0.0146
     },
     {
      "name": "Chandler Phillips",
      "win": {
-      "mid": 1.4,
-      "yes_bid": 1.3,
+      "mid": 1.45,
+      "yes_bid": 1.4,
       "yes_ask": 1.5,
       "last": 1.5,
       "volume": null,
@@ -810,7 +758,7 @@
       "mid": 11.5,
       "yes_bid": 10.0,
       "yes_ask": 13.0,
-      "last": 26.0,
+      "last": 10.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-CPHI"
      },
@@ -823,10 +771,10 @@
       "ticker": "KXPGATOP10-AUCPBCS26-CPHI"
      },
      "top20": {
-      "mid": 38.5,
+      "mid": 39.0,
       "yes_bid": 37.0,
-      "yes_ask": 40.0,
-      "last": 65.0,
+      "yes_ask": 41.0,
+      "last": 41.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-CPHI"
      },
@@ -846,119 +794,119 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-CPHI"
      },
-     "win_prob_norm": 0.0138
+     "win_prob_norm": 0.0141
     },
     {
-     "name": "Haotong Li",
+     "name": "Gordon Sargent",
      "win": {
-      "mid": 1.35,
-      "yes_bid": 1.2,
+      "mid": 1.4,
+      "yes_bid": 1.3,
       "yes_ask": 1.5,
       "last": 1.5,
       "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-HLI"
+      "ticker": "KXPGATOUR-AUCPBCS26-GSAR"
      },
      "top5": {
-      "mid": 9.5,
-      "yes_bid": 7.0,
-      "yes_ask": 12.0,
-      "last": 8.0,
+      "mid": 10.0,
+      "yes_bid": 5.0,
+      "yes_ask": 15.0,
+      "last": 4.0,
       "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-HLI"
+      "ticker": "KXPGATOP5-AUCPBCS26-GSAR"
      },
      "top10": {
       "mid": 18.0,
       "yes_bid": 16.0,
       "yes_ask": 20.0,
-      "last": 0.0,
+      "last": 14.0,
       "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-HLI"
+      "ticker": "KXPGATOP10-AUCPBCS26-GSAR"
      },
      "top20": {
-      "mid": 34.5,
-      "yes_bid": 32.0,
-      "yes_ask": 37.0,
-      "last": 24.0,
+      "mid": 33.0,
+      "yes_bid": 30.0,
+      "yes_ask": 36.0,
+      "last": 36.0,
       "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-HLI"
+      "ticker": "KXPGATOP20-AUCPBCS26-GSAR"
      },
      "make_cut": {
-      "mid": 86.0,
-      "yes_bid": 84.0,
-      "yes_ask": 88.0,
-      "last": 66.0,
+      "mid": 84.5,
+      "yes_bid": 80.0,
+      "yes_ask": 89.0,
+      "last": 89.0,
       "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-HLI"
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-GSAR"
      },
      "r1_lead": {
-      "mid": 0.05,
+      "mid": 0.95,
       "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 6.3,
+      "yes_ask": 1.9,
+      "last": 2.0,
       "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-HLI"
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-GSAR"
      },
-     "win_prob_norm": 0.0133
+     "win_prob_norm": 0.0137
     },
     {
-     "name": "Miles Russell",
+     "name": "Neal Shipley",
      "win": {
-      "mid": 1.35,
-      "yes_bid": 1.2,
+      "mid": 1.4,
+      "yes_bid": 1.3,
       "yes_ask": 1.5,
       "last": 1.5,
       "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-MRUS"
+      "ticker": "KXPGATOUR-AUCPBCS26-NSHI"
      },
      "top5": {
       "mid": 11.0,
-      "yes_bid": 9.0,
-      "yes_ask": 13.0,
-      "last": 3.0,
+      "yes_bid": 10.0,
+      "yes_ask": 12.0,
+      "last": 13.0,
       "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-MRUS"
+      "ticker": "KXPGATOP5-AUCPBCS26-NSHI"
      },
      "top10": {
-      "mid": 20.0,
+      "mid": 21.0,
       "yes_bid": 19.0,
-      "yes_ask": 21.0,
-      "last": 24.0,
+      "yes_ask": 23.0,
+      "last": 23.0,
       "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-MRUS"
+      "ticker": "KXPGATOP10-AUCPBCS26-NSHI"
      },
      "top20": {
-      "mid": 36.5,
-      "yes_bid": 35.0,
-      "yes_ask": 38.0,
-      "last": 20.0,
+      "mid": 37.5,
+      "yes_bid": 36.0,
+      "yes_ask": 39.0,
+      "last": 39.0,
       "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-MRUS"
+      "ticker": "KXPGATOP20-AUCPBCS26-NSHI"
      },
      "make_cut": {
-      "mid": 90.5,
+      "mid": 88.5,
       "yes_bid": 88.0,
-      "yes_ask": 93.0,
-      "last": 62.0,
+      "yes_ask": 89.0,
+      "last": 89.0,
       "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-MRUS"
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-NSHI"
      },
      "r1_lead": {
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.3,
+      "last": 0.1,
       "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-MRUS"
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-NSHI"
      },
-     "win_prob_norm": 0.0133
+     "win_prob_norm": 0.0137
     },
     {
      "name": "Mac Meissner",
      "win": {
-      "mid": 1.25,
+      "mid": 1.3,
       "yes_bid": 1.1,
-      "yes_ask": 1.4,
-      "last": 1.4,
+      "yes_ask": 1.5,
+      "last": 1.5,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-MMEI"
      },
@@ -987,9 +935,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-MMEI"
      },
      "make_cut": {
-      "mid": 90.0,
+      "mid": 89.5,
       "yes_bid": 89.0,
-      "yes_ask": 91.0,
+      "yes_ask": 90.0,
       "last": 72.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-MMEI"
@@ -1002,101 +950,101 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-MMEI"
      },
-     "win_prob_norm": 0.0123
+     "win_prob_norm": 0.0127
     },
     {
-     "name": "Gordon Sargent",
+     "name": "Haotong Li",
      "win": {
-      "mid": 1.2,
-      "yes_bid": 1.0,
-      "yes_ask": 1.4,
-      "last": 1.4,
+      "mid": 1.25,
+      "yes_bid": 1.2,
+      "yes_ask": 1.3,
+      "last": 1.3,
       "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-GSAR"
+      "ticker": "KXPGATOUR-AUCPBCS26-HLI"
      },
      "top5": {
-      "mid": 10.0,
-      "yes_bid": 5.0,
-      "yes_ask": 15.0,
-      "last": 4.0,
+      "mid": 9.5,
+      "yes_bid": 7.0,
+      "yes_ask": 12.0,
+      "last": 8.0,
       "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-GSAR"
+      "ticker": "KXPGATOP5-AUCPBCS26-HLI"
      },
      "top10": {
-      "mid": 18.5,
-      "yes_bid": 17.0,
+      "mid": 18.0,
+      "yes_bid": 16.0,
       "yes_ask": 20.0,
-      "last": 14.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-GSAR"
-     },
-     "top20": {
-      "mid": 33.0,
-      "yes_bid": 30.0,
-      "yes_ask": 36.0,
       "last": 20.0,
       "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-GSAR"
-     },
-     "make_cut": {
-      "mid": 93.0,
-      "yes_bid": 91.0,
-      "yes_ask": 95.0,
-      "last": 61.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-GSAR"
-     },
-     "r1_lead": {
-      "mid": 0.95,
-      "yes_bid": 0.0,
-      "yes_ask": 1.9,
-      "last": 2.0,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-GSAR"
-     },
-     "win_prob_norm": 0.0118
-    },
-    {
-     "name": "Austin Eckroat",
-     "win": {
-      "mid": 1.15,
-      "yes_bid": 1.1,
-      "yes_ask": 1.2,
-      "last": 1.1,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-AECK"
-     },
-     "top5": {
-      "mid": 6.5,
-      "yes_bid": 6.0,
-      "yes_ask": 7.0,
-      "last": 17.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-AECK"
-     },
-     "top10": {
-      "mid": 14.5,
-      "yes_bid": 13.0,
-      "yes_ask": 16.0,
-      "last": 46.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-AECK"
+      "ticker": "KXPGATOP10-AUCPBCS26-HLI"
      },
      "top20": {
-      "mid": 28.5,
-      "yes_bid": 27.0,
-      "yes_ask": 30.0,
-      "last": 27.0,
+      "mid": 34.0,
+      "yes_bid": 32.0,
+      "yes_ask": 36.0,
+      "last": 36.0,
       "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-AECK"
+      "ticker": "KXPGATOP20-AUCPBCS26-HLI"
      },
      "make_cut": {
-      "mid": 82.0,
-      "yes_bid": 80.0,
-      "yes_ask": 84.0,
-      "last": 69.0,
+      "mid": 86.0,
+      "yes_bid": 84.0,
+      "yes_ask": 88.0,
+      "last": 66.0,
       "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-AECK"
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-HLI"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 6.3,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-HLI"
+     },
+     "win_prob_norm": 0.0122
+    },
+    {
+     "name": "Miles Russell",
+     "win": {
+      "mid": 1.25,
+      "yes_bid": 1.2,
+      "yes_ask": 1.3,
+      "last": 1.3,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-MRUS"
+     },
+     "top5": {
+      "mid": 11.0,
+      "yes_bid": 9.0,
+      "yes_ask": 13.0,
+      "last": 3.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-MRUS"
+     },
+     "top10": {
+      "mid": 20.5,
+      "yes_bid": 19.0,
+      "yes_ask": 22.0,
+      "last": 22.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-MRUS"
+     },
+     "top20": {
+      "mid": 36.5,
+      "yes_bid": 35.0,
+      "yes_ask": 38.0,
+      "last": 20.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-MRUS"
+     },
+     "make_cut": {
+      "mid": 90.0,
+      "yes_bid": 88.0,
+      "yes_ask": 92.0,
+      "last": 93.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-MRUS"
      },
      "r1_lead": {
       "mid": 0.05,
@@ -1104,15 +1052,15 @@
       "yes_ask": 0.1,
       "last": 0.3,
       "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-AECK"
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-MRUS"
      },
-     "win_prob_norm": 0.0113
+     "win_prob_norm": 0.0122
     },
     {
      "name": "Zachary Bauchou",
      "win": {
-      "mid": 1.0,
-      "yes_bid": 0.9,
+      "mid": 1.05,
+      "yes_bid": 1.0,
       "yes_ask": 1.1,
       "last": 1.1,
       "volume": null,
@@ -1122,7 +1070,7 @@
       "mid": 10.0,
       "yes_bid": 8.0,
       "yes_ask": 12.0,
-      "last": 12.0,
+      "last": 8.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-ZBAU"
      },
@@ -1130,21 +1078,21 @@
       "mid": 19.5,
       "yes_bid": 18.0,
       "yes_ask": 21.0,
-      "last": 22.0,
+      "last": 21.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-ZBAU"
      },
      "top20": {
-      "mid": 36.5,
-      "yes_bid": 35.0,
+      "mid": 36.0,
+      "yes_bid": 34.0,
       "yes_ask": 38.0,
       "last": 38.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-ZBAU"
      },
      "make_cut": {
-      "mid": 83.5,
-      "yes_bid": 81.0,
+      "mid": 84.0,
+      "yes_bid": 82.0,
       "yes_ask": 86.0,
       "last": 86.0,
       "volume": null,
@@ -1158,21 +1106,73 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-ZBAU"
      },
-     "win_prob_norm": 0.0099
+     "win_prob_norm": 0.0102
+    },
+    {
+     "name": "Matt McCarty",
+     "win": {
+      "mid": 0.95,
+      "yes_bid": 0.9,
+      "yes_ask": 1.0,
+      "last": 1.0,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-MMCC"
+     },
+     "top5": {
+      "mid": 6.0,
+      "yes_bid": 5.0,
+      "yes_ask": 7.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-MMCC"
+     },
+     "top10": {
+      "mid": 15.5,
+      "yes_bid": 13.0,
+      "yes_ask": 18.0,
+      "last": 14.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-MMCC"
+     },
+     "top20": {
+      "mid": 30.5,
+      "yes_bid": 28.0,
+      "yes_ask": 33.0,
+      "last": 22.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-MMCC"
+     },
+     "make_cut": {
+      "mid": 86.5,
+      "yes_bid": 85.0,
+      "yes_ask": 88.0,
+      "last": 81.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-MMCC"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.1,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-MMCC"
+     },
+     "win_prob_norm": 0.0093
     },
     {
      "name": "Sami Valimaki",
      "win": {
-      "mid": 0.9500000000000001,
+      "mid": 0.9,
       "yes_bid": 0.8,
-      "yes_ask": 1.1,
-      "last": 1.0,
+      "yes_ask": 1.0,
+      "last": 0.9,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-SVAL"
      },
      "top5": {
-      "mid": 10.0,
-      "yes_bid": 8.0,
+      "mid": 10.5,
+      "yes_bid": 9.0,
       "yes_ask": 12.0,
       "last": 8.0,
       "volume": null,
@@ -1195,9 +1195,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-SVAL"
      },
      "make_cut": {
-      "mid": 87.5,
+      "mid": 87.0,
       "yes_bid": 85.0,
-      "yes_ask": 90.0,
+      "yes_ask": 89.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-SVAL"
@@ -1210,7 +1210,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-SVAL"
      },
-     "win_prob_norm": 0.0094
+     "win_prob_norm": 0.0088
     },
     {
      "name": "Sudarshan Yellamaraju",
@@ -1218,7 +1218,7 @@
       "mid": 0.9,
       "yes_bid": 0.8,
       "yes_ask": 1.0,
-      "last": 1.1,
+      "last": 1.0,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-SYEL"
      },
@@ -1262,46 +1262,150 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-SYEL"
      },
-     "win_prob_norm": 0.0089
+     "win_prob_norm": 0.0088
+    },
+    {
+     "name": "Austin Eckroat",
+     "win": {
+      "mid": 0.75,
+      "yes_bid": 0.7,
+      "yes_ask": 0.8,
+      "last": 0.8,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-AECK"
+     },
+     "top5": {
+      "mid": 6.5,
+      "yes_bid": 6.0,
+      "yes_ask": 7.0,
+      "last": 17.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-AECK"
+     },
+     "top10": {
+      "mid": 14.0,
+      "yes_bid": 12.0,
+      "yes_ask": 16.0,
+      "last": 46.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-AECK"
+     },
+     "top20": {
+      "mid": 28.0,
+      "yes_bid": 26.0,
+      "yes_ask": 30.0,
+      "last": 27.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-AECK"
+     },
+     "make_cut": {
+      "mid": 81.0,
+      "yes_bid": 79.0,
+      "yes_ask": 83.0,
+      "last": 69.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-AECK"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.3,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-AECK"
+     },
+     "win_prob_norm": 0.0073
+    },
+    {
+     "name": "Rasmus Neergaard-Petersen",
+     "win": {
+      "mid": 0.75,
+      "yes_bid": 0.7,
+      "yes_ask": 0.8,
+      "last": 0.8,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-RNEE"
+     },
+     "top5": {
+      "mid": 7.0,
+      "yes_bid": 6.0,
+      "yes_ask": 8.0,
+      "last": 11.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-RNEE"
+     },
+     "top10": {
+      "mid": 16.5,
+      "yes_bid": 15.0,
+      "yes_ask": 18.0,
+      "last": 15.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-RNEE"
+     },
+     "top20": {
+      "mid": 31.0,
+      "yes_bid": 30.0,
+      "yes_ask": 32.0,
+      "last": 30.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-RNEE"
+     },
+     "make_cut": {
+      "mid": 82.5,
+      "yes_bid": 81.0,
+      "yes_ask": 84.0,
+      "last": 70.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-RNEE"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.9,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-RNEE"
+     },
+     "win_prob_norm": 0.0073
     },
     {
      "name": "Isaiah Salinda",
      "win": {
-      "mid": 0.8500000000000001,
-      "yes_bid": 0.8,
-      "yes_ask": 0.9,
-      "last": 1.0,
+      "mid": 0.75,
+      "yes_bid": 0.7,
+      "yes_ask": 0.8,
+      "last": 0.8,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-ISAL"
      },
      "top5": {
-      "mid": null,
-      "yes_bid": 0.0,
+      "mid": 3.0,
+      "yes_bid": 1.0,
       "yes_ask": 5.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-ISAL"
      },
      "top10": {
-      "mid": 8.5,
-      "yes_bid": 3.0,
-      "yes_ask": 14.0,
+      "mid": 9.0,
+      "yes_bid": 2.0,
+      "yes_ask": 16.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-ISAL"
      },
      "top20": {
-      "mid": 20.5,
-      "yes_bid": 13.0,
+      "mid": 20.0,
+      "yes_bid": 12.0,
       "yes_ask": 28.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-ISAL"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 0.0,
-      "yes_ask": 80.0,
+      "mid": 77.0,
+      "yes_bid": 75.0,
+      "yes_ask": 79.0,
       "last": 64.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-ISAL"
@@ -1314,67 +1418,15 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-ISAL"
      },
-     "win_prob_norm": 0.0084
-    },
-    {
-     "name": "Matt McCarty",
-     "win": {
-      "mid": 0.85,
-      "yes_bid": 0.7,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-MMCC"
-     },
-     "top5": {
-      "mid": 6.0,
-      "yes_bid": 5.0,
-      "yes_ask": 7.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-MMCC"
-     },
-     "top10": {
-      "mid": 15.5,
-      "yes_bid": 13.0,
-      "yes_ask": 18.0,
-      "last": 14.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-MMCC"
-     },
-     "top20": {
-      "mid": 30.5,
-      "yes_bid": 28.0,
-      "yes_ask": 33.0,
-      "last": 22.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-MMCC"
-     },
-     "make_cut": {
-      "mid": 87.0,
-      "yes_bid": 85.0,
-      "yes_ask": 89.0,
-      "last": 81.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-MMCC"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-MMCC"
-     },
-     "win_prob_norm": 0.0084
+     "win_prob_norm": 0.0073
     },
     {
      "name": "Zecheng Dou",
      "win": {
-      "mid": 0.75,
-      "yes_bid": 0.7,
+      "mid": 0.7,
+      "yes_bid": 0.6,
       "yes_ask": 0.8,
-      "last": 0.7,
+      "last": 0.8,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-ZDOU"
      },
@@ -1395,18 +1447,18 @@
       "ticker": "KXPGATOP10-AUCPBCS26-ZDOU"
      },
      "top20": {
-      "mid": 30.5,
+      "mid": 30.0,
       "yes_bid": 28.0,
-      "yes_ask": 33.0,
+      "yes_ask": 32.0,
       "last": 52.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-ZDOU"
      },
      "make_cut": {
-      "mid": 86.0,
-      "yes_bid": 84.0,
-      "yes_ask": 88.0,
-      "last": 0.0,
+      "mid": 85.0,
+      "yes_bid": 83.0,
+      "yes_ask": 87.0,
+      "last": 82.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-ZDOU"
      },
@@ -1418,7 +1470,59 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-ZDOU"
      },
-     "win_prob_norm": 0.0074
+     "win_prob_norm": 0.0068
+    },
+    {
+     "name": "Aaron Wise",
+     "win": {
+      "mid": 0.7,
+      "yes_bid": 0.6,
+      "yes_ask": 0.8,
+      "last": 0.8,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-AWIS"
+     },
+     "top5": {
+      "mid": 4.0,
+      "yes_bid": 3.0,
+      "yes_ask": 5.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-AWIS"
+     },
+     "top10": {
+      "mid": 10.5,
+      "yes_bid": 9.0,
+      "yes_ask": 12.0,
+      "last": 13.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-AWIS"
+     },
+     "top20": {
+      "mid": 20.5,
+      "yes_bid": 19.0,
+      "yes_ask": 22.0,
+      "last": 24.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-AWIS"
+     },
+     "make_cut": {
+      "mid": 85.5,
+      "yes_bid": 84.0,
+      "yes_ask": 87.0,
+      "last": 87.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-AWIS"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.1,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-AWIS"
+     },
+     "win_prob_norm": 0.0068
     },
     {
      "name": "Rafael Campos",
@@ -1447,17 +1551,17 @@
       "ticker": "KXPGATOP10-AUCPBCS26-RCAM"
      },
      "top20": {
-      "mid": 30.5,
+      "mid": 30.0,
       "yes_bid": 28.0,
-      "yes_ask": 33.0,
-      "last": 33.0,
+      "yes_ask": 32.0,
+      "last": 32.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-RCAM"
      },
      "make_cut": {
-      "mid": 92.0,
+      "mid": 91.5,
       "yes_bid": 90.0,
-      "yes_ask": 94.0,
+      "yes_ask": 93.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-RCAM"
@@ -1470,171 +1574,15 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-RCAM"
      },
-     "win_prob_norm": 0.0064
+     "win_prob_norm": 0.0063
     },
     {
-     "name": "Rasmus Neergaard-Petersen",
-     "win": {
-      "mid": 0.65,
-      "yes_bid": 0.5,
-      "yes_ask": 0.8,
-      "last": 0.7,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-RNEE"
-     },
-     "top5": {
-      "mid": 7.0,
-      "yes_bid": 6.0,
-      "yes_ask": 8.0,
-      "last": 11.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-RNEE"
-     },
-     "top10": {
-      "mid": 16.5,
-      "yes_bid": 15.0,
-      "yes_ask": 18.0,
-      "last": 15.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-RNEE"
-     },
-     "top20": {
-      "mid": 33.0,
-      "yes_bid": 31.0,
-      "yes_ask": 35.0,
-      "last": 30.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-RNEE"
-     },
-     "make_cut": {
-      "mid": 83.5,
-      "yes_bid": 82.0,
-      "yes_ask": 85.0,
-      "last": 70.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-RNEE"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.9,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-RNEE"
-     },
-     "win_prob_norm": 0.0064
-    },
-    {
-     "name": "Sam Stevens",
-     "win": {
-      "mid": 0.65,
-      "yes_bid": 0.5,
-      "yes_ask": 0.8,
-      "last": 0.8,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-SSTE"
-     },
-     "top5": {
-      "mid": null,
-      "yes_bid": 0.0,
-      "yes_ask": 7.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-SSTE"
-     },
-     "top10": {
-      "mid": null,
-      "yes_bid": 0.0,
-      "yes_ask": 18.0,
-      "last": 8.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-SSTE"
-     },
-     "top20": {
-      "mid": 17.5,
-      "yes_bid": 3.0,
-      "yes_ask": 32.0,
-      "last": 26.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-SSTE"
-     },
-     "make_cut": {
-      "mid": null,
-      "yes_bid": 0.0,
-      "yes_ask": 85.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-SSTE"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 1.3,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-SSTE"
-     },
-     "win_prob_norm": 0.0064
-    },
-    {
-     "name": "Max Homa",
+     "name": "Rasmus Hojgaard",
      "win": {
       "mid": 0.6499999999999999,
       "yes_bid": 0.6,
       "yes_ask": 0.7,
       "last": 0.7,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-MHOM"
-     },
-     "top5": {
-      "mid": 6.0,
-      "yes_bid": 5.0,
-      "yes_ask": 7.0,
-      "last": 24.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-MHOM"
-     },
-     "top10": {
-      "mid": 14.5,
-      "yes_bid": 13.0,
-      "yes_ask": 16.0,
-      "last": 24.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-MHOM"
-     },
-     "top20": {
-      "mid": 28.5,
-      "yes_bid": 26.0,
-      "yes_ask": 31.0,
-      "last": 30.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-MHOM"
-     },
-     "make_cut": {
-      "mid": 79.5,
-      "yes_bid": 78.0,
-      "yes_ask": 81.0,
-      "last": 57.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-MHOM"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 2.0,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-MHOM"
-     },
-     "win_prob_norm": 0.0064
-    },
-    {
-     "name": "Rasmus Hojgaard",
-     "win": {
-      "mid": 0.55,
-      "yes_bid": 0.5,
-      "yes_ask": 0.6,
-      "last": 0.6,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-RHOJ"
      },
@@ -1647,25 +1595,25 @@
       "ticker": "KXPGATOP5-AUCPBCS26-RHOJ"
      },
      "top10": {
-      "mid": 14.0,
+      "mid": 13.5,
       "yes_bid": 12.0,
-      "yes_ask": 16.0,
-      "last": 14.0,
+      "yes_ask": 15.0,
+      "last": 12.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-RHOJ"
      },
      "top20": {
-      "mid": 27.0,
+      "mid": 26.5,
       "yes_bid": 25.0,
-      "yes_ask": 29.0,
+      "yes_ask": 28.0,
       "last": 29.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-RHOJ"
      },
      "make_cut": {
       "mid": 78.5,
-      "yes_bid": 76.0,
-      "yes_ask": 81.0,
+      "yes_bid": 77.0,
+      "yes_ask": 80.0,
       "last": 66.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-RHOJ"
@@ -1678,66 +1626,66 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-RHOJ"
      },
-     "win_prob_norm": 0.0054
+     "win_prob_norm": 0.0063
     },
     {
-     "name": "Billy Horschel",
+     "name": "Max Homa",
      "win": {
-      "mid": 0.55,
-      "yes_bid": 0.5,
-      "yes_ask": 0.6,
-      "last": 0.5,
+      "mid": 0.6499999999999999,
+      "yes_bid": 0.6,
+      "yes_ask": 0.7,
+      "last": 0.7,
       "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-BHOR"
+      "ticker": "KXPGATOUR-AUCPBCS26-MHOM"
      },
      "top5": {
-      "mid": 4.5,
-      "yes_bid": 4.0,
-      "yes_ask": 5.0,
-      "last": 0.0,
+      "mid": 6.5,
+      "yes_bid": 6.0,
+      "yes_ask": 7.0,
+      "last": 24.0,
       "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-BHOR"
+      "ticker": "KXPGATOP5-AUCPBCS26-MHOM"
      },
      "top10": {
-      "mid": 12.5,
-      "yes_bid": 11.0,
-      "yes_ask": 14.0,
-      "last": 13.0,
+      "mid": 14.5,
+      "yes_bid": 13.0,
+      "yes_ask": 16.0,
+      "last": 17.0,
       "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-BHOR"
+      "ticker": "KXPGATOP10-AUCPBCS26-MHOM"
      },
      "top20": {
-      "mid": 26.0,
-      "yes_bid": 24.0,
-      "yes_ask": 28.0,
-      "last": 59.0,
+      "mid": 27.5,
+      "yes_bid": 26.0,
+      "yes_ask": 29.0,
+      "last": 30.0,
       "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-BHOR"
+      "ticker": "KXPGATOP20-AUCPBCS26-MHOM"
      },
      "make_cut": {
-      "mid": 78.5,
-      "yes_bid": 76.0,
-      "yes_ask": 81.0,
-      "last": 0.0,
+      "mid": 79.0,
+      "yes_bid": 78.0,
+      "yes_ask": 80.0,
+      "last": 57.0,
       "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-BHOR"
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-MHOM"
      },
      "r1_lead": {
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 4.6,
+      "last": 2.0,
       "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-BHOR"
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-MHOM"
      },
-     "win_prob_norm": 0.0054
+     "win_prob_norm": 0.0063
     },
     {
      "name": "Johnny Keefer",
      "win": {
-      "mid": 0.55,
-      "yes_bid": 0.5,
-      "yes_ask": 0.6,
+      "mid": 0.6499999999999999,
+      "yes_bid": 0.6,
+      "yes_ask": 0.7,
       "last": 0.7,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-JKEE"
@@ -1751,25 +1699,25 @@
       "ticker": "KXPGATOP5-AUCPBCS26-JKEE"
      },
      "top10": {
-      "mid": 14.0,
-      "yes_bid": 12.0,
+      "mid": 14.5,
+      "yes_bid": 13.0,
       "yes_ask": 16.0,
       "last": 21.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-JKEE"
      },
      "top20": {
-      "mid": 28.0,
+      "mid": 27.5,
       "yes_bid": 26.0,
-      "yes_ask": 30.0,
+      "yes_ask": 29.0,
       "last": 31.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-JKEE"
      },
      "make_cut": {
-      "mid": 75.0,
-      "yes_bid": 73.0,
-      "yes_ask": 77.0,
+      "mid": 74.0,
+      "yes_bid": 72.0,
+      "yes_ask": 76.0,
       "last": 72.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-JKEE"
@@ -1782,21 +1730,125 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-JKEE"
      },
+     "win_prob_norm": 0.0063
+    },
+    {
+     "name": "Sam Stevens",
+     "win": {
+      "mid": 0.6499999999999999,
+      "yes_bid": 0.6,
+      "yes_ask": 0.7,
+      "last": 0.7,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-SSTE"
+     },
+     "top5": {
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 7.0,
+      "last": 7.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-SSTE"
+     },
+     "top10": {
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 18.0,
+      "last": 8.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-SSTE"
+     },
+     "top20": {
+      "mid": 27.0,
+      "yes_bid": 22.0,
+      "yes_ask": 32.0,
+      "last": 26.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-SSTE"
+     },
+     "make_cut": {
+      "mid": 82.0,
+      "yes_bid": 80.0,
+      "yes_ask": 84.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-SSTE"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 1.3,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-SSTE"
+     },
+     "win_prob_norm": 0.0063
+    },
+    {
+     "name": "Lee Hodges",
+     "win": {
+      "mid": 0.55,
+      "yes_bid": 0.5,
+      "yes_ask": 0.6,
+      "last": 0.5,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-LHOD"
+     },
+     "top5": {
+      "mid": 4.0,
+      "yes_bid": 3.0,
+      "yes_ask": 5.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-LHOD"
+     },
+     "top10": {
+      "mid": 11.5,
+      "yes_bid": 10.0,
+      "yes_ask": 13.0,
+      "last": 17.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-LHOD"
+     },
+     "top20": {
+      "mid": 23.5,
+      "yes_bid": 22.0,
+      "yes_ask": 25.0,
+      "last": 26.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-LHOD"
+     },
+     "make_cut": {
+      "mid": 78.0,
+      "yes_bid": 76.0,
+      "yes_ask": 80.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-LHOD"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 1.1,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-LHOD"
+     },
      "win_prob_norm": 0.0054
     },
     {
      "name": "Chad Ramey",
      "win": {
       "mid": 0.55,
-      "yes_bid": 0.4,
-      "yes_ask": 0.7,
-      "last": 1.2,
+      "yes_bid": 0.5,
+      "yes_ask": 0.6,
+      "last": 0.6,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-CRAM"
      },
      "top5": {
-      "mid": null,
-      "yes_bid": 0.0,
+      "mid": 3.0,
+      "yes_bid": 1.0,
       "yes_ask": 5.0,
       "last": 5.0,
       "volume": null,
@@ -1804,23 +1856,23 @@
      },
      "top10": {
       "mid": 10.0,
-      "yes_bid": 5.0,
-      "yes_ask": 15.0,
+      "yes_bid": 4.0,
+      "yes_ask": 16.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-CRAM"
      },
      "top20": {
-      "mid": 16.5,
-      "yes_bid": 4.0,
+      "mid": 15.0,
+      "yes_bid": 1.0,
       "yes_ask": 29.0,
       "last": 20.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-CRAM"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
+      "mid": 79.0,
+      "yes_bid": 77.0,
       "yes_ask": 81.0,
       "last": 0.0,
       "volume": null,
@@ -1837,12 +1889,220 @@
      "win_prob_norm": 0.0054
     },
     {
-     "name": "Pierceson Coody",
+     "name": "Billy Horschel",
      "win": {
       "mid": 0.5,
       "yes_bid": 0.4,
       "yes_ask": 0.6,
       "last": 0.6,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-BHOR"
+     },
+     "top5": {
+      "mid": 4.5,
+      "yes_bid": 4.0,
+      "yes_ask": 5.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-BHOR"
+     },
+     "top10": {
+      "mid": 12.0,
+      "yes_bid": 11.0,
+      "yes_ask": 13.0,
+      "last": 11.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-BHOR"
+     },
+     "top20": {
+      "mid": 25.0,
+      "yes_bid": 23.0,
+      "yes_ask": 27.0,
+      "last": 23.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-BHOR"
+     },
+     "make_cut": {
+      "mid": 79.0,
+      "yes_bid": 77.0,
+      "yes_ask": 81.0,
+      "last": 76.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-BHOR"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 4.6,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-BHOR"
+     },
+     "win_prob_norm": 0.0049
+    },
+    {
+     "name": "Mark Hubbard",
+     "win": {
+      "mid": 0.5,
+      "yes_bid": 0.4,
+      "yes_ask": 0.6,
+      "last": 0.6,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-MHUB"
+     },
+     "top5": {
+      "mid": 4.0,
+      "yes_bid": 3.0,
+      "yes_ask": 5.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-MHUB"
+     },
+     "top10": {
+      "mid": 10.0,
+      "yes_bid": 8.0,
+      "yes_ask": 12.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-MHUB"
+     },
+     "top20": {
+      "mid": 22.5,
+      "yes_bid": 21.0,
+      "yes_ask": 24.0,
+      "last": 24.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-MHUB"
+     },
+     "make_cut": {
+      "mid": 83.0,
+      "yes_bid": 81.0,
+      "yes_ask": 85.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-MHUB"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.1,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-MHUB"
+     },
+     "win_prob_norm": 0.0049
+    },
+    {
+     "name": "David Lipsky",
+     "win": {
+      "mid": 0.45,
+      "yes_bid": 0.4,
+      "yes_ask": 0.5,
+      "last": 0.5,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-DLIP"
+     },
+     "top5": {
+      "mid": 4.5,
+      "yes_bid": 4.0,
+      "yes_ask": 5.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-DLIP"
+     },
+     "top10": {
+      "mid": 11.0,
+      "yes_bid": 10.0,
+      "yes_ask": 12.0,
+      "last": 13.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-DLIP"
+     },
+     "top20": {
+      "mid": 24.0,
+      "yes_bid": 22.0,
+      "yes_ask": 26.0,
+      "last": 26.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-DLIP"
+     },
+     "make_cut": {
+      "mid": 84.0,
+      "yes_bid": 82.0,
+      "yes_ask": 86.0,
+      "last": 81.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-DLIP"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.2,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-DLIP"
+     },
+     "win_prob_norm": 0.0044
+    },
+    {
+     "name": "Nick Dunlap",
+     "win": {
+      "mid": 0.44999999999999996,
+      "yes_bid": 0.3,
+      "yes_ask": 0.6,
+      "last": 0.6,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-NDUN"
+     },
+     "top5": {
+      "mid": 3.0,
+      "yes_bid": 2.0,
+      "yes_ask": 4.0,
+      "last": 27.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-NDUN"
+     },
+     "top10": {
+      "mid": 9.0,
+      "yes_bid": 8.0,
+      "yes_ask": 10.0,
+      "last": 11.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-NDUN"
+     },
+     "top20": {
+      "mid": 19.5,
+      "yes_bid": 18.0,
+      "yes_ask": 21.0,
+      "last": 19.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-NDUN"
+     },
+     "make_cut": {
+      "mid": 80.5,
+      "yes_bid": 79.0,
+      "yes_ask": 82.0,
+      "last": 82.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-NDUN"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 1.2,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-NDUN"
+     },
+     "win_prob_norm": 0.0044
+    },
+    {
+     "name": "Pierceson Coody",
+     "win": {
+      "mid": 0.4,
+      "yes_bid": 0.3,
+      "yes_ask": 0.5,
+      "last": 0.3,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-PCOO"
      },
@@ -1863,17 +2123,17 @@
       "ticker": "KXPGATOP10-AUCPBCS26-PCOO"
      },
      "top20": {
-      "mid": 22.5,
-      "yes_bid": 18.0,
-      "yes_ask": 27.0,
-      "last": 25.0,
+      "mid": 21.5,
+      "yes_bid": 17.0,
+      "yes_ask": 26.0,
+      "last": 26.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-PCOO"
      },
      "make_cut": {
-      "mid": null,
+      "mid": 56.5,
       "yes_bid": 55.0,
-      "yes_ask": 99.0,
+      "yes_ask": 58.0,
       "last": 86.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-PCOO"
@@ -1886,14 +2146,14 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-PCOO"
      },
-     "win_prob_norm": 0.0049
+     "win_prob_norm": 0.0039
     },
     {
      "name": "Hayden Springer",
      "win": {
-      "mid": 0.5,
-      "yes_bid": 0.4,
-      "yes_ask": 0.6,
+      "mid": 0.4,
+      "yes_bid": 0.3,
+      "yes_ask": 0.5,
       "last": 0.6,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-HSPR"
@@ -1923,9 +2183,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-HSPR"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
-      "yes_ask": 80.0,
+      "mid": 77.0,
+      "yes_bid": 75.0,
+      "yes_ask": 79.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-HSPR"
@@ -1938,145 +2198,197 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-HSPR"
      },
-     "win_prob_norm": 0.0049
+     "win_prob_norm": 0.0039
     },
     {
-     "name": "Aaron Wise",
+     "name": "Chandler Blanchet",
      "win": {
-      "mid": 0.5,
-      "yes_bid": 0.4,
-      "yes_ask": 0.6,
-      "last": 0.6,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-AWIS"
-     },
-     "top5": {
-      "mid": 4.0,
-      "yes_bid": 3.0,
-      "yes_ask": 5.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-AWIS"
-     },
-     "top10": {
-      "mid": 10.0,
-      "yes_bid": 8.0,
-      "yes_ask": 12.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-AWIS"
-     },
-     "top20": {
-      "mid": 23.5,
-      "yes_bid": 23.0,
-      "yes_ask": 24.0,
-      "last": 24.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-AWIS"
-     },
-     "make_cut": {
-      "mid": 85.5,
-      "yes_bid": 84.0,
-      "yes_ask": 87.0,
-      "last": 40.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-AWIS"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-AWIS"
-     },
-     "win_prob_norm": 0.0049
-    },
-    {
-     "name": "Nick Dunlap",
-     "win": {
-      "mid": 0.44999999999999996,
+      "mid": 0.35,
       "yes_bid": 0.3,
-      "yes_ask": 0.6,
-      "last": 0.6,
+      "yes_ask": 0.4,
+      "last": 0.4,
       "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-NDUN"
+      "ticker": "KXPGATOUR-AUCPBCS26-CBLA"
      },
      "top5": {
-      "mid": 3.0,
-      "yes_bid": 2.0,
+      "mid": 3.5,
+      "yes_bid": 3.0,
       "yes_ask": 4.0,
-      "last": 27.0,
+      "last": 0.0,
       "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-NDUN"
+      "ticker": "KXPGATOP5-AUCPBCS26-CBLA"
      },
      "top10": {
       "mid": 9.0,
       "yes_bid": 7.0,
       "yes_ask": 11.0,
-      "last": 27.0,
+      "last": 0.0,
       "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-NDUN"
+      "ticker": "KXPGATOP10-AUCPBCS26-CBLA"
      },
      "top20": {
       "mid": 20.0,
       "yes_bid": 18.0,
       "yes_ask": 22.0,
-      "last": 21.0,
+      "last": 0.0,
       "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-NDUN"
+      "ticker": "KXPGATOP20-AUCPBCS26-CBLA"
      },
      "make_cut": {
-      "mid": 80.5,
+      "mid": 81.0,
       "yes_bid": 79.0,
-      "yes_ask": 82.0,
-      "last": 43.0,
+      "yes_ask": 83.0,
+      "last": 0.0,
       "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-NDUN"
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-CBLA"
      },
      "r1_lead": {
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 1.2,
+      "last": 1.4,
       "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-NDUN"
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-CBLA"
      },
-     "win_prob_norm": 0.0044
+     "win_prob_norm": 0.0034
     },
     {
-     "name": "Mark Hubbard",
+     "name": "Tommy Morrison",
      "win": {
-      "mid": 0.44999999999999996,
+      "mid": 0.35,
       "yes_bid": 0.3,
-      "yes_ask": 0.6,
-      "last": 0.4,
+      "yes_ask": 0.4,
+      "last": 0.2,
       "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-MHUB"
+      "ticker": "KXPGATOUR-AUCPBCS26-TMOR"
      },
      "top5": {
-      "mid": 4.0,
-      "yes_bid": 3.0,
-      "yes_ask": 5.0,
-      "last": 0.0,
+      "mid": 2.5,
+      "yes_bid": 1.0,
+      "yes_ask": 4.0,
+      "last": 6.0,
       "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-MHUB"
+      "ticker": "KXPGATOP5-AUCPBCS26-TMOR"
      },
      "top10": {
-      "mid": 10.0,
-      "yes_bid": 8.0,
-      "yes_ask": 12.0,
-      "last": 0.0,
+      "mid": 7.0,
+      "yes_bid": 5.0,
+      "yes_ask": 9.0,
+      "last": 26.0,
       "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-MHUB"
+      "ticker": "KXPGATOP10-AUCPBCS26-TMOR"
      },
      "top20": {
-      "mid": 22.5,
-      "yes_bid": 21.0,
-      "yes_ask": 24.0,
-      "last": 13.0,
+      "mid": 13.5,
+      "yes_bid": 12.0,
+      "yes_ask": 15.0,
+      "last": 68.0,
       "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-MHUB"
+      "ticker": "KXPGATOP20-AUCPBCS26-TMOR"
+     },
+     "make_cut": {
+      "mid": 64.0,
+      "yes_bid": 62.0,
+      "yes_ask": 66.0,
+      "last": 59.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-TMOR"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.9,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-TMOR"
+     },
+     "win_prob_norm": 0.0034
+    },
+    {
+     "name": "Jesper Svensson",
+     "win": {
+      "mid": 0.35,
+      "yes_bid": 0.3,
+      "yes_ask": 0.4,
+      "last": 0.4,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-JSVE"
+     },
+     "top5": {
+      "mid": 3.0,
+      "yes_bid": 2.0,
+      "yes_ask": 4.0,
+      "last": 7.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-JSVE"
+     },
+     "top10": {
+      "mid": 9.0,
+      "yes_bid": 7.0,
+      "yes_ask": 11.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-JSVE"
+     },
+     "top20": {
+      "mid": 18.0,
+      "yes_bid": 16.0,
+      "yes_ask": 20.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-JSVE"
+     },
+     "make_cut": {
+      "mid": 66.0,
+      "yes_bid": 64.0,
+      "yes_ask": 68.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-JSVE"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 1.4,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-JSVE"
+     },
+     "win_prob_norm": 0.0034
+    },
+    {
+     "name": "Jimmy Stanger",
+     "win": {
+      "mid": 0.35,
+      "yes_bid": 0.3,
+      "yes_ask": 0.4,
+      "last": 0.4,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-JSTA"
+     },
+     "top5": {
+      "mid": 2.0,
+      "yes_bid": 1.0,
+      "yes_ask": 3.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-JSTA"
+     },
+     "top10": {
+      "mid": 8.0,
+      "yes_bid": 1.0,
+      "yes_ask": 15.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-JSTA"
+     },
+     "top20": {
+      "mid": 13.5,
+      "yes_bid": 1.0,
+      "yes_ask": 26.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-JSTA"
      },
      "make_cut": {
       "mid": 83.0,
@@ -2084,25 +2396,77 @@
       "yes_ask": 85.0,
       "last": 0.0,
       "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-MHUB"
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-JSTA"
+     },
+     "r1_lead": {
+      "mid": 0.35,
+      "yes_bid": 0.0,
+      "yes_ask": 0.7,
+      "last": 2.2,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-JSTA"
+     },
+     "win_prob_norm": 0.0034
+    },
+    {
+     "name": "Ben Martin",
+     "win": {
+      "mid": 0.35,
+      "yes_bid": 0.3,
+      "yes_ask": 0.4,
+      "last": 0.4,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-BMAR"
+     },
+     "top5": {
+      "mid": 3.5,
+      "yes_bid": 3.0,
+      "yes_ask": 4.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-BMAR"
+     },
+     "top10": {
+      "mid": 10.0,
+      "yes_bid": 8.0,
+      "yes_ask": 12.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-BMAR"
+     },
+     "top20": {
+      "mid": 21.0,
+      "yes_bid": 19.0,
+      "yes_ask": 23.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-BMAR"
+     },
+     "make_cut": {
+      "mid": 83.0,
+      "yes_bid": 81.0,
+      "yes_ask": 85.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-BMAR"
      },
      "r1_lead": {
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.1,
+      "last": 0.0,
       "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-MHUB"
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-BMAR"
      },
-     "win_prob_norm": 0.0044
+     "win_prob_norm": 0.0034
     },
     {
      "name": "Mackenzie Hughes",
      "win": {
-      "mid": 0.44999999999999996,
-      "yes_bid": 0.3,
-      "yes_ask": 0.6,
-      "last": 0.3,
+      "mid": 0.30000000000000004,
+      "yes_bid": 0.2,
+      "yes_ask": 0.4,
+      "last": 0.4,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-MHUG"
      },
@@ -2146,267 +2510,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-MHUG"
      },
-     "win_prob_norm": 0.0044
-    },
-    {
-     "name": "Jimmy Stanger",
-     "win": {
-      "mid": 0.4,
-      "yes_bid": 0.3,
-      "yes_ask": 0.5,
-      "last": 0.5,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-JSTA"
-     },
-     "top5": {
-      "mid": 2.0,
-      "yes_bid": 1.0,
-      "yes_ask": 3.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-JSTA"
-     },
-     "top10": {
-      "mid": 8.0,
-      "yes_bid": 1.0,
-      "yes_ask": 15.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-JSTA"
-     },
-     "top20": {
-      "mid": 11.5,
-      "yes_bid": 1.0,
-      "yes_ask": 22.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-JSTA"
-     },
-     "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
-      "yes_ask": 85.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-JSTA"
-     },
-     "r1_lead": {
-      "mid": 0.35,
-      "yes_bid": 0.0,
-      "yes_ask": 0.7,
-      "last": 2.2,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-JSTA"
-     },
-     "win_prob_norm": 0.0039
-    },
-    {
-     "name": "Lee Hodges",
-     "win": {
-      "mid": 0.35,
-      "yes_bid": 0.2,
-      "yes_ask": 0.5,
-      "last": 0.3,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-LHOD"
-     },
-     "top5": {
-      "mid": 4.0,
-      "yes_bid": 3.0,
-      "yes_ask": 5.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-LHOD"
-     },
-     "top10": {
-      "mid": 11.5,
-      "yes_bid": 10.0,
-      "yes_ask": 13.0,
-      "last": 17.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-LHOD"
-     },
-     "top20": {
-      "mid": 24.0,
-      "yes_bid": 22.0,
-      "yes_ask": 26.0,
-      "last": 23.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-LHOD"
-     },
-     "make_cut": {
-      "mid": 78.5,
-      "yes_bid": 76.0,
-      "yes_ask": 81.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-LHOD"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 1.1,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-LHOD"
-     },
-     "win_prob_norm": 0.0034
-    },
-    {
-     "name": "David Lipsky",
-     "win": {
-      "mid": 0.35,
-      "yes_bid": 0.3,
-      "yes_ask": 0.4,
-      "last": 0.4,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-DLIP"
-     },
-     "top5": {
-      "mid": 4.5,
-      "yes_bid": 4.0,
-      "yes_ask": 5.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-DLIP"
-     },
-     "top10": {
-      "mid": 11.0,
-      "yes_bid": 9.0,
-      "yes_ask": 13.0,
-      "last": 7.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-DLIP"
-     },
-     "top20": {
-      "mid": 24.0,
-      "yes_bid": 22.0,
-      "yes_ask": 26.0,
-      "last": 15.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-DLIP"
-     },
-     "make_cut": {
-      "mid": 83.5,
-      "yes_bid": 81.0,
-      "yes_ask": 86.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-DLIP"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.2,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-DLIP"
-     },
-     "win_prob_norm": 0.0034
-    },
-    {
-     "name": "Chandler Blanchet",
-     "win": {
-      "mid": 0.30000000000000004,
-      "yes_bid": 0.2,
-      "yes_ask": 0.4,
-      "last": 0.3,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-CBLA"
-     },
-     "top5": {
-      "mid": 3.5,
-      "yes_bid": 3.0,
-      "yes_ask": 4.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-CBLA"
-     },
-     "top10": {
-      "mid": 9.0,
-      "yes_bid": 7.0,
-      "yes_ask": 11.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-CBLA"
-     },
-     "top20": {
-      "mid": 20.0,
-      "yes_bid": 18.0,
-      "yes_ask": 22.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-CBLA"
-     },
-     "make_cut": {
-      "mid": 80.5,
-      "yes_bid": 79.0,
-      "yes_ask": 82.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-CBLA"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 1.4,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-CBLA"
-     },
-     "win_prob_norm": 0.003
-    },
-    {
-     "name": "Tommy Morrison",
-     "win": {
-      "mid": 0.30000000000000004,
-      "yes_bid": 0.2,
-      "yes_ask": 0.4,
-      "last": 0.4,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-TMOR"
-     },
-     "top5": {
-      "mid": 2.5,
-      "yes_bid": 1.0,
-      "yes_ask": 4.0,
-      "last": 6.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-TMOR"
-     },
-     "top10": {
-      "mid": 6.5,
-      "yes_bid": 4.0,
-      "yes_ask": 9.0,
-      "last": 26.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-TMOR"
-     },
-     "top20": {
-      "mid": 14.0,
-      "yes_bid": 12.0,
-      "yes_ask": 16.0,
-      "last": 68.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-TMOR"
-     },
-     "make_cut": {
-      "mid": 64.0,
-      "yes_bid": 62.0,
-      "yes_ask": 66.0,
-      "last": 59.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-TMOR"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.9,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-TMOR"
-     },
-     "win_prob_norm": 0.003
+     "win_prob_norm": 0.0029
     },
     {
      "name": "Kevin Roy",
@@ -2427,8 +2531,8 @@
       "ticker": "KXPGATOP5-AUCPBCS26-KROY"
      },
      "top10": {
-      "mid": 10.5,
-      "yes_bid": 9.0,
+      "mid": 10.0,
+      "yes_bid": 8.0,
       "yes_ask": 12.0,
       "last": 0.0,
       "volume": null,
@@ -2443,9 +2547,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-KROY"
      },
      "make_cut": {
-      "mid": 72.5,
+      "mid": 72.0,
       "yes_bid": 71.0,
-      "yes_ask": 74.0,
+      "yes_ask": 73.0,
       "last": 68.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-KROY"
@@ -2458,59 +2562,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-KROY"
      },
-     "win_prob_norm": 0.003
-    },
-    {
-     "name": "Jesper Svensson",
-     "win": {
-      "mid": 0.30000000000000004,
-      "yes_bid": 0.2,
-      "yes_ask": 0.4,
-      "last": 0.2,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-JSVE"
-     },
-     "top5": {
-      "mid": 3.0,
-      "yes_bid": 2.0,
-      "yes_ask": 4.0,
-      "last": 7.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-JSVE"
-     },
-     "top10": {
-      "mid": 9.0,
-      "yes_bid": 7.0,
-      "yes_ask": 11.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-JSVE"
-     },
-     "top20": {
-      "mid": 18.0,
-      "yes_bid": 16.0,
-      "yes_ask": 20.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-JSVE"
-     },
-     "make_cut": {
-      "mid": 65.5,
-      "yes_bid": 64.0,
-      "yes_ask": 67.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-JSVE"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 1.4,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-JSVE"
-     },
-     "win_prob_norm": 0.003
+     "win_prob_norm": 0.0029
     },
     {
      "name": "Karl Vilips",
@@ -2518,7 +2570,7 @@
       "mid": 0.30000000000000004,
       "yes_bid": 0.2,
       "yes_ask": 0.4,
-      "last": 0.3,
+      "last": 0.4,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-KVIL"
      },
@@ -2531,24 +2583,24 @@
       "ticker": "KXPGATOP5-AUCPBCS26-KVIL"
      },
      "top10": {
-      "mid": 7.5,
-      "yes_bid": 6.0,
+      "mid": 7.0,
+      "yes_bid": 5.0,
       "yes_ask": 9.0,
       "last": 13.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-KVIL"
      },
      "top20": {
-      "mid": 16.0,
+      "mid": 15.5,
       "yes_bid": 14.0,
-      "yes_ask": 18.0,
+      "yes_ask": 17.0,
       "last": 19.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-KVIL"
      },
      "make_cut": {
-      "mid": 65.5,
-      "yes_bid": 64.0,
+      "mid": 65.0,
+      "yes_bid": 63.0,
       "yes_ask": 67.0,
       "last": 66.0,
       "volume": null,
@@ -2562,15 +2614,275 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-KVIL"
      },
-     "win_prob_norm": 0.003
+     "win_prob_norm": 0.0029
+    },
+    {
+     "name": "Andrew Novak",
+     "win": {
+      "mid": 0.25,
+      "yes_bid": 0.2,
+      "yes_ask": 0.3,
+      "last": 0.3,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-ANOV"
+     },
+     "top5": {
+      "mid": 4.5,
+      "yes_bid": 2.0,
+      "yes_ask": 7.0,
+      "last": 9.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-ANOV"
+     },
+     "top10": {
+      "mid": 6.5,
+      "yes_bid": 5.0,
+      "yes_ask": 8.0,
+      "last": 10.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-ANOV"
+     },
+     "top20": {
+      "mid": 13.5,
+      "yes_bid": 12.0,
+      "yes_ask": 15.0,
+      "last": 11.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-ANOV"
+     },
+     "make_cut": {
+      "mid": 46.0,
+      "yes_bid": 44.0,
+      "yes_ask": 48.0,
+      "last": 48.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-ANOV"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.5,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-ANOV"
+     },
+     "win_prob_norm": 0.0024
+    },
+    {
+     "name": "Matthieu Pavon",
+     "win": {
+      "mid": 0.25,
+      "yes_bid": 0.2,
+      "yes_ask": 0.3,
+      "last": 0.3,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-MPAV"
+     },
+     "top5": {
+      "mid": 2.5,
+      "yes_bid": 2.0,
+      "yes_ask": 3.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-MPAV"
+     },
+     "top10": {
+      "mid": 7.0,
+      "yes_bid": 5.0,
+      "yes_ask": 9.0,
+      "last": 10.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-MPAV"
+     },
+     "top20": {
+      "mid": 15.5,
+      "yes_bid": 14.0,
+      "yes_ask": 17.0,
+      "last": 19.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-MPAV"
+     },
+     "make_cut": {
+      "mid": 64.0,
+      "yes_bid": 63.0,
+      "yes_ask": 65.0,
+      "last": 59.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-MPAV"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.5,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-MPAV"
+     },
+     "win_prob_norm": 0.0024
+    },
+    {
+     "name": "Cole Sherwood",
+     "win": {
+      "mid": 0.25,
+      "yes_bid": 0.2,
+      "yes_ask": 0.3,
+      "last": 0.4,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-CSHE"
+     },
+     "top5": {
+      "mid": 1.5,
+      "yes_bid": 0.0,
+      "yes_ask": 3.0,
+      "last": 7.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-CSHE"
+     },
+     "top10": {
+      "mid": 7.5,
+      "yes_bid": 4.0,
+      "yes_ask": 11.0,
+      "last": 12.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-CSHE"
+     },
+     "top20": {
+      "mid": 10.0,
+      "yes_bid": 1.0,
+      "yes_ask": 19.0,
+      "last": 7.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-CSHE"
+     },
+     "make_cut": {
+      "mid": 62.0,
+      "yes_bid": 60.0,
+      "yes_ask": 64.0,
+      "last": 8.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-CSHE"
+     },
+     "r1_lead": {
+      "mid": 0.25,
+      "yes_bid": 0.0,
+      "yes_ask": 0.5,
+      "last": 1.2,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-CSHE"
+     },
+     "win_prob_norm": 0.0024
+    },
+    {
+     "name": "Davis Thompson",
+     "win": {
+      "mid": 0.25,
+      "yes_bid": 0.2,
+      "yes_ask": 0.3,
+      "last": 0.3,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-DTHO"
+     },
+     "top5": {
+      "mid": 2.5,
+      "yes_bid": 2.0,
+      "yes_ask": 3.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-DTHO"
+     },
+     "top10": {
+      "mid": 8.0,
+      "yes_bid": 6.0,
+      "yes_ask": 10.0,
+      "last": 17.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-DTHO"
+     },
+     "top20": {
+      "mid": 16.0,
+      "yes_bid": 14.0,
+      "yes_ask": 18.0,
+      "last": 28.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-DTHO"
+     },
+     "make_cut": {
+      "mid": 58.5,
+      "yes_bid": 57.0,
+      "yes_ask": 60.0,
+      "last": 70.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-DTHO"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.4,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-DTHO"
+     },
+     "win_prob_norm": 0.0024
+    },
+    {
+     "name": "Tyler Duncan",
+     "win": {
+      "mid": 0.25,
+      "yes_bid": 0.2,
+      "yes_ask": 0.3,
+      "last": 0.3,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-TDUN"
+     },
+     "top5": {
+      "mid": 4.5,
+      "yes_bid": 2.0,
+      "yes_ask": 7.0,
+      "last": 7.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-TDUN"
+     },
+     "top10": {
+      "mid": 8.0,
+      "yes_bid": 6.0,
+      "yes_ask": 10.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-TDUN"
+     },
+     "top20": {
+      "mid": 18.5,
+      "yes_bid": 17.0,
+      "yes_ask": 20.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-TDUN"
+     },
+     "make_cut": {
+      "mid": 80.5,
+      "yes_bid": 79.0,
+      "yes_ask": 82.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-TDUN"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-TDUN"
+     },
+     "win_prob_norm": 0.0024
     },
     {
      "name": "Zac Blair",
      "win": {
-      "mid": 0.25,
+      "mid": 0.2,
       "yes_bid": 0.1,
-      "yes_ask": 0.4,
-      "last": 0.2,
+      "yes_ask": 0.3,
+      "last": 0.3,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-ZBLA"
      },
@@ -2583,26 +2895,26 @@
       "ticker": "KXPGATOP5-AUCPBCS26-ZBLA"
      },
      "top10": {
-      "mid": 8.5,
+      "mid": 8.0,
       "yes_bid": 7.0,
-      "yes_ask": 10.0,
+      "yes_ask": 9.0,
       "last": 23.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-ZBLA"
      },
      "top20": {
-      "mid": 19.0,
+      "mid": 18.5,
       "yes_bid": 17.0,
-      "yes_ask": 21.0,
+      "yes_ask": 20.0,
       "last": 22.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-ZBLA"
      },
      "make_cut": {
-      "mid": 70.5,
-      "yes_bid": 69.0,
-      "yes_ask": 72.0,
-      "last": 68.0,
+      "mid": 69.5,
+      "yes_bid": 68.0,
+      "yes_ask": 71.0,
+      "last": 67.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-ZBLA"
      },
@@ -2614,214 +2926,6 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-ZBLA"
      },
-     "win_prob_norm": 0.0025
-    },
-    {
-     "name": "Ben Martin",
-     "win": {
-      "mid": 0.25,
-      "yes_bid": 0.1,
-      "yes_ask": 0.4,
-      "last": 0.2,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-BMAR"
-     },
-     "top5": {
-      "mid": 3.5,
-      "yes_bid": 3.0,
-      "yes_ask": 4.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-BMAR"
-     },
-     "top10": {
-      "mid": 10.0,
-      "yes_bid": 8.0,
-      "yes_ask": 12.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-BMAR"
-     },
-     "top20": {
-      "mid": 21.0,
-      "yes_bid": 19.0,
-      "yes_ask": 23.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-BMAR"
-     },
-     "make_cut": {
-      "mid": 83.5,
-      "yes_bid": 81.0,
-      "yes_ask": 86.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-BMAR"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-BMAR"
-     },
-     "win_prob_norm": 0.0025
-    },
-    {
-     "name": "Doug Ghim",
-     "win": {
-      "mid": 0.2,
-      "yes_bid": 0.1,
-      "yes_ask": 0.3,
-      "last": 0.3,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-DGHI"
-     },
-     "top5": {
-      "mid": 2.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 30.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-DGHI"
-     },
-     "top10": {
-      "mid": 6.5,
-      "yes_bid": 6.0,
-      "yes_ask": 7.0,
-      "last": 5.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-DGHI"
-     },
-     "top20": {
-      "mid": 13.0,
-      "yes_bid": 11.0,
-      "yes_ask": 15.0,
-      "last": 11.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-DGHI"
-     },
-     "make_cut": {
-      "mid": 37.0,
-      "yes_bid": 36.0,
-      "yes_ask": 38.0,
-      "last": 35.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-DGHI"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-DGHI"
-     },
-     "win_prob_norm": 0.002
-    },
-    {
-     "name": "Rico Hoey",
-     "win": {
-      "mid": 0.2,
-      "yes_bid": 0.1,
-      "yes_ask": 0.3,
-      "last": 0.3,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-RHOE"
-     },
-     "top5": {
-      "mid": null,
-      "yes_bid": 0.0,
-      "yes_ask": 22.0,
-      "last": 10.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-RHOE"
-     },
-     "top10": {
-      "mid": 5.0,
-      "yes_bid": 1.0,
-      "yes_ask": 9.0,
-      "last": 13.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-RHOE"
-     },
-     "top20": {
-      "mid": 7.5,
-      "yes_bid": 3.0,
-      "yes_ask": 12.0,
-      "last": 20.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-RHOE"
-     },
-     "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
-      "yes_ask": 40.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-RHOE"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 1.0,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-RHOE"
-     },
-     "win_prob_norm": 0.002
-    },
-    {
-     "name": "Jeffrey Kang",
-     "win": {
-      "mid": 0.2,
-      "yes_bid": 0.1,
-      "yes_ask": 0.3,
-      "last": 0.2,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-JKAN"
-     },
-     "top5": {
-      "mid": 3.5,
-      "yes_bid": 1.0,
-      "yes_ask": 6.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-JKAN"
-     },
-     "top10": {
-      "mid": 6.0,
-      "yes_bid": 4.0,
-      "yes_ask": 8.0,
-      "last": 3.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-JKAN"
-     },
-     "top20": {
-      "mid": 14.0,
-      "yes_bid": 12.0,
-      "yes_ask": 16.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-JKAN"
-     },
-     "make_cut": {
-      "mid": 70.0,
-      "yes_bid": 68.0,
-      "yes_ask": 72.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-JKAN"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-JKAN"
-     },
      "win_prob_norm": 0.002
     },
     {
@@ -2830,7 +2934,7 @@
       "mid": 0.2,
       "yes_bid": 0.1,
       "yes_ask": 0.3,
-      "last": 0.1,
+      "last": 0.3,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-CMAA"
      },
@@ -2859,9 +2963,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-CMAA"
      },
      "make_cut": {
-      "mid": 66.5,
+      "mid": 66.0,
       "yes_bid": 64.0,
-      "yes_ask": 69.0,
+      "yes_ask": 68.0,
       "last": 47.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-CMAA"
@@ -2929,162 +3033,6 @@
      "win_prob_norm": 0.002
     },
     {
-     "name": "Matthieu Pavon",
-     "win": {
-      "mid": 0.2,
-      "yes_bid": 0.1,
-      "yes_ask": 0.3,
-      "last": 0.2,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-MPAV"
-     },
-     "top5": {
-      "mid": 2.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-MPAV"
-     },
-     "top10": {
-      "mid": 7.5,
-      "yes_bid": 6.0,
-      "yes_ask": 9.0,
-      "last": 10.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-MPAV"
-     },
-     "top20": {
-      "mid": 15.5,
-      "yes_bid": 13.0,
-      "yes_ask": 18.0,
-      "last": 19.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-MPAV"
-     },
-     "make_cut": {
-      "mid": 64.0,
-      "yes_bid": 63.0,
-      "yes_ask": 65.0,
-      "last": 59.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-MPAV"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.5,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-MPAV"
-     },
-     "win_prob_norm": 0.002
-    },
-    {
-     "name": "Cole Sherwood",
-     "win": {
-      "mid": 0.2,
-      "yes_bid": 0.1,
-      "yes_ask": 0.3,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-CSHE"
-     },
-     "top5": {
-      "mid": 1.5,
-      "yes_bid": 0.0,
-      "yes_ask": 3.0,
-      "last": 7.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-CSHE"
-     },
-     "top10": {
-      "mid": 7.5,
-      "yes_bid": 4.0,
-      "yes_ask": 11.0,
-      "last": 12.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-CSHE"
-     },
-     "top20": {
-      "mid": 10.0,
-      "yes_bid": 1.0,
-      "yes_ask": 19.0,
-      "last": 7.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-CSHE"
-     },
-     "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
-      "yes_ask": 64.0,
-      "last": 8.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-CSHE"
-     },
-     "r1_lead": {
-      "mid": 0.25,
-      "yes_bid": 0.0,
-      "yes_ask": 0.5,
-      "last": 1.2,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-CSHE"
-     },
-     "win_prob_norm": 0.002
-    },
-    {
-     "name": "Davis Thompson",
-     "win": {
-      "mid": 0.2,
-      "yes_bid": 0.1,
-      "yes_ask": 0.3,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-DTHO"
-     },
-     "top5": {
-      "mid": 2.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-DTHO"
-     },
-     "top10": {
-      "mid": 8.0,
-      "yes_bid": 6.0,
-      "yes_ask": 10.0,
-      "last": 17.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-DTHO"
-     },
-     "top20": {
-      "mid": 16.0,
-      "yes_bid": 14.0,
-      "yes_ask": 18.0,
-      "last": 28.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-DTHO"
-     },
-     "make_cut": {
-      "mid": 58.5,
-      "yes_bid": 57.0,
-      "yes_ask": 60.0,
-      "last": 70.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-DTHO"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.4,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-DTHO"
-     },
-     "win_prob_norm": 0.002
-    },
-    {
      "name": "Daniel Berger",
      "win": {
       "mid": 0.15000000000000002,
@@ -3106,7 +3054,7 @@
       "mid": 5.0,
       "yes_bid": 2.0,
       "yes_ask": 8.0,
-      "last": 0.0,
+      "last": 8.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-DBER"
      },
@@ -3114,7 +3062,7 @@
       "mid": 10.0,
       "yes_bid": 9.0,
       "yes_ask": 11.0,
-      "last": 13.0,
+      "last": 9.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-DBER"
      },
@@ -3163,9 +3111,9 @@
       "ticker": "KXPGATOP10-AUCPBCS26-CBEZ"
      },
      "top20": {
-      "mid": 17.0,
+      "mid": 16.5,
       "yes_bid": 15.0,
-      "yes_ask": 19.0,
+      "yes_ask": 18.0,
       "last": 15.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-CBEZ"
@@ -3194,7 +3142,7 @@
       "mid": 0.15000000000000002,
       "yes_bid": 0.1,
       "yes_ask": 0.2,
-      "last": 0.1,
+      "last": 0.2,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-ECOL"
      },
@@ -3223,9 +3171,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-ECOL"
      },
      "make_cut": {
-      "mid": 41.0,
+      "mid": 40.5,
       "yes_bid": 39.0,
-      "yes_ask": 43.0,
+      "yes_ask": 42.0,
       "last": 72.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-ECOL"
@@ -3259,25 +3207,25 @@
       "ticker": "KXPGATOP5-AUCPBCS26-BGAR"
      },
      "top10": {
-      "mid": 7.5,
+      "mid": 7.0,
       "yes_bid": 6.0,
-      "yes_ask": 9.0,
-      "last": 22.0,
+      "yes_ask": 8.0,
+      "last": 9.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-BGAR"
      },
      "top20": {
-      "mid": 16.0,
+      "mid": 15.5,
       "yes_bid": 14.0,
-      "yes_ask": 18.0,
+      "yes_ask": 17.0,
       "last": 58.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-BGAR"
      },
      "make_cut": {
-      "mid": 74.5,
-      "yes_bid": 73.0,
-      "yes_ask": 76.0,
+      "mid": 73.5,
+      "yes_bid": 72.0,
+      "yes_ask": 75.0,
       "last": 56.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-BGAR"
@@ -3293,12 +3241,64 @@
      "win_prob_norm": 0.0015
     },
     {
+     "name": "Doug Ghim",
+     "win": {
+      "mid": 0.15000000000000002,
+      "yes_bid": 0.1,
+      "yes_ask": 0.2,
+      "last": 0.1,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-DGHI"
+     },
+     "top5": {
+      "mid": 2.5,
+      "yes_bid": 2.0,
+      "yes_ask": 3.0,
+      "last": 30.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-DGHI"
+     },
+     "top10": {
+      "mid": 6.0,
+      "yes_bid": 5.0,
+      "yes_ask": 7.0,
+      "last": 7.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-DGHI"
+     },
+     "top20": {
+      "mid": 13.0,
+      "yes_bid": 12.0,
+      "yes_ask": 14.0,
+      "last": 13.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-DGHI"
+     },
+     "make_cut": {
+      "mid": 37.0,
+      "yes_bid": 36.0,
+      "yes_ask": 38.0,
+      "last": 39.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-DGHI"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.1,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-DGHI"
+     },
+     "win_prob_norm": 0.0015
+    },
+    {
      "name": "Emilio Gonzalez",
      "win": {
       "mid": 0.15000000000000002,
       "yes_bid": 0.1,
       "yes_ask": 0.2,
-      "last": 0.2,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-EGON"
      },
@@ -3322,7 +3322,7 @@
       "mid": 9.5,
       "yes_bid": 9.0,
       "yes_ask": 10.0,
-      "last": 5.0,
+      "last": 10.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-EGON"
      },
@@ -3330,7 +3330,7 @@
       "mid": 67.0,
       "yes_bid": 65.0,
       "yes_ask": 69.0,
-      "last": 0.0,
+      "last": 69.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-EGON"
      },
@@ -3371,9 +3371,9 @@
       "ticker": "KXPGATOP10-AUCPBCS26-EGRI"
      },
      "top20": {
-      "mid": 12.0,
+      "mid": 11.5,
       "yes_bid": 10.0,
-      "yes_ask": 14.0,
+      "yes_ask": 13.0,
       "last": 15.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-EGRI"
@@ -3382,7 +3382,7 @@
       "mid": 52.5,
       "yes_bid": 50.0,
       "yes_ask": 55.0,
-      "last": 53.0,
+      "last": 50.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-EGRI"
      },
@@ -3397,12 +3397,116 @@
      "win_prob_norm": 0.0015
     },
     {
-     "name": "Chris Kirk",
+     "name": "Rico Hoey",
+     "win": {
+      "mid": 0.15000000000000002,
+      "yes_bid": 0.1,
+      "yes_ask": 0.2,
+      "last": 0.3,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-RHOE"
+     },
+     "top5": {
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 20.0,
+      "last": 10.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-RHOE"
+     },
+     "top10": {
+      "mid": 5.0,
+      "yes_bid": 1.0,
+      "yes_ask": 9.0,
+      "last": 13.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-RHOE"
+     },
+     "top20": {
+      "mid": 8.5,
+      "yes_bid": 3.0,
+      "yes_ask": 14.0,
+      "last": 20.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-RHOE"
+     },
+     "make_cut": {
+      "mid": 38.0,
+      "yes_bid": 36.0,
+      "yes_ask": 40.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-RHOE"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 1.0,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-RHOE"
+     },
+     "win_prob_norm": 0.0015
+    },
+    {
+     "name": "Jeffrey Kang",
      "win": {
       "mid": 0.15000000000000002,
       "yes_bid": 0.1,
       "yes_ask": 0.2,
       "last": 0.1,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-JKAN"
+     },
+     "top5": {
+      "mid": 3.5,
+      "yes_bid": 1.0,
+      "yes_ask": 6.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-JKAN"
+     },
+     "top10": {
+      "mid": 6.0,
+      "yes_bid": 4.0,
+      "yes_ask": 8.0,
+      "last": 3.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-JKAN"
+     },
+     "top20": {
+      "mid": 14.0,
+      "yes_bid": 12.0,
+      "yes_ask": 16.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-JKAN"
+     },
+     "make_cut": {
+      "mid": 69.5,
+      "yes_bid": 68.0,
+      "yes_ask": 71.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-JKAN"
+     },
+     "r1_lead": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.1,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-JKAN"
+     },
+     "win_prob_norm": 0.0015
+    },
+    {
+     "name": "Chris Kirk",
+     "win": {
+      "mid": 0.15000000000000002,
+      "yes_bid": 0.1,
+      "yes_ask": 0.2,
+      "last": 0.2,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-CKIR"
      },
@@ -3423,18 +3527,18 @@
       "ticker": "KXPGATOP10-AUCPBCS26-CKIR"
      },
      "top20": {
-      "mid": 9.5,
-      "yes_bid": 8.0,
-      "yes_ask": 11.0,
+      "mid": 8.5,
+      "yes_bid": 7.0,
+      "yes_ask": 10.0,
       "last": 58.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-CKIR"
      },
      "make_cut": {
-      "mid": 33.5,
+      "mid": 34.0,
       "yes_bid": 32.0,
-      "yes_ask": 35.0,
-      "last": 62.0,
+      "yes_ask": 36.0,
+      "last": 36.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-CKIR"
      },
@@ -3454,7 +3558,7 @@
       "mid": 0.15000000000000002,
       "yes_bid": 0.1,
       "yes_ask": 0.2,
-      "last": 1.0,
+      "last": 0.2,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-JLOW"
      },
@@ -3535,9 +3639,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-TMOO"
      },
      "make_cut": {
-      "mid": 52.5,
+      "mid": 54.5,
       "yes_bid": 52.0,
-      "yes_ask": 53.0,
+      "yes_ask": 57.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-TMOO"
@@ -3553,64 +3657,12 @@
      "win_prob_norm": 0.0015
     },
     {
-     "name": "Andrew Novak",
-     "win": {
-      "mid": 0.15000000000000002,
-      "yes_bid": 0.1,
-      "yes_ask": 0.2,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-ANOV"
-     },
-     "top5": {
-      "mid": 5.0,
-      "yes_bid": 3.0,
-      "yes_ask": 7.0,
-      "last": 9.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-ANOV"
-     },
-     "top10": {
-      "mid": 7.5,
-      "yes_bid": 7.0,
-      "yes_ask": 8.0,
-      "last": 10.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-ANOV"
-     },
-     "top20": {
-      "mid": 14.0,
-      "yes_bid": 12.0,
-      "yes_ask": 16.0,
-      "last": 11.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-ANOV"
-     },
-     "make_cut": {
-      "mid": 47.0,
-      "yes_bid": 46.0,
-      "yes_ask": 48.0,
-      "last": 77.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-ANOV"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.5,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-ANOV"
-     },
-     "win_prob_norm": 0.0015
-    },
-    {
      "name": "John Parry",
      "win": {
       "mid": 0.15000000000000002,
       "yes_bid": 0.1,
       "yes_ask": 0.2,
-      "last": 0.2,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-JPAR"
      },
@@ -3684,9 +3736,9 @@
      },
      "top20": {
       "mid": 12.0,
-      "yes_bid": 10.0,
-      "yes_ask": 14.0,
-      "last": 4.0,
+      "yes_bid": 11.0,
+      "yes_ask": 13.0,
+      "last": 10.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-MROZ"
      },
@@ -3787,9 +3839,9 @@
       "ticker": "KXPGATOP10-AUCPBCS26-KSTR"
      },
      "top20": {
-      "mid": 12.0,
+      "mid": 11.5,
       "yes_bid": 10.0,
-      "yes_ask": 14.0,
+      "yes_ask": 13.0,
       "last": 40.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-KSTR"
@@ -3798,7 +3850,7 @@
       "mid": 61.0,
       "yes_bid": 59.0,
       "yes_ask": 63.0,
-      "last": 56.0,
+      "last": 63.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-KSTR"
      },
@@ -3839,9 +3891,9 @@
       "ticker": "KXPGATOP10-AUCPBCS26-JVAN"
      },
      "top20": {
-      "mid": 13.5,
-      "yes_bid": 12.0,
-      "yes_ask": 15.0,
+      "mid": 12.5,
+      "yes_bid": 11.0,
+      "yes_ask": 14.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-JVAN"
@@ -3886,7 +3938,7 @@
       "mid": 4.5,
       "yes_bid": 2.0,
       "yes_ask": 7.0,
-      "last": 0.0,
+      "last": 7.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-NHAR"
      },
@@ -3899,9 +3951,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-NHAR"
      },
      "make_cut": {
-      "mid": 67.5,
+      "mid": 67.0,
       "yes_bid": 65.0,
-      "yes_ask": 70.0,
+      "yes_ask": 69.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-NHAR"
@@ -3913,58 +3965,6 @@
       "last": 4.3,
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-NHAR"
-     },
-     "win_prob_norm": 0.0015
-    },
-    {
-     "name": "Tyler Duncan",
-     "win": {
-      "mid": 0.15000000000000002,
-      "yes_bid": 0.1,
-      "yes_ask": 0.2,
-      "last": 0.2,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-TDUN"
-     },
-     "top5": {
-      "mid": 2.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-TDUN"
-     },
-     "top10": {
-      "mid": 8.0,
-      "yes_bid": 6.0,
-      "yes_ask": 10.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-TDUN"
-     },
-     "top20": {
-      "mid": 18.5,
-      "yes_bid": 17.0,
-      "yes_ask": 20.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-TDUN"
-     },
-     "make_cut": {
-      "mid": 81.0,
-      "yes_bid": 79.0,
-      "yes_ask": 83.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-TDUN"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-TDUN"
      },
      "win_prob_norm": 0.0015
     },
@@ -3981,7 +3981,7 @@
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 82.0,
+      "yes_ask": 72.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-NLIN"
@@ -4003,9 +4003,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-NLIN"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 2.0,
-      "yes_ask": 76.0,
+      "mid": 75.0,
+      "yes_bid": 73.0,
+      "yes_ask": 77.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-NLIN"
@@ -4021,54 +4021,54 @@
      "win_prob_norm": 0.001
     },
     {
-     "name": "Thomas Rosenmueller",
+     "name": "Jackson Suber",
      "win": {
       "mid": 0.1,
       "yes_bid": 0.0,
       "yes_ask": 0.2,
-      "last": 0.1,
+      "last": 0.2,
       "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-TROS"
+      "ticker": "KXPGATOUR-AUCPBCS26-JSUB"
      },
      "top5": {
-      "mid": null,
-      "yes_bid": 0.0,
-      "yes_ask": 32.0,
+      "mid": 3.5,
+      "yes_bid": 1.0,
+      "yes_ask": 6.0,
       "last": 0.0,
       "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-TROS"
+      "ticker": "KXPGATOP5-AUCPBCS26-JSUB"
      },
      "top10": {
       "mid": 4.5,
-      "yes_bid": 1.0,
-      "yes_ask": 8.0,
-      "last": 0.0,
+      "yes_bid": 2.0,
+      "yes_ask": 7.0,
+      "last": 20.0,
       "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-TROS"
+      "ticker": "KXPGATOP10-AUCPBCS26-JSUB"
      },
      "top20": {
-      "mid": 10.5,
-      "yes_bid": 7.0,
-      "yes_ask": 14.0,
-      "last": 37.0,
+      "mid": 8.5,
+      "yes_bid": 8.0,
+      "yes_ask": 9.0,
+      "last": 30.0,
       "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-TROS"
+      "ticker": "KXPGATOP20-AUCPBCS26-JSUB"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
-      "yes_ask": 52.0,
-      "last": 0.0,
+      "mid": 33.5,
+      "yes_bid": 32.0,
+      "yes_ask": 35.0,
+      "last": 73.0,
       "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-TROS"
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-JSUB"
      },
      "r1_lead": {
-      "mid": 0.95,
+      "mid": 0.05,
       "yes_bid": 0.0,
-      "yes_ask": 1.9,
-      "last": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.1,
       "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-TROS"
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-JSUB"
      },
      "win_prob_norm": 0.001
     },
@@ -4078,7 +4078,7 @@
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.8,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-RCAS"
      },
@@ -4100,9 +4100,9 @@
      },
      "top20": {
       "mid": 5.5,
-      "yes_bid": 3.0,
-      "yes_ask": 8.0,
-      "last": 29.0,
+      "yes_bid": 4.0,
+      "yes_ask": 7.0,
+      "last": 7.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-RCAS"
      },
@@ -4110,7 +4110,7 @@
       "mid": 19.5,
       "yes_bid": 18.0,
       "yes_ask": 21.0,
-      "last": 35.0,
+      "last": 20.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-RCAS"
      },
@@ -4137,30 +4137,30 @@
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 79.0,
+      "yes_ask": 70.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-DCHA"
      },
      "top10": {
-      "mid": null,
-      "yes_bid": 0.0,
+      "mid": 4.5,
+      "yes_bid": 1.0,
       "yes_ask": 8.0,
       "last": 5.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-DCHA"
      },
      "top20": {
-      "mid": 6.0,
-      "yes_bid": 2.0,
+      "mid": 5.5,
+      "yes_bid": 1.0,
       "yes_ask": 10.0,
       "last": 12.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-DCHA"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
+      "mid": 59.0,
+      "yes_bid": 57.0,
       "yes_ask": 61.0,
       "last": 0.0,
       "volume": null,
@@ -4182,7 +4182,7 @@
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.2,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-LCLA"
      },
@@ -4203,10 +4203,10 @@
       "ticker": "KXPGATOP10-AUCPBCS26-LCLA"
      },
      "top20": {
-      "mid": 8.5,
+      "mid": 8.0,
       "yes_bid": 7.0,
-      "yes_ask": 10.0,
-      "last": 17.0,
+      "yes_ask": 9.0,
+      "last": 10.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-LCLA"
      },
@@ -4247,24 +4247,24 @@
       "ticker": "KXPGATOP5-AUCPBCS26-JDAH"
      },
      "top10": {
-      "mid": 5.5,
-      "yes_bid": 3.0,
+      "mid": 5.0,
+      "yes_bid": 2.0,
       "yes_ask": 8.0,
       "last": 11.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-JDAH"
      },
      "top20": {
-      "mid": 10.5,
+      "mid": 10.0,
       "yes_bid": 9.0,
-      "yes_ask": 12.0,
-      "last": 17.0,
+      "yes_ask": 11.0,
+      "last": 9.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-JDAH"
      },
      "make_cut": {
-      "mid": 53.0,
-      "yes_bid": 51.0,
+      "mid": 52.5,
+      "yes_bid": 50.0,
       "yes_ask": 55.0,
       "last": 61.0,
       "volume": null,
@@ -4307,16 +4307,16 @@
       "ticker": "KXPGATOP10-AUCPBCS26-CDAV"
      },
      "top20": {
-      "mid": 4.5,
+      "mid": 5.5,
       "yes_bid": 3.0,
-      "yes_ask": 6.0,
+      "yes_ask": 8.0,
       "last": 18.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-CDAV"
      },
      "make_cut": {
-      "mid": 28.5,
-      "yes_bid": 26.0,
+      "mid": 29.0,
+      "yes_bid": 27.0,
       "yes_ask": 31.0,
       "last": 0.0,
       "volume": null,
@@ -4351,9 +4351,9 @@
       "ticker": "KXPGATOP5-AUCPBCS26-ADUM"
      },
      "top10": {
-      "mid": 5.0,
+      "mid": 4.5,
       "yes_bid": 4.0,
-      "yes_ask": 6.0,
+      "yes_ask": 5.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-ADUM"
@@ -4397,30 +4397,30 @@
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 26.0,
+      "yes_ask": 24.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-AEWA"
      },
      "top10": {
-      "mid": 8.0,
-      "yes_bid": 1.0,
-      "yes_ask": 15.0,
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 11.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-AEWA"
      },
      "top20": {
-      "mid": 6.5,
-      "yes_bid": 3.0,
-      "yes_ask": 10.0,
+      "mid": 5.5,
+      "yes_bid": 2.0,
+      "yes_ask": 9.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-AEWA"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
+      "mid": 40.0,
+      "yes_bid": 38.0,
       "yes_ask": 42.0,
       "last": 0.0,
       "volume": null,
@@ -4442,7 +4442,7 @@
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.6,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-PFIS"
      },
@@ -4501,7 +4501,7 @@
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 5.0,
+      "yes_ask": 4.0,
       "last": 4.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-LGLO"
@@ -4515,18 +4515,18 @@
       "ticker": "KXPGATOP10-AUCPBCS26-LGLO"
      },
      "top20": {
-      "mid": 4.0,
-      "yes_bid": 2.0,
+      "mid": 3.5,
+      "yes_bid": 1.0,
       "yes_ask": 6.0,
-      "last": 7.0,
+      "last": 6.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-LGLO"
      },
      "make_cut": {
-      "mid": 19.0,
-      "yes_bid": 17.0,
+      "mid": 19.5,
+      "yes_bid": 18.0,
       "yes_ask": 21.0,
-      "last": 1.0,
+      "last": 21.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-LGLO"
      },
@@ -4559,24 +4559,24 @@
       "ticker": "KXPGATOP5-AUCPBCS26-JHIG"
      },
      "top10": {
-      "mid": 2.5,
-      "yes_bid": 2.0,
+      "mid": 1.5,
+      "yes_bid": 0.0,
       "yes_ask": 3.0,
-      "last": 0.0,
+      "last": 3.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-JHIG"
      },
      "top20": {
-      "mid": 3.0,
-      "yes_bid": 1.0,
+      "mid": null,
+      "yes_bid": 0.0,
       "yes_ask": 5.0,
       "last": 14.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-JHIG"
      },
      "make_cut": {
-      "mid": 3.5,
-      "yes_bid": 1.0,
+      "mid": 4.0,
+      "yes_bid": 2.0,
       "yes_ask": 6.0,
       "last": 0.0,
       "volume": null,
@@ -4598,39 +4598,39 @@
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.7,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-KHIR"
      },
      "top5": {
-      "mid": 10.5,
-      "yes_bid": 1.0,
-      "yes_ask": 20.0,
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 10.0,
       "last": 7.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-KHIR"
      },
      "top10": {
-      "mid": 10.0,
-      "yes_bid": 1.0,
-      "yes_ask": 19.0,
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 8.0,
       "last": 11.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-KHIR"
      },
      "top20": {
-      "mid": 5.5,
+      "mid": 5.0,
       "yes_bid": 2.0,
-      "yes_ask": 9.0,
+      "yes_ask": 8.0,
       "last": 9.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-KHIR"
      },
      "make_cut": {
-      "mid": 15.5,
+      "mid": 14.5,
       "yes_bid": 13.0,
-      "yes_ask": 18.0,
-      "last": 6.0,
+      "yes_ask": 16.0,
+      "last": 13.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-KHIR"
      },
@@ -4657,7 +4657,7 @@
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 81.0,
+      "yes_ask": 72.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-RHOS"
@@ -4665,7 +4665,7 @@
      "top10": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 16.0,
+      "yes_ask": 15.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-RHOS"
@@ -4679,9 +4679,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-RHOS"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
-      "yes_ask": 38.0,
+      "mid": 39.5,
+      "yes_bid": 38.0,
+      "yes_ask": 41.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-RHOS"
@@ -4726,15 +4726,15 @@
       "mid": 4.5,
       "yes_bid": 2.0,
       "yes_ask": 7.0,
-      "last": 18.0,
+      "last": 7.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-SJAE"
      },
      "make_cut": {
-      "mid": 17.5,
-      "yes_bid": 16.0,
+      "mid": 17.0,
+      "yes_bid": 15.0,
       "yes_ask": 19.0,
-      "last": 71.0,
+      "last": 19.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-SJAE"
      },
@@ -4767,16 +4767,16 @@
       "ticker": "KXPGATOP5-AUCPBCS26-TKAN"
      },
      "top10": {
-      "mid": 3.0,
+      "mid": 2.5,
       "yes_bid": 1.0,
-      "yes_ask": 5.0,
+      "yes_ask": 4.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-TKAN"
      },
      "top20": {
-      "mid": 3.5,
-      "yes_bid": 2.0,
+      "mid": 3.0,
+      "yes_bid": 1.0,
       "yes_ask": 5.0,
       "last": 19.0,
       "volume": null,
@@ -4827,17 +4827,17 @@
       "ticker": "KXPGATOP10-AUCPBCS26-PKIZ"
      },
      "top20": {
-      "mid": 8.5,
+      "mid": 9.0,
       "yes_bid": 7.0,
-      "yes_ask": 10.0,
+      "yes_ask": 11.0,
       "last": 12.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-PKIZ"
      },
      "make_cut": {
-      "mid": 57.0,
+      "mid": 56.5,
       "yes_bid": 55.0,
-      "yes_ask": 59.0,
+      "yes_ask": 58.0,
       "last": 49.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-PKIZ"
@@ -4882,15 +4882,15 @@
       "mid": 4.0,
       "yes_bid": 2.0,
       "yes_ask": 6.0,
-      "last": 14.0,
+      "last": 6.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-MKUC"
      },
      "make_cut": {
-      "mid": 19.0,
-      "yes_bid": 17.0,
+      "mid": 19.5,
+      "yes_bid": 18.0,
       "yes_ask": 21.0,
-      "last": 56.0,
+      "last": 22.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-MKUC"
      },
@@ -4931,18 +4931,18 @@
       "ticker": "KXPGATOP10-AUCPBCS26-HLEB"
      },
      "top20": {
-      "mid": 9.0,
+      "mid": 8.5,
       "yes_bid": 7.0,
-      "yes_ask": 11.0,
+      "yes_ask": 10.0,
       "last": 9.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-HLEB"
      },
      "make_cut": {
-      "mid": 55.5,
+      "mid": 56.0,
       "yes_bid": 54.0,
-      "yes_ask": 57.0,
-      "last": 0.0,
+      "yes_ask": 58.0,
+      "last": 53.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-HLEB"
      },
@@ -4967,34 +4967,34 @@
       "ticker": "KXPGATOUR-AUCPBCS26-PMAL"
      },
      "top5": {
-      "mid": 3.0,
-      "yes_bid": 1.0,
+      "mid": null,
+      "yes_bid": 0.0,
       "yes_ask": 5.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-PMAL"
      },
      "top10": {
-      "mid": 5.0,
-      "yes_bid": 3.0,
+      "mid": 4.5,
+      "yes_bid": 2.0,
       "yes_ask": 7.0,
       "last": 9.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-PMAL"
      },
      "top20": {
-      "mid": 9.0,
-      "yes_bid": 8.0,
+      "mid": 8.0,
+      "yes_bid": 6.0,
       "yes_ask": 10.0,
-      "last": 10.0,
+      "last": 7.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-PMAL"
      },
      "make_cut": {
-      "mid": 49.0,
-      "yes_bid": 48.0,
+      "mid": 48.0,
+      "yes_bid": 46.0,
       "yes_ask": 50.0,
-      "last": 56.0,
+      "last": 46.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-PMAL"
      },
@@ -5021,30 +5021,30 @@
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 63.0,
+      "yes_ask": 53.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-PNYH"
      },
      "top10": {
       "mid": null,
-      "yes_bid": 0.0,
-      "yes_ask": 78.0,
-      "last": 0.0,
+      "yes_bid": 2.0,
+      "yes_ask": 79.0,
+      "last": 7.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-PNYH"
      },
      "top20": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 12.0,
+      "yes_ask": 9.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-PNYH"
      },
      "make_cut": {
-      "mid": 8.0,
-      "yes_bid": 1.0,
+      "mid": 13.0,
+      "yes_bid": 11.0,
       "yes_ask": 15.0,
       "last": 0.0,
       "volume": null,
@@ -5139,8 +5139,8 @@
       "ticker": "KXPGATOP10-AUCPBCS26-TPEN"
      },
      "top20": {
-      "mid": 8.5,
-      "yes_bid": 7.0,
+      "mid": 8.0,
+      "yes_bid": 6.0,
       "yes_ask": 10.0,
       "last": 20.0,
       "volume": null,
@@ -5199,10 +5199,10 @@
       "ticker": "KXPGATOP20-AUCPBCS26-APUT"
      },
      "make_cut": {
-      "mid": 51.0,
-      "yes_bid": 49.0,
+      "mid": 50.5,
+      "yes_bid": 48.0,
       "yes_ask": 53.0,
-      "last": 53.0,
+      "last": 49.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-APUT"
      },
@@ -5303,8 +5303,8 @@
       "ticker": "KXPGATOP20-AUCPBCS26-PROD"
      },
      "make_cut": {
-      "mid": 24.5,
-      "yes_bid": 22.0,
+      "mid": 25.0,
+      "yes_bid": 23.0,
       "yes_ask": 27.0,
       "last": 0.0,
       "volume": null,
@@ -5341,7 +5341,7 @@
      "top10": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 5.0,
+      "yes_ask": 4.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-CRUS"
@@ -5378,7 +5378,7 @@
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.3,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-ASAD"
      },
@@ -5399,17 +5399,17 @@
       "ticker": "KXPGATOP10-AUCPBCS26-ASAD"
      },
      "top20": {
-      "mid": 3.5,
+      "mid": 3.0,
       "yes_bid": 2.0,
-      "yes_ask": 5.0,
+      "yes_ask": 4.0,
       "last": 11.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-ASAD"
      },
      "make_cut": {
-      "mid": 5.0,
-      "yes_bid": 2.0,
-      "yes_ask": 8.0,
+      "mid": 5.5,
+      "yes_bid": 4.0,
+      "yes_ask": 7.0,
       "last": 2.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-ASAD"
@@ -5425,64 +5425,12 @@
      "win_prob_norm": 0.0005
     },
     {
-     "name": "Jackson Suber",
-     "win": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGATOUR-AUCPBCS26-JSUB"
-     },
-     "top5": {
-      "mid": 3.5,
-      "yes_bid": 1.0,
-      "yes_ask": 6.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGATOP5-AUCPBCS26-JSUB"
-     },
-     "top10": {
-      "mid": 5.0,
-      "yes_bid": 3.0,
-      "yes_ask": 7.0,
-      "last": 20.0,
-      "volume": null,
-      "ticker": "KXPGATOP10-AUCPBCS26-JSUB"
-     },
-     "top20": {
-      "mid": 8.5,
-      "yes_bid": 8.0,
-      "yes_ask": 9.0,
-      "last": 30.0,
-      "volume": null,
-      "ticker": "KXPGATOP20-AUCPBCS26-JSUB"
-     },
-     "make_cut": {
-      "mid": 34.0,
-      "yes_bid": 33.0,
-      "yes_ask": 35.0,
-      "last": 73.0,
-      "volume": null,
-      "ticker": "KXPGAMAKECUT-AUCPBCS26-JSUB"
-     },
-     "r1_lead": {
-      "mid": 0.05,
-      "yes_bid": 0.0,
-      "yes_ask": 0.1,
-      "last": 0.1,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-AUCPBCS26-JSUB"
-     },
-     "win_prob_norm": 0.0005
-    },
-    {
      "name": "Adam Svensson",
      "win": {
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.2,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-ASVE"
      },
@@ -5506,15 +5454,15 @@
       "mid": 3.5,
       "yes_bid": 1.0,
       "yes_ask": 6.0,
-      "last": 0.0,
+      "last": 6.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-ASVE"
      },
      "make_cut": {
-      "mid": 17.5,
-      "yes_bid": 16.0,
-      "yes_ask": 19.0,
-      "last": 0.0,
+      "mid": 19.0,
+      "yes_bid": 17.0,
+      "yes_ask": 21.0,
+      "last": 20.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-ASVE"
      },
@@ -5555,9 +5503,9 @@
       "ticker": "KXPGATOP10-AUCPBCS26-NTAY"
      },
      "top20": {
-      "mid": 5.5,
+      "mid": 5.0,
       "yes_bid": 2.0,
-      "yes_ask": 9.0,
+      "yes_ask": 8.0,
       "last": 20.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-NTAY"
@@ -5609,7 +5557,7 @@
      "top20": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 5.0,
+      "yes_ask": 4.0,
       "last": 5.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-MTHO"
@@ -5662,7 +5610,7 @@
       "mid": null,
       "yes_bid": 0.0,
       "yes_ask": 5.0,
-      "last": 1.0,
+      "last": 5.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-BTOD"
      },
@@ -5670,7 +5618,7 @@
       "mid": 16.0,
       "yes_bid": 14.0,
       "yes_ask": 18.0,
-      "last": 0.0,
+      "last": 18.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-BTOD"
      },
@@ -5690,14 +5638,14 @@
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.7,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-ATOS"
      },
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 5.0,
+      "yes_ask": 4.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-ATOS"
@@ -5719,8 +5667,8 @@
       "ticker": "KXPGATOP20-AUCPBCS26-ATOS"
      },
      "make_cut": {
-      "mid": 18.0,
-      "yes_bid": 17.0,
+      "mid": 18.5,
+      "yes_bid": 18.0,
       "yes_ask": 19.0,
       "last": 54.0,
       "volume": null,
@@ -5755,8 +5703,8 @@
       "ticker": "KXPGATOP5-AUCPBCS26-DWAL"
      },
      "top10": {
-      "mid": 3.0,
-      "yes_bid": 1.0,
+      "mid": null,
+      "yes_bid": 0.0,
       "yes_ask": 5.0,
       "last": 0.0,
       "volume": null,
@@ -5823,9 +5771,9 @@
       "ticker": "KXPGATOP20-AUCPBCS26-VWHA"
      },
      "make_cut": {
-      "mid": 41.5,
+      "mid": 41.0,
       "yes_bid": 39.0,
-      "yes_ask": 44.0,
+      "yes_ask": 43.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-VWHA"
@@ -5846,7 +5794,7 @@
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.4,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-DWU"
      },
@@ -5875,8 +5823,8 @@
       "ticker": "KXPGATOP20-AUCPBCS26-DWU"
      },
      "make_cut": {
-      "mid": 31.5,
-      "yes_bid": 29.0,
+      "mid": 32.0,
+      "yes_bid": 30.0,
       "yes_ask": 34.0,
       "last": 0.0,
       "volume": null,
@@ -5893,6 +5841,58 @@
      "win_prob_norm": 0.0005
     },
     {
+     "name": "Thomas Rosenmueller",
+     "win": {
+      "mid": 0.05,
+      "yes_bid": 0.0,
+      "yes_ask": 0.1,
+      "last": 0.1,
+      "volume": null,
+      "ticker": "KXPGATOUR-AUCPBCS26-TROS"
+     },
+     "top5": {
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 32.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP5-AUCPBCS26-TROS"
+     },
+     "top10": {
+      "mid": 4.5,
+      "yes_bid": 1.0,
+      "yes_ask": 8.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGATOP10-AUCPBCS26-TROS"
+     },
+     "top20": {
+      "mid": 9.5,
+      "yes_bid": 6.0,
+      "yes_ask": 13.0,
+      "last": 37.0,
+      "volume": null,
+      "ticker": "KXPGATOP20-AUCPBCS26-TROS"
+     },
+     "make_cut": {
+      "mid": 49.5,
+      "yes_bid": 47.0,
+      "yes_ask": 52.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAMAKECUT-AUCPBCS26-TROS"
+     },
+     "r1_lead": {
+      "mid": 0.85,
+      "yes_bid": 0.0,
+      "yes_ask": 1.7,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-AUCPBCS26-TROS"
+     },
+     "win_prob_norm": 0.0005
+    },
+    {
      "name": "Paul Peterson",
      "win": {
       "mid": 0.05,
@@ -5905,14 +5905,14 @@
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 81.0,
+      "yes_ask": 72.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-PPET"
      },
      "top10": {
-      "mid": 5.0,
-      "yes_bid": 2.0,
+      "mid": 4.5,
+      "yes_bid": 1.0,
       "yes_ask": 8.0,
       "last": 0.0,
       "volume": null,
@@ -5922,22 +5922,22 @@
       "mid": 11.5,
       "yes_bid": 8.0,
       "yes_ask": 15.0,
-      "last": 0.0,
+      "last": 15.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-PPET"
      },
      "make_cut": {
-      "mid": null,
-      "yes_bid": 1.0,
+      "mid": 54.0,
+      "yes_bid": 52.0,
       "yes_ask": 56.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-PPET"
      },
      "r1_lead": {
-      "mid": 0.95,
+      "mid": 0.85,
       "yes_bid": 0.0,
-      "yes_ask": 1.9,
+      "yes_ask": 1.7,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-PPET"
@@ -5957,7 +5957,7 @@
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 82.0,
+      "yes_ask": 72.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-FHAR"
@@ -5965,7 +5965,7 @@
      "top10": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 21.0,
+      "yes_ask": 20.0,
       "last": 12.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-FHAR"
@@ -5973,14 +5973,14 @@
      "top20": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 21.0,
+      "yes_ask": 19.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-FHAR"
      },
      "make_cut": {
-      "mid": 8.0,
-      "yes_bid": 1.0,
+      "mid": 13.0,
+      "yes_bid": 11.0,
       "yes_ask": 15.0,
       "last": 0.0,
       "volume": null,
@@ -6031,8 +6031,8 @@
       "ticker": "KXPGATOP20-AUCPBCS26-AORT"
      },
      "make_cut": {
-      "mid": 35.5,
-      "yes_bid": 33.0,
+      "mid": 36.0,
+      "yes_bid": 34.0,
       "yes_ask": 38.0,
       "last": 0.0,
       "volume": null,
@@ -6061,7 +6061,7 @@
      "top5": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 71.0,
+      "yes_ask": 62.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-WSID"
@@ -6069,7 +6069,7 @@
      "top10": {
       "mid": null,
       "yes_bid": 0.0,
-      "yes_ask": 58.0,
+      "yes_ask": 48.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGATOP10-AUCPBCS26-WSID"
@@ -6083,17 +6083,17 @@
       "ticker": "KXPGATOP20-AUCPBCS26-WSID"
      },
      "make_cut": {
-      "mid": 15.5,
-      "yes_bid": 2.0,
+      "mid": 27.0,
+      "yes_bid": 25.0,
       "yes_ask": 29.0,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAMAKECUT-AUCPBCS26-WSID"
      },
      "r1_lead": {
-      "mid": 0.95,
+      "mid": 0.85,
       "yes_bid": 0.0,
-      "yes_ask": 1.9,
+      "yes_ask": 1.7,
       "last": 0.0,
       "volume": null,
       "ticker": "KXPGAR1LEAD-AUCPBCS26-WSID"
@@ -6106,7 +6106,7 @@
       "mid": 0.05,
       "yes_bid": 0.0,
       "yes_ask": 0.1,
-      "last": 0.9,
+      "last": 0.1,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-DSKI"
      },
@@ -6135,8 +6135,8 @@
       "ticker": "KXPGATOP20-AUCPBCS26-DSKI"
      },
      "make_cut": {
-      "mid": 27.5,
-      "yes_bid": 25.0,
+      "mid": 28.0,
+      "yes_bid": 26.0,
       "yes_ask": 30.0,
       "last": 0.0,
       "volume": null,
@@ -6574,7 +6574,7 @@
    "event_key": "MAST27",
    "title": "2027 The Masters Champion",
    "close_time": "2027-04-25T23:00:00Z",
-   "win_overround": 94.0,
+   "win_overround": 95.0,
    "markets": [
     "win"
    ],
@@ -6583,38 +6583,50 @@
     {
      "name": "Scottie Scheffler",
      "win": {
-      "mid": 14.5,
-      "yes_bid": 14.0,
-      "yes_ask": 15.0,
-      "last": 14.0,
+      "mid": 15.5,
+      "yes_bid": 15.0,
+      "yes_ask": 16.0,
+      "last": 16.0,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SSCH"
      },
-     "win_prob_norm": 0.1543
+     "win_prob_norm": 0.1631
     },
     {
      "name": "Rory McIlroy",
      "win": {
-      "mid": 9.6,
-      "yes_bid": 9.2,
-      "yes_ask": 10.0,
-      "last": 10.0,
+      "mid": 9.25,
+      "yes_bid": 8.6,
+      "yes_ask": 9.9,
+      "last": 9.8,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-RMCI"
      },
-     "win_prob_norm": 0.1021
+     "win_prob_norm": 0.0973
     },
     {
      "name": "Jon Rahm",
      "win": {
-      "mid": 6.5,
-      "yes_bid": 6.2,
+      "mid": 6.449999999999999,
+      "yes_bid": 6.1,
       "yes_ask": 6.8,
-      "last": 7.0,
+      "last": 6.8,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JRAH"
      },
-     "win_prob_norm": 0.0691
+     "win_prob_norm": 0.0679
+    },
+    {
+     "name": "Ludvig Aberg",
+     "win": {
+      "mid": 3.75,
+      "yes_bid": 3.5,
+      "yes_ask": 4.0,
+      "last": 3.5,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-LABE"
+     },
+     "win_prob_norm": 0.0395
     },
     {
      "name": "Cameron Young",
@@ -6626,43 +6638,31 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-CYOU"
      },
-     "win_prob_norm": 0.0388
-    },
-    {
-     "name": "Ludvig Aberg",
-     "win": {
-      "mid": 3.45,
-      "yes_bid": 3.4,
-      "yes_ask": 3.5,
-      "last": 3.5,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-LABE"
-     },
-     "win_prob_norm": 0.0367
+     "win_prob_norm": 0.0384
     },
     {
      "name": "Xander Schauffele",
      "win": {
-      "mid": 2.9000000000000004,
+      "mid": 3.1500000000000004,
       "yes_bid": 2.7,
-      "yes_ask": 3.1,
+      "yes_ask": 3.6,
       "last": 3.1,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-XSCH"
      },
-     "win_prob_norm": 0.0309
+     "win_prob_norm": 0.0331
     },
     {
-     "name": "Justin Rose",
+     "name": "Matt Fitzpatrick",
      "win": {
-      "mid": 2.65,
-      "yes_bid": 1.8,
-      "yes_ask": 3.5,
-      "last": 3.2,
+      "mid": 2.55,
+      "yes_bid": 2.2,
+      "yes_ask": 2.9,
+      "last": 2.9,
       "volume": null,
-      "ticker": "KXPGATOUR-MAST27-JROS"
+      "ticker": "KXPGATOUR-MAST27-MFIT"
      },
-     "win_prob_norm": 0.0282
+     "win_prob_norm": 0.0268
     },
     {
      "name": "Wyndham Clark",
@@ -6674,7 +6674,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-WCLA"
      },
-     "win_prob_norm": 0.0271
+     "win_prob_norm": 0.0268
     },
     {
      "name": "Bryson DeChambeau",
@@ -6686,31 +6686,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-BDEC"
      },
-     "win_prob_norm": 0.0271
-    },
-    {
-     "name": "Tommy Fleetwood",
-     "win": {
-      "mid": 2.5,
-      "yes_bid": 2.2,
-      "yes_ask": 2.8,
-      "last": 2.3,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-TFLE"
-     },
-     "win_prob_norm": 0.0266
-    },
-    {
-     "name": "Matt Fitzpatrick",
-     "win": {
-      "mid": 2.5,
-      "yes_bid": 2.2,
-      "yes_ask": 2.8,
-      "last": 2.3,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-MFIT"
-     },
-     "win_prob_norm": 0.0266
+     "win_prob_norm": 0.0268
     },
     {
      "name": "Collin Morikawa",
@@ -6722,7 +6698,31 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-CMOR"
      },
-     "win_prob_norm": 0.0261
+     "win_prob_norm": 0.0258
+    },
+    {
+     "name": "Justin Rose",
+     "win": {
+      "mid": 2.45,
+      "yes_bid": 1.7,
+      "yes_ask": 3.2,
+      "last": 3.2,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-JROS"
+     },
+     "win_prob_norm": 0.0258
+    },
+    {
+     "name": "Tommy Fleetwood",
+     "win": {
+      "mid": 2.35,
+      "yes_bid": 2.2,
+      "yes_ask": 2.5,
+      "last": 2.3,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-TFLE"
+     },
+     "win_prob_norm": 0.0247
     },
     {
      "name": "Sam Burns",
@@ -6734,7 +6734,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SBUR"
      },
-     "win_prob_norm": 0.0218
+     "win_prob_norm": 0.0216
     },
     {
      "name": "Jackson Koivun",
@@ -6746,7 +6746,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JKOI"
      },
-     "win_prob_norm": 0.0197
+     "win_prob_norm": 0.0195
     },
     {
      "name": "Michael Brennan",
@@ -6758,7 +6758,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MBRE"
      },
-     "win_prob_norm": 0.0186
+     "win_prob_norm": 0.0184
     },
     {
      "name": "Hideki Matsuyama",
@@ -6770,7 +6770,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-HMAT"
      },
-     "win_prob_norm": 0.0181
+     "win_prob_norm": 0.0179
     },
     {
      "name": "Chris Gotterup",
@@ -6782,7 +6782,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-CGOT"
      },
-     "win_prob_norm": 0.0176
+     "win_prob_norm": 0.0174
     },
     {
      "name": "Viktor Hovland",
@@ -6794,7 +6794,19 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-VHOV"
      },
-     "win_prob_norm": 0.017
+     "win_prob_norm": 0.0168
+    },
+    {
+     "name": "Patrick Reed",
+     "win": {
+      "mid": 1.6,
+      "yes_bid": 1.2,
+      "yes_ask": 2.0,
+      "last": 1.5,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-PREE"
+     },
+     "win_prob_norm": 0.0168
     },
     {
      "name": "Jake Knapp",
@@ -6806,31 +6818,31 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JKNA"
      },
-     "win_prob_norm": 0.0165
+     "win_prob_norm": 0.0163
+    },
+    {
+     "name": "Russell Henley",
+     "win": {
+      "mid": 1.5,
+      "yes_bid": 1.2,
+      "yes_ask": 1.8,
+      "last": 1.8,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-RHEN"
+     },
+     "win_prob_norm": 0.0158
     },
     {
      "name": "Justin Thomas",
      "win": {
-      "mid": 1.5,
-      "yes_bid": 1.4,
+      "mid": 1.4500000000000002,
+      "yes_bid": 1.3,
       "yes_ask": 1.6,
       "last": 1.6,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JTHO"
      },
-     "win_prob_norm": 0.016
-    },
-    {
-     "name": "Russell Henley",
-     "win": {
-      "mid": 1.45,
-      "yes_bid": 1.2,
-      "yes_ask": 1.7,
-      "last": 1.7,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-RHEN"
-     },
-     "win_prob_norm": 0.0154
+     "win_prob_norm": 0.0153
     },
     {
      "name": "Tiger Woods",
@@ -6838,11 +6850,23 @@
       "mid": 1.4,
       "yes_bid": 0.9,
       "yes_ask": 1.9,
-      "last": 1.9,
+      "last": 0.9,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-TWOO"
      },
-     "win_prob_norm": 0.0149
+     "win_prob_norm": 0.0147
+    },
+    {
+     "name": "Jordan Spieth",
+     "win": {
+      "mid": 1.4,
+      "yes_bid": 1.0,
+      "yes_ask": 1.8,
+      "last": 1.5,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-JSPI"
+     },
+     "win_prob_norm": 0.0147
     },
     {
      "name": "Patrick Cantlay",
@@ -6854,19 +6878,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-PCAN"
      },
-     "win_prob_norm": 0.0144
-    },
-    {
-     "name": "Patrick Reed",
-     "win": {
-      "mid": 1.35,
-      "yes_bid": 1.2,
-      "yes_ask": 1.5,
-      "last": 1.3,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-PREE"
-     },
-     "win_prob_norm": 0.0144
+     "win_prob_norm": 0.0142
     },
     {
      "name": "Si Woo Kim",
@@ -6878,7 +6890,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SKIM"
      },
-     "win_prob_norm": 0.0133
+     "win_prob_norm": 0.0132
     },
     {
      "name": "Min Woo Lee",
@@ -6890,7 +6902,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MWLE"
      },
-     "win_prob_norm": 0.0133
+     "win_prob_norm": 0.0132
     },
     {
      "name": "Akshay Bhatia",
@@ -6902,19 +6914,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-ABHA"
      },
-     "win_prob_norm": 0.0133
-    },
-    {
-     "name": "Jordan Spieth",
-     "win": {
-      "mid": 1.25,
-      "yes_bid": 1.0,
-      "yes_ask": 1.5,
-      "last": 1.5,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-JSPI"
-     },
-     "win_prob_norm": 0.0133
+     "win_prob_norm": 0.0132
     },
     {
      "name": "Robert MacIntyre",
@@ -6926,7 +6926,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-RMAC"
      },
-     "win_prob_norm": 0.0122
+     "win_prob_norm": 0.0121
     },
     {
      "name": "Michael Thorbjornsen",
@@ -6938,7 +6938,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MTHO"
      },
-     "win_prob_norm": 0.0122
+     "win_prob_norm": 0.0121
     },
     {
      "name": "Maverick McNealy",
@@ -6950,19 +6950,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MMCN"
      },
-     "win_prob_norm": 0.0112
-    },
-    {
-     "name": "Jacob Bridgeman",
-     "win": {
-      "mid": 1.05,
-      "yes_bid": 0.9,
-      "yes_ask": 1.2,
-      "last": 0.9,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-JBRI"
-     },
-     "win_prob_norm": 0.0112
+     "win_prob_norm": 0.011
     },
     {
      "name": "Kurt Kitayama",
@@ -6974,7 +6962,19 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-KKIT"
      },
-     "win_prob_norm": 0.0112
+     "win_prob_norm": 0.011
+    },
+    {
+     "name": "Jacob Bridgeman",
+     "win": {
+      "mid": 0.95,
+      "yes_bid": 0.9,
+      "yes_ask": 1.0,
+      "last": 0.9,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-JBRI"
+     },
+     "win_prob_norm": 0.01
     },
     {
      "name": "Joaquin Niemann",
@@ -6986,19 +6986,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JNIE"
      },
-     "win_prob_norm": 0.0096
-    },
-    {
-     "name": "Adam Scott",
-     "win": {
-      "mid": 0.9,
-      "yes_bid": 0.7,
-      "yes_ask": 1.1,
-      "last": 1.1,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-ASCO"
-     },
-     "win_prob_norm": 0.0096
+     "win_prob_norm": 0.0095
     },
     {
      "name": "Shane Lowry",
@@ -7010,7 +6998,19 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SLOW"
      },
-     "win_prob_norm": 0.0085
+     "win_prob_norm": 0.0084
+    },
+    {
+     "name": "Adam Scott",
+     "win": {
+      "mid": 0.8,
+      "yes_bid": 0.6,
+      "yes_ask": 1.0,
+      "last": 1.1,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-ASCO"
+     },
+     "win_prob_norm": 0.0084
     },
     {
      "name": "Tom Kim",
@@ -7022,7 +7022,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-TKIM"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0079
     },
     {
      "name": "J.J. Spaun",
@@ -7034,7 +7034,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JSPA"
      },
-     "win_prob_norm": 0.0064
+     "win_prob_norm": 0.0063
     },
     {
      "name": "Ryan Gerard",
@@ -7046,7 +7046,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-RGER"
      },
-     "win_prob_norm": 0.0059
+     "win_prob_norm": 0.0058
     },
     {
      "name": "Ben Griffin",
@@ -7058,7 +7058,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-BGRI"
      },
-     "win_prob_norm": 0.0048
+     "win_prob_norm": 0.0047
     },
     {
      "name": "Alex Fitzpatrick",
@@ -7070,7 +7070,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-AFIT"
      },
-     "win_prob_norm": 0.0043
+     "win_prob_norm": 0.0042
     },
     {
      "name": "Sungjae Im",
@@ -7082,7 +7082,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SJIM"
      },
-     "win_prob_norm": 0.0043
+     "win_prob_norm": 0.0042
     },
     {
      "name": "Alex Smalley",
@@ -7154,7 +7154,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-ANOR"
      },
-     "win_prob_norm": 0.0027
+     "win_prob_norm": 0.0026
     },
     {
      "name": "Matt Wallace",
@@ -7166,7 +7166,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MWAL"
      },
-     "win_prob_norm": 0.0027
+     "win_prob_norm": 0.0026
     },
     {
      "name": "Keegan Bradley",
@@ -7178,7 +7178,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-KBRA"
      },
-     "win_prob_norm": 0.0027
+     "win_prob_norm": 0.0026
     },
     {
      "name": "Bud Cauley",
@@ -7190,7 +7190,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-BCAU"
      },
-     "win_prob_norm": 0.0027
+     "win_prob_norm": 0.0026
     },
     {
      "name": "Lucas Herbert",
