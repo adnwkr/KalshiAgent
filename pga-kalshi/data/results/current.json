@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-13T23:36:02+00:00",
+ "fetched_at": "2026-11-14T01:04:01+00:00",
  "events": [
   {
    "event": {
@@ -8,7 +8,7 @@
     "start": "2026-11-12",
     "end": "2026-11-15",
     "season": 2026,
-    "status": "in_progress",
+    "status": "suspended",
     "field": 120,
     "rounds_played": 2
    },
@@ -268,6 +268,16 @@
     {
      "event_id": "401850980",
      "start": "2026-11-12",
+     "player_id": "5209442",
+     "player": "Neal Shipley",
+     "round": 1,
+     "strokes": 68,
+     "pos": "MC",
+     "total_to_par": -10
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
      "player_id": "10030",
      "player": "Zach Bauchou",
      "round": 1,
@@ -392,16 +402,6 @@
      "player": "Jeffrey Kang",
      "round": 1,
      "strokes": 69,
-     "pos": "MC",
-     "total_to_par": -9
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "5209442",
-     "player": "Neal Shipley",
-     "round": 1,
-     "strokes": 68,
      "pos": "MC",
      "total_to_par": -9
     },
@@ -758,16 +758,6 @@
     {
      "event_id": "401850980",
      "start": "2026-11-12",
-     "player_id": "5143175",
-     "player": "Sudarshan Yellamaraju",
-     "round": 1,
-     "strokes": 69,
-     "pos": "MC",
-     "total_to_par": -6
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
      "player_id": "4699329",
      "player": "Jesper Svensson",
      "round": 1,
@@ -858,6 +848,26 @@
     {
      "event_id": "401850980",
      "start": "2026-11-12",
+     "player_id": "5882",
+     "player": "Emiliano Grillo",
+     "round": 1,
+     "strokes": 71,
+     "pos": "T28",
+     "total_to_par": -5
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "5882",
+     "player": "Emiliano Grillo",
+     "round": 2,
+     "strokes": 68,
+     "pos": "T28",
+     "total_to_par": -5
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
      "player_id": "9144",
      "player": "Justin Lower",
      "round": 1,
@@ -990,6 +1000,26 @@
      "start": "2026-11-12",
      "player_id": "4404991",
      "player": "Lee Hodges",
+     "round": 2,
+     "strokes": 70,
+     "pos": "T28",
+     "total_to_par": -5
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "5143175",
+     "player": "Sudarshan Yellamaraju",
+     "round": 1,
+     "strokes": 69,
+     "pos": "T28",
+     "total_to_par": -5
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "5143175",
+     "player": "Sudarshan Yellamaraju",
      "round": 2,
      "strokes": 70,
      "pos": "T28",
@@ -1082,7 +1112,7 @@
      "player": "Dylan Wu",
      "round": 1,
      "strokes": 72,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1092,7 +1122,7 @@
      "player": "Dylan Wu",
      "round": 2,
      "strokes": 68,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1102,7 +1132,7 @@
      "player": "Joel Dahmen",
      "round": 1,
      "strokes": 71,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1112,7 +1142,7 @@
      "player": "Joel Dahmen",
      "round": 2,
      "strokes": 69,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1122,7 +1152,7 @@
      "player": "John Parry",
      "round": 1,
      "strokes": 71,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1132,7 +1162,7 @@
      "player": "John Parry",
      "round": 2,
      "strokes": 69,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1142,7 +1172,7 @@
      "player": "Patton Kizzire",
      "round": 1,
      "strokes": 70,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1152,7 +1182,7 @@
      "player": "Patton Kizzire",
      "round": 2,
      "strokes": 70,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1162,7 +1192,7 @@
      "player": "William Mouw",
      "round": 1,
      "strokes": 70,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1172,7 +1202,7 @@
      "player": "William Mouw",
      "round": 2,
      "strokes": 70,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1182,7 +1212,7 @@
      "player": "Johnny Keefer",
      "round": 1,
      "strokes": 70,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1192,7 +1222,7 @@
      "player": "Johnny Keefer",
      "round": 2,
      "strokes": 70,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1202,7 +1232,7 @@
      "player": "Austin Eckroat",
      "round": 1,
      "strokes": 69,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1212,7 +1242,7 @@
      "player": "Austin Eckroat",
      "round": 2,
      "strokes": 71,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1222,7 +1252,7 @@
      "player": "Max Homa",
      "round": 1,
      "strokes": 69,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1232,7 +1262,7 @@
      "player": "Max Homa",
      "round": 2,
      "strokes": 71,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1242,7 +1272,7 @@
      "player": "Billy Horschel",
      "round": 1,
      "strokes": 69,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1252,7 +1282,7 @@
      "player": "Billy Horschel",
      "round": 2,
      "strokes": 71,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1262,7 +1292,7 @@
      "player": "Matt McCarty",
      "round": 1,
      "strokes": 68,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1272,7 +1302,7 @@
      "player": "Matt McCarty",
      "round": 2,
      "strokes": 72,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1282,7 +1312,7 @@
      "player": "Tyler Duncan",
      "round": 1,
      "strokes": 68,
-     "pos": "T42",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1292,17 +1322,7 @@
      "player": "Tyler Duncan",
      "round": 2,
      "strokes": 72,
-     "pos": "T42",
-     "total_to_par": -4
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "5882",
-     "player": "Emiliano Grillo",
-     "round": 1,
-     "strokes": 71,
-     "pos": "MC",
+     "pos": "T44",
      "total_to_par": -4
     },
     {
@@ -1332,7 +1352,7 @@
      "player": "Ricky Castillo",
      "round": 1,
      "strokes": 74,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1342,7 +1362,7 @@
      "player": "Ricky Castillo",
      "round": 2,
      "strokes": 67,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1352,7 +1372,7 @@
      "player": "Adam Svensson",
      "round": 1,
      "strokes": 73,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1362,7 +1382,7 @@
      "player": "Adam Svensson",
      "round": 2,
      "strokes": 68,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1372,7 +1392,7 @@
      "player": "Christiaan Bezuidenhout",
      "round": 1,
      "strokes": 71,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1382,7 +1402,7 @@
      "player": "Christiaan Bezuidenhout",
      "round": 2,
      "strokes": 70,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1392,7 +1412,7 @@
      "player": "Peter Malnati",
      "round": 1,
      "strokes": 71,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1402,7 +1422,7 @@
      "player": "Peter Malnati",
      "round": 2,
      "strokes": 70,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1412,7 +1432,7 @@
      "player": "Rikuya Hoshino",
      "round": 1,
      "strokes": 71,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1422,7 +1442,7 @@
      "player": "Rikuya Hoshino",
      "round": 2,
      "strokes": 70,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1432,7 +1452,7 @@
      "player": "Paul Peterson",
      "round": 1,
      "strokes": 71,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1442,7 +1462,7 @@
      "player": "Paul Peterson",
      "round": 2,
      "strokes": 70,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1452,7 +1472,7 @@
      "player": "Andrew Putnam",
      "round": 1,
      "strokes": 71,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1462,7 +1482,7 @@
      "player": "Andrew Putnam",
      "round": 2,
      "strokes": 70,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1472,7 +1492,7 @@
      "player": "Davis Thompson",
      "round": 1,
      "strokes": 71,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1482,7 +1502,7 @@
      "player": "Davis Thompson",
      "round": 2,
      "strokes": 70,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1492,7 +1512,7 @@
      "player": "Cole Sherwood",
      "round": 1,
      "strokes": 70,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1502,7 +1522,7 @@
      "player": "Cole Sherwood",
      "round": 2,
      "strokes": 71,
-     "pos": "T53",
+     "pos": "T55",
      "total_to_par": -3
     },
     {
@@ -1532,7 +1552,7 @@
      "player": "Rico Hoey",
      "round": 1,
      "strokes": 74,
-     "pos": "T62",
+     "pos": "T64",
      "total_to_par": -2
     },
     {
@@ -1542,7 +1562,7 @@
      "player": "Rico Hoey",
      "round": 2,
      "strokes": 68,
-     "pos": "T62",
+     "pos": "T64",
      "total_to_par": -2
     },
     {
@@ -1552,7 +1572,7 @@
      "player": "Taylor Pendrith",
      "round": 1,
      "strokes": 72,
-     "pos": "T62",
+     "pos": "T64",
      "total_to_par": -2
     },
     {
@@ -1562,57 +1582,27 @@
      "player": "Taylor Pendrith",
      "round": 2,
      "strokes": 70,
-     "pos": "T62",
+     "pos": "T64",
      "total_to_par": -2
     },
     {
      "event_id": "401850980",
      "start": "2026-11-12",
-     "player_id": "5150294",
-     "player": "David Ford",
+     "player_id": "5215039",
+     "player": "Luke Clanton",
      "round": 1,
-     "strokes": 69,
-     "pos": "T62",
+     "strokes": 72,
+     "pos": "T64",
      "total_to_par": -2
     },
     {
      "event_id": "401850980",
      "start": "2026-11-12",
-     "player_id": "5150294",
-     "player": "David Ford",
+     "player_id": "5215039",
+     "player": "Luke Clanton",
      "round": 2,
-     "strokes": 73,
-     "pos": "T62",
-     "total_to_par": -2
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "10372",
-     "player": "Adam Schenk",
-     "round": 1,
-     "strokes": 68,
-     "pos": "T62",
-     "total_to_par": -2
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "10372",
-     "player": "Adam Schenk",
-     "round": 2,
-     "strokes": 74,
-     "pos": "T62",
-     "total_to_par": -2
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "10664",
-     "player": "Taylor Moore",
-     "round": 1,
-     "strokes": 71,
-     "pos": "MC",
+     "strokes": 70,
+     "pos": "T64",
      "total_to_par": -2
     },
     {
@@ -1622,7 +1612,57 @@
      "player": "Mackenzie Hughes",
      "round": 1,
      "strokes": 70,
-     "pos": "MC",
+     "pos": "T64",
+     "total_to_par": -2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "6931",
+     "player": "Mackenzie Hughes",
+     "round": 2,
+     "strokes": 72,
+     "pos": "T64",
+     "total_to_par": -2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "5150294",
+     "player": "David Ford",
+     "round": 1,
+     "strokes": 69,
+     "pos": "T64",
+     "total_to_par": -2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "5150294",
+     "player": "David Ford",
+     "round": 2,
+     "strokes": 73,
+     "pos": "T64",
+     "total_to_par": -2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "10372",
+     "player": "Adam Schenk",
+     "round": 1,
+     "strokes": 68,
+     "pos": "T64",
+     "total_to_par": -2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "10372",
+     "player": "Adam Schenk",
+     "round": 2,
+     "strokes": 74,
+     "pos": "T64",
      "total_to_par": -2
     },
     {
@@ -1632,7 +1672,7 @@
      "player": "Stephan Jaeger",
      "round": 1,
      "strokes": 74,
-     "pos": "T66",
+     "pos": "T70",
      "total_to_par": -1
     },
     {
@@ -1642,7 +1682,7 @@
      "player": "Stephan Jaeger",
      "round": 2,
      "strokes": 69,
-     "pos": "T66",
+     "pos": "T70",
      "total_to_par": -1
     },
     {
@@ -1652,7 +1692,7 @@
      "player": "Jackson Suber",
      "round": 1,
      "strokes": 73,
-     "pos": "T66",
+     "pos": "T70",
      "total_to_par": -1
     },
     {
@@ -1662,7 +1702,7 @@
      "player": "Jackson Suber",
      "round": 2,
      "strokes": 70,
-     "pos": "T66",
+     "pos": "T70",
      "total_to_par": -1
     },
     {
@@ -1672,7 +1712,7 @@
      "player": "Daniel Berger",
      "round": 1,
      "strokes": 71,
-     "pos": "T66",
+     "pos": "T70",
      "total_to_par": -1
     },
     {
@@ -1682,7 +1722,27 @@
      "player": "Daniel Berger",
      "round": 2,
      "strokes": 72,
-     "pos": "T66",
+     "pos": "T70",
+     "total_to_par": -1
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "10664",
+     "player": "Taylor Moore",
+     "round": 1,
+     "strokes": 71,
+     "pos": "T70",
+     "total_to_par": -1
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "10664",
+     "player": "Taylor Moore",
+     "round": 2,
+     "strokes": 72,
+     "pos": "T70",
      "total_to_par": -1
     },
     {
@@ -1692,7 +1752,7 @@
      "player": "Nick Dunlap",
      "round": 1,
      "strokes": 68,
-     "pos": "T66",
+     "pos": "T70",
      "total_to_par": -1
     },
     {
@@ -1702,27 +1762,7 @@
      "player": "Nick Dunlap",
      "round": 2,
      "strokes": 75,
-     "pos": "T66",
-     "total_to_par": -1
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "10481",
-     "player": "Alvaro Ortiz",
-     "round": 1,
-     "strokes": 72,
-     "pos": "MC",
-     "total_to_par": -1
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "5215039",
-     "player": "Luke Clanton",
-     "round": 1,
-     "strokes": 72,
-     "pos": "MC",
+     "pos": "T70",
      "total_to_par": -1
     },
     {
@@ -1732,7 +1772,7 @@
      "player": "Nick Taylor",
      "round": 1,
      "strokes": 77,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1742,7 +1782,7 @@
      "player": "Nick Taylor",
      "round": 2,
      "strokes": 67,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1752,7 +1792,7 @@
      "player": "Joe Highsmith",
      "round": 1,
      "strokes": 76,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1762,7 +1802,7 @@
      "player": "Joe Highsmith",
      "round": 2,
      "strokes": 68,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1772,7 +1812,7 @@
      "player": "Kensei Hirata",
      "round": 1,
      "strokes": 74,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1782,7 +1822,7 @@
      "player": "Kensei Hirata",
      "round": 2,
      "strokes": 70,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1792,7 +1832,7 @@
      "player": "Thomas Rosenmueller",
      "round": 1,
      "strokes": 74,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1802,7 +1842,7 @@
      "player": "Thomas Rosenmueller",
      "round": 2,
      "strokes": 70,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1812,7 +1852,7 @@
      "player": "Patrick Rodgers",
      "round": 1,
      "strokes": 73,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1822,7 +1862,7 @@
      "player": "Patrick Rodgers",
      "round": 2,
      "strokes": 71,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1832,7 +1872,7 @@
      "player": "Eric Cole",
      "round": 1,
      "strokes": 72,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1842,7 +1882,7 @@
      "player": "Eric Cole",
      "round": 2,
      "strokes": 72,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1852,7 +1892,7 @@
      "player": "Jackson Koivun",
      "round": 1,
      "strokes": 70,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1862,7 +1902,7 @@
      "player": "Jackson Koivun",
      "round": 2,
      "strokes": 74,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1872,7 +1912,7 @@
      "player": "Matthieu Pavon",
      "round": 1,
      "strokes": 70,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1882,7 +1922,7 @@
      "player": "Matthieu Pavon",
      "round": 2,
      "strokes": 74,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1892,7 +1932,7 @@
      "player": "Nick Hardy",
      "round": 1,
      "strokes": 69,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1902,7 +1942,7 @@
      "player": "Nick Hardy",
      "round": 2,
      "strokes": 75,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1912,7 +1952,7 @@
      "player": "Jimmy Stanger",
      "round": 1,
      "strokes": 66,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1922,7 +1962,7 @@
      "player": "Jimmy Stanger",
      "round": 2,
      "strokes": 78,
-     "pos": "T70",
+     "pos": "T75",
      "total_to_par": 0
     },
     {
@@ -1932,7 +1972,7 @@
      "player": "William Sides",
      "round": 1,
      "strokes": 76,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -1942,7 +1982,7 @@
      "player": "William Sides",
      "round": 2,
      "strokes": 69,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -1952,7 +1992,7 @@
      "player": "Danny Walker",
      "round": 1,
      "strokes": 74,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -1962,7 +2002,7 @@
      "player": "Danny Walker",
      "round": 2,
      "strokes": 71,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -1972,7 +2012,7 @@
      "player": "Takumi Kanaya",
      "round": 1,
      "strokes": 74,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -1982,7 +2022,7 @@
      "player": "Takumi Kanaya",
      "round": 2,
      "strokes": 71,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -1992,7 +2032,7 @@
      "player": "Lucas Glover",
      "round": 1,
      "strokes": 73,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -2002,7 +2042,7 @@
      "player": "Lucas Glover",
      "round": 2,
      "strokes": 72,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -2012,7 +2052,7 @@
      "player": "Andrew Novak",
      "round": 1,
      "strokes": 72,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -2022,7 +2062,27 @@
      "player": "Andrew Novak",
      "round": 2,
      "strokes": 73,
-     "pos": "T80",
+     "pos": "T85",
+     "total_to_par": 1
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "10481",
+     "player": "Alvaro Ortiz",
+     "round": 1,
+     "strokes": 72,
+     "pos": "T85",
+     "total_to_par": 1
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "10481",
+     "player": "Alvaro Ortiz",
+     "round": 2,
+     "strokes": 73,
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -2032,7 +2092,7 @@
      "player": "Kevin Roy",
      "round": 1,
      "strokes": 70,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
     },
     {
@@ -2042,8 +2102,48 @@
      "player": "Kevin Roy",
      "round": 2,
      "strokes": 75,
-     "pos": "T80",
+     "pos": "T85",
      "total_to_par": 1
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "257",
+     "player": "Matt Kuchar",
+     "round": 1,
+     "strokes": 73,
+     "pos": "T92",
+     "total_to_par": 2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "257",
+     "player": "Matt Kuchar",
+     "round": 2,
+     "strokes": 73,
+     "pos": "T92",
+     "total_to_par": 2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "3449",
+     "player": "Chris Kirk",
+     "round": 1,
+     "strokes": 73,
+     "pos": "T92",
+     "total_to_par": 2
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "3449",
+     "player": "Chris Kirk",
+     "round": 2,
+     "strokes": 73,
+     "pos": "T92",
+     "total_to_par": 2
     },
     {
      "event_id": "401850980",
@@ -2052,48 +2152,18 @@
      "player": "Adrien Dumont de Chassart",
      "round": 1,
      "strokes": 73,
-     "pos": "MC",
-     "total_to_par": 1
+     "pos": "T94",
+     "total_to_par": 3
     },
     {
      "event_id": "401850980",
      "start": "2026-11-12",
-     "player_id": "257",
-     "player": "Matt Kuchar",
-     "round": 1,
-     "strokes": 73,
-     "pos": "T86",
-     "total_to_par": 2
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "257",
-     "player": "Matt Kuchar",
+     "player_id": "5076011",
+     "player": "Adrien Dumont de Chassart",
      "round": 2,
-     "strokes": 73,
-     "pos": "T86",
-     "total_to_par": 2
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "3449",
-     "player": "Chris Kirk",
-     "round": 1,
-     "strokes": 73,
-     "pos": "T86",
-     "total_to_par": 2
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "3449",
-     "player": "Chris Kirk",
-     "round": 2,
-     "strokes": 73,
-     "pos": "T86",
-     "total_to_par": 2
+     "strokes": 74,
+     "pos": "T94",
+     "total_to_par": 3
     },
     {
      "event_id": "401850980",
@@ -2102,7 +2172,7 @@
      "player": "David Skinns",
      "round": 1,
      "strokes": 72,
-     "pos": "88",
+     "pos": "T94",
      "total_to_par": 3
     },
     {
@@ -2112,8 +2182,48 @@
      "player": "David Skinns",
      "round": 2,
      "strokes": 75,
-     "pos": "88",
+     "pos": "T94",
      "total_to_par": 3
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "5289828",
+     "player": "Frankie Harris",
+     "round": 1,
+     "strokes": 76,
+     "pos": "T96",
+     "total_to_par": 4
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "5289828",
+     "player": "Frankie Harris",
+     "round": 2,
+     "strokes": 72,
+     "pos": "T96",
+     "total_to_par": 4
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "4375977",
+     "player": "Pontus Nyholm",
+     "round": 1,
+     "strokes": 76,
+     "pos": "T96",
+     "total_to_par": 4
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "4375977",
+     "player": "Pontus Nyholm",
+     "round": 2,
+     "strokes": 72,
+     "pos": "T96",
+     "total_to_par": 4
     },
     {
      "event_id": "401850980",
@@ -2122,8 +2232,18 @@
      "player": "Davis Riley",
      "round": 1,
      "strokes": 74,
-     "pos": "MC",
-     "total_to_par": 3
+     "pos": "T96",
+     "total_to_par": 4
+    },
+    {
+     "event_id": "401850980",
+     "start": "2026-11-12",
+     "player_id": "10058",
+     "player": "Davis Riley",
+     "round": 2,
+     "strokes": 74,
+     "pos": "T96",
+     "total_to_par": 4
     },
     {
      "event_id": "401850980",
@@ -2132,47 +2252,17 @@
      "player": "Cam Davis",
      "round": 1,
      "strokes": 72,
-     "pos": "MC",
-     "total_to_par": 3
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "5289828",
-     "player": "Frankie Harris",
-     "round": 1,
-     "strokes": 76,
-     "pos": "T89",
+     "pos": "T96",
      "total_to_par": 4
     },
     {
      "event_id": "401850980",
      "start": "2026-11-12",
-     "player_id": "5289828",
-     "player": "Frankie Harris",
+     "player_id": "10863",
+     "player": "Cam Davis",
      "round": 2,
-     "strokes": 72,
-     "pos": "T89",
-     "total_to_par": 4
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "4375977",
-     "player": "Pontus Nyholm",
-     "round": 1,
      "strokes": 76,
-     "pos": "T89",
-     "total_to_par": 4
-    },
-    {
-     "event_id": "401850980",
-     "start": "2026-11-12",
-     "player_id": "4375977",
-     "player": "Pontus Nyholm",
-     "round": 2,
-     "strokes": 72,
-     "pos": "T89",
+     "pos": "T96",
      "total_to_par": 4
     },
     {
@@ -2192,7 +2282,7 @@
      "player": "Michael Thompson",
      "round": 1,
      "strokes": 74,
-     "pos": "91",
+     "pos": "100",
      "total_to_par": 8
     },
     {
@@ -2202,7 +2292,7 @@
      "player": "Michael Thompson",
      "round": 2,
      "strokes": 78,
-     "pos": "91",
+     "pos": "100",
      "total_to_par": 8
     },
     {
@@ -2212,7 +2302,7 @@
      "player": "Casey Russell",
      "round": 1,
      "strokes": 84,
-     "pos": "92",
+     "pos": "101",
      "total_to_par": 24
     },
     {
@@ -2222,7 +2312,7 @@
      "player": "Casey Russell",
      "round": 2,
      "strokes": 84,
-     "pos": "92",
+     "pos": "101",
      "total_to_par": 24
     },
     {
