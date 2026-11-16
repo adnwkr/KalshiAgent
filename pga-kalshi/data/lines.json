@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-16T06:34:26+00:00",
+ "fetched_at": "2026-11-16T07:19:36+00:00",
  "tournaments": [
   {
    "event_key": "AUCPBCS26",
@@ -56,7 +56,7 @@
       "mid": 12.0,
       "yes_bid": 11.0,
       "yes_ask": 13.0,
-      "last": 11.0,
+      "last": 13.0,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-SVAL"
      },
@@ -161,9 +161,9 @@
     {
      "name": "Ben Kohles",
      "win": {
-      "mid": 7.699999999999999,
+      "mid": 7.65,
       "yes_bid": 7.2,
-      "yes_ask": 8.2,
+      "yes_ask": 8.1,
       "last": 8.2,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-BKOH"
@@ -192,7 +192,7 @@
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-BKOH"
      },
-     "win_prob_norm": 0.0713
+     "win_prob_norm": 0.0709
     },
     {
      "name": "Max Greyserman",
@@ -380,7 +380,7 @@
       "mid": 2.75,
       "yes_bid": 2.5,
       "yes_ask": 3.0,
-      "last": 2.5,
+      "last": 3.0,
       "volume": null,
       "ticker": "KXPGATOUR-AUCPBCS26-BBRO"
      },
@@ -485,8 +485,8 @@
     {
      "name": "Jordan Smith",
      "win": {
-      "mid": 1.9500000000000002,
-      "yes_bid": 1.8,
+      "mid": 2.0,
+      "yes_bid": 1.9,
       "yes_ask": 2.1,
       "last": 2.1,
       "volume": null,
@@ -516,7 +516,7 @@
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-JSMI"
      },
-     "win_prob_norm": 0.0181
+     "win_prob_norm": 0.0185
     },
     {
      "name": "Will Gordon",
@@ -632,7 +632,7 @@
       "mid": 66.0,
       "yes_bid": 64.0,
       "yes_ask": 68.0,
-      "last": 69.0,
+      "last": 68.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-MRUS"
      },
@@ -721,9 +721,9 @@
       "ticker": "KXPGATOUR-AUCPBCS26-RNEE"
      },
      "top5": {
-      "mid": 10.5,
+      "mid": 10.0,
       "yes_bid": 9.0,
-      "yes_ask": 12.0,
+      "yes_ask": 11.0,
       "last": 8.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-RNEE"
@@ -901,9 +901,9 @@
       "ticker": "KXPGATOUR-AUCPBCS26-EGON"
      },
      "top5": {
-      "mid": 5.5,
+      "mid": 5.0,
       "yes_bid": 3.0,
-      "yes_ask": 8.0,
+      "yes_ask": 7.0,
       "last": 3.0,
       "volume": null,
       "ticker": "KXPGATOP5-AUCPBCS26-EGON"
@@ -956,7 +956,7 @@
       "mid": 32.0,
       "yes_bid": 30.0,
       "yes_ask": 34.0,
-      "last": 34.0,
+      "last": 30.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-BHAR"
      },
@@ -3833,10 +3833,10 @@
       "ticker": "KXPGATOP10-AUCPBCS26-SYEL"
      },
      "top20": {
-      "mid": 30.0,
+      "mid": 29.5,
       "yes_bid": 28.0,
-      "yes_ask": 32.0,
-      "last": 31.0,
+      "yes_ask": 31.0,
+      "last": 28.0,
       "volume": null,
       "ticker": "KXPGATOP20-AUCPBCS26-SYEL"
      },
@@ -4568,33 +4568,13 @@
    "event_key": "THRC26",
    "title": "The RSM Classic Winner",
    "close_time": "2026-12-06T00:00:00Z",
-   "win_overround": 138.1,
+   "win_overround": 134.8,
    "markets": [
     "r1_lead",
     "win"
    ],
    "n_golfers": 139,
    "golfers": [
-    {
-     "name": "Jackson Koivun",
-     "win": {
-      "mid": 3.25,
-      "yes_bid": 2.0,
-      "yes_ask": 4.5,
-      "last": 4.7,
-      "volume": null,
-      "ticker": "KXPGATOUR-THRC26-JKOI"
-     },
-     "r1_lead": {
-      "mid": null,
-      "yes_bid": 0.0,
-      "yes_ask": 12.0,
-      "last": 0.0,
-      "volume": null,
-      "ticker": "KXPGAR1LEAD-THRC26-JKOI"
-     },
-     "win_prob_norm": 0.0235
-    },
     {
      "name": "Brian Harman",
      "win": {
@@ -4613,7 +4593,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-BHAR"
      },
-     "win_prob_norm": 0.0177
+     "win_prob_norm": 0.0182
     },
     {
      "name": "Mackenzie Hughes",
@@ -4633,7 +4613,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-MHUG"
      },
-     "win_prob_norm": 0.013
+     "win_prob_norm": 0.0134
     },
     {
      "name": "Max Greyserman",
@@ -4653,7 +4633,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-MGRE"
      },
-     "win_prob_norm": 0.0109
+     "win_prob_norm": 0.0111
     },
     {
      "name": "Ben Kohles",
@@ -4673,7 +4653,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-BKOH"
      },
-     "win_prob_norm": 0.0109
+     "win_prob_norm": 0.0111
     },
     {
      "name": "J.T. Poston",
@@ -4693,7 +4673,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JPOS"
      },
-     "win_prob_norm": 0.0109
+     "win_prob_norm": 0.0111
     },
     {
      "name": "Alex Smalley",
@@ -4713,7 +4693,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ASMA"
      },
-     "win_prob_norm": 0.0109
+     "win_prob_norm": 0.0111
     },
     {
      "name": "Austin Smotherman",
@@ -4733,7 +4713,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ASMO"
      },
-     "win_prob_norm": 0.0109
+     "win_prob_norm": 0.0111
     },
     {
      "name": "Sepp Straka",
@@ -4753,7 +4733,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-SSTR"
      },
-     "win_prob_norm": 0.0109
+     "win_prob_norm": 0.0111
     },
     {
      "name": "Michael Thorbjornsen",
@@ -4773,7 +4753,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-MTHO"
      },
-     "win_prob_norm": 0.0109
+     "win_prob_norm": 0.0111
     },
     {
      "name": "Emiliano Grillo",
@@ -4793,7 +4773,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-EGRI"
      },
-     "win_prob_norm": 0.0105
+     "win_prob_norm": 0.0108
     },
     {
      "name": "Ryo Hisatsune",
@@ -4813,7 +4793,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-RHIS"
      },
-     "win_prob_norm": 0.0105
+     "win_prob_norm": 0.0108
     },
     {
      "name": "Rasmus Hojgaard",
@@ -4833,7 +4813,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-RHOJ"
      },
-     "win_prob_norm": 0.0105
+     "win_prob_norm": 0.0108
     },
     {
      "name": "Kevin Roy",
@@ -4853,7 +4833,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-KROY"
      },
-     "win_prob_norm": 0.0105
+     "win_prob_norm": 0.0108
     },
     {
      "name": "Jackson Suber",
@@ -4873,7 +4853,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JSUB"
      },
-     "win_prob_norm": 0.0105
+     "win_prob_norm": 0.0108
     },
     {
      "name": "Kris Ventura",
@@ -4893,7 +4873,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-KVEN"
      },
-     "win_prob_norm": 0.0105
+     "win_prob_norm": 0.0108
     },
     {
      "name": "David Ford",
@@ -4913,7 +4893,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-DFOR"
      },
-     "win_prob_norm": 0.0101
+     "win_prob_norm": 0.0104
     },
     {
      "name": "Billy Horschel",
@@ -4933,7 +4913,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-BHOR"
      },
-     "win_prob_norm": 0.0101
+     "win_prob_norm": 0.0104
     },
     {
      "name": "Davis Thompson",
@@ -4953,7 +4933,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-DTHO"
      },
-     "win_prob_norm": 0.0101
+     "win_prob_norm": 0.0104
     },
     {
      "name": "Sami Valimaki",
@@ -4973,7 +4953,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-SVAL"
      },
-     "win_prob_norm": 0.0101
+     "win_prob_norm": 0.0104
     },
     {
      "name": "Daniel Berger",
@@ -4993,7 +4973,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-DBER"
      },
-     "win_prob_norm": 0.0098
+     "win_prob_norm": 0.01
     },
     {
      "name": "Max McGreevy",
@@ -5013,7 +4993,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-MMCG"
      },
-     "win_prob_norm": 0.0098
+     "win_prob_norm": 0.01
     },
     {
      "name": "Mac Meissner",
@@ -5033,7 +5013,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-MMEI"
      },
-     "win_prob_norm": 0.0098
+     "win_prob_norm": 0.01
     },
     {
      "name": "Andrew Putnam",
@@ -5053,7 +5033,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-APUT"
      },
-     "win_prob_norm": 0.0098
+     "win_prob_norm": 0.01
     },
     {
      "name": "Neal Shipley",
@@ -5073,7 +5053,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-NSHI"
      },
-     "win_prob_norm": 0.0098
+     "win_prob_norm": 0.01
     },
     {
      "name": "Sam Stevens",
@@ -5093,7 +5073,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-SSTE"
      },
-     "win_prob_norm": 0.0098
+     "win_prob_norm": 0.01
     },
     {
      "name": "Sudarshan Yellamaraju",
@@ -5113,7 +5093,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-SYEL"
      },
-     "win_prob_norm": 0.0098
+     "win_prob_norm": 0.01
     },
     {
      "name": "Austin Eckroat",
@@ -5133,7 +5113,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-AECK"
      },
-     "win_prob_norm": 0.0094
+     "win_prob_norm": 0.0096
     },
     {
      "name": "Haotong Li",
@@ -5153,7 +5133,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-HLI"
      },
-     "win_prob_norm": 0.0094
+     "win_prob_norm": 0.0096
     },
     {
      "name": "Ben Silverman",
@@ -5173,7 +5153,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-BSIL"
      },
-     "win_prob_norm": 0.0094
+     "win_prob_norm": 0.0096
     },
     {
      "name": "Luke Clanton",
@@ -5193,7 +5173,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-LCLA"
      },
-     "win_prob_norm": 0.0091
+     "win_prob_norm": 0.0093
     },
     {
      "name": "Zecheng Dou",
@@ -5213,7 +5193,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ZDOU"
      },
-     "win_prob_norm": 0.0091
+     "win_prob_norm": 0.0093
     },
     {
      "name": "Adrien Dumont De Chassart",
@@ -5233,7 +5213,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ADUM"
      },
-     "win_prob_norm": 0.0091
+     "win_prob_norm": 0.0093
     },
     {
      "name": "Chandler Phillips",
@@ -5253,7 +5233,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-CPHI"
      },
-     "win_prob_norm": 0.0091
+     "win_prob_norm": 0.0093
     },
     {
      "name": "Patrick Rodgers",
@@ -5273,7 +5253,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-PROD"
      },
-     "win_prob_norm": 0.0091
+     "win_prob_norm": 0.0093
     },
     {
      "name": "Jesper Svensson",
@@ -5293,7 +5273,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JSVE"
      },
-     "win_prob_norm": 0.0091
+     "win_prob_norm": 0.0093
     },
     {
      "name": "Kevin Yu",
@@ -5313,7 +5293,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-KYU"
      },
-     "win_prob_norm": 0.0091
+     "win_prob_norm": 0.0093
     },
     {
      "name": "Trace Crowe",
@@ -5333,7 +5313,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-TCRO"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "A.J. Ewart",
@@ -5353,7 +5333,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-AEWA"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Tony Finau",
@@ -5373,7 +5353,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-TFIN"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Patrick Fishburn",
@@ -5393,7 +5373,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-PFIS"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Lucas Glover",
@@ -5413,7 +5393,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-LGLO"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Lee Hodges",
@@ -5433,7 +5413,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-LHOD"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Taylor Moore",
@@ -5453,7 +5433,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-TMOO"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "S.Y. Noh",
@@ -5473,7 +5453,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-SNOH"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Taylor Pendrith",
@@ -5493,7 +5473,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-TPEN"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Adrien Saddier",
@@ -5513,7 +5493,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ASAD"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Hayden Springer",
@@ -5533,7 +5513,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-HSPR"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Karl Vilips",
@@ -5553,7 +5533,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-KVIL"
      },
-     "win_prob_norm": 0.0087
+     "win_prob_norm": 0.0089
     },
     {
      "name": "Chandler Blanchet",
@@ -5573,7 +5553,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-CBLA"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Joel Dahmen",
@@ -5593,7 +5573,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JDAH"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Tyler Duncan",
@@ -5613,7 +5593,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-TDUN"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Adam Hadwin",
@@ -5633,7 +5613,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-AHAD"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Takumi Kanaya",
@@ -5653,7 +5633,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-TKAN"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Matt Kuchar",
@@ -5673,7 +5653,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-MKUC"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "William Mouw",
@@ -5693,7 +5673,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-WMOU"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Matthieu Pavon",
@@ -5713,7 +5693,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-MPAV"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Chad Ramey",
@@ -5733,7 +5713,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-CRAM"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Erik van Rooyen",
@@ -5753,7 +5733,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-EVAN"
      },
-     "win_prob_norm": 0.0083
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Garrick Higgo",
@@ -5773,7 +5753,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-GHIG"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Kensei Hirata",
@@ -5793,7 +5773,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-KHIR"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "David Lipsky",
@@ -5813,7 +5793,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-DLIP"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Justin Lower",
@@ -5833,7 +5813,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JLOW"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Paul Peterson",
@@ -5853,7 +5833,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-PPET"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Davis Riley",
@@ -5873,7 +5853,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-DRIL"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Gordon Sargent",
@@ -5893,7 +5873,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-GSAR"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Greyson Sigg",
@@ -5913,7 +5893,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-GSIG"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Webb Simpson",
@@ -5933,7 +5913,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-WSIM"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "David Skinns",
@@ -5953,7 +5933,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-DSKI"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Kevin Streelman",
@@ -5973,7 +5953,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-KSTR"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Vince Whaley",
@@ -5993,7 +5973,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-VWHA"
      },
-     "win_prob_norm": 0.008
+     "win_prob_norm": 0.0082
     },
     {
      "name": "Davis Chatfield",
@@ -6013,7 +5993,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-DCHA"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Brice Garnett",
@@ -6033,7 +6013,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-BGAR"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Emilio Gonzalez",
@@ -6053,7 +6033,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-EGON"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Mark Hubbard",
@@ -6073,7 +6053,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-MHUB"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Kyoung-Hoon Lee",
@@ -6093,7 +6073,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-KLEE"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Stefano Mazzoli",
@@ -6113,7 +6093,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-SMAZ"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Jeremy Paul",
@@ -6133,7 +6113,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JPAU"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Adam Schenk",
@@ -6153,7 +6133,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ASCH"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "John VanDerLaan",
@@ -6173,7 +6153,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JVAN"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Danny Walker",
@@ -6193,7 +6173,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-DWAL"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Aaron Wise",
@@ -6213,7 +6193,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-AWIS"
      },
-     "win_prob_norm": 0.0076
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Zachary Bauchou",
@@ -6233,7 +6213,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ZBAU"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Zac Blair",
@@ -6253,7 +6233,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ZBLA"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Rafael Campos",
@@ -6273,7 +6253,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-RCAM"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Ricky Castillo",
@@ -6293,7 +6273,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-RCAS"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Tyler Collet",
@@ -6313,7 +6293,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-TCOL"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Pierceson Coody",
@@ -6333,7 +6313,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-PCOO"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Cam Davis",
@@ -6353,7 +6333,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-CDAV"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Nick Dunlap",
@@ -6373,7 +6353,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-NDUN"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Steven Fisk",
@@ -6393,7 +6373,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-SFIS"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Will Gordon",
@@ -6413,7 +6393,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-WGOR"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Harry Higgs",
@@ -6433,7 +6413,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-HHIG"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Joe Highsmith",
@@ -6453,7 +6433,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JHIG"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Rico Hoey",
@@ -6473,7 +6453,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-RHOE"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Rikuya Hoshino",
@@ -6493,7 +6473,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-RHOS"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Jeffrey Kang",
@@ -6513,7 +6493,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JKAN"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Kevin Kisner",
@@ -6533,7 +6513,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-KKIS"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Patton Kizzire",
@@ -6553,7 +6533,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-PKIZ"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Brooks Koepka",
@@ -6573,7 +6553,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-BKOE"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Christo Lamprecht",
@@ -6593,7 +6573,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-CLAM"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Hank Lebioda",
@@ -6613,7 +6593,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-HLEB"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Nicholas Lindheim",
@@ -6633,7 +6613,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-NLIN"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Luke List",
@@ -6653,7 +6633,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-LLIS"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Peter Malnati",
@@ -6673,7 +6653,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-PMAL"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Ben Martin",
@@ -6693,7 +6673,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-BMAR"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Troy Merritt",
@@ -6713,7 +6693,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-TMER"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Pontus Nyholm",
@@ -6733,7 +6713,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-PNYH"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "John Parry",
@@ -6753,7 +6733,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JPAR"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Marcelo Rozo",
@@ -6773,7 +6753,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-MROZ"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Jimmy Stanger",
@@ -6793,7 +6773,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-JSTA"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Adam Svensson",
@@ -6813,7 +6793,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ASVE"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Brendon Todd",
@@ -6833,7 +6813,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-BTOD"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Alejandro Tosti",
@@ -6853,7 +6833,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-ATOS"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Dylan Wu",
@@ -6873,7 +6853,7 @@
       "volume": null,
       "ticker": "KXPGAR1LEAD-THRC26-DWU"
      },
-     "win_prob_norm": 0.0072
+     "win_prob_norm": 0.0074
     },
     {
      "name": "Ludvig Aberg",
@@ -6881,7 +6861,7 @@
       "mid": null,
       "yes_bid": 0.0,
       "yes_ask": 8.5,
-      "last": 0.3,
+      "last": 8.5,
       "volume": null,
       "ticker": "KXPGATOUR-THRC26-LABE"
      },
@@ -7156,6 +7136,26 @@
      "win_prob_norm": null
     },
     {
+     "name": "Jackson Koivun",
+     "win": {
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 4.8,
+      "last": 0.3,
+      "volume": null,
+      "ticker": "KXPGATOUR-THRC26-JKOI"
+     },
+     "r1_lead": {
+      "mid": null,
+      "yes_bid": 0.0,
+      "yes_ask": 12.0,
+      "last": 0.0,
+      "volume": null,
+      "ticker": "KXPGAR1LEAD-THRC26-JKOI"
+     },
+     "win_prob_norm": null
+    },
+    {
      "name": "David Lingmerth",
      "win": {
       "mid": null,
@@ -7361,7 +7361,7 @@
    "event_key": "MAST27",
    "title": "2027 The Masters Champion",
    "close_time": "2027-04-25T23:00:00Z",
-   "win_overround": 96.8,
+   "win_overround": 96.3,
    "markets": [
     "win"
    ],
@@ -7370,14 +7370,14 @@
     {
      "name": "Scottie Scheffler",
      "win": {
-      "mid": 16.0,
+      "mid": 15.5,
       "yes_bid": 15.0,
-      "yes_ask": 17.0,
+      "yes_ask": 16.0,
       "last": 16.0,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SSCH"
      },
-     "win_prob_norm": 0.1653
+     "win_prob_norm": 0.161
     },
     {
      "name": "Rory McIlroy",
@@ -7389,7 +7389,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-RMCI"
      },
-     "win_prob_norm": 0.0801
+     "win_prob_norm": 0.0805
     },
     {
      "name": "Jon Rahm",
@@ -7401,7 +7401,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JRAH"
      },
-     "win_prob_norm": 0.0579
+     "win_prob_norm": 0.0582
     },
     {
      "name": "Cameron Young",
@@ -7413,7 +7413,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-CYOU"
      },
-     "win_prob_norm": 0.0527
+     "win_prob_norm": 0.053
     },
     {
      "name": "Ludvig Aberg",
@@ -7425,7 +7425,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-LABE"
      },
-     "win_prob_norm": 0.0517
+     "win_prob_norm": 0.0519
     },
     {
      "name": "Xander Schauffele",
@@ -7437,7 +7437,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-XSCH"
      },
-     "win_prob_norm": 0.0315
+     "win_prob_norm": 0.0317
     },
     {
      "name": "Bryson DeChambeau",
@@ -7449,7 +7449,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-BDEC"
      },
-     "win_prob_norm": 0.03
+     "win_prob_norm": 0.0301
     },
     {
      "name": "Justin Rose",
@@ -7461,7 +7461,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JROS"
      },
-     "win_prob_norm": 0.0274
+     "win_prob_norm": 0.0275
     },
     {
      "name": "Jackson Koivun",
@@ -7473,7 +7473,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JKOI"
      },
-     "win_prob_norm": 0.0258
+     "win_prob_norm": 0.026
     },
     {
      "name": "Collin Morikawa",
@@ -7485,7 +7485,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-CMOR"
      },
-     "win_prob_norm": 0.0253
+     "win_prob_norm": 0.0254
     },
     {
      "name": "Tommy Fleetwood",
@@ -7497,7 +7497,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-TFLE"
      },
-     "win_prob_norm": 0.0232
+     "win_prob_norm": 0.0234
     },
     {
      "name": "Matt Fitzpatrick",
@@ -7509,7 +7509,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MFIT"
      },
-     "win_prob_norm": 0.0232
+     "win_prob_norm": 0.0234
     },
     {
      "name": "Wyndham Clark",
@@ -7521,7 +7521,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-WCLA"
      },
-     "win_prob_norm": 0.0232
+     "win_prob_norm": 0.0234
     },
     {
      "name": "Sam Burns",
@@ -7533,7 +7533,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SBUR"
      },
-     "win_prob_norm": 0.0212
+     "win_prob_norm": 0.0213
     },
     {
      "name": "Chris Gotterup",
@@ -7545,7 +7545,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-CGOT"
      },
-     "win_prob_norm": 0.0186
+     "win_prob_norm": 0.0187
     },
     {
      "name": "Michael Brennan",
@@ -7557,7 +7557,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MBRE"
      },
-     "win_prob_norm": 0.0181
+     "win_prob_norm": 0.0182
     },
     {
      "name": "Hideki Matsuyama",
@@ -7569,7 +7569,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-HMAT"
      },
-     "win_prob_norm": 0.0176
+     "win_prob_norm": 0.0177
     },
     {
      "name": "Viktor Hovland",
@@ -7581,7 +7581,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-VHOV"
      },
-     "win_prob_norm": 0.0165
+     "win_prob_norm": 0.0166
     },
     {
      "name": "Patrick Reed",
@@ -7593,7 +7593,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-PREE"
      },
-     "win_prob_norm": 0.0165
+     "win_prob_norm": 0.0166
     },
     {
      "name": "Jake Knapp",
@@ -7605,7 +7605,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JKNA"
      },
-     "win_prob_norm": 0.016
+     "win_prob_norm": 0.0161
     },
     {
      "name": "Russell Henley",
@@ -7617,7 +7617,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-RHEN"
      },
-     "win_prob_norm": 0.0155
+     "win_prob_norm": 0.0156
     },
     {
      "name": "Jordan Spieth",
@@ -7641,7 +7641,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-TWOO"
      },
-     "win_prob_norm": 0.0134
+     "win_prob_norm": 0.0135
     },
     {
      "name": "Si Woo Kim",
@@ -7653,7 +7653,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SKIM"
      },
-     "win_prob_norm": 0.0129
+     "win_prob_norm": 0.013
     },
     {
      "name": "Justin Thomas",
@@ -7665,7 +7665,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JTHO"
      },
-     "win_prob_norm": 0.0129
+     "win_prob_norm": 0.013
     },
     {
      "name": "Min Woo Lee",
@@ -7677,7 +7677,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MWLE"
      },
-     "win_prob_norm": 0.0129
+     "win_prob_norm": 0.013
     },
     {
      "name": "Akshay Bhatia",
@@ -7689,7 +7689,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-ABHA"
      },
-     "win_prob_norm": 0.0129
+     "win_prob_norm": 0.013
     },
     {
      "name": "Robert MacIntyre",
@@ -7737,7 +7737,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MMCN"
      },
-     "win_prob_norm": 0.0108
+     "win_prob_norm": 0.0109
     },
     {
      "name": "Kurt Kitayama",
@@ -7749,7 +7749,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-KKIT"
      },
-     "win_prob_norm": 0.0108
+     "win_prob_norm": 0.0109
     },
     {
      "name": "Adam Scott",
@@ -7761,7 +7761,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-ASCO"
      },
-     "win_prob_norm": 0.0108
+     "win_prob_norm": 0.0109
     },
     {
      "name": "Joaquin Niemann",
@@ -7773,7 +7773,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JNIE"
      },
-     "win_prob_norm": 0.0103
+     "win_prob_norm": 0.0104
     },
     {
      "name": "Jacob Bridgeman",
@@ -7785,7 +7785,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JBRI"
      },
-     "win_prob_norm": 0.0098
+     "win_prob_norm": 0.0099
     },
     {
      "name": "Shane Lowry",
@@ -7809,7 +7809,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-TKIM"
      },
-     "win_prob_norm": 0.0077
+     "win_prob_norm": 0.0078
     },
     {
      "name": "Sungjae Im",
@@ -7869,7 +7869,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-BGRI"
      },
-     "win_prob_norm": 0.0046
+     "win_prob_norm": 0.0047
     },
     {
      "name": "Aaron Rai",
@@ -7881,7 +7881,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-ARAI"
      },
-     "win_prob_norm": 0.0041
+     "win_prob_norm": 0.0042
     },
     {
      "name": "Alex Fitzpatrick",
