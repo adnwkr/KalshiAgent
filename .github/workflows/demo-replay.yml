@@ -1,0 +1,34 @@
+name: Demo replay (class video)
+
+# Replays one past agent run for the demo video, one step per run (Actions tab > Run workflow):
+#   scan      reprice the demo picks from the relay's saved Kalshi snapshots and flag edges
+#   research  print the research saved for each flagged edge
+#   notify    read Pending rows from the Demo Run Bet Logs in Notion and push them to the picks topic
+# Never touches the live Bet Logs, the watcher's state or Kalshi orders. See demo/replay.py.
+on:
+  workflow_dispatch:
+    inputs:
+      step:
+        description: "Which step to run"
+        type: choice
+        options: [scan, research, notify]
+        default: scan
+
+permissions:
+  contents: read
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: "Agent run: ${{ inputs.step }}"
+        env:
+          PYTHONIOENCODING: utf-8
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NTFY_PICKS_TOPIC: ${{ secrets.NTFY_PICKS_TOPIC }}
+        run: python demo/replay.py "${{ inputs.step }}"
