@@ -1,4 +1,5 @@
 name: Demo replay (class video)
+run-name: "Agent run: ${{ inputs.step }}"
 
 # Replays one past agent run for the demo video, one step per run (Actions tab > Run workflow):
 #   scan      reprice the demo picks from the relay's saved Kalshi snapshots and flag edges
