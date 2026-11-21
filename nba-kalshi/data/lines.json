@@ -1,2469 +1,475 @@
 {
- "fetched_at": "2026-11-21T03:14:22+00:00",
+ "fetched_at": "2026-11-21T12:41:45+00:00",
  "games": [
-  {
-   "game_key": "26NOV20HOUDEN",
-   "date": "2026-11-20",
-   "away": "HOU",
-   "home": "DEN",
-   "kalshi_win_prob_home": 0.485,
-   "kalshi_spread_home": 0.5,
-   "spread_source": "win prob",
-   "kalshi_total": 232.3,
-   "close_time": "2026-11-23T03:00:00Z",
-   "expected_expiration_time": "2026-11-21T06:00:00Z",
-   "win_markets": {
-    "HOU": {
-     "strike": null,
-     "yes_bid": 51.0,
-     "yes_ask": 52.0,
-     "last": 52.0,
-     "ticker": "KXNBAGAME-26NOV20HOUDEN-HOU"
-    },
-    "DEN": {
-     "strike": null,
-     "yes_bid": 48.0,
-     "yes_ask": 49.0,
-     "last": 49.0,
-     "ticker": "KXNBAGAME-26NOV20HOUDEN-DEN"
-    }
-   },
-   "spread_ladders": {
-    "DEN": [
-     {
-      "strike": 1.5,
-      "yes_bid": 46.0,
-      "yes_ask": 47.0,
-      "last": 48.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN2"
-     },
-     {
-      "strike": 2.5,
-      "yes_bid": 42.0,
-      "yes_ask": 43.0,
-      "last": 42.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN3"
-     },
-     {
-      "strike": 3.5,
-      "yes_bid": 39.0,
-      "yes_ask": 40.0,
-      "last": 42.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN4"
-     },
-     {
-      "strike": 4.5,
-      "yes_bid": 35.0,
-      "yes_ask": 36.0,
-      "last": 35.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN5"
-     },
-     {
-      "strike": 5.5,
-      "yes_bid": 32.0,
-      "yes_ask": 34.0,
-      "last": 32.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN6"
-     },
-     {
-      "strike": 6.5,
-      "yes_bid": 29.0,
-      "yes_ask": 31.0,
-      "last": 29.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN7"
-     },
-     {
-      "strike": 7.5,
-      "yes_bid": 27.0,
-      "yes_ask": 28.0,
-      "last": 26.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN8"
-     },
-     {
-      "strike": 9.5,
-      "yes_bid": 22.0,
-      "yes_ask": 23.0,
-      "last": 21.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN10"
-     },
-     {
-      "strike": 11.5,
-      "yes_bid": 17.0,
-      "yes_ask": 19.0,
-      "last": 21.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN12"
-     },
-     {
-      "strike": 13.5,
-      "yes_bid": 14.0,
-      "yes_ask": 15.0,
-      "last": 0.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN14"
-     },
-     {
-      "strike": 15.5,
-      "yes_bid": 11.0,
-      "yes_ask": 12.0,
-      "last": 12.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN16"
-     },
-     {
-      "strike": 17.5,
-      "yes_bid": 8.0,
-      "yes_ask": 10.0,
-      "last": 10.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN18"
-     },
-     {
-      "strike": 19.5,
-      "yes_bid": 6.0,
-      "yes_ask": 8.0,
-      "last": 8.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN20"
-     },
-     {
-      "strike": 21.5,
-      "yes_bid": 5.0,
-      "yes_ask": 6.0,
-      "last": 6.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN22"
-     },
-     {
-      "strike": 23.5,
-      "yes_bid": 3.0,
-      "yes_ask": 5.0,
-      "last": 0.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN24"
-     },
-     {
-      "strike": 25.5,
-      "yes_bid": 3.0,
-      "yes_ask": 4.0,
-      "last": 4.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN26"
-     },
-     {
-      "strike": 27.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 0.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-DEN28"
-     }
-    ],
-    "HOU": [
-     {
-      "strike": 1.5,
-      "yes_bid": 48.0,
-      "yes_ask": 49.0,
-      "last": 48.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU2"
-     },
-     {
-      "strike": 2.5,
-      "yes_bid": 44.0,
-      "yes_ask": 47.0,
-      "last": 43.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU3"
-     },
-     {
-      "strike": 3.5,
-      "yes_bid": 41.0,
-      "yes_ask": 44.0,
-      "last": 43.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU4"
-     },
-     {
-      "strike": 4.5,
-      "yes_bid": 39.0,
-      "yes_ask": 40.0,
-      "last": 40.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU5"
-     },
-     {
-      "strike": 5.5,
-      "yes_bid": 36.0,
-      "yes_ask": 37.0,
-      "last": 36.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU6"
-     },
-     {
-      "strike": 6.5,
-      "yes_bid": 33.0,
-      "yes_ask": 35.0,
-      "last": 33.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU7"
-     },
-     {
-      "strike": 8.5,
-      "yes_bid": 27.0,
-      "yes_ask": 28.0,
-      "last": 26.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU9"
-     },
-     {
-      "strike": 10.5,
-      "yes_bid": 22.0,
-      "yes_ask": 23.0,
-      "last": 21.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU11"
-     },
-     {
-      "strike": 12.5,
-      "yes_bid": 18.0,
-      "yes_ask": 19.0,
-      "last": 17.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU13"
-     },
-     {
-      "strike": 14.5,
-      "yes_bid": 14.0,
-      "yes_ask": 15.0,
-      "last": 17.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU15"
-     },
-     {
-      "strike": 16.5,
-      "yes_bid": 11.0,
-      "yes_ask": 12.0,
-      "last": 12.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU17"
-     },
-     {
-      "strike": 18.5,
-      "yes_bid": 9.0,
-      "yes_ask": 10.0,
-      "last": 8.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU19"
-     },
-     {
-      "strike": 20.5,
-      "yes_bid": 7.0,
-      "yes_ask": 8.0,
-      "last": 7.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU21"
-     },
-     {
-      "strike": 22.5,
-      "yes_bid": 5.0,
-      "yes_ask": 6.0,
-      "last": 6.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU23"
-     },
-     {
-      "strike": 24.5,
-      "yes_bid": 4.0,
-      "yes_ask": 5.0,
-      "last": 0.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU25"
-     },
-     {
-      "strike": 26.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 0.0,
-      "ticker": "KXNBASPREAD-26NOV20HOUDEN-HOU27"
-     }
-    ]
-   },
-   "total_ladder": [
-    {
-     "strike": 195.5,
-     "yes_bid": 97.0,
-     "yes_ask": 98.0,
-     "last": 97.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-196"
-    },
-    {
-     "strike": 197.5,
-     "yes_bid": 97.0,
-     "yes_ask": 98.0,
-     "last": 0.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-198"
-    },
-    {
-     "strike": 199.5,
-     "yes_bid": 96.0,
-     "yes_ask": 97.0,
-     "last": 97.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-200"
-    },
-    {
-     "strike": 201.5,
-     "yes_bid": 95.0,
-     "yes_ask": 97.0,
-     "last": 95.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-202"
-    },
-    {
-     "strike": 203.5,
-     "yes_bid": 94.0,
-     "yes_ask": 95.0,
-     "last": 93.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-204"
-    },
-    {
-     "strike": 205.5,
-     "yes_bid": 92.0,
-     "yes_ask": 94.0,
-     "last": 90.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-206"
-    },
-    {
-     "strike": 207.5,
-     "yes_bid": 91.0,
-     "yes_ask": 93.0,
-     "last": 90.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-208"
-    },
-    {
-     "strike": 209.5,
-     "yes_bid": 89.0,
-     "yes_ask": 91.0,
-     "last": 85.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-210"
-    },
-    {
-     "strike": 211.5,
-     "yes_bid": 87.0,
-     "yes_ask": 89.0,
-     "last": 88.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-212"
-    },
-    {
-     "strike": 213.5,
-     "yes_bid": 85.0,
-     "yes_ask": 87.0,
-     "last": 83.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-214"
-    },
-    {
-     "strike": 215.5,
-     "yes_bid": 79.0,
-     "yes_ask": 84.0,
-     "last": 83.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-216"
-    },
-    {
-     "strike": 217.5,
-     "yes_bid": 78.0,
-     "yes_ask": 79.0,
-     "last": 74.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-218"
-    },
-    {
-     "strike": 219.5,
-     "yes_bid": 75.0,
-     "yes_ask": 78.0,
-     "last": 75.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-220"
-    },
-    {
-     "strike": 221.5,
-     "yes_bid": 72.0,
-     "yes_ask": 74.0,
-     "last": 67.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-222"
-    },
-    {
-     "strike": 223.5,
-     "yes_bid": 68.0,
-     "yes_ask": 70.0,
-     "last": 63.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-224"
-    },
-    {
-     "strike": 225.5,
-     "yes_bid": 64.0,
-     "yes_ask": 66.0,
-     "last": 64.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-226"
-    },
-    {
-     "strike": 227.5,
-     "yes_bid": 59.0,
-     "yes_ask": 61.0,
-     "last": 59.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-228"
-    },
-    {
-     "strike": 229.5,
-     "yes_bid": 54.0,
-     "yes_ask": 57.0,
-     "last": 56.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-230"
-    },
-    {
-     "strike": 231.5,
-     "yes_bid": 51.0,
-     "yes_ask": 53.0,
-     "last": 40.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-232"
-    },
-    {
-     "strike": 233.5,
-     "yes_bid": 46.0,
-     "yes_ask": 48.0,
-     "last": 45.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-234"
-    },
-    {
-     "strike": 235.5,
-     "yes_bid": 42.0,
-     "yes_ask": 43.0,
-     "last": 39.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-236"
-    },
-    {
-     "strike": 237.5,
-     "yes_bid": 33.0,
-     "yes_ask": 34.0,
-     "last": 34.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-238"
-    },
-    {
-     "strike": 239.5,
-     "yes_bid": 32.0,
-     "yes_ask": 34.0,
-     "last": 30.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-240"
-    },
-    {
-     "strike": 241.5,
-     "yes_bid": 29.0,
-     "yes_ask": 31.0,
-     "last": 26.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-242"
-    },
-    {
-     "strike": 243.5,
-     "yes_bid": 24.0,
-     "yes_ask": 25.0,
-     "last": 23.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-244"
-    },
-    {
-     "strike": 245.5,
-     "yes_bid": 19.0,
-     "yes_ask": 20.0,
-     "last": 18.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-246"
-    },
-    {
-     "strike": 247.5,
-     "yes_bid": 19.0,
-     "yes_ask": 20.0,
-     "last": 17.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-248"
-    },
-    {
-     "strike": 249.5,
-     "yes_bid": 14.0,
-     "yes_ask": 15.0,
-     "last": 14.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-250"
-    },
-    {
-     "strike": 251.5,
-     "yes_bid": 13.0,
-     "yes_ask": 14.0,
-     "last": 11.0,
-     "ticker": "KXNBATOTAL-26NOV20HOUDEN-252"
-    }
-   ]
-  },
-  {
-   "game_key": "26NOV20NOPOKC",
-   "date": "2026-11-20",
-   "away": "NOP",
-   "home": "OKC",
-   "kalshi_win_prob_home": 0.904,
-   "kalshi_spread_home": -5.7,
-   "spread_source": "spread ladder",
-   "kalshi_total": 228.5,
-   "close_time": "2026-11-23T01:00:00Z",
-   "expected_expiration_time": "2026-11-21T04:00:00Z",
-   "win_markets": {
-    "NOP": {
-     "strike": null,
-     "yes_bid": 9.0,
-     "yes_ask": 10.0,
-     "last": 9.0,
-     "ticker": "KXNBAGAME-26NOV20NOPOKC-NOP"
-    },
-    "OKC": {
-     "strike": null,
-     "yes_bid": 89.0,
-     "yes_ask": 90.0,
-     "last": 89.0,
-     "ticker": "KXNBAGAME-26NOV20NOPOKC-OKC"
-    }
-   },
-   "spread_ladders": {
-    "OKC": [
-     {
-      "strike": 1.5,
-      "yes_bid": 85.0,
-      "yes_ask": 86.0,
-      "last": 85.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC2"
-     },
-     {
-      "strike": 2.5,
-      "yes_bid": 78.0,
-      "yes_ask": 80.0,
-      "last": 77.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC3"
-     },
-     {
-      "strike": 4.5,
-      "yes_bid": 62.0,
-      "yes_ask": 63.0,
-      "last": 63.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC5"
-     },
-     {
-      "strike": 5.5,
-      "yes_bid": 52.0,
-      "yes_ask": 53.0,
-      "last": 51.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC6"
-     },
-     {
-      "strike": 6.5,
-      "yes_bid": 39.0,
-      "yes_ask": 42.0,
-      "last": 39.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC7"
-     },
-     {
-      "strike": 7.5,
-      "yes_bid": 28.0,
-      "yes_ask": 33.0,
-      "last": 31.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC8"
-     },
-     {
-      "strike": 8.5,
-      "yes_bid": 20.0,
-      "yes_ask": 25.0,
-      "last": 21.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC9"
-     },
-     {
-      "strike": 9.5,
-      "yes_bid": 13.0,
-      "yes_ask": 16.0,
-      "last": 9.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC10"
-     },
-     {
-      "strike": 10.5,
-      "yes_bid": 8.0,
-      "yes_ask": 10.0,
-      "last": 9.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC11"
-     },
-     {
-      "strike": 11.5,
-      "yes_bid": 5.0,
-      "yes_ask": 6.0,
-      "last": 5.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC12"
-     },
-     {
-      "strike": 12.5,
-      "yes_bid": 3.0,
-      "yes_ask": 5.0,
-      "last": 4.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC13"
-     },
-     {
-      "strike": 13.5,
-      "yes_bid": 1.0,
-      "yes_ask": 2.0,
-      "last": 2.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC14"
-     },
-     {
-      "strike": 14.5,
-      "yes_bid": 1.0,
-      "yes_ask": 2.0,
-      "last": 2.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC15"
-     },
-     {
-      "strike": 15.5,
-      "yes_bid": 0.0,
-      "yes_ask": 2.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC16"
-     },
-     {
-      "strike": 16.5,
-      "yes_bid": 0.0,
-      "yes_ask": 2.0,
-      "last": 2.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC17"
-     },
-     {
-      "strike": 18.5,
-      "yes_bid": 0.0,
-      "yes_ask": 4.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC19"
-     },
-     {
-      "strike": 20.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC21"
-     },
-     {
-      "strike": 22.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC23"
-     },
-     {
-      "strike": 24.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC25"
-     },
-     {
-      "strike": 26.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC27"
-     },
-     {
-      "strike": 28.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC29"
-     },
-     {
-      "strike": 30.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC31"
-     },
-     {
-      "strike": 32.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC33"
-     },
-     {
-      "strike": 34.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 3.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC35"
-     },
-     {
-      "strike": 36.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-OKC37"
-     }
-    ],
-    "NOP": [
-     {
-      "strike": 1.5,
-      "yes_bid": 7.0,
-      "yes_ask": 9.0,
-      "last": 8.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-NOP2"
-     },
-     {
-      "strike": 3.5,
-      "yes_bid": 2.0,
-      "yes_ask": 5.0,
-      "last": 3.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-NOP4"
-     },
-     {
-      "strike": 5.5,
-      "yes_bid": 0.0,
-      "yes_ask": 2.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-NOP6"
-     },
-     {
-      "strike": 7.5,
-      "yes_bid": 0.0,
-      "yes_ask": 2.0,
-      "last": 2.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-NOP8"
-     },
-     {
-      "strike": 9.5,
-      "yes_bid": 0.0,
-      "yes_ask": 2.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-NOP10"
-     },
-     {
-      "strike": 11.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-NOP12"
-     },
-     {
-      "strike": 13.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-NOP14"
-     },
-     {
-      "strike": 15.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20NOPOKC-NOP16"
-     }
-    ]
-   },
-   "total_ladder": [
-    {
-     "strike": 199.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-200"
-    },
-    {
-     "strike": 201.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-202"
-    },
-    {
-     "strike": 203.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-204"
-    },
-    {
-     "strike": 205.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-206"
-    },
-    {
-     "strike": 207.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-208"
-    },
-    {
-     "strike": 209.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-210"
-    },
-    {
-     "strike": 211.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-212"
-    },
-    {
-     "strike": 213.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-214"
-    },
-    {
-     "strike": 215.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-216"
-    },
-    {
-     "strike": 217.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-218"
-    },
-    {
-     "strike": 219.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-220"
-    },
-    {
-     "strike": 221.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-222"
-    },
-    {
-     "strike": 223.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 98.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-224"
-    },
-    {
-     "strike": 225.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 98.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-226"
-    },
-    {
-     "strike": 227.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-228"
-    },
-    {
-     "strike": 229.5,
-     "yes_bid": 97.0,
-     "yes_ask": 99.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-230"
-    },
-    {
-     "strike": 231.5,
-     "yes_bid": 95.0,
-     "yes_ask": 96.0,
-     "last": 95.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-232"
-    },
-    {
-     "strike": 233.5,
-     "yes_bid": 85.0,
-     "yes_ask": 88.0,
-     "last": 87.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-234"
-    },
-    {
-     "strike": 235.5,
-     "yes_bid": 73.0,
-     "yes_ask": 77.0,
-     "last": 79.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-236"
-    },
-    {
-     "strike": 237.5,
-     "yes_bid": 57.0,
-     "yes_ask": 61.0,
-     "last": 60.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-238"
-    },
-    {
-     "strike": 239.5,
-     "yes_bid": 42.0,
-     "yes_ask": 46.0,
-     "last": 46.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-240"
-    },
-    {
-     "strike": 241.5,
-     "yes_bid": 29.0,
-     "yes_ask": 33.0,
-     "last": 37.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-242"
-    },
-    {
-     "strike": 243.5,
-     "yes_bid": 21.0,
-     "yes_ask": 27.0,
-     "last": 28.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-244"
-    },
-    {
-     "strike": 245.5,
-     "yes_bid": 13.0,
-     "yes_ask": 17.0,
-     "last": 17.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-246"
-    },
-    {
-     "strike": 247.5,
-     "yes_bid": 10.0,
-     "yes_ask": 13.0,
-     "last": 15.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-248"
-    },
-    {
-     "strike": 249.5,
-     "yes_bid": 7.0,
-     "yes_ask": 10.0,
-     "last": 11.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-250"
-    },
-    {
-     "strike": 251.5,
-     "yes_bid": 5.0,
-     "yes_ask": 6.0,
-     "last": 7.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-252"
-    },
-    {
-     "strike": 253.5,
-     "yes_bid": 5.0,
-     "yes_ask": 6.0,
-     "last": 7.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-254"
-    },
-    {
-     "strike": 255.5,
-     "yes_bid": 4.0,
-     "yes_ask": 6.0,
-     "last": 5.0,
-     "ticker": "KXNBATOTAL-26NOV20NOPOKC-256"
-    }
-   ]
-  },
-  {
-   "game_key": "26NOV20PHXUTA",
-   "date": "2026-11-20",
-   "away": "PHX",
-   "home": "UTA",
-   "kalshi_win_prob_home": 0.255,
-   "kalshi_spread_home": 8.0,
-   "spread_source": "spread ladder",
-   "kalshi_total": 219.9,
-   "close_time": "2026-11-23T02:30:00Z",
-   "expected_expiration_time": "2026-11-21T05:30:00Z",
-   "win_markets": {
-    "PHX": {
-     "strike": null,
-     "yes_bid": 74.0,
-     "yes_ask": 75.0,
-     "last": 75.0,
-     "ticker": "KXNBAGAME-26NOV20PHXUTA-PHX"
-    },
-    "UTA": {
-     "strike": null,
-     "yes_bid": 25.0,
-     "yes_ask": 26.0,
-     "last": 26.0,
-     "ticker": "KXNBAGAME-26NOV20PHXUTA-UTA"
-    }
-   },
-   "spread_ladders": {
-    "UTA": [
-     {
-      "strike": 1.5,
-      "yes_bid": 21.0,
-      "yes_ask": 22.0,
-      "last": 24.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA2"
-     },
-     {
-      "strike": 2.5,
-      "yes_bid": 19.0,
-      "yes_ask": 20.0,
-      "last": 21.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA3"
-     },
-     {
-      "strike": 3.5,
-      "yes_bid": 17.0,
-      "yes_ask": 18.0,
-      "last": 19.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA4"
-     },
-     {
-      "strike": 5.5,
-      "yes_bid": 13.0,
-      "yes_ask": 14.0,
-      "last": 17.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA6"
-     },
-     {
-      "strike": 7.5,
-      "yes_bid": 10.0,
-      "yes_ask": 11.0,
-      "last": 13.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA8"
-     },
-     {
-      "strike": 9.5,
-      "yes_bid": 8.0,
-      "yes_ask": 9.0,
-      "last": 12.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA10"
-     },
-     {
-      "strike": 11.5,
-      "yes_bid": 5.0,
-      "yes_ask": 6.0,
-      "last": 7.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA12"
-     },
-     {
-      "strike": 13.5,
-      "yes_bid": 3.0,
-      "yes_ask": 5.0,
-      "last": 5.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA14"
-     },
-     {
-      "strike": 15.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 4.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA16"
-     },
-     {
-      "strike": 17.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 3.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA18"
-     },
-     {
-      "strike": 19.5,
-      "yes_bid": 1.0,
-      "yes_ask": 2.0,
-      "last": 2.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA20"
-     },
-     {
-      "strike": 21.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA22"
-     },
-     {
-      "strike": 23.5,
-      "yes_bid": 0.0,
-      "yes_ask": 2.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-UTA24"
-     }
-    ],
-    "PHX": [
-     {
-      "strike": 1.5,
-      "yes_bid": 72.0,
-      "yes_ask": 73.0,
-      "last": 72.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX2"
-     },
-     {
-      "strike": 2.5,
-      "yes_bid": 69.0,
-      "yes_ask": 70.0,
-      "last": 69.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX3"
-     },
-     {
-      "strike": 3.5,
-      "yes_bid": 66.0,
-      "yes_ask": 67.0,
-      "last": 66.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX4"
-     },
-     {
-      "strike": 4.5,
-      "yes_bid": 63.0,
-      "yes_ask": 64.0,
-      "last": 63.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX5"
-     },
-     {
-      "strike": 5.5,
-      "yes_bid": 61.0,
-      "yes_ask": 62.0,
-      "last": 61.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX6"
-     },
-     {
-      "strike": 6.5,
-      "yes_bid": 55.0,
-      "yes_ask": 56.0,
-      "last": 55.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX7"
-     },
-     {
-      "strike": 7.5,
-      "yes_bid": 52.0,
-      "yes_ask": 53.0,
-      "last": 53.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX8"
-     },
-     {
-      "strike": 8.5,
-      "yes_bid": 47.0,
-      "yes_ask": 48.0,
-      "last": 47.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX9"
-     },
-     {
-      "strike": 9.5,
-      "yes_bid": 44.0,
-      "yes_ask": 45.0,
-      "last": 44.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX10"
-     },
-     {
-      "strike": 10.5,
-      "yes_bid": 41.0,
-      "yes_ask": 42.0,
-      "last": 42.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX11"
-     },
-     {
-      "strike": 12.5,
-      "yes_bid": 35.0,
-      "yes_ask": 36.0,
-      "last": 35.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX13"
-     },
-     {
-      "strike": 14.5,
-      "yes_bid": 28.0,
-      "yes_ask": 29.0,
-      "last": 28.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX15"
-     },
-     {
-      "strike": 16.5,
-      "yes_bid": 24.0,
-      "yes_ask": 25.0,
-      "last": 24.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX17"
-     },
-     {
-      "strike": 18.5,
-      "yes_bid": 19.0,
-      "yes_ask": 20.0,
-      "last": 20.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX19"
-     },
-     {
-      "strike": 20.5,
-      "yes_bid": 15.0,
-      "yes_ask": 16.0,
-      "last": 15.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX21"
-     },
-     {
-      "strike": 22.5,
-      "yes_bid": 12.0,
-      "yes_ask": 13.0,
-      "last": 12.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX23"
-     },
-     {
-      "strike": 24.5,
-      "yes_bid": 9.0,
-      "yes_ask": 10.0,
-      "last": 9.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX25"
-     },
-     {
-      "strike": 26.5,
-      "yes_bid": 7.0,
-      "yes_ask": 8.0,
-      "last": 7.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX27"
-     },
-     {
-      "strike": 28.5,
-      "yes_bid": 5.0,
-      "yes_ask": 6.0,
-      "last": 5.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX29"
-     },
-     {
-      "strike": 30.5,
-      "yes_bid": 3.0,
-      "yes_ask": 4.0,
-      "last": 3.0,
-      "ticker": "KXNBASPREAD-26NOV20PHXUTA-PHX31"
-     }
-    ]
-   },
-   "total_ladder": [
-    {
-     "strike": 198.5,
-     "yes_bid": 90.0,
-     "yes_ask": 91.0,
-     "last": 90.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-199"
-    },
-    {
-     "strike": 200.5,
-     "yes_bid": 90.0,
-     "yes_ask": 91.0,
-     "last": 86.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-201"
-    },
-    {
-     "strike": 202.5,
-     "yes_bid": 87.0,
-     "yes_ask": 88.0,
-     "last": 77.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-203"
-    },
-    {
-     "strike": 204.5,
-     "yes_bid": 84.0,
-     "yes_ask": 85.0,
-     "last": 82.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-205"
-    },
-    {
-     "strike": 206.5,
-     "yes_bid": 81.0,
-     "yes_ask": 82.0,
-     "last": 75.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-207"
-    },
-    {
-     "strike": 208.5,
-     "yes_bid": 77.0,
-     "yes_ask": 79.0,
-     "last": 65.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-209"
-    },
-    {
-     "strike": 210.5,
-     "yes_bid": 73.0,
-     "yes_ask": 74.0,
-     "last": 69.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-211"
-    },
-    {
-     "strike": 212.5,
-     "yes_bid": 68.0,
-     "yes_ask": 69.0,
-     "last": 57.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-213"
-    },
-    {
-     "strike": 214.5,
-     "yes_bid": 64.0,
-     "yes_ask": 65.0,
-     "last": 57.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-215"
-    },
-    {
-     "strike": 216.5,
-     "yes_bid": 58.0,
-     "yes_ask": 59.0,
-     "last": 59.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-217"
-    },
-    {
-     "strike": 218.5,
-     "yes_bid": 53.0,
-     "yes_ask": 54.0,
-     "last": 44.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-219"
-    },
-    {
-     "strike": 220.5,
-     "yes_bid": 48.0,
-     "yes_ask": 49.0,
-     "last": 40.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-221"
-    },
-    {
-     "strike": 222.5,
-     "yes_bid": 42.0,
-     "yes_ask": 43.0,
-     "last": 38.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-223"
-    },
-    {
-     "strike": 224.5,
-     "yes_bid": 37.0,
-     "yes_ask": 38.0,
-     "last": 37.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-225"
-    },
-    {
-     "strike": 226.5,
-     "yes_bid": 32.0,
-     "yes_ask": 33.0,
-     "last": 31.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-227"
-    },
-    {
-     "strike": 228.5,
-     "yes_bid": 27.0,
-     "yes_ask": 29.0,
-     "last": 24.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-229"
-    },
-    {
-     "strike": 230.5,
-     "yes_bid": 23.0,
-     "yes_ask": 24.0,
-     "last": 23.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-231"
-    },
-    {
-     "strike": 232.5,
-     "yes_bid": 19.0,
-     "yes_ask": 20.0,
-     "last": 16.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-233"
-    },
-    {
-     "strike": 234.5,
-     "yes_bid": 16.0,
-     "yes_ask": 17.0,
-     "last": 15.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-235"
-    },
-    {
-     "strike": 236.5,
-     "yes_bid": 14.0,
-     "yes_ask": 15.0,
-     "last": 11.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-237"
-    },
-    {
-     "strike": 238.5,
-     "yes_bid": 11.0,
-     "yes_ask": 12.0,
-     "last": 7.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-239"
-    },
-    {
-     "strike": 240.5,
-     "yes_bid": 8.0,
-     "yes_ask": 9.0,
-     "last": 8.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-241"
-    },
-    {
-     "strike": 242.5,
-     "yes_bid": 6.0,
-     "yes_ask": 8.0,
-     "last": 5.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-243"
-    },
-    {
-     "strike": 244.5,
-     "yes_bid": 5.0,
-     "yes_ask": 6.0,
-     "last": 5.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-245"
-    },
-    {
-     "strike": 246.5,
-     "yes_bid": 4.0,
-     "yes_ask": 5.0,
-     "last": 3.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-247"
-    },
-    {
-     "strike": 248.5,
-     "yes_bid": 3.0,
-     "yes_ask": 4.0,
-     "last": 2.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-249"
-    },
-    {
-     "strike": 250.5,
-     "yes_bid": 2.0,
-     "yes_ask": 3.0,
-     "last": 3.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-251"
-    },
-    {
-     "strike": 252.5,
-     "yes_bid": 1.0,
-     "yes_ask": 3.0,
-     "last": 3.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-253"
-    },
-    {
-     "strike": 254.5,
-     "yes_bid": 1.0,
-     "yes_ask": 2.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20PHXUTA-255"
-    }
-   ]
-  },
-  {
-   "game_key": "26NOV20SACLAL",
-   "date": "2026-11-20",
-   "away": "SAC",
-   "home": "LAL",
-   "kalshi_win_prob_home": 0.874,
-   "kalshi_spread_home": -14.6,
-   "spread_source": "spread ladder",
-   "kalshi_total": 228.5,
-   "close_time": "2026-11-23T03:00:00Z",
-   "expected_expiration_time": "2026-11-21T06:00:00Z",
-   "win_markets": {
-    "SAC": {
-     "strike": null,
-     "yes_bid": 12.0,
-     "yes_ask": 13.0,
-     "last": 14.0,
-     "ticker": "KXNBAGAME-26NOV20SACLAL-SAC"
-    },
-    "LAL": {
-     "strike": null,
-     "yes_bid": 86.0,
-     "yes_ask": 88.0,
-     "last": 88.0,
-     "ticker": "KXNBAGAME-26NOV20SACLAL-LAL"
-    }
-   },
-   "spread_ladders": {
-    "LAL": [
-     {
-      "strike": 1.5,
-      "yes_bid": 84.0,
-      "yes_ask": 86.0,
-      "last": 88.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL2"
-     },
-     {
-      "strike": 2.5,
-      "yes_bid": 83.0,
-      "yes_ask": 84.0,
-      "last": 85.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL3"
-     },
-     {
-      "strike": 4.5,
-      "yes_bid": 78.0,
-      "yes_ask": 79.0,
-      "last": 79.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL5"
-     },
-     {
-      "strike": 6.5,
-      "yes_bid": 73.0,
-      "yes_ask": 75.0,
-      "last": 72.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL7"
-     },
-     {
-      "strike": 8.5,
-      "yes_bid": 67.0,
-      "yes_ask": 69.0,
-      "last": 68.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL9"
-     },
-     {
-      "strike": 9.5,
-      "yes_bid": 64.0,
-      "yes_ask": 67.0,
-      "last": 67.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL10"
-     },
-     {
-      "strike": 10.5,
-      "yes_bid": 62.0,
-      "yes_ask": 63.0,
-      "last": 62.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL11"
-     },
-     {
-      "strike": 11.5,
-      "yes_bid": 58.0,
-      "yes_ask": 60.0,
-      "last": 59.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL12"
-     },
-     {
-      "strike": 12.5,
-      "yes_bid": 55.0,
-      "yes_ask": 57.0,
-      "last": 57.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL13"
-     },
-     {
-      "strike": 13.5,
-      "yes_bid": 52.0,
-      "yes_ask": 55.0,
-      "last": 55.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL14"
-     },
-     {
-      "strike": 14.5,
-      "yes_bid": 49.0,
-      "yes_ask": 52.0,
-      "last": 53.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL15"
-     },
-     {
-      "strike": 15.5,
-      "yes_bid": 46.0,
-      "yes_ask": 48.0,
-      "last": 46.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL16"
-     },
-     {
-      "strike": 16.5,
-      "yes_bid": 43.0,
-      "yes_ask": 46.0,
-      "last": 43.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL17"
-     },
-     {
-      "strike": 17.5,
-      "yes_bid": 41.0,
-      "yes_ask": 44.0,
-      "last": 40.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL18"
-     },
-     {
-      "strike": 18.5,
-      "yes_bid": 38.0,
-      "yes_ask": 41.0,
-      "last": 36.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL19"
-     },
-     {
-      "strike": 19.5,
-      "yes_bid": 35.0,
-      "yes_ask": 38.0,
-      "last": 36.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL20"
-     },
-     {
-      "strike": 20.5,
-      "yes_bid": 32.0,
-      "yes_ask": 34.0,
-      "last": 33.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL21"
-     },
-     {
-      "strike": 22.5,
-      "yes_bid": 28.0,
-      "yes_ask": 30.0,
-      "last": 27.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL23"
-     },
-     {
-      "strike": 24.5,
-      "yes_bid": 23.0,
-      "yes_ask": 25.0,
-      "last": 23.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL25"
-     },
-     {
-      "strike": 26.5,
-      "yes_bid": 19.0,
-      "yes_ask": 21.0,
-      "last": 20.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL27"
-     },
-     {
-      "strike": 28.5,
-      "yes_bid": 16.0,
-      "yes_ask": 17.0,
-      "last": 17.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL29"
-     },
-     {
-      "strike": 30.5,
-      "yes_bid": 13.0,
-      "yes_ask": 14.0,
-      "last": 12.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL31"
-     },
-     {
-      "strike": 32.5,
-      "yes_bid": 10.0,
-      "yes_ask": 11.0,
-      "last": 11.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL33"
-     },
-     {
-      "strike": 34.5,
-      "yes_bid": 8.0,
-      "yes_ask": 9.0,
-      "last": 10.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL35"
-     },
-     {
-      "strike": 36.5,
-      "yes_bid": 6.0,
-      "yes_ask": 7.0,
-      "last": 8.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL37"
-     },
-     {
-      "strike": 38.5,
-      "yes_bid": 4.0,
-      "yes_ask": 5.0,
-      "last": 5.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL39"
-     },
-     {
-      "strike": 40.5,
-      "yes_bid": 3.0,
-      "yes_ask": 4.0,
-      "last": 4.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-LAL41"
-     }
-    ],
-    "SAC": [
-     {
-      "strike": 1.5,
-      "yes_bid": 11.0,
-      "yes_ask": 13.0,
-      "last": 14.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-SAC2"
-     },
-     {
-      "strike": 3.5,
-      "yes_bid": 8.0,
-      "yes_ask": 10.0,
-      "last": 8.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-SAC4"
-     },
-     {
-      "strike": 5.5,
-      "yes_bid": 6.0,
-      "yes_ask": 8.0,
-      "last": 7.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-SAC6"
-     },
-     {
-      "strike": 7.5,
-      "yes_bid": 5.0,
-      "yes_ask": 6.0,
-      "last": 5.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-SAC8"
-     },
-     {
-      "strike": 9.5,
-      "yes_bid": 3.0,
-      "yes_ask": 4.0,
-      "last": 7.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-SAC10"
-     },
-     {
-      "strike": 11.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 4.0,
-      "ticker": "KXNBASPREAD-26NOV20SACLAL-SAC12"
-     }
-    ]
-   },
-   "total_ladder": [
-    {
-     "strike": 202.5,
-     "yes_bid": 93.0,
-     "yes_ask": 94.0,
-     "last": 95.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-203"
-    },
-    {
-     "strike": 204.5,
-     "yes_bid": 90.0,
-     "yes_ask": 92.0,
-     "last": 94.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-205"
-    },
-    {
-     "strike": 206.5,
-     "yes_bid": 88.0,
-     "yes_ask": 90.0,
-     "last": 91.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-207"
-    },
-    {
-     "strike": 208.5,
-     "yes_bid": 86.0,
-     "yes_ask": 87.0,
-     "last": 91.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-209"
-    },
-    {
-     "strike": 210.5,
-     "yes_bid": 84.0,
-     "yes_ask": 85.0,
-     "last": 89.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-211"
-    },
-    {
-     "strike": 212.5,
-     "yes_bid": 81.0,
-     "yes_ask": 82.0,
-     "last": 87.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-213"
-    },
-    {
-     "strike": 214.5,
-     "yes_bid": 77.0,
-     "yes_ask": 79.0,
-     "last": 80.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-215"
-    },
-    {
-     "strike": 216.5,
-     "yes_bid": 74.0,
-     "yes_ask": 76.0,
-     "last": 79.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-217"
-    },
-    {
-     "strike": 218.5,
-     "yes_bid": 70.0,
-     "yes_ask": 72.0,
-     "last": 74.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-219"
-    },
-    {
-     "strike": 220.5,
-     "yes_bid": 66.0,
-     "yes_ask": 68.0,
-     "last": 69.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-221"
-    },
-    {
-     "strike": 222.5,
-     "yes_bid": 61.0,
-     "yes_ask": 62.0,
-     "last": 67.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-223"
-    },
-    {
-     "strike": 224.5,
-     "yes_bid": 57.0,
-     "yes_ask": 58.0,
-     "last": 63.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-225"
-    },
-    {
-     "strike": 226.5,
-     "yes_bid": 52.0,
-     "yes_ask": 53.0,
-     "last": 56.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-227"
-    },
-    {
-     "strike": 228.5,
-     "yes_bid": 49.0,
-     "yes_ask": 51.0,
-     "last": 51.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-229"
-    },
-    {
-     "strike": 230.5,
-     "yes_bid": 43.0,
-     "yes_ask": 46.0,
-     "last": 42.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-231"
-    },
-    {
-     "strike": 232.5,
-     "yes_bid": 39.0,
-     "yes_ask": 40.0,
-     "last": 46.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-233"
-    },
-    {
-     "strike": 234.5,
-     "yes_bid": 34.0,
-     "yes_ask": 35.0,
-     "last": 42.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-235"
-    },
-    {
-     "strike": 236.5,
-     "yes_bid": 30.0,
-     "yes_ask": 32.0,
-     "last": 39.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-237"
-    },
-    {
-     "strike": 238.5,
-     "yes_bid": 26.0,
-     "yes_ask": 28.0,
-     "last": 32.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-239"
-    },
-    {
-     "strike": 240.5,
-     "yes_bid": 22.0,
-     "yes_ask": 23.0,
-     "last": 29.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-241"
-    },
-    {
-     "strike": 242.5,
-     "yes_bid": 19.0,
-     "yes_ask": 21.0,
-     "last": 25.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-243"
-    },
-    {
-     "strike": 244.5,
-     "yes_bid": 17.0,
-     "yes_ask": 18.0,
-     "last": 20.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-245"
-    },
-    {
-     "strike": 246.5,
-     "yes_bid": 13.0,
-     "yes_ask": 15.0,
-     "last": 17.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-247"
-    },
-    {
-     "strike": 248.5,
-     "yes_bid": 11.0,
-     "yes_ask": 12.0,
-     "last": 12.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-249"
-    },
-    {
-     "strike": 250.5,
-     "yes_bid": 9.0,
-     "yes_ask": 10.0,
-     "last": 10.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-251"
-    },
-    {
-     "strike": 252.5,
-     "yes_bid": 7.0,
-     "yes_ask": 8.0,
-     "last": 8.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-253"
-    },
-    {
-     "strike": 254.5,
-     "yes_bid": 6.0,
-     "yes_ask": 7.0,
-     "last": 0.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-255"
-    },
-    {
-     "strike": 256.5,
-     "yes_bid": 4.0,
-     "yes_ask": 6.0,
-     "last": 6.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-257"
-    },
-    {
-     "strike": 258.5,
-     "yes_bid": 3.0,
-     "yes_ask": 5.0,
-     "last": 5.0,
-     "ticker": "KXNBATOTAL-26NOV20SACLAL-259"
-    }
-   ]
-  },
-  {
-   "game_key": "26NOV20WASCHI",
-   "date": "2026-11-20",
-   "away": "WAS",
-   "home": "CHI",
-   "kalshi_win_prob_home": 0.195,
-   "kalshi_spread_home": 4.9,
-   "spread_source": "spread ladder",
-   "kalshi_total": 193.5,
-   "close_time": "2026-11-23T01:00:00Z",
-   "expected_expiration_time": "2026-11-21T04:00:00Z",
-   "win_markets": {
-    "WAS": {
-     "strike": null,
-     "yes_bid": 80.0,
-     "yes_ask": 81.0,
-     "last": 81.0,
-     "ticker": "KXNBAGAME-26NOV20WASCHI-WAS"
-    },
-    "CHI": {
-     "strike": null,
-     "yes_bid": 19.0,
-     "yes_ask": 20.0,
-     "last": 20.0,
-     "ticker": "KXNBAGAME-26NOV20WASCHI-CHI"
-    }
-   },
-   "spread_ladders": {
-    "CHI": [
-     {
-      "strike": 1.5,
-      "yes_bid": 15.0,
-      "yes_ask": 16.0,
-      "last": 15.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI2"
-     },
-     {
-      "strike": 2.5,
-      "yes_bid": 11.0,
-      "yes_ask": 12.0,
-      "last": 12.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI3"
-     },
-     {
-      "strike": 3.5,
-      "yes_bid": 8.0,
-      "yes_ask": 9.0,
-      "last": 9.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI4"
-     },
-     {
-      "strike": 4.5,
-      "yes_bid": 6.0,
-      "yes_ask": 7.0,
-      "last": 5.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI5"
-     },
-     {
-      "strike": 5.5,
-      "yes_bid": 4.0,
-      "yes_ask": 5.0,
-      "last": 5.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI6"
-     },
-     {
-      "strike": 6.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 2.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI7"
-     },
-     {
-      "strike": 7.5,
-      "yes_bid": 1.0,
-      "yes_ask": 2.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI8"
-     },
-     {
-      "strike": 8.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI9"
-     },
-     {
-      "strike": 9.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI10"
-     },
-     {
-      "strike": 11.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI12"
-     },
-     {
-      "strike": 13.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 2.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI14"
-     },
-     {
-      "strike": 15.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI16"
-     },
-     {
-      "strike": 17.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI18"
-     },
-     {
-      "strike": 19.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI20"
-     },
-     {
-      "strike": 21.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI22"
-     },
-     {
-      "strike": 23.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI24"
-     },
-     {
-      "strike": 25.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI26"
-     },
-     {
-      "strike": 27.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI28"
-     },
-     {
-      "strike": 29.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-CHI30"
-     }
-    ],
-    "WAS": [
-     {
-      "strike": 1.5,
-      "yes_bid": 77.0,
-      "yes_ask": 78.0,
-      "last": 78.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS2"
-     },
-     {
-      "strike": 2.5,
-      "yes_bid": 70.0,
-      "yes_ask": 71.0,
-      "last": 70.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS3"
-     },
-     {
-      "strike": 3.5,
-      "yes_bid": 61.0,
-      "yes_ask": 62.0,
-      "last": 62.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS4"
-     },
-     {
-      "strike": 4.5,
-      "yes_bid": 53.0,
-      "yes_ask": 54.0,
-      "last": 53.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS5"
-     },
-     {
-      "strike": 6.5,
-      "yes_bid": 34.0,
-      "yes_ask": 35.0,
-      "last": 34.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS7"
-     },
-     {
-      "strike": 8.5,
-      "yes_bid": 14.0,
-      "yes_ask": 15.0,
-      "last": 15.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS9"
-     },
-     {
-      "strike": 10.5,
-      "yes_bid": 7.0,
-      "yes_ask": 8.0,
-      "last": 7.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS11"
-     },
-     {
-      "strike": 12.5,
-      "yes_bid": 2.0,
-      "yes_ask": 3.0,
-      "last": 2.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS13"
-     },
-     {
-      "strike": 14.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS15"
-     },
-     {
-      "strike": 16.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 2.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS17"
-     },
-     {
-      "strike": 18.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 3.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS19"
-     },
-     {
-      "strike": 20.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS21"
-     },
-     {
-      "strike": 22.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS23"
-     },
-     {
-      "strike": 24.5,
-      "yes_bid": 0.0,
-      "yes_ask": 1.0,
-      "last": 1.0,
-      "ticker": "KXNBASPREAD-26NOV20WASCHI-WAS25"
-     }
-    ]
-   },
-   "total_ladder": [
-    {
-     "strike": 190.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-191"
-    },
-    {
-     "strike": 192.5,
-     "yes_bid": 99.0,
-     "yes_ask": 100.0,
-     "last": 99.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-193"
-    },
-    {
-     "strike": 194.5,
-     "yes_bid": 98.0,
-     "yes_ask": 99.0,
-     "last": 98.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-195"
-    },
-    {
-     "strike": 196.5,
-     "yes_bid": 96.0,
-     "yes_ask": 97.0,
-     "last": 97.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-197"
-    },
-    {
-     "strike": 198.5,
-     "yes_bid": 90.0,
-     "yes_ask": 91.0,
-     "last": 90.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-199"
-    },
-    {
-     "strike": 200.5,
-     "yes_bid": 82.0,
-     "yes_ask": 83.0,
-     "last": 84.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-201"
-    },
-    {
-     "strike": 202.5,
-     "yes_bid": 68.0,
-     "yes_ask": 73.0,
-     "last": 72.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-203"
-    },
-    {
-     "strike": 204.5,
-     "yes_bid": 56.0,
-     "yes_ask": 57.0,
-     "last": 56.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-205"
-    },
-    {
-     "strike": 206.5,
-     "yes_bid": 41.0,
-     "yes_ask": 42.0,
-     "last": 42.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-207"
-    },
-    {
-     "strike": 208.5,
-     "yes_bid": 30.0,
-     "yes_ask": 31.0,
-     "last": 31.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-209"
-    },
-    {
-     "strike": 210.5,
-     "yes_bid": 21.0,
-     "yes_ask": 23.0,
-     "last": 17.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-211"
-    },
-    {
-     "strike": 212.5,
-     "yes_bid": 16.0,
-     "yes_ask": 17.0,
-     "last": 17.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-213"
-    },
-    {
-     "strike": 214.5,
-     "yes_bid": 13.0,
-     "yes_ask": 14.0,
-     "last": 13.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-215"
-    },
-    {
-     "strike": 216.5,
-     "yes_bid": 10.0,
-     "yes_ask": 11.0,
-     "last": 10.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-217"
-    },
-    {
-     "strike": 218.5,
-     "yes_bid": 9.0,
-     "yes_ask": 10.0,
-     "last": 9.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-219"
-    },
-    {
-     "strike": 220.5,
-     "yes_bid": 8.0,
-     "yes_ask": 9.0,
-     "last": 9.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-221"
-    },
-    {
-     "strike": 222.5,
-     "yes_bid": 7.0,
-     "yes_ask": 8.0,
-     "last": 6.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-223"
-    },
-    {
-     "strike": 224.5,
-     "yes_bid": 6.0,
-     "yes_ask": 7.0,
-     "last": 6.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-225"
-    },
-    {
-     "strike": 226.5,
-     "yes_bid": 5.0,
-     "yes_ask": 6.0,
-     "last": 5.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-227"
-    },
-    {
-     "strike": 228.5,
-     "yes_bid": 4.0,
-     "yes_ask": 5.0,
-     "last": 5.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-229"
-    },
-    {
-     "strike": 230.5,
-     "yes_bid": 3.0,
-     "yes_ask": 4.0,
-     "last": 3.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-231"
-    },
-    {
-     "strike": 232.5,
-     "yes_bid": 3.0,
-     "yes_ask": 4.0,
-     "last": 3.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-233"
-    },
-    {
-     "strike": 234.5,
-     "yes_bid": 2.0,
-     "yes_ask": 3.0,
-     "last": 4.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-235"
-    },
-    {
-     "strike": 236.5,
-     "yes_bid": 1.0,
-     "yes_ask": 2.0,
-     "last": 2.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-237"
-    },
-    {
-     "strike": 238.5,
-     "yes_bid": 1.0,
-     "yes_ask": 2.0,
-     "last": 2.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-239"
-    },
-    {
-     "strike": 240.5,
-     "yes_bid": 1.0,
-     "yes_ask": 2.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-241"
-    },
-    {
-     "strike": 242.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-243"
-    },
-    {
-     "strike": 244.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-245"
-    },
-    {
-     "strike": 246.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-247"
-    },
-    {
-     "strike": 248.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-249"
-    },
-    {
-     "strike": 250.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-251"
-    },
-    {
-     "strike": 252.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-253"
-    },
-    {
-     "strike": 254.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-255"
-    },
-    {
-     "strike": 256.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-257"
-    },
-    {
-     "strike": 258.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-259"
-    },
-    {
-     "strike": 260.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-261"
-    },
-    {
-     "strike": 262.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-263"
-    },
-    {
-     "strike": 264.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-265"
-    },
-    {
-     "strike": 266.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-267"
-    },
-    {
-     "strike": 268.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-269"
-    },
-    {
-     "strike": 270.5,
-     "yes_bid": 0.0,
-     "yes_ask": 1.0,
-     "last": 1.0,
-     "ticker": "KXNBATOTAL-26NOV20WASCHI-271"
-    }
-   ]
-  },
   {
    "game_key": "26NOV21BOSSAC",
    "date": "2026-11-21",
    "away": "BOS",
    "home": "SAC",
-   "kalshi_win_prob_home": 0.155,
-   "kalshi_spread_home": 12.2,
-   "spread_source": "win prob",
-   "kalshi_total": null,
+   "kalshi_win_prob_home": 0.135,
+   "kalshi_spread_home": 13.5,
+   "spread_source": "spread ladder",
+   "kalshi_total": 216.8,
    "close_time": "2026-11-24T03:00:00Z",
    "expected_expiration_time": "2026-11-22T06:00:00Z",
    "win_markets": {
     "BOS": {
      "strike": null,
-     "yes_bid": 84.0,
-     "yes_ask": 85.0,
-     "last": 85.0,
+     "yes_bid": 86.0,
+     "yes_ask": 87.0,
+     "last": 87.0,
      "ticker": "KXNBAGAME-26NOV21BOSSAC-BOS"
     },
     "SAC": {
      "strike": null,
-     "yes_bid": 15.0,
-     "yes_ask": 16.0,
-     "last": 16.0,
+     "yes_bid": 13.0,
+     "yes_ask": 14.0,
+     "last": 14.0,
      "ticker": "KXNBAGAME-26NOV21BOSSAC-SAC"
     }
    },
-   "spread_ladders": {},
-   "total_ladder": []
+   "spread_ladders": {
+    "SAC": [
+     {
+      "strike": 1.5,
+      "yes_bid": 10.0,
+      "yes_ask": 14.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC2"
+     },
+     {
+      "strike": 2.5,
+      "yes_bid": 9.0,
+      "yes_ask": 12.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC3"
+     },
+     {
+      "strike": 4.5,
+      "yes_bid": 6.0,
+      "yes_ask": 10.0,
+      "last": 10.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC5"
+     },
+     {
+      "strike": 6.5,
+      "yes_bid": 3.0,
+      "yes_ask": 7.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC7"
+     },
+     {
+      "strike": 8.5,
+      "yes_bid": 2.0,
+      "yes_ask": 6.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC9"
+     },
+     {
+      "strike": 10.5,
+      "yes_bid": 2.0,
+      "yes_ask": 4.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC11"
+     },
+     {
+      "strike": 12.5,
+      "yes_bid": 2.0,
+      "yes_ask": 3.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-SAC13"
+     }
+    ],
+    "BOS": [
+     {
+      "strike": 1.5,
+      "yes_bid": 84.0,
+      "yes_ask": 86.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS2"
+     },
+     {
+      "strike": 3.5,
+      "yes_bid": 79.0,
+      "yes_ask": 81.0,
+      "last": 82.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS4"
+     },
+     {
+      "strike": 5.5,
+      "yes_bid": 75.0,
+      "yes_ask": 76.0,
+      "last": 76.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS6"
+     },
+     {
+      "strike": 7.5,
+      "yes_bid": 68.0,
+      "yes_ask": 71.0,
+      "last": 70.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS8"
+     },
+     {
+      "strike": 8.5,
+      "yes_bid": 65.0,
+      "yes_ask": 68.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS9"
+     },
+     {
+      "strike": 9.5,
+      "yes_bid": 62.0,
+      "yes_ask": 65.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS10"
+     },
+     {
+      "strike": 10.5,
+      "yes_bid": 59.0,
+      "yes_ask": 60.0,
+      "last": 60.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS11"
+     },
+     {
+      "strike": 11.5,
+      "yes_bid": 55.0,
+      "yes_ask": 56.0,
+      "last": 54.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS12"
+     },
+     {
+      "strike": 12.5,
+      "yes_bid": 53.0,
+      "yes_ask": 55.0,
+      "last": 55.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS13"
+     },
+     {
+      "strike": 13.5,
+      "yes_bid": 49.0,
+      "yes_ask": 51.0,
+      "last": 51.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS14"
+     },
+     {
+      "strike": 14.5,
+      "yes_bid": 44.0,
+      "yes_ask": 46.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS15"
+     },
+     {
+      "strike": 15.5,
+      "yes_bid": 42.0,
+      "yes_ask": 43.0,
+      "last": 40.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS16"
+     },
+     {
+      "strike": 16.5,
+      "yes_bid": 39.0,
+      "yes_ask": 41.0,
+      "last": 41.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS17"
+     },
+     {
+      "strike": 17.5,
+      "yes_bid": 36.0,
+      "yes_ask": 39.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS18"
+     },
+     {
+      "strike": 18.5,
+      "yes_bid": 33.0,
+      "yes_ask": 36.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS19"
+     },
+     {
+      "strike": 19.5,
+      "yes_bid": 30.0,
+      "yes_ask": 34.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS20"
+     },
+     {
+      "strike": 21.5,
+      "yes_bid": 25.0,
+      "yes_ask": 28.0,
+      "last": 24.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS22"
+     },
+     {
+      "strike": 23.5,
+      "yes_bid": 22.0,
+      "yes_ask": 24.0,
+      "last": 22.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS24"
+     },
+     {
+      "strike": 25.5,
+      "yes_bid": 17.0,
+      "yes_ask": 19.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS26"
+     },
+     {
+      "strike": 27.5,
+      "yes_bid": 15.0,
+      "yes_ask": 16.0,
+      "last": 15.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS28"
+     },
+     {
+      "strike": 29.5,
+      "yes_bid": 10.0,
+      "yes_ask": 12.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS30"
+     },
+     {
+      "strike": 31.5,
+      "yes_bid": 7.0,
+      "yes_ask": 10.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS32"
+     },
+     {
+      "strike": 33.5,
+      "yes_bid": 5.0,
+      "yes_ask": 8.0,
+      "last": 8.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS34"
+     },
+     {
+      "strike": 35.5,
+      "yes_bid": 4.0,
+      "yes_ask": 6.0,
+      "last": 8.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS36"
+     },
+     {
+      "strike": 37.5,
+      "yes_bid": 3.0,
+      "yes_ask": 5.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS38"
+     },
+     {
+      "strike": 39.5,
+      "yes_bid": 2.0,
+      "yes_ask": 5.0,
+      "last": 0.0,
+      "ticker": "KXNBASPREAD-26NOV21BOSSAC-BOS40"
+     }
+    ]
+   },
+   "total_ladder": [
+    {
+     "strike": 189.5,
+     "yes_bid": 94.0,
+     "yes_ask": 98.0,
+     "last": 76.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-190"
+    },
+    {
+     "strike": 191.5,
+     "yes_bid": 93.0,
+     "yes_ask": 94.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-192"
+    },
+    {
+     "strike": 193.5,
+     "yes_bid": 91.0,
+     "yes_ask": 94.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-194"
+    },
+    {
+     "strike": 195.5,
+     "yes_bid": 89.0,
+     "yes_ask": 92.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-196"
+    },
+    {
+     "strike": 197.5,
+     "yes_bid": 86.0,
+     "yes_ask": 90.0,
+     "last": 90.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-198"
+    },
+    {
+     "strike": 199.5,
+     "yes_bid": 84.0,
+     "yes_ask": 87.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-200"
+    },
+    {
+     "strike": 201.5,
+     "yes_bid": 81.0,
+     "yes_ask": 84.0,
+     "last": 84.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-202"
+    },
+    {
+     "strike": 203.5,
+     "yes_bid": 77.0,
+     "yes_ask": 81.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-204"
+    },
+    {
+     "strike": 205.5,
+     "yes_bid": 73.0,
+     "yes_ask": 78.0,
+     "last": 83.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-206"
+    },
+    {
+     "strike": 207.5,
+     "yes_bid": 70.0,
+     "yes_ask": 74.0,
+     "last": 79.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-208"
+    },
+    {
+     "strike": 209.5,
+     "yes_bid": 65.0,
+     "yes_ask": 68.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-210"
+    },
+    {
+     "strike": 211.5,
+     "yes_bid": 61.0,
+     "yes_ask": 65.0,
+     "last": 61.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-212"
+    },
+    {
+     "strike": 213.5,
+     "yes_bid": 57.0,
+     "yes_ask": 59.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-214"
+    },
+    {
+     "strike": 215.5,
+     "yes_bid": 52.0,
+     "yes_ask": 54.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-216"
+    },
+    {
+     "strike": 217.5,
+     "yes_bid": 48.0,
+     "yes_ask": 49.0,
+     "last": 49.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-218"
+    },
+    {
+     "strike": 219.5,
+     "yes_bid": 44.0,
+     "yes_ask": 45.0,
+     "last": 45.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-220"
+    },
+    {
+     "strike": 221.5,
+     "yes_bid": 39.0,
+     "yes_ask": 42.0,
+     "last": 43.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-222"
+    },
+    {
+     "strike": 223.5,
+     "yes_bid": 36.0,
+     "yes_ask": 38.0,
+     "last": 41.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-224"
+    },
+    {
+     "strike": 225.5,
+     "yes_bid": 31.0,
+     "yes_ask": 34.0,
+     "last": 29.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-226"
+    },
+    {
+     "strike": 227.5,
+     "yes_bid": 28.0,
+     "yes_ask": 30.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-228"
+    },
+    {
+     "strike": 229.5,
+     "yes_bid": 26.0,
+     "yes_ask": 27.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-230"
+    },
+    {
+     "strike": 231.5,
+     "yes_bid": 19.0,
+     "yes_ask": 24.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-232"
+    },
+    {
+     "strike": 233.5,
+     "yes_bid": 16.0,
+     "yes_ask": 21.0,
+     "last": 22.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-234"
+    },
+    {
+     "strike": 235.5,
+     "yes_bid": 14.0,
+     "yes_ask": 18.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-236"
+    },
+    {
+     "strike": 237.5,
+     "yes_bid": 11.0,
+     "yes_ask": 16.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-238"
+    },
+    {
+     "strike": 239.5,
+     "yes_bid": 9.0,
+     "yes_ask": 13.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-240"
+    },
+    {
+     "strike": 241.5,
+     "yes_bid": 8.0,
+     "yes_ask": 11.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-242"
+    },
+    {
+     "strike": 243.5,
+     "yes_bid": 6.0,
+     "yes_ask": 10.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-244"
+    },
+    {
+     "strike": 245.5,
+     "yes_bid": 4.0,
+     "yes_ask": 8.0,
+     "last": 0.0,
+     "ticker": "KXNBATOTAL-26NOV21BOSSAC-246"
+    }
+   ]
   },
   {
    "game_key": "26NOV21LACDAL",
@@ -2471,9 +477,9 @@
    "away": "LAC",
    "home": "DAL",
    "kalshi_win_prob_home": 0.649,
-   "kalshi_spread_home": -5.5,
+   "kalshi_spread_home": -5.4,
    "spread_source": "spread ladder",
-   "kalshi_total": 228.9,
+   "kalshi_total": 229.2,
    "close_time": "2026-11-24T01:00:00Z",
    "expected_expiration_time": "2026-11-22T04:00:00Z",
    "win_markets": {
@@ -2496,51 +502,51 @@
     "DAL": [
      {
       "strike": 1.5,
-      "yes_bid": 62.0,
-      "yes_ask": 64.0,
-      "last": 0.0,
+      "yes_bid": 61.0,
+      "yes_ask": 65.0,
+      "last": 65.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL2"
      },
      {
       "strike": 2.5,
-      "yes_bid": 58.0,
+      "yes_bid": 59.0,
       "yes_ask": 61.0,
-      "last": 0.0,
+      "last": 62.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL3"
      },
      {
       "strike": 3.5,
       "yes_bid": 57.0,
-      "yes_ask": 58.0,
-      "last": 0.0,
+      "yes_ask": 59.0,
+      "last": 59.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL4"
      },
      {
       "strike": 4.5,
       "yes_bid": 53.0,
       "yes_ask": 55.0,
-      "last": 0.0,
+      "last": 55.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL5"
      },
      {
       "strike": 5.5,
       "yes_bid": 49.0,
-      "yes_ask": 51.0,
-      "last": 51.0,
+      "yes_ask": 50.0,
+      "last": 49.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL6"
      },
      {
       "strike": 6.5,
       "yes_bid": 45.0,
       "yes_ask": 47.0,
-      "last": 43.0,
+      "last": 47.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL7"
      },
      {
       "strike": 7.5,
       "yes_bid": 42.0,
       "yes_ask": 44.0,
-      "last": 0.0,
+      "last": 41.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL8"
      },
      {
@@ -2552,70 +558,70 @@
      },
      {
       "strike": 9.5,
-      "yes_bid": 34.0,
-      "yes_ask": 39.0,
-      "last": 0.0,
+      "yes_bid": 35.0,
+      "yes_ask": 37.0,
+      "last": 36.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL10"
      },
      {
       "strike": 10.5,
-      "yes_bid": 31.0,
-      "yes_ask": 35.0,
+      "yes_bid": 32.0,
+      "yes_ask": 34.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL11"
      },
      {
       "strike": 11.5,
-      "yes_bid": 28.0,
-      "yes_ask": 32.0,
+      "yes_bid": 29.0,
+      "yes_ask": 31.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL12"
      },
      {
       "strike": 13.5,
-      "yes_bid": 23.0,
-      "yes_ask": 27.0,
+      "yes_bid": 24.0,
+      "yes_ask": 26.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL14"
      },
      {
       "strike": 15.5,
-      "yes_bid": 18.0,
-      "yes_ask": 22.0,
-      "last": 0.0,
+      "yes_bid": 19.0,
+      "yes_ask": 21.0,
+      "last": 19.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL16"
      },
      {
       "strike": 17.5,
-      "yes_bid": 14.0,
-      "yes_ask": 19.0,
+      "yes_bid": 15.0,
+      "yes_ask": 18.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL18"
      },
      {
       "strike": 19.5,
-      "yes_bid": 10.0,
+      "yes_bid": 12.0,
       "yes_ask": 15.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL20"
      },
      {
       "strike": 21.5,
-      "yes_bid": 7.0,
+      "yes_bid": 10.0,
       "yes_ask": 12.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL22"
      },
      {
       "strike": 23.5,
-      "yes_bid": 5.0,
+      "yes_bid": 7.0,
       "yes_ask": 9.0,
-      "last": 0.0,
+      "last": 9.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL24"
      },
      {
       "strike": 25.5,
-      "yes_bid": 3.0,
+      "yes_bid": 5.0,
       "yes_ask": 7.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL26"
@@ -2623,13 +629,13 @@
      {
       "strike": 27.5,
       "yes_bid": 2.0,
-      "yes_ask": 11.0,
-      "last": 0.0,
+      "yes_ask": 5.0,
+      "last": 6.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL28"
      },
      {
       "strike": 29.5,
-      "yes_bid": 1.0,
+      "yes_bid": 2.0,
       "yes_ask": 4.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL30"
@@ -2637,7 +643,7 @@
      {
       "strike": 31.5,
       "yes_bid": 0.0,
-      "yes_ask": 6.0,
+      "yes_ask": 3.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-DAL32"
      }
@@ -2645,85 +651,85 @@
     "LAC": [
      {
       "strike": 1.5,
-      "yes_bid": 29.0,
-      "yes_ask": 32.0,
+      "yes_bid": 31.0,
+      "yes_ask": 34.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC2"
      },
      {
       "strike": 2.5,
-      "yes_bid": 26.0,
-      "yes_ask": 29.0,
+      "yes_bid": 28.0,
+      "yes_ask": 31.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC3"
      },
      {
       "strike": 4.5,
-      "yes_bid": 20.0,
+      "yes_bid": 23.0,
       "yes_ask": 24.0,
-      "last": 0.0,
+      "last": 23.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC5"
      },
      {
       "strike": 6.5,
-      "yes_bid": 15.0,
-      "yes_ask": 21.0,
+      "yes_bid": 18.0,
+      "yes_ask": 22.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC7"
      },
      {
       "strike": 8.5,
-      "yes_bid": 12.0,
+      "yes_bid": 15.0,
       "yes_ask": 17.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC9"
      },
      {
       "strike": 10.5,
-      "yes_bid": 8.0,
-      "yes_ask": 13.0,
+      "yes_bid": 11.0,
+      "yes_ask": 14.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC11"
      },
      {
       "strike": 12.5,
-      "yes_bid": 5.0,
+      "yes_bid": 8.0,
       "yes_ask": 11.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC13"
      },
      {
       "strike": 14.5,
-      "yes_bid": 3.0,
+      "yes_bid": 6.0,
       "yes_ask": 8.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC15"
      },
      {
       "strike": 16.5,
-      "yes_bid": 2.0,
-      "yes_ask": 6.0,
+      "yes_bid": 4.0,
+      "yes_ask": 7.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC17"
      },
      {
       "strike": 18.5,
-      "yes_bid": 1.0,
-      "yes_ask": 5.0,
+      "yes_bid": 3.0,
+      "yes_ask": 8.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC19"
      },
      {
       "strike": 20.5,
-      "yes_bid": 1.0,
-      "yes_ask": 9.0,
+      "yes_bid": 2.0,
+      "yes_ask": 4.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC21"
      },
      {
       "strike": 22.5,
-      "yes_bid": 0.0,
-      "yes_ask": 10.0,
+      "yes_bid": 2.0,
+      "yes_ask": 5.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21LACDAL-LAC23"
      }
@@ -2732,99 +738,99 @@
    "total_ladder": [
     {
      "strike": 202.5,
-     "yes_bid": 91.0,
-     "yes_ask": 97.0,
-     "last": 0.0,
+     "yes_bid": 93.0,
+     "yes_ask": 94.0,
+     "last": 92.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-203"
     },
     {
      "strike": 204.5,
-     "yes_bid": 90.0,
-     "yes_ask": 95.0,
-     "last": 0.0,
+     "yes_bid": 92.0,
+     "yes_ask": 94.0,
+     "last": 90.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-205"
     },
     {
      "strike": 206.5,
-     "yes_bid": 88.0,
+     "yes_bid": 90.0,
      "yes_ask": 93.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-207"
     },
     {
      "strike": 208.5,
-     "yes_bid": 86.0,
+     "yes_bid": 88.0,
      "yes_ask": 91.0,
-     "last": 0.0,
+     "last": 90.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-209"
     },
     {
      "strike": 210.5,
-     "yes_bid": 83.0,
+     "yes_bid": 86.0,
      "yes_ask": 89.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-211"
     },
     {
      "strike": 212.5,
-     "yes_bid": 81.0,
-     "yes_ask": 86.0,
+     "yes_bid": 83.0,
+     "yes_ask": 87.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-213"
     },
     {
      "strike": 214.5,
-     "yes_bid": 77.0,
-     "yes_ask": 83.0,
+     "yes_bid": 79.0,
+     "yes_ask": 84.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-215"
     },
     {
      "strike": 216.5,
-     "yes_bid": 74.0,
-     "yes_ask": 79.0,
-     "last": 0.0,
+     "yes_bid": 76.0,
+     "yes_ask": 80.0,
+     "last": 77.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-217"
     },
     {
      "strike": 218.5,
-     "yes_bid": 70.0,
-     "yes_ask": 75.0,
+     "yes_bid": 72.0,
+     "yes_ask": 76.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-219"
     },
     {
      "strike": 220.5,
-     "yes_bid": 66.0,
-     "yes_ask": 70.0,
+     "yes_bid": 69.0,
+     "yes_ask": 71.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-221"
     },
     {
      "strike": 222.5,
-     "yes_bid": 62.0,
-     "yes_ask": 65.0,
+     "yes_bid": 65.0,
+     "yes_ask": 66.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-223"
     },
     {
      "strike": 224.5,
-     "yes_bid": 58.0,
-     "yes_ask": 61.0,
+     "yes_bid": 60.0,
+     "yes_ask": 62.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-225"
     },
     {
      "strike": 226.5,
-     "yes_bid": 54.0,
-     "yes_ask": 57.0,
-     "last": 0.0,
+     "yes_bid": 56.0,
+     "yes_ask": 58.0,
+     "last": 59.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-227"
     },
     {
      "strike": 228.5,
-     "yes_bid": 50.0,
-     "yes_ask": 52.0,
+     "yes_bid": 51.0,
+     "yes_ask": 53.0,
      "last": 52.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-229"
     },
@@ -2832,33 +838,33 @@
      "strike": 230.5,
      "yes_bid": 46.0,
      "yes_ask": 47.0,
-     "last": 48.0,
+     "last": 46.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-231"
     },
     {
      "strike": 232.5,
-     "yes_bid": 41.0,
-     "yes_ask": 43.0,
+     "yes_bid": 42.0,
+     "yes_ask": 44.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-233"
     },
     {
      "strike": 234.5,
-     "yes_bid": 36.0,
-     "yes_ask": 40.0,
+     "yes_bid": 37.0,
+     "yes_ask": 41.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-235"
     },
     {
      "strike": 236.5,
-     "yes_bid": 32.0,
+     "yes_bid": 33.0,
      "yes_ask": 36.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-237"
     },
     {
      "strike": 238.5,
-     "yes_bid": 28.0,
+     "yes_bid": 29.0,
      "yes_ask": 32.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-239"
@@ -2866,69 +872,69 @@
     {
      "strike": 240.5,
      "yes_bid": 25.0,
-     "yes_ask": 28.0,
+     "yes_ask": 29.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-241"
     },
     {
      "strike": 242.5,
-     "yes_bid": 20.0,
+     "yes_bid": 21.0,
      "yes_ask": 25.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-243"
     },
     {
      "strike": 244.5,
-     "yes_bid": 16.0,
+     "yes_bid": 18.0,
      "yes_ask": 22.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-245"
     },
     {
      "strike": 246.5,
-     "yes_bid": 13.0,
+     "yes_bid": 15.0,
      "yes_ask": 19.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-247"
     },
     {
      "strike": 248.5,
-     "yes_bid": 11.0,
+     "yes_bid": 13.0,
      "yes_ask": 16.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-249"
     },
     {
      "strike": 250.5,
-     "yes_bid": 8.0,
+     "yes_bid": 10.0,
      "yes_ask": 14.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-251"
     },
     {
      "strike": 252.5,
-     "yes_bid": 6.0,
+     "yes_bid": 9.0,
      "yes_ask": 12.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-253"
     },
     {
      "strike": 254.5,
-     "yes_bid": 4.0,
+     "yes_bid": 7.0,
      "yes_ask": 10.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-255"
     },
     {
      "strike": 256.5,
-     "yes_bid": 3.0,
+     "yes_bid": 6.0,
      "yes_ask": 9.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-257"
     },
     {
      "strike": 258.5,
-     "yes_bid": 2.0,
+     "yes_bid": 4.0,
      "yes_ask": 7.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21LACDAL-259"
@@ -2941,9 +947,9 @@
    "away": "MEM",
    "home": "MIN",
    "kalshi_win_prob_home": 0.665,
-   "kalshi_spread_home": -5.5,
+   "kalshi_spread_home": -6.0,
    "spread_source": "spread ladder",
-   "kalshi_total": 226.9,
+   "kalshi_total": 228.3,
    "close_time": "2026-11-24T01:00:00Z",
    "expected_expiration_time": "2026-11-22T04:00:00Z",
    "win_markets": {
@@ -2966,234 +972,234 @@
     "MIN": [
      {
       "strike": 1.5,
-      "yes_bid": 61.0,
+      "yes_bid": 63.0,
       "yes_ask": 66.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN2"
      },
      {
       "strike": 2.5,
-      "yes_bid": 58.0,
+      "yes_bid": 61.0,
       "yes_ask": 63.0,
-      "last": 0.0,
+      "last": 63.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN3"
      },
      {
       "strike": 3.5,
-      "yes_bid": 57.0,
-      "yes_ask": 59.0,
+      "yes_bid": 58.0,
+      "yes_ask": 60.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN4"
      },
      {
       "strike": 4.5,
-      "yes_bid": 53.0,
-      "yes_ask": 55.0,
-      "last": 0.0,
+      "yes_bid": 55.0,
+      "yes_ask": 56.0,
+      "last": 56.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN5"
      },
      {
       "strike": 5.5,
-      "yes_bid": 49.0,
-      "yes_ask": 51.0,
-      "last": 51.0,
+      "yes_bid": 52.0,
+      "yes_ask": 53.0,
+      "last": 53.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN6"
      },
      {
       "strike": 6.5,
-      "yes_bid": 45.0,
-      "yes_ask": 47.0,
-      "last": 0.0,
+      "yes_bid": 47.0,
+      "yes_ask": 48.0,
+      "last": 47.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN7"
      },
      {
       "strike": 7.5,
-      "yes_bid": 41.0,
-      "yes_ask": 43.0,
-      "last": 49.0,
+      "yes_bid": 43.0,
+      "yes_ask": 44.0,
+      "last": 43.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN8"
      },
      {
       "strike": 8.5,
-      "yes_bid": 38.0,
-      "yes_ask": 40.0,
+      "yes_bid": 39.0,
+      "yes_ask": 41.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN9"
      },
      {
       "strike": 9.5,
-      "yes_bid": 35.0,
-      "yes_ask": 39.0,
-      "last": 0.0,
+      "yes_bid": 36.0,
+      "yes_ask": 38.0,
+      "last": 36.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN10"
      },
      {
       "strike": 10.5,
-      "yes_bid": 32.0,
-      "yes_ask": 35.0,
-      "last": 0.0,
+      "yes_bid": 34.0,
+      "yes_ask": 36.0,
+      "last": 36.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN11"
      },
      {
       "strike": 11.5,
-      "yes_bid": 29.0,
-      "yes_ask": 32.0,
+      "yes_bid": 31.0,
+      "yes_ask": 33.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN12"
      },
      {
       "strike": 13.5,
-      "yes_bid": 23.0,
-      "yes_ask": 25.0,
-      "last": 0.0,
+      "yes_bid": 24.0,
+      "yes_ask": 27.0,
+      "last": 25.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN14"
      },
      {
       "strike": 15.5,
-      "yes_bid": 18.0,
+      "yes_bid": 20.0,
       "yes_ask": 21.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN16"
      },
      {
       "strike": 17.5,
-      "yes_bid": 14.0,
-      "yes_ask": 18.0,
+      "yes_bid": 16.0,
+      "yes_ask": 20.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN18"
      },
      {
       "strike": 19.5,
-      "yes_bid": 10.0,
-      "yes_ask": 14.0,
+      "yes_bid": 13.0,
+      "yes_ask": 16.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN20"
      },
      {
       "strike": 21.5,
-      "yes_bid": 7.0,
-      "yes_ask": 11.0,
+      "yes_bid": 10.0,
+      "yes_ask": 13.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN22"
      },
      {
       "strike": 23.5,
-      "yes_bid": 5.0,
-      "yes_ask": 9.0,
-      "last": 0.0,
+      "yes_bid": 8.0,
+      "yes_ask": 10.0,
+      "last": 9.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN24"
      },
      {
       "strike": 25.5,
-      "yes_bid": 3.0,
-      "yes_ask": 7.0,
+      "yes_bid": 6.0,
+      "yes_ask": 8.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN26"
      },
      {
       "strike": 27.5,
-      "yes_bid": 1.0,
-      "yes_ask": 5.0,
+      "yes_bid": 3.0,
+      "yes_ask": 6.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN28"
      },
      {
       "strike": 29.5,
-      "yes_bid": 1.0,
-      "yes_ask": 4.0,
+      "yes_bid": 3.0,
+      "yes_ask": 5.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN30"
      },
      {
       "strike": 31.5,
-      "yes_bid": 0.0,
-      "yes_ask": 11.0,
-      "last": 0.0,
+      "yes_bid": 2.0,
+      "yes_ask": 5.0,
+      "last": 2.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MIN32"
      }
     ],
     "MEM": [
      {
       "strike": 1.5,
-      "yes_bid": 29.0,
-      "yes_ask": 32.0,
+      "yes_bid": 28.0,
+      "yes_ask": 31.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM2"
      },
      {
       "strike": 2.5,
-      "yes_bid": 26.0,
-      "yes_ask": 29.0,
-      "last": 0.0,
+      "yes_bid": 27.0,
+      "yes_ask": 28.0,
+      "last": 29.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM3"
      },
      {
       "strike": 4.5,
-      "yes_bid": 19.0,
+      "yes_bid": 21.0,
       "yes_ask": 23.0,
-      "last": 0.0,
+      "last": 22.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM5"
      },
      {
       "strike": 6.5,
-      "yes_bid": 15.0,
+      "yes_bid": 17.0,
       "yes_ask": 20.0,
-      "last": 0.0,
+      "last": 20.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM7"
      },
      {
       "strike": 8.5,
-      "yes_bid": 11.0,
+      "yes_bid": 13.0,
       "yes_ask": 16.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM9"
      },
      {
       "strike": 10.5,
-      "yes_bid": 8.0,
+      "yes_bid": 10.0,
       "yes_ask": 12.0,
-      "last": 0.0,
+      "last": 12.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM11"
      },
      {
       "strike": 12.5,
-      "yes_bid": 5.0,
+      "yes_bid": 7.0,
       "yes_ask": 10.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM13"
      },
      {
       "strike": 14.5,
-      "yes_bid": 3.0,
-      "yes_ask": 8.0,
-      "last": 0.0,
+      "yes_bid": 5.0,
+      "yes_ask": 7.0,
+      "last": 8.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM15"
      },
      {
       "strike": 16.5,
-      "yes_bid": 2.0,
+      "yes_bid": 3.0,
       "yes_ask": 6.0,
-      "last": 0.0,
+      "last": 6.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM17"
      },
      {
       "strike": 18.5,
-      "yes_bid": 1.0,
-      "yes_ask": 8.0,
+      "yes_bid": 2.0,
+      "yes_ask": 5.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM19"
      },
      {
       "strike": 20.5,
       "yes_bid": 1.0,
-      "yes_ask": 9.0,
-      "last": 0.0,
+      "yes_ask": 4.0,
+      "last": 5.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM21"
      },
      {
       "strike": 22.5,
       "yes_bid": 0.0,
-      "yes_ask": 11.0,
+      "yes_ask": 3.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MEMMIN-MEM23"
      }
@@ -3202,204 +1208,204 @@
    "total_ladder": [
     {
      "strike": 200.5,
-     "yes_bid": 91.0,
-     "yes_ask": 96.0,
+     "yes_bid": 93.0,
+     "yes_ask": 94.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-201"
     },
     {
      "strike": 202.5,
-     "yes_bid": 89.0,
-     "yes_ask": 95.0,
-     "last": 0.0,
+     "yes_bid": 92.0,
+     "yes_ask": 94.0,
+     "last": 94.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-203"
     },
     {
      "strike": 204.5,
-     "yes_bid": 88.0,
+     "yes_bid": 90.0,
      "yes_ask": 93.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-205"
     },
     {
      "strike": 206.5,
-     "yes_bid": 86.0,
+     "yes_bid": 88.0,
      "yes_ask": 91.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-207"
     },
     {
      "strike": 208.5,
-     "yes_bid": 83.0,
-     "yes_ask": 88.0,
+     "yes_bid": 86.0,
+     "yes_ask": 89.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-209"
     },
     {
      "strike": 210.5,
-     "yes_bid": 80.0,
-     "yes_ask": 85.0,
+     "yes_bid": 83.0,
+     "yes_ask": 87.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-211"
     },
     {
      "strike": 212.5,
-     "yes_bid": 77.0,
-     "yes_ask": 82.0,
+     "yes_bid": 80.0,
+     "yes_ask": 84.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-213"
     },
     {
      "strike": 214.5,
-     "yes_bid": 74.0,
-     "yes_ask": 79.0,
+     "yes_bid": 77.0,
+     "yes_ask": 80.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-215"
     },
     {
      "strike": 216.5,
-     "yes_bid": 70.0,
-     "yes_ask": 73.0,
-     "last": 0.0,
+     "yes_bid": 73.0,
+     "yes_ask": 74.0,
+     "last": 73.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-217"
     },
     {
      "strike": 218.5,
-     "yes_bid": 66.0,
-     "yes_ask": 69.0,
+     "yes_bid": 70.0,
+     "yes_ask": 71.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-219"
     },
     {
      "strike": 220.5,
-     "yes_bid": 61.0,
-     "yes_ask": 63.0,
+     "yes_bid": 64.0,
+     "yes_ask": 65.0,
      "last": 52.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-221"
     },
     {
      "strike": 222.5,
-     "yes_bid": 57.0,
-     "yes_ask": 60.0,
+     "yes_bid": 61.0,
+     "yes_ask": 63.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-223"
     },
     {
      "strike": 224.5,
-     "yes_bid": 54.0,
-     "yes_ask": 56.0,
+     "yes_bid": 57.0,
+     "yes_ask": 60.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-225"
     },
     {
      "strike": 226.5,
-     "yes_bid": 50.0,
-     "yes_ask": 52.0,
-     "last": 50.0,
+     "yes_bid": 53.0,
+     "yes_ask": 55.0,
+     "last": 53.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-227"
     },
     {
      "strike": 228.5,
-     "yes_bid": 45.0,
-     "yes_ask": 48.0,
-     "last": 0.0,
+     "yes_bid": 49.0,
+     "yes_ask": 50.0,
+     "last": 49.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-229"
     },
     {
      "strike": 230.5,
-     "yes_bid": 40.0,
-     "yes_ask": 44.0,
+     "yes_bid": 44.0,
+     "yes_ask": 46.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-231"
     },
     {
      "strike": 232.5,
-     "yes_bid": 37.0,
-     "yes_ask": 40.0,
+     "yes_bid": 39.0,
+     "yes_ask": 41.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-233"
     },
     {
      "strike": 234.5,
-     "yes_bid": 33.0,
+     "yes_bid": 35.0,
      "yes_ask": 36.0,
-     "last": 0.0,
+     "last": 36.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-235"
     },
     {
      "strike": 236.5,
-     "yes_bid": 28.0,
-     "yes_ask": 31.0,
+     "yes_bid": 31.0,
+     "yes_ask": 32.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-237"
     },
     {
      "strike": 238.5,
-     "yes_bid": 23.0,
+     "yes_bid": 26.0,
      "yes_ask": 29.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-239"
     },
     {
      "strike": 240.5,
-     "yes_bid": 20.0,
+     "yes_bid": 22.0,
      "yes_ask": 25.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-241"
     },
     {
      "strike": 242.5,
-     "yes_bid": 16.0,
-     "yes_ask": 22.0,
+     "yes_bid": 20.0,
+     "yes_ask": 23.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-243"
     },
     {
      "strike": 244.5,
-     "yes_bid": 14.0,
-     "yes_ask": 19.0,
+     "yes_bid": 16.0,
+     "yes_ask": 20.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-245"
     },
     {
      "strike": 246.5,
-     "yes_bid": 11.0,
+     "yes_bid": 14.0,
      "yes_ask": 17.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-247"
     },
     {
      "strike": 248.5,
-     "yes_bid": 9.0,
-     "yes_ask": 14.0,
+     "yes_bid": 12.0,
+     "yes_ask": 15.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-249"
     },
     {
      "strike": 250.5,
-     "yes_bid": 6.0,
-     "yes_ask": 12.0,
+     "yes_bid": 9.0,
+     "yes_ask": 14.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-251"
     },
     {
      "strike": 252.5,
-     "yes_bid": 5.0,
-     "yes_ask": 10.0,
+     "yes_bid": 8.0,
+     "yes_ask": 11.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-253"
     },
     {
      "strike": 254.5,
-     "yes_bid": 3.0,
-     "yes_ask": 9.0,
+     "yes_bid": 6.0,
+     "yes_ask": 10.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-255"
     },
     {
      "strike": 256.5,
-     "yes_bid": 2.0,
-     "yes_ask": 8.0,
+     "yes_bid": 5.0,
+     "yes_ask": 9.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MEMMIN-257"
     }
@@ -3410,25 +1416,25 @@
    "date": "2026-11-21",
    "away": "MIL",
    "home": "PHI",
-   "kalshi_win_prob_home": 0.855,
-   "kalshi_spread_home": -12.1,
+   "kalshi_win_prob_home": 0.835,
+   "kalshi_spread_home": -11.6,
    "spread_source": "spread ladder",
-   "kalshi_total": 229.3,
+   "kalshi_total": 228.7,
    "close_time": "2026-11-23T18:00:00Z",
    "expected_expiration_time": "2026-11-21T21:00:00Z",
    "win_markets": {
     "MIL": {
      "strike": null,
-     "yes_bid": 14.0,
-     "yes_ask": 15.0,
-     "last": 15.0,
+     "yes_bid": 16.0,
+     "yes_ask": 17.0,
+     "last": 16.0,
      "ticker": "KXNBAGAME-26NOV21MILPHI-MIL"
     },
     "PHI": {
      "strike": null,
-     "yes_bid": 85.0,
-     "yes_ask": 86.0,
-     "last": 85.0,
+     "yes_bid": 83.0,
+     "yes_ask": 84.0,
+     "last": 84.0,
      "ticker": "KXNBAGAME-26NOV21MILPHI-PHI"
     }
    },
@@ -3436,234 +1442,234 @@
     "PHI": [
      {
       "strike": 1.5,
-      "yes_bid": 80.0,
-      "yes_ask": 86.0,
-      "last": 0.0,
+      "yes_bid": 81.0,
+      "yes_ask": 83.0,
+      "last": 83.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI2"
      },
      {
       "strike": 2.5,
-      "yes_bid": 78.0,
-      "yes_ask": 83.0,
-      "last": 0.0,
+      "yes_bid": 79.0,
+      "yes_ask": 80.0,
+      "last": 80.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI3"
      },
      {
       "strike": 4.5,
-      "yes_bid": 72.0,
+      "yes_bid": 74.0,
       "yes_ask": 76.0,
-      "last": 0.0,
+      "last": 76.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI5"
      },
      {
       "strike": 6.5,
-      "yes_bid": 67.0,
-      "yes_ask": 71.0,
-      "last": 73.0,
+      "yes_bid": 68.0,
+      "yes_ask": 69.0,
+      "last": 69.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI7"
      },
      {
       "strike": 7.5,
-      "yes_bid": 64.0,
-      "yes_ask": 68.0,
-      "last": 0.0,
+      "yes_bid": 65.0,
+      "yes_ask": 66.0,
+      "last": 67.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI8"
      },
      {
       "strike": 8.5,
-      "yes_bid": 60.0,
-      "yes_ask": 65.0,
-      "last": 0.0,
+      "yes_bid": 59.0,
+      "yes_ask": 62.0,
+      "last": 63.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI9"
      },
      {
       "strike": 9.5,
-      "yes_bid": 58.0,
-      "yes_ask": 59.0,
-      "last": 0.0,
+      "yes_bid": 56.0,
+      "yes_ask": 58.0,
+      "last": 58.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI10"
      },
      {
       "strike": 10.5,
-      "yes_bid": 55.0,
-      "yes_ask": 56.0,
-      "last": 0.0,
+      "yes_bid": 53.0,
+      "yes_ask": 55.0,
+      "last": 55.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI11"
      },
      {
       "strike": 11.5,
-      "yes_bid": 52.0,
-      "yes_ask": 53.0,
-      "last": 0.0,
+      "yes_bid": 50.0,
+      "yes_ask": 51.0,
+      "last": 51.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI12"
      },
      {
       "strike": 12.5,
-      "yes_bid": 48.0,
-      "yes_ask": 49.0,
-      "last": 49.0,
+      "yes_bid": 46.0,
+      "yes_ask": 47.0,
+      "last": 47.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI13"
      },
      {
       "strike": 13.5,
-      "yes_bid": 44.0,
-      "yes_ask": 45.0,
-      "last": 0.0,
+      "yes_bid": 42.0,
+      "yes_ask": 44.0,
+      "last": 43.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI14"
      },
      {
       "strike": 14.5,
-      "yes_bid": 40.0,
-      "yes_ask": 42.0,
-      "last": 0.0,
+      "yes_bid": 39.0,
+      "yes_ask": 41.0,
+      "last": 40.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI15"
      },
      {
       "strike": 15.5,
-      "yes_bid": 37.0,
-      "yes_ask": 41.0,
+      "yes_bid": 36.0,
+      "yes_ask": 39.0,
       "last": 37.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI16"
      },
      {
       "strike": 16.5,
-      "yes_bid": 33.0,
+      "yes_bid": 34.0,
       "yes_ask": 36.0,
-      "last": 0.0,
+      "last": 35.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI17"
      },
      {
       "strike": 17.5,
-      "yes_bid": 31.0,
+      "yes_bid": 30.0,
       "yes_ask": 33.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI18"
      },
      {
       "strike": 18.5,
-      "yes_bid": 27.0,
+      "yes_bid": 29.0,
       "yes_ask": 31.0,
-      "last": 27.0,
+      "last": 31.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI19"
      },
      {
       "strike": 20.5,
-      "yes_bid": 23.0,
-      "yes_ask": 25.0,
-      "last": 0.0,
+      "yes_bid": 24.0,
+      "yes_ask": 26.0,
+      "last": 25.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI21"
      },
      {
       "strike": 22.5,
-      "yes_bid": 17.0,
-      "yes_ask": 20.0,
-      "last": 0.0,
+      "yes_bid": 20.0,
+      "yes_ask": 21.0,
+      "last": 20.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI23"
      },
      {
       "strike": 24.5,
-      "yes_bid": 11.0,
-      "yes_ask": 16.0,
-      "last": 0.0,
+      "yes_bid": 17.0,
+      "yes_ask": 19.0,
+      "last": 17.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI25"
      },
      {
       "strike": 26.5,
-      "yes_bid": 8.0,
-      "yes_ask": 13.0,
-      "last": 0.0,
+      "yes_bid": 13.0,
+      "yes_ask": 16.0,
+      "last": 15.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI27"
      },
      {
       "strike": 28.5,
-      "yes_bid": 5.0,
-      "yes_ask": 10.0,
-      "last": 0.0,
+      "yes_bid": 9.0,
+      "yes_ask": 12.0,
+      "last": 12.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI29"
      },
      {
       "strike": 30.5,
-      "yes_bid": 3.0,
-      "yes_ask": 7.0,
-      "last": 7.0,
+      "yes_bid": 7.0,
+      "yes_ask": 10.0,
+      "last": 9.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI31"
      },
      {
       "strike": 32.5,
-      "yes_bid": 2.0,
-      "yes_ask": 6.0,
-      "last": 0.0,
+      "yes_bid": 6.0,
+      "yes_ask": 8.0,
+      "last": 7.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI33"
      },
      {
       "strike": 34.5,
-      "yes_bid": 1.0,
-      "yes_ask": 4.0,
-      "last": 0.0,
+      "yes_bid": 4.0,
+      "yes_ask": 6.0,
+      "last": 6.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI35"
      },
      {
       "strike": 36.5,
-      "yes_bid": 1.0,
+      "yes_bid": 3.0,
       "yes_ask": 5.0,
-      "last": 0.0,
+      "last": 4.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI37"
      },
      {
       "strike": 38.5,
-      "yes_bid": 0.0,
-      "yes_ask": 9.0,
-      "last": 0.0,
+      "yes_bid": 2.0,
+      "yes_ask": 5.0,
+      "last": 3.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-PHI39"
      }
     ],
     "MIL": [
      {
       "strike": 1.5,
-      "yes_bid": 11.0,
-      "yes_ask": 15.0,
-      "last": 0.0,
+      "yes_bid": 14.0,
+      "yes_ask": 16.0,
+      "last": 15.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-MIL2"
      },
      {
       "strike": 3.5,
-      "yes_bid": 7.0,
-      "yes_ask": 12.0,
-      "last": 0.0,
+      "yes_bid": 11.0,
+      "yes_ask": 13.0,
+      "last": 11.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-MIL4"
      },
      {
       "strike": 5.5,
-      "yes_bid": 4.0,
-      "yes_ask": 9.0,
-      "last": 0.0,
+      "yes_bid": 9.0,
+      "yes_ask": 10.0,
+      "last": 9.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-MIL6"
      },
      {
       "strike": 7.5,
-      "yes_bid": 2.0,
+      "yes_bid": 6.0,
       "yes_ask": 7.0,
-      "last": 0.0,
+      "last": 6.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-MIL8"
      },
      {
       "strike": 9.5,
-      "yes_bid": 1.0,
+      "yes_bid": 3.0,
       "yes_ask": 5.0,
-      "last": 0.0,
+      "last": 3.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-MIL10"
      },
      {
       "strike": 11.5,
       "yes_bid": 1.0,
       "yes_ask": 4.0,
-      "last": 0.0,
+      "last": 4.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-MIL12"
      },
      {
       "strike": 13.5,
       "yes_bid": 1.0,
-      "yes_ask": 6.0,
+      "yes_ask": 3.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21MILPHI-MIL14"
      }
@@ -3672,85 +1678,85 @@
    "total_ladder": [
     {
      "strike": 201.5,
-     "yes_bid": 92.0,
-     "yes_ask": 97.0,
-     "last": 0.0,
+     "yes_bid": 94.0,
+     "yes_ask": 96.0,
+     "last": 94.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-202"
     },
     {
      "strike": 203.5,
-     "yes_bid": 90.0,
-     "yes_ask": 96.0,
+     "yes_bid": 92.0,
+     "yes_ask": 94.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-204"
     },
     {
      "strike": 205.5,
-     "yes_bid": 89.0,
-     "yes_ask": 94.0,
-     "last": 0.0,
+     "yes_bid": 91.0,
+     "yes_ask": 93.0,
+     "last": 93.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-206"
     },
     {
      "strike": 207.5,
-     "yes_bid": 87.0,
-     "yes_ask": 92.0,
-     "last": 0.0,
+     "yes_bid": 89.0,
+     "yes_ask": 91.0,
+     "last": 94.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-208"
     },
     {
      "strike": 209.5,
-     "yes_bid": 84.0,
-     "yes_ask": 90.0,
-     "last": 0.0,
+     "yes_bid": 86.0,
+     "yes_ask": 89.0,
+     "last": 90.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-210"
     },
     {
      "strike": 211.5,
-     "yes_bid": 82.0,
-     "yes_ask": 87.0,
-     "last": 0.0,
+     "yes_bid": 83.0,
+     "yes_ask": 86.0,
+     "last": 89.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-212"
     },
     {
      "strike": 213.5,
-     "yes_bid": 79.0,
-     "yes_ask": 84.0,
-     "last": 0.0,
+     "yes_bid": 80.0,
+     "yes_ask": 83.0,
+     "last": 84.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-214"
     },
     {
      "strike": 215.5,
-     "yes_bid": 75.0,
-     "yes_ask": 81.0,
-     "last": 0.0,
+     "yes_bid": 77.0,
+     "yes_ask": 80.0,
+     "last": 80.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-216"
     },
     {
      "strike": 217.5,
-     "yes_bid": 72.0,
+     "yes_bid": 73.0,
      "yes_ask": 75.0,
-     "last": 0.0,
+     "last": 75.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-218"
     },
     {
      "strike": 219.5,
      "yes_bid": 68.0,
-     "yes_ask": 72.0,
-     "last": 0.0,
+     "yes_ask": 71.0,
+     "last": 72.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-220"
     },
     {
      "strike": 221.5,
      "yes_bid": 64.0,
-     "yes_ask": 68.0,
+     "yes_ask": 67.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-222"
     },
     {
      "strike": 223.5,
      "yes_bid": 60.0,
-     "yes_ask": 64.0,
+     "yes_ask": 63.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-224"
     },
@@ -3764,112 +1770,112 @@
     {
      "strike": 227.5,
      "yes_bid": 53.0,
-     "yes_ask": 55.0,
-     "last": 53.0,
+     "yes_ask": 54.0,
+     "last": 55.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-228"
     },
     {
      "strike": 229.5,
-     "yes_bid": 48.0,
-     "yes_ask": 51.0,
+     "yes_bid": 47.0,
+     "yes_ask": 48.0,
      "last": 48.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-230"
     },
     {
      "strike": 231.5,
-     "yes_bid": 44.0,
-     "yes_ask": 46.0,
+     "yes_bid": 43.0,
+     "yes_ask": 45.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-232"
     },
     {
      "strike": 233.5,
-     "yes_bid": 40.0,
-     "yes_ask": 43.0,
-     "last": 0.0,
+     "yes_bid": 38.0,
+     "yes_ask": 40.0,
+     "last": 41.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-234"
     },
     {
      "strike": 235.5,
-     "yes_bid": 35.0,
-     "yes_ask": 39.0,
+     "yes_bid": 34.0,
+     "yes_ask": 37.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-236"
     },
     {
      "strike": 237.5,
      "yes_bid": 31.0,
-     "yes_ask": 35.0,
-     "last": 0.0,
+     "yes_ask": 33.0,
+     "last": 33.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-238"
     },
     {
      "strike": 239.5,
-     "yes_bid": 26.0,
-     "yes_ask": 31.0,
-     "last": 0.0,
+     "yes_bid": 28.0,
+     "yes_ask": 29.0,
+     "last": 31.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-240"
     },
     {
      "strike": 241.5,
      "yes_bid": 22.0,
-     "yes_ask": 27.0,
-     "last": 0.0,
+     "yes_ask": 25.0,
+     "last": 23.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-242"
     },
     {
      "strike": 243.5,
-     "yes_bid": 19.0,
-     "yes_ask": 24.0,
-     "last": 0.0,
+     "yes_bid": 18.0,
+     "yes_ask": 21.0,
+     "last": 18.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-244"
     },
     {
      "strike": 245.5,
-     "yes_bid": 16.0,
-     "yes_ask": 21.0,
+     "yes_bid": 15.0,
+     "yes_ask": 19.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-246"
     },
     {
      "strike": 247.5,
      "yes_bid": 13.0,
-     "yes_ask": 18.0,
+     "yes_ask": 16.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-248"
     },
     {
      "strike": 249.5,
-     "yes_bid": 10.0,
-     "yes_ask": 16.0,
+     "yes_bid": 11.0,
+     "yes_ask": 13.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-250"
     },
     {
      "strike": 251.5,
      "yes_bid": 8.0,
-     "yes_ask": 14.0,
+     "yes_ask": 11.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-252"
     },
     {
      "strike": 253.5,
      "yes_bid": 6.0,
-     "yes_ask": 12.0,
+     "yes_ask": 10.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-254"
     },
     {
      "strike": 255.5,
-     "yes_bid": 4.0,
-     "yes_ask": 10.0,
-     "last": 0.0,
+     "yes_bid": 5.0,
+     "yes_ask": 8.0,
+     "last": 6.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-256"
     },
     {
      "strike": 257.5,
-     "yes_bid": 2.0,
-     "yes_ask": 9.0,
+     "yes_bid": 4.0,
+     "yes_ask": 7.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21MILPHI-258"
     }
@@ -3880,25 +1886,25 @@
    "date": "2026-11-21",
    "away": "NOP",
    "home": "SAS",
-   "kalshi_win_prob_home": 0.896,
-   "kalshi_spread_home": -16.5,
+   "kalshi_win_prob_home": 0.905,
+   "kalshi_spread_home": -17.3,
    "spread_source": "spread ladder",
-   "kalshi_total": 226.6,
+   "kalshi_total": 228.5,
    "close_time": "2026-11-24T01:00:00Z",
    "expected_expiration_time": "2026-11-22T04:00:00Z",
    "win_markets": {
     "NOP": {
      "strike": null,
-     "yes_bid": 10.0,
-     "yes_ask": 11.0,
-     "last": 11.0,
+     "yes_bid": 9.0,
+     "yes_ask": 10.0,
+     "last": 10.0,
      "ticker": "KXNBAGAME-26NOV21NOPSAS-NOP"
     },
     "SAS": {
      "strike": null,
      "yes_bid": 90.0,
      "yes_ask": 91.0,
-     "last": 90.0,
+     "last": 91.0,
      "ticker": "KXNBAGAME-26NOV21NOPSAS-SAS"
     }
    },
@@ -3906,197 +1912,197 @@
     "SAS": [
      {
       "strike": 1.5,
-      "yes_bid": 70.0,
-      "yes_ask": 93.0,
+      "yes_bid": 88.0,
+      "yes_ask": 91.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS2"
      },
      {
       "strike": 2.5,
-      "yes_bid": 70.0,
-      "yes_ask": 90.0,
+      "yes_bid": 88.0,
+      "yes_ask": 89.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS3"
      },
      {
       "strike": 4.5,
-      "yes_bid": 74.0,
-      "yes_ask": 88.0,
+      "yes_bid": 84.0,
+      "yes_ask": 85.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS5"
      },
      {
       "strike": 6.5,
-      "yes_bid": 71.0,
-      "yes_ask": 84.0,
-      "last": 85.0,
+      "yes_bid": 80.0,
+      "yes_ask": 81.0,
+      "last": 79.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS7"
      },
      {
       "strike": 8.5,
-      "yes_bid": 63.0,
-      "yes_ask": 80.0,
-      "last": 0.0,
+      "yes_bid": 74.0,
+      "yes_ask": 76.0,
+      "last": 79.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS9"
      },
      {
       "strike": 10.5,
-      "yes_bid": 59.0,
-      "yes_ask": 75.0,
+      "yes_bid": 68.0,
+      "yes_ask": 71.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS11"
      },
      {
       "strike": 11.5,
-      "yes_bid": 62.0,
-      "yes_ask": 70.0,
+      "yes_bid": 65.0,
+      "yes_ask": 69.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS12"
      },
      {
       "strike": 12.5,
-      "yes_bid": 59.0,
-      "yes_ask": 68.0,
+      "yes_bid": 62.0,
+      "yes_ask": 65.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS13"
      },
      {
       "strike": 13.5,
-      "yes_bid": 56.0,
-      "yes_ask": 64.0,
+      "yes_bid": 60.0,
+      "yes_ask": 62.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS14"
      },
      {
       "strike": 14.5,
-      "yes_bid": 54.0,
-      "yes_ask": 58.0,
-      "last": 0.0,
+      "yes_bid": 57.0,
+      "yes_ask": 59.0,
+      "last": 59.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS15"
      },
      {
       "strike": 15.5,
-      "yes_bid": 50.0,
-      "yes_ask": 55.0,
-      "last": 0.0,
+      "yes_bid": 55.0,
+      "yes_ask": 56.0,
+      "last": 55.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS16"
      },
      {
       "strike": 16.5,
-      "yes_bid": 47.0,
+      "yes_bid": 52.0,
       "yes_ask": 53.0,
-      "last": 0.0,
+      "last": 53.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS17"
      },
      {
       "strike": 17.5,
-      "yes_bid": 43.0,
+      "yes_bid": 49.0,
       "yes_ask": 50.0,
-      "last": 0.0,
+      "last": 49.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS18"
      },
      {
       "strike": 18.5,
-      "yes_bid": 40.0,
-      "yes_ask": 47.0,
-      "last": 0.0,
+      "yes_bid": 44.0,
+      "yes_ask": 46.0,
+      "last": 44.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS19"
      },
      {
       "strike": 19.5,
-      "yes_bid": 37.0,
-      "yes_ask": 44.0,
+      "yes_bid": 40.0,
+      "yes_ask": 42.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS20"
      },
      {
       "strike": 20.5,
-      "yes_bid": 33.0,
-      "yes_ask": 42.0,
-      "last": 0.0,
+      "yes_bid": 39.0,
+      "yes_ask": 41.0,
+      "last": 38.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS21"
      },
      {
       "strike": 21.5,
-      "yes_bid": 30.0,
+      "yes_bid": 36.0,
       "yes_ask": 39.0,
-      "last": 0.0,
+      "last": 36.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS22"
      },
      {
       "strike": 22.5,
-      "yes_bid": 25.0,
-      "yes_ask": 44.0,
+      "yes_bid": 33.0,
+      "yes_ask": 36.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS23"
      },
      {
       "strike": 24.5,
-      "yes_bid": 21.0,
-      "yes_ask": 42.0,
-      "last": 0.0,
+      "yes_bid": 28.0,
+      "yes_ask": 30.0,
+      "last": 25.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS25"
      },
      {
       "strike": 26.5,
-      "yes_bid": 15.0,
-      "yes_ask": 36.0,
+      "yes_bid": 23.0,
+      "yes_ask": 25.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS27"
      },
      {
       "strike": 28.5,
-      "yes_bid": 9.0,
-      "yes_ask": 30.0,
-      "last": 0.0,
+      "yes_bid": 19.0,
+      "yes_ask": 21.0,
+      "last": 19.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS29"
      },
      {
       "strike": 30.5,
-      "yes_bid": 1.0,
-      "yes_ask": 31.0,
+      "yes_bid": 15.0,
+      "yes_ask": 17.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS31"
      },
      {
       "strike": 32.5,
-      "yes_bid": 1.0,
-      "yes_ask": 40.0,
+      "yes_bid": 12.0,
+      "yes_ask": 13.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS33"
      },
      {
       "strike": 34.5,
-      "yes_bid": 0.0,
-      "yes_ask": 36.0,
+      "yes_bid": 9.0,
+      "yes_ask": 11.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS35"
      },
      {
       "strike": 36.5,
-      "yes_bid": 1.0,
-      "yes_ask": 40.0,
+      "yes_bid": 7.0,
+      "yes_ask": 9.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS37"
      },
      {
       "strike": 38.5,
-      "yes_bid": 1.0,
-      "yes_ask": 37.0,
+      "yes_bid": 5.0,
+      "yes_ask": 7.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS39"
      },
      {
       "strike": 40.5,
-      "yes_bid": 0.0,
-      "yes_ask": 41.0,
+      "yes_bid": 4.0,
+      "yes_ask": 6.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS41"
      },
      {
       "strike": 42.5,
-      "yes_bid": 0.0,
-      "yes_ask": 42.0,
+      "yes_bid": 3.0,
+      "yes_ask": 6.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-SAS43"
      }
@@ -4104,36 +2110,36 @@
     "NOP": [
      {
       "strike": 1.5,
-      "yes_bid": 1.0,
-      "yes_ask": 12.0,
+      "yes_bid": 6.0,
+      "yes_ask": 9.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-NOP2"
      },
      {
       "strike": 3.5,
-      "yes_bid": 1.0,
-      "yes_ask": 9.0,
+      "yes_bid": 3.0,
+      "yes_ask": 7.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-NOP4"
      },
      {
       "strike": 5.5,
-      "yes_bid": 0.0,
-      "yes_ask": 7.0,
+      "yes_bid": 4.0,
+      "yes_ask": 5.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-NOP6"
      },
      {
       "strike": 7.5,
-      "yes_bid": 0.0,
-      "yes_ask": 6.0,
+      "yes_bid": 1.0,
+      "yes_ask": 4.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-NOP8"
      },
      {
       "strike": 9.5,
       "yes_bid": 0.0,
-      "yes_ask": 5.0,
+      "yes_ask": 3.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21NOPSAS-NOP10"
      }
@@ -4142,204 +2148,204 @@
    "total_ladder": [
     {
      "strike": 197.5,
-     "yes_bid": 74.0,
-     "yes_ask": 99.0,
-     "last": 0.0,
+     "yes_bid": 95.0,
+     "yes_ask": 98.0,
+     "last": 72.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-198"
     },
     {
      "strike": 199.5,
-     "yes_bid": 84.0,
-     "yes_ask": 99.0,
-     "last": 0.0,
+     "yes_bid": 94.0,
+     "yes_ask": 97.0,
+     "last": 94.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-200"
     },
     {
      "strike": 201.5,
-     "yes_bid": 76.0,
-     "yes_ask": 98.0,
+     "yes_bid": 93.0,
+     "yes_ask": 94.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-202"
     },
     {
      "strike": 203.5,
-     "yes_bid": 76.0,
-     "yes_ask": 98.0,
+     "yes_bid": 91.0,
+     "yes_ask": 94.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-204"
     },
     {
      "strike": 205.5,
-     "yes_bid": 76.0,
-     "yes_ask": 98.0,
+     "yes_bid": 89.0,
+     "yes_ask": 93.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-206"
     },
     {
      "strike": 207.5,
-     "yes_bid": 76.0,
-     "yes_ask": 98.0,
+     "yes_bid": 87.0,
+     "yes_ask": 91.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-208"
     },
     {
      "strike": 209.5,
-     "yes_bid": 75.0,
-     "yes_ask": 98.0,
-     "last": 0.0,
+     "yes_bid": 85.0,
+     "yes_ask": 88.0,
+     "last": 88.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-210"
     },
     {
      "strike": 211.5,
-     "yes_bid": 77.0,
-     "yes_ask": 87.0,
+     "yes_bid": 82.0,
+     "yes_ask": 86.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-212"
     },
     {
      "strike": 213.5,
-     "yes_bid": 61.0,
-     "yes_ask": 82.0,
+     "yes_bid": 79.0,
+     "yes_ask": 83.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-214"
     },
     {
      "strike": 215.5,
-     "yes_bid": 60.0,
-     "yes_ask": 80.0,
+     "yes_bid": 76.0,
+     "yes_ask": 79.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-216"
     },
     {
      "strike": 217.5,
-     "yes_bid": 61.0,
-     "yes_ask": 79.0,
+     "yes_bid": 72.0,
+     "yes_ask": 76.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-218"
     },
     {
      "strike": 219.5,
-     "yes_bid": 63.0,
-     "yes_ask": 70.0,
+     "yes_bid": 68.0,
+     "yes_ask": 71.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-220"
     },
     {
      "strike": 221.5,
-     "yes_bid": 58.0,
-     "yes_ask": 66.0,
+     "yes_bid": 64.0,
+     "yes_ask": 67.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-222"
     },
     {
      "strike": 223.5,
-     "yes_bid": 54.0,
-     "yes_ask": 60.0,
+     "yes_bid": 59.0,
+     "yes_ask": 63.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-224"
     },
     {
      "strike": 225.5,
-     "yes_bid": 50.0,
-     "yes_ask": 55.0,
-     "last": 50.0,
+     "yes_bid": 56.0,
+     "yes_ask": 57.0,
+     "last": 57.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-226"
     },
     {
      "strike": 227.5,
-     "yes_bid": 45.0,
-     "yes_ask": 51.0,
-     "last": 0.0,
+     "yes_bid": 52.0,
+     "yes_ask": 53.0,
+     "last": 53.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-228"
     },
     {
      "strike": 229.5,
-     "yes_bid": 41.0,
-     "yes_ask": 47.0,
-     "last": 0.0,
+     "yes_bid": 47.0,
+     "yes_ask": 48.0,
+     "last": 48.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-230"
     },
     {
      "strike": 231.5,
-     "yes_bid": 35.0,
-     "yes_ask": 43.0,
+     "yes_bid": 42.0,
+     "yes_ask": 44.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-232"
     },
     {
      "strike": 233.5,
-     "yes_bid": 31.0,
-     "yes_ask": 38.0,
+     "yes_bid": 36.0,
+     "yes_ask": 40.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-234"
     },
     {
      "strike": 235.5,
-     "yes_bid": 23.0,
-     "yes_ask": 39.0,
+     "yes_bid": 32.0,
+     "yes_ask": 36.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-236"
     },
     {
      "strike": 237.5,
-     "yes_bid": 22.0,
-     "yes_ask": 39.0,
+     "yes_bid": 27.0,
+     "yes_ask": 32.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-238"
     },
     {
      "strike": 239.5,
-     "yes_bid": 15.0,
-     "yes_ask": 40.0,
+     "yes_bid": 23.0,
+     "yes_ask": 28.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-240"
     },
     {
      "strike": 241.5,
-     "yes_bid": 15.0,
-     "yes_ask": 35.0,
+     "yes_bid": 20.0,
+     "yes_ask": 24.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-242"
     },
     {
      "strike": 243.5,
-     "yes_bid": 8.0,
-     "yes_ask": 30.0,
+     "yes_bid": 16.0,
+     "yes_ask": 21.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-244"
     },
     {
      "strike": 245.5,
-     "yes_bid": 7.0,
-     "yes_ask": 32.0,
+     "yes_bid": 14.0,
+     "yes_ask": 18.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-246"
     },
     {
      "strike": 247.5,
-     "yes_bid": 3.0,
-     "yes_ask": 30.0,
+     "yes_bid": 11.0,
+     "yes_ask": 15.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-248"
     },
     {
      "strike": 249.5,
-     "yes_bid": 4.0,
-     "yes_ask": 27.0,
+     "yes_bid": 9.0,
+     "yes_ask": 13.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-250"
     },
     {
      "strike": 251.5,
-     "yes_bid": 2.0,
-     "yes_ask": 37.0,
+     "yes_bid": 7.0,
+     "yes_ask": 11.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-252"
     },
     {
      "strike": 253.5,
-     "yes_bid": 1.0,
-     "yes_ask": 34.0,
+     "yes_bid": 5.0,
+     "yes_ask": 9.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21NOPSAS-254"
     }
@@ -4350,18 +2356,18 @@
    "date": "2026-11-21",
    "away": "POR",
    "home": "NYK",
-   "kalshi_win_prob_home": 0.655,
-   "kalshi_spread_home": -5.2,
+   "kalshi_win_prob_home": 0.652,
+   "kalshi_spread_home": -5.3,
    "spread_source": "spread ladder",
-   "kalshi_total": 217.5,
+   "kalshi_total": 216.0,
    "close_time": "2026-11-24T00:30:00Z",
    "expected_expiration_time": "2026-11-22T03:30:00Z",
    "win_markets": {
     "POR": {
      "strike": null,
      "yes_bid": 34.0,
-     "yes_ask": 35.0,
-     "last": 35.0,
+     "yes_ask": 36.0,
+     "last": 36.0,
      "ticker": "KXNBAGAME-26NOV21PORNYK-POR"
     },
     "NYK": {
@@ -4383,9 +2389,9 @@
      },
      {
       "strike": 2.5,
-      "yes_bid": 59.0,
-      "yes_ask": 60.0,
-      "last": 0.0,
+      "yes_bid": 60.0,
+      "yes_ask": 61.0,
+      "last": 61.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK3"
      },
      {
@@ -4397,9 +2403,9 @@
      },
      {
       "strike": 4.5,
-      "yes_bid": 52.0,
-      "yes_ask": 54.0,
-      "last": 0.0,
+      "yes_bid": 53.0,
+      "yes_ask": 55.0,
+      "last": 55.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK5"
      },
      {
@@ -4411,113 +2417,113 @@
      },
      {
       "strike": 6.5,
-      "yes_bid": 44.0,
+      "yes_bid": 45.0,
       "yes_ask": 46.0,
-      "last": 0.0,
+      "last": 45.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK7"
      },
      {
       "strike": 7.5,
-      "yes_bid": 40.0,
+      "yes_bid": 42.0,
       "yes_ask": 43.0,
-      "last": 0.0,
+      "last": 42.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK8"
      },
      {
       "strike": 8.5,
-      "yes_bid": 37.0,
+      "yes_bid": 38.0,
       "yes_ask": 40.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK9"
      },
      {
       "strike": 9.5,
-      "yes_bid": 33.0,
-      "yes_ask": 39.0,
+      "yes_bid": 34.0,
+      "yes_ask": 37.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK10"
      },
      {
       "strike": 10.5,
-      "yes_bid": 30.0,
-      "yes_ask": 36.0,
+      "yes_bid": 31.0,
+      "yes_ask": 35.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK11"
      },
      {
       "strike": 11.5,
-      "yes_bid": 27.0,
-      "yes_ask": 32.0,
-      "last": 0.0,
+      "yes_bid": 29.0,
+      "yes_ask": 30.0,
+      "last": 28.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK12"
      },
      {
       "strike": 13.5,
-      "yes_bid": 22.0,
-      "yes_ask": 26.0,
+      "yes_bid": 23.0,
+      "yes_ask": 25.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK14"
      },
      {
       "strike": 15.5,
-      "yes_bid": 17.0,
-      "yes_ask": 22.0,
-      "last": 0.0,
+      "yes_bid": 19.0,
+      "yes_ask": 20.0,
+      "last": 21.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK16"
      },
      {
       "strike": 17.5,
-      "yes_bid": 13.0,
+      "yes_bid": 15.0,
       "yes_ask": 19.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK18"
      },
      {
       "strike": 19.5,
-      "yes_bid": 9.0,
+      "yes_bid": 12.0,
       "yes_ask": 15.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK20"
      },
      {
       "strike": 21.5,
-      "yes_bid": 7.0,
+      "yes_bid": 10.0,
       "yes_ask": 12.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK22"
      },
      {
       "strike": 23.5,
-      "yes_bid": 4.0,
-      "yes_ask": 9.0,
+      "yes_bid": 7.0,
+      "yes_ask": 10.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK24"
      },
      {
       "strike": 25.5,
-      "yes_bid": 2.0,
-      "yes_ask": 7.0,
+      "yes_bid": 6.0,
+      "yes_ask": 8.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK26"
      },
      {
       "strike": 27.5,
-      "yes_bid": 1.0,
-      "yes_ask": 5.0,
+      "yes_bid": 3.0,
+      "yes_ask": 6.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK28"
      },
      {
       "strike": 29.5,
-      "yes_bid": 1.0,
-      "yes_ask": 8.0,
+      "yes_bid": 2.0,
+      "yes_ask": 4.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK30"
      },
      {
       "strike": 31.5,
-      "yes_bid": 0.0,
-      "yes_ask": 8.0,
+      "yes_bid": 2.0,
+      "yes_ask": 4.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-NYK32"
      }
@@ -4526,84 +2532,84 @@
      {
       "strike": 1.5,
       "yes_bid": 31.0,
-      "yes_ask": 32.0,
-      "last": 0.0,
+      "yes_ask": 33.0,
+      "last": 33.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR2"
      },
      {
       "strike": 2.5,
-      "yes_bid": 26.0,
+      "yes_bid": 28.0,
       "yes_ask": 29.0,
-      "last": 25.0,
+      "last": 28.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR3"
      },
      {
       "strike": 4.5,
-      "yes_bid": 20.0,
-      "yes_ask": 25.0,
-      "last": 0.0,
+      "yes_bid": 22.0,
+      "yes_ask": 23.0,
+      "last": 23.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR5"
      },
      {
       "strike": 6.5,
-      "yes_bid": 15.0,
-      "yes_ask": 20.0,
+      "yes_bid": 19.0,
+      "yes_ask": 22.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR7"
      },
      {
       "strike": 8.5,
-      "yes_bid": 11.0,
-      "yes_ask": 16.0,
+      "yes_bid": 15.0,
+      "yes_ask": 17.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR9"
      },
      {
       "strike": 10.5,
-      "yes_bid": 8.0,
-      "yes_ask": 13.0,
+      "yes_bid": 11.0,
+      "yes_ask": 14.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR11"
      },
      {
       "strike": 12.5,
-      "yes_bid": 5.0,
-      "yes_ask": 10.0,
+      "yes_bid": 8.0,
+      "yes_ask": 11.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR13"
      },
      {
       "strike": 14.5,
-      "yes_bid": 3.0,
-      "yes_ask": 8.0,
+      "yes_bid": 6.0,
+      "yes_ask": 9.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR15"
      },
      {
       "strike": 16.5,
-      "yes_bid": 2.0,
-      "yes_ask": 6.0,
+      "yes_bid": 3.0,
+      "yes_ask": 7.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR17"
      },
      {
       "strike": 18.5,
-      "yes_bid": 1.0,
-      "yes_ask": 7.0,
+      "yes_bid": 2.0,
+      "yes_ask": 6.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR19"
      },
      {
       "strike": 20.5,
       "yes_bid": 1.0,
-      "yes_ask": 8.0,
+      "yes_ask": 4.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR21"
      },
      {
       "strike": 22.5,
       "yes_bid": 0.0,
-      "yes_ask": 8.0,
+      "yes_ask": 3.0,
       "last": 0.0,
       "ticker": "KXNBASPREAD-26NOV21PORNYK-POR23"
      }
@@ -4613,203 +2619,203 @@
     {
      "strike": 190.5,
      "yes_bid": 92.0,
-     "yes_ask": 98.0,
-     "last": 0.0,
+     "yes_ask": 95.0,
+     "last": 94.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-191"
     },
     {
      "strike": 192.5,
      "yes_bid": 91.0,
-     "yes_ask": 96.0,
+     "yes_ask": 93.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-193"
     },
     {
      "strike": 194.5,
      "yes_bid": 89.0,
-     "yes_ask": 95.0,
-     "last": 0.0,
+     "yes_ask": 92.0,
+     "last": 94.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-195"
     },
     {
      "strike": 196.5,
-     "yes_bid": 87.0,
-     "yes_ask": 93.0,
+     "yes_bid": 86.0,
+     "yes_ask": 90.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-197"
     },
     {
      "strike": 198.5,
-     "yes_bid": 85.0,
-     "yes_ask": 90.0,
+     "yes_bid": 84.0,
+     "yes_ask": 88.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-199"
     },
     {
      "strike": 200.5,
-     "yes_bid": 82.0,
-     "yes_ask": 88.0,
+     "yes_bid": 81.0,
+     "yes_ask": 85.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-201"
     },
     {
      "strike": 202.5,
-     "yes_bid": 79.0,
-     "yes_ask": 85.0,
+     "yes_bid": 78.0,
+     "yes_ask": 82.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-203"
     },
     {
      "strike": 204.5,
-     "yes_bid": 76.0,
-     "yes_ask": 81.0,
-     "last": 0.0,
+     "yes_bid": 78.0,
+     "yes_ask": 79.0,
+     "last": 80.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-205"
     },
     {
      "strike": 206.5,
-     "yes_bid": 72.0,
-     "yes_ask": 77.0,
-     "last": 0.0,
+     "yes_bid": 71.0,
+     "yes_ask": 74.0,
+     "last": 76.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-207"
     },
     {
      "strike": 208.5,
-     "yes_bid": 68.0,
-     "yes_ask": 72.0,
+     "yes_bid": 67.0,
+     "yes_ask": 70.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-209"
     },
     {
      "strike": 210.5,
-     "yes_bid": 64.0,
-     "yes_ask": 67.0,
+     "yes_bid": 62.0,
+     "yes_ask": 65.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-211"
     },
     {
      "strike": 212.5,
-     "yes_bid": 60.0,
-     "yes_ask": 63.0,
-     "last": 0.0,
+     "yes_bid": 57.0,
+     "yes_ask": 61.0,
+     "last": 63.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-213"
     },
     {
      "strike": 214.5,
-     "yes_bid": 56.0,
-     "yes_ask": 58.0,
+     "yes_bid": 53.0,
+     "yes_ask": 55.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-215"
     },
     {
      "strike": 216.5,
-     "yes_bid": 51.0,
-     "yes_ask": 53.0,
-     "last": 51.0,
+     "yes_bid": 48.0,
+     "yes_ask": 49.0,
+     "last": 48.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-217"
     },
     {
      "strike": 218.5,
-     "yes_bid": 47.0,
-     "yes_ask": 49.0,
-     "last": 0.0,
+     "yes_bid": 44.0,
+     "yes_ask": 45.0,
+     "last": 45.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-219"
     },
     {
      "strike": 220.5,
-     "yes_bid": 42.0,
-     "yes_ask": 44.0,
-     "last": 0.0,
+     "yes_bid": 40.0,
+     "yes_ask": 42.0,
+     "last": 40.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-221"
     },
     {
      "strike": 222.5,
-     "yes_bid": 37.0,
-     "yes_ask": 41.0,
-     "last": 0.0,
+     "yes_bid": 36.0,
+     "yes_ask": 38.0,
+     "last": 35.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-223"
     },
     {
      "strike": 224.5,
      "yes_bid": 32.0,
-     "yes_ask": 37.0,
+     "yes_ask": 34.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-225"
     },
     {
      "strike": 226.5,
      "yes_bid": 29.0,
-     "yes_ask": 33.0,
+     "yes_ask": 30.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-227"
     },
     {
      "strike": 228.5,
-     "yes_bid": 26.0,
-     "yes_ask": 29.0,
-     "last": 0.0,
+     "yes_bid": 25.0,
+     "yes_ask": 26.0,
+     "last": 28.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-229"
     },
     {
      "strike": 230.5,
-     "yes_bid": 20.0,
-     "yes_ask": 26.0,
-     "last": 0.0,
+     "yes_bid": 19.0,
+     "yes_ask": 22.0,
+     "last": 20.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-231"
     },
     {
      "strike": 232.5,
-     "yes_bid": 17.0,
-     "yes_ask": 22.0,
+     "yes_bid": 16.0,
+     "yes_ask": 19.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-233"
     },
     {
      "strike": 234.5,
-     "yes_bid": 14.0,
-     "yes_ask": 19.0,
+     "yes_bid": 13.0,
+     "yes_ask": 16.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-235"
     },
     {
      "strike": 236.5,
      "yes_bid": 11.0,
-     "yes_ask": 17.0,
+     "yes_ask": 14.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-237"
     },
     {
      "strike": 238.5,
-     "yes_bid": 9.0,
-     "yes_ask": 14.0,
+     "yes_bid": 8.0,
+     "yes_ask": 12.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-239"
     },
     {
      "strike": 240.5,
-     "yes_bid": 6.0,
-     "yes_ask": 12.0,
+     "yes_bid": 7.0,
+     "yes_ask": 10.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-241"
     },
     {
      "strike": 242.5,
-     "yes_bid": 4.0,
-     "yes_ask": 10.0,
+     "yes_bid": 5.0,
+     "yes_ask": 8.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-243"
     },
     {
      "strike": 244.5,
      "yes_bid": 3.0,
-     "yes_ask": 9.0,
+     "yes_ask": 7.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-245"
     },
     {
      "strike": 246.5,
      "yes_bid": 2.0,
-     "yes_ask": 7.0,
+     "yes_ask": 6.0,
      "last": 0.0,
      "ticker": "KXNBATOTAL-26NOV21PORNYK-247"
     }
@@ -4820,8 +2826,8 @@
    "date": "2026-11-22",
    "away": "BOS",
    "home": "GSW",
-   "kalshi_win_prob_home": 0.255,
-   "kalshi_spread_home": 7.9,
+   "kalshi_win_prob_home": 0.236,
+   "kalshi_spread_home": 8.6,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-25T01:30:00Z",
@@ -4829,16 +2835,16 @@
    "win_markets": {
     "BOS": {
      "strike": null,
-     "yes_bid": 74.0,
-     "yes_ask": 75.0,
-     "last": 75.0,
+     "yes_bid": 75.0,
+     "yes_ask": 77.0,
+     "last": 77.0,
      "ticker": "KXNBAGAME-26NOV22BOSGSW-BOS"
     },
     "GSW": {
      "strike": null,
-     "yes_bid": 25.0,
-     "yes_ask": 26.0,
-     "last": 26.0,
+     "yes_bid": 23.0,
+     "yes_ask": 24.0,
+     "last": 24.0,
      "ticker": "KXNBAGAME-26NOV22BOSGSW-GSW"
     }
    },
@@ -4850,8 +2856,8 @@
    "date": "2026-11-22",
    "away": "DAL",
    "home": "UTA",
-   "kalshi_win_prob_home": 0.465,
-   "kalshi_spread_home": 1.1,
+   "kalshi_win_prob_home": 0.475,
+   "kalshi_spread_home": 0.8,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-25T00:00:00Z",
@@ -4859,16 +2865,16 @@
    "win_markets": {
     "DAL": {
      "strike": null,
-     "yes_bid": 53.0,
-     "yes_ask": 54.0,
-     "last": 54.0,
+     "yes_bid": 51.0,
+     "yes_ask": 53.0,
+     "last": 53.0,
      "ticker": "KXNBAGAME-26NOV22DALUTA-DAL"
     },
     "UTA": {
      "strike": null,
-     "yes_bid": 45.0,
+     "yes_bid": 46.0,
      "yes_ask": 48.0,
-     "last": 47.0,
+     "last": 48.0,
      "ticker": "KXNBAGAME-26NOV22DALUTA-UTA"
     }
    },
@@ -4880,8 +2886,8 @@
    "date": "2026-11-22",
    "away": "DEN",
    "home": "CHI",
-   "kalshi_win_prob_home": 0.269,
-   "kalshi_spread_home": 7.4,
+   "kalshi_win_prob_home": 0.245,
+   "kalshi_spread_home": 8.3,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-25T00:00:00Z",
@@ -4889,15 +2895,15 @@
    "win_markets": {
     "DEN": {
      "strike": null,
-     "yes_bid": 71.0,
-     "yes_ask": 73.0,
-     "last": 74.0,
+     "yes_bid": 75.0,
+     "yes_ask": 76.0,
+     "last": 76.0,
      "ticker": "KXNBAGAME-26NOV22DENCHI-DEN"
     },
     "CHI": {
      "strike": null,
-     "yes_bid": 26.0,
-     "yes_ask": 27.0,
+     "yes_bid": 24.0,
+     "yes_ask": 25.0,
      "last": 25.0,
      "ticker": "KXNBAGAME-26NOV22DENCHI-CHI"
     }
@@ -4910,8 +2916,8 @@
    "date": "2026-11-22",
    "away": "DET",
    "home": "ATL",
-   "kalshi_win_prob_home": 0.432,
-   "kalshi_spread_home": 2.1,
+   "kalshi_win_prob_home": 0.434,
+   "kalshi_spread_home": 2.0,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-24T20:30:00Z",
@@ -4919,7 +2925,7 @@
    "win_markets": {
     "DET": {
      "strike": null,
-     "yes_bid": 56.0,
+     "yes_bid": 55.0,
      "yes_ask": 57.0,
      "last": 57.0,
      "ticker": "KXNBAGAME-26NOV22DETATL-DET"
@@ -4940,8 +2946,8 @@
    "date": "2026-11-22",
    "away": "IND",
    "home": "NYK",
-   "kalshi_win_prob_home": 0.765,
-   "kalshi_spread_home": -8.7,
+   "kalshi_win_prob_home": 0.761,
+   "kalshi_spread_home": -8.5,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-25T01:00:00Z",
@@ -4950,7 +2956,7 @@
     "IND": {
      "strike": null,
      "yes_bid": 23.0,
-     "yes_ask": 24.0,
+     "yes_ask": 25.0,
      "last": 25.0,
      "ticker": "KXNBAGAME-26NOV22INDNYK-IND"
     },
@@ -4970,8 +2976,8 @@
    "date": "2026-11-22",
    "away": "OKC",
    "home": "MIA",
-   "kalshi_win_prob_home": 0.533,
-   "kalshi_spread_home": -1.0,
+   "kalshi_win_prob_home": 0.53,
+   "kalshi_spread_home": -0.9,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-24T23:00:00Z",
@@ -4987,8 +2993,8 @@
     "MIA": {
      "strike": null,
      "yes_bid": 52.0,
-     "yes_ask": 54.0,
-     "last": 54.0,
+     "yes_ask": 53.0,
+     "last": 52.0,
      "ticker": "KXNBAGAME-26NOV22OKCMIA-MIA"
     }
    },
@@ -5000,8 +3006,8 @@
    "date": "2026-11-22",
    "away": "ORL",
    "home": "WAS",
-   "kalshi_win_prob_home": 0.357,
-   "kalshi_spread_home": 4.4,
+   "kalshi_win_prob_home": 0.342,
+   "kalshi_spread_home": 4.9,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-25T00:00:00Z",
@@ -5009,16 +3015,16 @@
    "win_markets": {
     "ORL": {
      "strike": null,
-     "yes_bid": 63.0,
+     "yes_bid": 64.0,
      "yes_ask": 65.0,
      "last": 65.0,
      "ticker": "KXNBAGAME-26NOV22ORLWAS-ORL"
     },
     "WAS": {
      "strike": null,
-     "yes_bid": 35.0,
-     "yes_ask": 36.0,
-     "last": 37.0,
+     "yes_bid": 33.0,
+     "yes_ask": 34.0,
+     "last": 35.0,
      "ticker": "KXNBAGAME-26NOV22ORLWAS-WAS"
     }
    },
@@ -5030,8 +3036,8 @@
    "date": "2026-11-23",
    "away": "BKN",
    "home": "MIN",
-   "kalshi_win_prob_home": 0.832,
-   "kalshi_spread_home": -11.5,
+   "kalshi_win_prob_home": 0.84,
+   "kalshi_spread_home": -11.9,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T00:30:00Z",
@@ -5040,15 +3046,15 @@
     "BKN": {
      "strike": null,
      "yes_bid": 15.0,
-     "yes_ask": 18.0,
-     "last": 18.0,
+     "yes_ask": 17.0,
+     "last": 17.0,
      "ticker": "KXNBAGAME-26NOV23BKNMIN-BKN"
     },
     "MIN": {
      "strike": null,
-     "yes_bid": 80.0,
-     "yes_ask": 84.0,
-     "last": 83.0,
+     "yes_bid": 83.0,
+     "yes_ask": 85.0,
+     "last": 85.0,
      "ticker": "KXNBAGAME-26NOV23BKNMIN-MIN"
     }
    },
@@ -5060,8 +3066,8 @@
    "date": "2026-11-23",
    "away": "CLE",
    "home": "CHI",
-   "kalshi_win_prob_home": 0.231,
-   "kalshi_spread_home": 8.8,
+   "kalshi_win_prob_home": 0.237,
+   "kalshi_spread_home": 8.6,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T01:00:00Z",
@@ -5070,15 +3076,15 @@
     "CLE": {
      "strike": null,
      "yes_bid": 73.0,
-     "yes_ask": 80.0,
-     "last": 81.0,
+     "yes_ask": 78.0,
+     "last": 78.0,
      "ticker": "KXNBAGAME-26NOV23CLECHI-CLE"
     },
     "CHI": {
      "strike": null,
-     "yes_bid": 20.0,
+     "yes_bid": 21.0,
      "yes_ask": 26.0,
-     "last": 22.0,
+     "last": 30.0,
      "ticker": "KXNBAGAME-26NOV23CLECHI-CHI"
     }
    },
@@ -5090,8 +3096,8 @@
    "date": "2026-11-23",
    "away": "LAC",
    "home": "HOU",
-   "kalshi_win_prob_home": 0.814,
-   "kalshi_spread_home": -10.7,
+   "kalshi_win_prob_home": 0.818,
+   "kalshi_spread_home": -10.9,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T01:30:00Z",
@@ -5099,9 +3105,9 @@
    "win_markets": {
     "LAC": {
      "strike": null,
-     "yes_bid": 16.0,
-     "yes_ask": 21.0,
-     "last": 20.0,
+     "yes_bid": 17.0,
+     "yes_ask": 19.0,
+     "last": 21.0,
      "ticker": "KXNBAGAME-26NOV23LACHOU-LAC"
     },
     "HOU": {
@@ -5120,8 +3126,8 @@
    "date": "2026-11-23",
    "away": "MEM",
    "home": "CHA",
-   "kalshi_win_prob_home": 0.422,
-   "kalshi_spread_home": 2.4,
+   "kalshi_win_prob_home": 0.41,
+   "kalshi_spread_home": 2.7,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T00:00:00Z",
@@ -5129,16 +3135,16 @@
    "win_markets": {
     "MEM": {
      "strike": null,
-     "yes_bid": 56.0,
-     "yes_ask": 59.0,
-     "last": 59.0,
+     "yes_bid": 58.0,
+     "yes_ask": 60.0,
+     "last": 60.0,
      "ticker": "KXNBAGAME-26NOV23MEMCHA-MEM"
     },
     "CHA": {
      "strike": null,
      "yes_bid": 40.0,
-     "yes_ask": 44.0,
-     "last": 37.0,
+     "yes_ask": 42.0,
+     "last": 44.0,
      "ticker": "KXNBAGAME-26NOV23MEMCHA-CHA"
     }
    },
@@ -5150,8 +3156,8 @@
    "date": "2026-11-23",
    "away": "MIL",
    "home": "TOR",
-   "kalshi_win_prob_home": 0.752,
-   "kalshi_spread_home": -8.2,
+   "kalshi_win_prob_home": 0.814,
+   "kalshi_spread_home": -10.7,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T00:30:00Z",
@@ -5159,16 +3165,16 @@
    "win_markets": {
     "MIL": {
      "strike": null,
-     "yes_bid": 23.0,
-     "yes_ask": 27.0,
-     "last": 27.0,
+     "yes_bid": 18.0,
+     "yes_ask": 19.0,
+     "last": 21.0,
      "ticker": "KXNBAGAME-26NOV23MILTOR-MIL"
     },
     "TOR": {
      "strike": null,
-     "yes_bid": 74.0,
-     "yes_ask": 78.0,
-     "last": 78.0,
+     "yes_bid": 80.0,
+     "yes_ask": 82.0,
+     "last": 79.0,
      "ticker": "KXNBAGAME-26NOV23MILTOR-TOR"
     }
    },
@@ -5180,8 +3186,8 @@
    "date": "2026-11-23",
    "away": "OKC",
    "home": "IND",
-   "kalshi_win_prob_home": 0.297,
-   "kalshi_spread_home": 6.4,
+   "kalshi_win_prob_home": 0.258,
+   "kalshi_spread_home": 7.8,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T00:30:00Z",
@@ -5189,15 +3195,15 @@
    "win_markets": {
     "OKC": {
      "strike": null,
-     "yes_bid": 66.0,
-     "yes_ask": 76.0,
-     "last": 76.0,
+     "yes_bid": 73.0,
+     "yes_ask": 74.0,
+     "last": 75.0,
      "ticker": "KXNBAGAME-26NOV23OKCIND-OKC"
     },
     "IND": {
      "strike": null,
-     "yes_bid": 25.0,
-     "yes_ask": 35.0,
+     "yes_bid": 23.0,
+     "yes_ask": 28.0,
      "last": 31.0,
      "ticker": "KXNBAGAME-26NOV23OKCIND-IND"
     }
@@ -5210,8 +3216,8 @@
    "date": "2026-11-23",
    "away": "PHX",
    "home": "NOP",
-   "kalshi_win_prob_home": 0.368,
-   "kalshi_spread_home": 4.0,
+   "kalshi_win_prob_home": 0.35,
+   "kalshi_spread_home": 4.6,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T01:00:00Z",
@@ -5219,16 +3225,16 @@
    "win_markets": {
     "PHX": {
      "strike": null,
-     "yes_bid": 62.0,
+     "yes_bid": 63.0,
      "yes_ask": 65.0,
-     "last": 65.0,
+     "last": 63.0,
      "ticker": "KXNBAGAME-26NOV23PHXNOP-PHX"
     },
     "NOP": {
      "strike": null,
      "yes_bid": 34.0,
-     "yes_ask": 40.0,
-     "last": 39.0,
+     "yes_ask": 35.0,
+     "last": 34.0,
      "ticker": "KXNBAGAME-26NOV23PHXNOP-NOP"
     }
    },
@@ -5240,8 +3246,8 @@
    "date": "2026-11-23",
    "away": "POR",
    "home": "PHI",
-   "kalshi_win_prob_home": 0.552,
-   "kalshi_spread_home": -1.6,
+   "kalshi_win_prob_home": 0.57,
+   "kalshi_spread_home": -2.1,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T00:00:00Z",
@@ -5249,16 +3255,16 @@
    "win_markets": {
     "POR": {
      "strike": null,
-     "yes_bid": 43.0,
-     "yes_ask": 47.0,
-     "last": 48.0,
+     "yes_bid": 42.0,
+     "yes_ask": 44.0,
+     "last": 44.0,
      "ticker": "KXNBAGAME-26NOV23PORPHI-POR"
     },
     "PHI": {
      "strike": null,
-     "yes_bid": 54.0,
-     "yes_ask": 57.0,
-     "last": 57.0,
+     "yes_bid": 56.0,
+     "yes_ask": 58.0,
+     "last": 58.0,
      "ticker": "KXNBAGAME-26NOV23PORPHI-PHI"
     }
    },
@@ -5270,8 +3276,8 @@
    "date": "2026-11-23",
    "away": "SAS",
    "home": "SAC",
-   "kalshi_win_prob_home": 0.114,
-   "kalshi_spread_home": 14.5,
+   "kalshi_win_prob_home": 0.104,
+   "kalshi_spread_home": 15.1,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T03:00:00Z",
@@ -5279,15 +3285,15 @@
    "win_markets": {
     "SAS": {
      "strike": null,
-     "yes_bid": 89.0,
-     "yes_ask": 90.0,
+     "yes_bid": 90.0,
+     "yes_ask": 91.0,
      "last": 91.0,
      "ticker": "KXNBAGAME-26NOV23SASSAC-SAS"
     },
     "SAC": {
      "strike": null,
-     "yes_bid": 11.0,
-     "yes_ask": 12.0,
+     "yes_bid": 10.0,
+     "yes_ask": 11.0,
      "last": 11.0,
      "ticker": "KXNBAGAME-26NOV23SASSAC-SAC"
     }
@@ -5300,8 +3306,8 @@
    "date": "2026-11-23",
    "away": "UTA",
    "home": "LAL",
-   "kalshi_win_prob_home": 0.856,
-   "kalshi_spread_home": -12.8,
+   "kalshi_win_prob_home": 0.87,
+   "kalshi_spread_home": -13.5,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-26T03:00:00Z",
@@ -5309,16 +3315,16 @@
    "win_markets": {
     "UTA": {
      "strike": null,
-     "yes_bid": 13.0,
-     "yes_ask": 16.0,
-     "last": 16.0,
+     "yes_bid": 12.0,
+     "yes_ask": 14.0,
+     "last": 14.0,
      "ticker": "KXNBAGAME-26NOV23UTALAL-UTA"
     },
     "LAL": {
      "strike": null,
-     "yes_bid": 85.0,
-     "yes_ask": 87.0,
-     "last": 85.0,
+     "yes_bid": 86.0,
+     "yes_ask": 88.0,
+     "last": 88.0,
      "ticker": "KXNBAGAME-26NOV23UTALAL-LAL"
     }
    },
@@ -5330,8 +3336,8 @@
    "date": "2026-11-24",
    "away": "BOS",
    "home": "WAS",
-   "kalshi_win_prob_home": 0.212,
-   "kalshi_spread_home": 9.6,
+   "kalshi_win_prob_home": 0.308,
+   "kalshi_spread_home": 6.0,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-27T01:00:00Z",
@@ -5339,16 +3345,16 @@
    "win_markets": {
     "BOS": {
      "strike": null,
-     "yes_bid": 65.0,
-     "yes_ask": 91.0,
-     "last": 90.0,
+     "yes_bid": 66.0,
+     "yes_ask": 73.0,
+     "last": 65.0,
      "ticker": "KXNBAGAME-26NOV24BOSWAS-BOS"
     },
     "WAS": {
      "strike": null,
-     "yes_bid": 9.0,
+     "yes_bid": 29.0,
      "yes_ask": 33.0,
-     "last": 35.0,
+     "last": 34.0,
      "ticker": "KXNBAGAME-26NOV24BOSWAS-WAS"
     }
    },
@@ -5360,8 +3366,8 @@
    "date": "2026-11-24",
    "away": "DAL",
    "home": "DEN",
-   "kalshi_win_prob_home": 0.703,
-   "kalshi_spread_home": -6.4,
+   "kalshi_win_prob_home": 0.653,
+   "kalshi_spread_home": -4.7,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-27T03:00:00Z",
@@ -5369,16 +3375,16 @@
    "win_markets": {
     "DAL": {
      "strike": null,
-     "yes_bid": 20.0,
-     "yes_ask": 40.0,
-     "last": 38.0,
+     "yes_bid": 31.0,
+     "yes_ask": 39.0,
+     "last": 31.0,
      "ticker": "KXNBAGAME-26NOV24DALDEN-DAL"
     },
     "DEN": {
      "strike": null,
-     "yes_bid": 60.0,
-     "yes_ask": 82.0,
-     "last": 62.0,
+     "yes_bid": 62.0,
+     "yes_ask": 70.0,
+     "last": 64.0,
      "ticker": "KXNBAGAME-26NOV24DALDEN-DEN"
     }
    },
@@ -5390,8 +3396,8 @@
    "date": "2026-11-24",
    "away": "DET",
    "home": "ORL",
-   "kalshi_win_prob_home": 0.508,
-   "kalshi_spread_home": -0.2,
+   "kalshi_win_prob_home": 0.413,
+   "kalshi_spread_home": 2.6,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-27T00:00:00Z",
@@ -5399,16 +3405,16 @@
    "win_markets": {
     "DET": {
      "strike": null,
-     "yes_bid": 40.0,
-     "yes_ask": 53.0,
-     "last": 70.0,
+     "yes_bid": 56.0,
+     "yes_ask": 62.0,
+     "last": 61.0,
      "ticker": "KXNBAGAME-26NOV24DETORL-DET"
     },
     "ORL": {
      "strike": null,
-     "yes_bid": 35.0,
-     "yes_ask": 61.0,
-     "last": 62.0,
+     "yes_bid": 37.0,
+     "yes_ask": 46.0,
+     "last": 37.0,
      "ticker": "KXNBAGAME-26NOV24DETORL-ORL"
     }
    },
@@ -5420,25 +3426,25 @@
    "date": "2026-11-25",
    "away": "CLE",
    "home": "NYK",
-   "kalshi_win_prob_home": null,
-   "kalshi_spread_home": null,
-   "spread_source": null,
+   "kalshi_win_prob_home": 0.635,
+   "kalshi_spread_home": -4.1,
+   "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-28T00:30:00Z",
    "expected_expiration_time": "2026-11-26T03:30:00Z",
    "win_markets": {
     "CLE": {
      "strike": null,
-     "yes_bid": 15.0,
-     "yes_ask": 46.0,
-     "last": 0.0,
+     "yes_bid": 31.0,
+     "yes_ask": 41.0,
+     "last": 20.0,
      "ticker": "KXNBAGAME-26NOV25CLENYK-CLE"
     },
     "NYK": {
      "strike": null,
-     "yes_bid": 52.0,
-     "yes_ask": 83.0,
-     "last": 84.0,
+     "yes_bid": 56.0,
+     "yes_ask": 69.0,
+     "last": 69.0,
      "ticker": "KXNBAGAME-26NOV25CLENYK-NYK"
     }
    },
@@ -5450,8 +3456,8 @@
    "date": "2026-11-25",
    "away": "MIA",
    "home": "PHI",
-   "kalshi_win_prob_home": 0.617,
-   "kalshi_spread_home": -3.6,
+   "kalshi_win_prob_home": 0.632,
+   "kalshi_spread_home": -4.0,
    "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-27T22:00:00Z",
@@ -5459,16 +3465,16 @@
    "win_markets": {
     "MIA": {
      "strike": null,
-     "yes_bid": 28.0,
-     "yes_ask": 47.0,
-     "last": 0.0,
+     "yes_bid": 35.0,
+     "yes_ask": 39.0,
+     "last": 38.0,
      "ticker": "KXNBAGAME-26NOV25MIAPHI-MIA"
     },
     "PHI": {
      "strike": null,
-     "yes_bid": 52.0,
-     "yes_ask": 69.0,
-     "last": 72.0,
+     "yes_bid": 62.0,
+     "yes_ask": 65.0,
+     "last": 65.0,
      "ticker": "KXNBAGAME-26NOV25MIAPHI-PHI"
     }
    },
@@ -5480,25 +3486,25 @@
    "date": "2026-11-25",
    "away": "SAC",
    "home": "GSW",
-   "kalshi_win_prob_home": null,
-   "kalshi_spread_home": null,
-   "spread_source": null,
+   "kalshi_win_prob_home": 0.854,
+   "kalshi_spread_home": -12.6,
+   "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-28T03:00:00Z",
    "expected_expiration_time": "2026-11-26T06:00:00Z",
    "win_markets": {
     "SAC": {
      "strike": null,
-     "yes_bid": 10.0,
-     "yes_ask": 39.0,
-     "last": 40.0,
+     "yes_bid": 13.0,
+     "yes_ask": 16.0,
+     "last": 17.0,
      "ticker": "KXNBAGAME-26NOV25SACGSW-SAC"
     },
     "GSW": {
      "strike": null,
-     "yes_bid": 60.0,
-     "yes_ask": 91.0,
-     "last": 0.0,
+     "yes_bid": 82.0,
+     "yes_ask": 87.0,
+     "last": 80.0,
      "ticker": "KXNBAGAME-26NOV25SACGSW-GSW"
     }
    },
@@ -5510,25 +3516,25 @@
    "date": "2026-11-27",
    "away": "ATL",
    "home": "BOS",
-   "kalshi_win_prob_home": null,
-   "kalshi_spread_home": null,
-   "spread_source": null,
+   "kalshi_win_prob_home": 0.787,
+   "kalshi_spread_home": -9.6,
+   "spread_source": "win prob",
    "kalshi_total": null,
    "close_time": "2026-11-30T01:00:00Z",
    "expected_expiration_time": "2026-11-28T04:00:00Z",
    "win_markets": {
     "ATL": {
      "strike": null,
-     "yes_bid": 12.0,
-     "yes_ask": 50.0,
-     "last": 50.0,
+     "yes_bid": 20.0,
+     "yes_ask": 23.0,
+     "last": 23.0,
      "ticker": "KXNBAGAME-26NOV27ATLBOS-ATL"
     },
     "BOS": {
      "strike": null,
-     "yes_bid": 50.0,
-     "yes_ask": 87.0,
-     "last": 88.0,
+     "yes_bid": 78.0,
+     "yes_ask": 81.0,
+     "last": 80.0,
      "ticker": "KXNBAGAME-26NOV27ATLBOS-BOS"
     }
    },
