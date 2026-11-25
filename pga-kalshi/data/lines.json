@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-11-25T02:31:51+00:00",
+ "fetched_at": "2026-11-25T05:03:57+00:00",
  "tournaments": [
   {
    "event_key": "MAST27",
    "title": "2027 The Masters Champion",
    "close_time": "2027-04-25T23:00:00Z",
-   "win_overround": 94.4,
+   "win_overround": 94.2,
    "markets": [
     "win"
    ],
@@ -21,31 +21,31 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SSCH"
      },
-     "win_prob_norm": 0.1855
+     "win_prob_norm": 0.1858
     },
     {
      "name": "Rory McIlroy",
      "win": {
-      "mid": 8.95,
+      "mid": 9.0,
       "yes_bid": 8.5,
-      "yes_ask": 9.4,
+      "yes_ask": 9.5,
       "last": 8.5,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-RMCI"
      },
-     "win_prob_norm": 0.0949
+     "win_prob_norm": 0.0955
     },
     {
      "name": "Cameron Young",
      "win": {
-      "mid": 4.9,
-      "yes_bid": 4.6,
-      "yes_ask": 5.2,
-      "last": 5.2,
+      "mid": 4.65,
+      "yes_bid": 3.7,
+      "yes_ask": 5.6,
+      "last": 5.6,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-CYOU"
      },
-     "win_prob_norm": 0.0519
+     "win_prob_norm": 0.0494
     },
     {
      "name": "Jon Rahm",
@@ -57,43 +57,43 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JRAH"
      },
-     "win_prob_norm": 0.0493
+     "win_prob_norm": 0.0494
     },
     {
      "name": "Ludvig Aberg",
      "win": {
-      "mid": 4.050000000000001,
+      "mid": 4.0,
       "yes_bid": 3.2,
-      "yes_ask": 4.9,
+      "yes_ask": 4.8,
       "last": 3.5,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-LABE"
      },
-     "win_prob_norm": 0.0429
+     "win_prob_norm": 0.0425
     },
     {
      "name": "Xander Schauffele",
      "win": {
-      "mid": 3.2,
+      "mid": 2.95,
       "yes_bid": 2.7,
-      "yes_ask": 3.7,
+      "yes_ask": 3.2,
       "last": 3.0,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-XSCH"
      },
-     "win_prob_norm": 0.0339
+     "win_prob_norm": 0.0313
     },
     {
      "name": "Bryson DeChambeau",
      "win": {
-      "mid": 2.9000000000000004,
+      "mid": 2.8,
       "yes_bid": 2.6,
-      "yes_ask": 3.2,
+      "yes_ask": 3.0,
       "last": 3.2,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-BDEC"
      },
-     "win_prob_norm": 0.0307
+     "win_prob_norm": 0.0297
     },
     {
      "name": "Collin Morikawa",
@@ -129,17 +129,17 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-TFLE"
      },
-     "win_prob_norm": 0.0238
+     "win_prob_norm": 0.0239
     },
     {
-     "name": "Patrick Reed",
+     "name": "Tiger Woods",
      "win": {
       "mid": 1.9500000000000002,
-      "yes_bid": 1.2,
-      "yes_ask": 2.7,
-      "last": 2.0,
+      "yes_bid": 1.3,
+      "yes_ask": 2.6,
+      "last": 2.7,
       "volume": null,
-      "ticker": "KXPGATOUR-MAST27-PREE"
+      "ticker": "KXPGATOUR-MAST27-TWOO"
      },
      "win_prob_norm": 0.0207
     },
@@ -154,6 +154,30 @@
       "ticker": "KXPGATOUR-MAST27-SBUR"
      },
      "win_prob_norm": 0.0207
+    },
+    {
+     "name": "Patrick Reed",
+     "win": {
+      "mid": 1.85,
+      "yes_bid": 1.2,
+      "yes_ask": 2.5,
+      "last": 2.0,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-PREE"
+     },
+     "win_prob_norm": 0.0196
+    },
+    {
+     "name": "Jackson Koivun",
+     "win": {
+      "mid": 1.75,
+      "yes_bid": 1.2,
+      "yes_ask": 2.3,
+      "last": 2.1,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-JKOI"
+     },
+     "win_prob_norm": 0.0186
     },
     {
      "name": "Hideki Matsuyama",
@@ -180,18 +204,6 @@
      "win_prob_norm": 0.018
     },
     {
-     "name": "Jackson Koivun",
-     "win": {
-      "mid": 1.6,
-      "yes_bid": 1.2,
-      "yes_ask": 2.0,
-      "last": 3.0,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-JKOI"
-     },
-     "win_prob_norm": 0.017
-    },
-    {
      "name": "Si Woo Kim",
      "win": {
       "mid": 1.55,
@@ -201,7 +213,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SKIM"
      },
-     "win_prob_norm": 0.0164
+     "win_prob_norm": 0.0165
     },
     {
      "name": "Wyndham Clark",
@@ -213,7 +225,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-WCLA"
      },
-     "win_prob_norm": 0.0164
+     "win_prob_norm": 0.0165
     },
     {
      "name": "Chris Gotterup",
@@ -225,7 +237,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-CGOT"
      },
-     "win_prob_norm": 0.0164
+     "win_prob_norm": 0.0165
     },
     {
      "name": "Viktor Hovland",
@@ -276,18 +288,6 @@
      "win_prob_norm": 0.0154
     },
     {
-     "name": "Tiger Woods",
-     "win": {
-      "mid": 1.45,
-      "yes_bid": 1.2,
-      "yes_ask": 1.7,
-      "last": 1.7,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-TWOO"
-     },
-     "win_prob_norm": 0.0154
-    },
-    {
      "name": "Shane Lowry",
      "win": {
       "mid": 1.25,
@@ -297,7 +297,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-SLOW"
      },
-     "win_prob_norm": 0.0132
+     "win_prob_norm": 0.0133
     },
     {
      "name": "Min Woo Lee",
@@ -309,7 +309,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MWLE"
      },
-     "win_prob_norm": 0.0132
+     "win_prob_norm": 0.0133
     },
     {
      "name": "Robert MacIntyre",
@@ -348,18 +348,6 @@
      "win_prob_norm": 0.0117
     },
     {
-     "name": "Michael Thorbjornsen",
-     "win": {
-      "mid": 1.1,
-      "yes_bid": 0.9,
-      "yes_ask": 1.3,
-      "last": 1.3,
-      "volume": null,
-      "ticker": "KXPGATOUR-MAST27-MTHO"
-     },
-     "win_prob_norm": 0.0117
-    },
-    {
      "name": "Maverick McNealy",
      "win": {
       "mid": 1.05,
@@ -368,6 +356,18 @@
       "last": 1.1,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-MMCN"
+     },
+     "win_prob_norm": 0.0111
+    },
+    {
+     "name": "Michael Thorbjornsen",
+     "win": {
+      "mid": 1.05,
+      "yes_bid": 0.9,
+      "yes_ask": 1.2,
+      "last": 1.3,
+      "volume": null,
+      "ticker": "KXPGATOUR-MAST27-MTHO"
      },
      "win_prob_norm": 0.0111
     },
@@ -405,7 +405,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JNIE"
      },
-     "win_prob_norm": 0.0095
+     "win_prob_norm": 0.0096
     },
     {
      "name": "Jacob Bridgeman",
@@ -422,14 +422,14 @@
     {
      "name": "Adam Scott",
      "win": {
-      "mid": 0.85,
-      "yes_bid": 0.5,
+      "mid": 0.8,
+      "yes_bid": 0.4,
       "yes_ask": 1.2,
       "last": 0.2,
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-ASCO"
      },
-     "win_prob_norm": 0.009
+     "win_prob_norm": 0.0085
     },
     {
      "name": "Jake Knapp",
@@ -441,7 +441,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-JKNA"
      },
-     "win_prob_norm": 0.0079
+     "win_prob_norm": 0.008
     },
     {
      "name": "Akshay Bhatia",
@@ -453,7 +453,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-ABHA"
      },
-     "win_prob_norm": 0.0079
+     "win_prob_norm": 0.008
     },
     {
      "name": "Kurt Kitayama",
@@ -609,7 +609,7 @@
       "volume": null,
       "ticker": "KXPGATOUR-MAST27-ANOR"
      },
-     "win_prob_norm": 0.0026
+     "win_prob_norm": 0.0027
     },
     {
      "name": "Matt Wallace",
